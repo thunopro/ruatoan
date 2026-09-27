@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { facets, queryCollections, type CollectionQuery } from '@/lib/content';
+import { EXAM_TYPES, facets, isExamType, queryCollections, type CollectionQuery, type ExamType } from '@/lib/content';
 import { num, one } from '@/lib/text';
 import { isKind, KINDS, type Kind } from '@/lib/topics';
 import { CollectionCard, Empty, PageHead, Pager, qs } from '../ui/bits';
@@ -20,30 +20,45 @@ export default async function De({ searchParams }: { searchParams: SP }) {
   const k = one(sp.kind);
   const fc = facets();
   const prov = one(sp.province);
+  const t = one(sp.type);
   const f: CollectionQuery = {
     kind: isKind(k) ? k : undefined,
+    type: (k === 'hsg' || k === 'chuyen') && isExamType(t) ? t : undefined,
     grade: [6, 7, 8, 9, 10].includes(num(sp.grade) ?? 0) ? num(sp.grade) : undefined,
     year: num(sp.year),
     province: fc.provinces.includes(prov) ? prov : undefined,
     q: one(sp.q).trim().slice(0, 80) || undefined,
   };
   const r = queryCollections(f, num(sp.page) ?? 1, PER);
-  const params = { kind: f.kind, grade: f.grade, year: f.year, province: f.province, q: f.q };
+  const params = { kind: f.kind, type: f.type, grade: f.grade, year: f.year, province: f.province, q: f.q };
 
   return (
     <>
       <PageHead title="Đề thi" clan="tu" />
 
       <div className="topic-tabs kinds" role="list">
-        <Link role="listitem" href={qs('/de', { ...params, kind: undefined, grade: undefined })} className={!f.kind ? 'on' : undefined}>
+        <Link role="listitem" href={qs('/de', { ...params, kind: undefined, type: undefined, grade: undefined })} className={!f.kind ? 'on' : undefined}>
           Tất cả
         </Link>
         {(Object.keys(KINDS) as Kind[]).map((x) => (
-          <Link role="listitem" key={x} href={qs('/de', { ...params, kind: x, grade: undefined })} className={f.kind === x ? 'on' : undefined}>
+          <Link role="listitem" key={x} href={qs('/de', { ...params, kind: x, type: undefined, grade: undefined })} className={f.kind === x ? 'on' : undefined}>
             {KINDS[x].name}
           </Link>
         ))}
       </div>
+
+      {f.kind === 'hsg' || f.kind === 'chuyen' ? (
+        <div className="topic-tabs" role="list">
+          <Link role="listitem" href={qs('/de', { ...params, type: undefined })} className={!f.type ? 'on' : undefined}>
+            Tất cả đề
+          </Link>
+          {(Object.keys(EXAM_TYPES) as ExamType[]).map((x) => (
+            <Link role="listitem" key={x} href={qs('/de', { ...params, type: x })} className={f.type === x ? 'on' : undefined}>
+              {EXAM_TYPES[x]}
+            </Link>
+          ))}
+        </div>
+      ) : null}
 
       {f.kind === 'hsg' ? (
         <div className="topic-tabs" role="list">

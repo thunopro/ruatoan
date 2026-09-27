@@ -31,7 +31,7 @@ MAX_CHUNKS = 10
 MAX_BYTES = 18_000_000
 # statements only: flash-lite lanes are good enough; flash (20 RPD/key/model) only as a last resort
 SELECT_MODELS = ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-flash-lite-latest',
-                 'gemini-3.1-flash-lite-preview', 'gemini-2.5-flash', 'gemini-2.5-flash-lite'] + FLASH
+                 'gemini-3.1-flash-lite-preview', 'gemini-2.5-flash', 'gemini-2.5-flash-lite'] + FLASH + GEMMA  # gemma: large daily quota, last resort
 
 TOPIC_LIST = '\n'.join(f'- {k}: {v}' for k, v in TOPIC_DESC.items())
 LEVEL_LIST = '\n'.join(f'- {k}: {v}' for k, v in LEVEL_DESC.items())

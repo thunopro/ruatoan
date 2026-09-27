@@ -12,6 +12,8 @@ export type Collection = {
   province?: string;
   sourceName: string;
   sourceUrl: string;
+  /** mock/practice exam (thi thử, khảo sát, giao lưu, tham khảo…) rather than an official paper; derived from the title */
+  practice: boolean;
   problems: Problem[];
 };
 export type Lesson = { id: string; topic: TopicId; title: string; summary: string; body: string; examples?: { text: string }[] };
@@ -85,6 +87,10 @@ const stage = (v: unknown) => ([1, 2, 3].includes(Number(v)) ? (Number(v) as Sta
 const lang = (v: unknown) => (v === 'vi' || v === 'en' || v === 'ru' ? v : undefined);
 const url = (v: unknown) => (/^https?:\/\//.test(str(v)) ? str(v) : '');
 
+const PRACTICE =
+  /thi thử|khảo sát|kscl|giao lưu|tham khảo|minh họa|minh hoạ|ôn tập|ôn thi|ôn luyện|luyện thi|luyện tập|kiểm tra|kiểm định|clb|câu lạc bộ|dự đoán|đề xuất|đề nghị|sưu tầm|tự luyện|bộ đề|^\d+ đề|thử sức|định hướng/;
+export const isPractice = (title: string) => PRACTICE.test(title.normalize('NFC').toLowerCase());
+
 function parseCollections(d: unknown): Collection[] {
   return arr(d).flatMap((c: any) => {
     if (!c || !str(c.id) || !str(c.title)) return [];
@@ -104,6 +110,7 @@ function parseCollections(d: unknown): Collection[] {
         province: str(c.province) || undefined,
         sourceName: str(c.sourceName) || 'Không rõ nguồn',
         sourceUrl: str(c.sourceUrl),
+        practice: isPractice(c.title),
         problems,
       },
     ];
@@ -234,12 +241,16 @@ export function queryProblems(f: ProblemQuery, page: number, per: number) {
   return { total: list.length, page: p, pages, items: list.slice((p - 1) * per, p * per) };
 }
 
-export type CollectionQuery = { kind?: Kind; grade?: number; year?: number; province?: string; q?: string };
+export type ExamType = 'chinh-thuc' | 'on-tap';
+export const EXAM_TYPES: Record<ExamType, string> = { 'chinh-thuc': 'Đề chính thức', 'on-tap': 'Đề ôn tập' };
+export const isExamType = (v: unknown): v is ExamType => v === 'chinh-thuc' || v === 'on-tap';
+export type CollectionQuery = { kind?: Kind; type?: ExamType; grade?: number; year?: number; province?: string; q?: string };
 export function queryCollections(f: CollectionQuery, page: number, per: number) {
   const words = f.q ? fold(f.q).split(/\s+/).filter(Boolean) : [];
   const list = db().collections.filter(
     (c) =>
       (!f.kind || c.kind === f.kind) &&
+      (!f.type || c.practice === (f.type === 'on-tap')) &&
       (!f.grade || c.grade === f.grade) &&
       (!f.year || c.year === f.year) &&
       (!f.province || c.province === f.province) &&
