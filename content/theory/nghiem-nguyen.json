@@ -1,0 +1,189 @@
+[
+ {
+  "id": "nghiem-nguyen-bac-nhat-hai-an",
+  "topic": "nghiem-nguyen",
+  "level": 1,
+  "title": "Phương trình bậc nhất hai ẩn $ax + by = c$",
+  "summary": "Điều kiện có nghiệm, công thức nghiệm tổng quát và cách tìm nghiệm riêng bằng đồng dư.",
+  "body": "## Ý tưởng cốt lõi\n\nPhương trình $ax + by = c$ là \"viên gạch\" đầu tiên của phương trình nghiệm nguyên. Chỉ cần tìm **một** nghiệm riêng, mọi nghiệm khác thu được bằng cách dịch chuyển theo một bước cố định.\n\nCách tìm nghiệm riêng nhanh nhất: xét phương trình theo modulo hệ số nhỏ hơn để tìm số dư của ẩn kia, rồi tham số hóa.\n\n## Công thức / định lí\n\n- Phương trình $ax + by = c$ ($a, b \\ne 0$) có nghiệm nguyên khi và chỉ khi $d = \\gcd(a, b)$ chia hết $c$.\n- Nếu $(x_0, y_0)$ là một nghiệm thì mọi nghiệm là $x = x_0 + \\dfrac{b}{d}t$, $y = y_0 - \\dfrac{a}{d}t$ với $t \\in \\mathbb{Z}$.\n- Với nghiệm nguyên dương, ghép thêm điều kiện $x > 0$, $y > 0$ để khoanh $t$ vào một đoạn hữu hạn.\n\n## Mẹo ninja\n\n- Chia hai vế cho $d$ trước để các hệ số nguyên tố cùng nhau.\n- Rút ẩn có hệ số nhỏ: $x = \\dfrac{c - by}{a}$, rồi tách phần nguyên để thấy điều kiện chia hết.\n- Bài toán đố cổ (trăm trâu trăm cỏ, mua gà...) thường là hệ hai phương trình ba ẩn: khử một ẩn để về dạng $ax + by = c$.\n- Đừng quên kiểm tra các điều kiện phụ của đề (chia hết cho $3$, là số chẵn...).",
+  "examples": [
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $7x + 12y = 50$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên dương của phương trình $5x + 3y = 52$."
+   },
+   {
+    "text": "(Bài toán dân gian) Trăm trâu trăm bó cỏ: trâu đứng ăn năm, trâu nằm ăn ba, lụ khụ trâu già ba con một bó. Hỏi có bao nhiêu trâu mỗi loại, biết mỗi loại có ít nhất một con?"
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-phuong-trinh-uoc-so",
+  "topic": "nghiem-nguyen",
+  "level": 1,
+  "title": "Đưa về phương trình ước số",
+  "summary": "Biến phương trình thành dạng \"tích bằng hằng số\" rồi xét các cặp ước — phương pháp dùng nhiều nhất trong đề thi.",
+  "body": "## Ý tưởng cốt lõi\n\nNếu viết được phương trình dưới dạng $A(x, y) \\cdot B(x, y) = c$ với $c$ là hằng số nguyên khác $0$, thì $A$ và $B$ chỉ có hữu hạn khả năng: chúng là các cặp ước của $c$. Mỗi cặp cho một hệ phương trình đơn giản.\n\nKĩ thuật then chốt là **thêm bớt hằng số** để phân tích: $xy + ax + by = (x + b)(y + a) - ab$.\n\n## Công thức / định lí\n\n- $xy + ax + by + ab = (x + b)(y + a)$.\n- Hiệu hai bình phương: $x^2 - y^2 = (x - y)(x + y)$; hai thừa số cùng tính chẵn lẻ.\n- Tam thức bậc hai hai biến $px^2 + qxy + ry^2$ phân tích được khi $q^2 - 4pr$ là số chính phương.\n- Với $axy + bx + cy = d$: nhân hai vế với $a$ rồi phân tích $(ax + c)(ay + b) = ad + bc$.\n\n## Mẹo ninja\n\n- Liệt kê đủ cả ước âm khi đề hỏi nghiệm nguyên (không chỉ nguyên dương).\n- Dùng tính chẵn lẻ hoặc số dư để loại bớt cặp ước trước khi giải từng hệ.\n- Nếu hệ số của $xy$ khác $1$, hãy nhân cả phương trình với hệ số đó trước khi phân tích.\n- Với $x^2 - y^2 = n$: nếu $n \\equiv 2 \\pmod 4$ thì vô nghiệm ngay.",
+  "examples": [
+   {
+    "text": "Tìm các cặp số nguyên $(x, y)$ thỏa mãn $xy - 2x - 3y = 1$."
+   },
+   {
+    "text": "Tìm các cặp số nguyên $(x, y)$ thỏa mãn $2x^2 + 3xy - 2y^2 = 7$."
+   },
+   {
+    "text": "Chứng minh rằng phương trình $x^2 - y^2 = 2026$ không có nghiệm nguyên."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-xet-so-du",
+  "topic": "nghiem-nguyen",
+  "level": 2,
+  "title": "Xét số dư để chứng minh vô nghiệm",
+  "summary": "Chọn modulo khéo léo để hai vế không thể cùng số dư, hoặc để suy ra các ẩn chia hết cho một số.",
+  "body": "## Ý tưởng cốt lõi\n\nNếu phương trình có nghiệm nguyên thì nó cũng \"có nghiệm\" theo mọi modulo. Vậy chỉ cần tìm một modulo $m$ mà hai vế không bao giờ đồng dư là chứng minh xong vô nghiệm.\n\nModulo được chọn sao cho các lũy thừa trong phương trình có ít số dư: bình phương dùng mod $3, 4, 5, 8$; lập phương dùng mod $7, 9$; lũy thừa bậc bốn dùng mod $16$.\n\n## Công thức / định lí\n\n- $x^2 \\bmod 4 \\in \\{0, 1\\}$, $x^2 \\bmod 8 \\in \\{0, 1, 4\\}$, $x^2 \\bmod 3 \\in \\{0, 1\\}$, $x^2 \\bmod 5 \\in \\{0, 1, 4\\}$.\n- $x^3 \\bmod 9 \\in \\{0, 1, 8\\}$, $x^3 \\bmod 7 \\in \\{0, 1, 6\\}$.\n- $x^4 \\bmod 16 \\in \\{0, 1\\}$, $x^4 \\bmod 5 \\in \\{0, 1\\}$.\n- Nếu $x^2 + y^2 \\equiv 0 \\pmod 3$ thì $3 \\mid x$ và $3 \\mid y$ (tương tự với mod $7$).\n\n## Mẹo ninja\n\n- Nhìn hệ số của phương trình: hệ số nào đồng dư $0$ theo modulo nào thì modulo đó thường có ích.\n- Với phương trình mũ như $2^x + 3 = y^2$, xét mod $4$ (khi $x \\ge 2$) hoặc mod $3$ để ép tính chẵn lẻ của số mũ.\n- Khi xét mod suy ra \"cả hai ẩn chia hết cho $p$\", thường sẽ đi tiếp bằng lùi vô hạn hoặc chia dần.\n- Nhớ xét riêng các giá trị nhỏ mà lập luận modulo không áp dụng được (ví dụ $x = 0, 1$).",
+  "examples": [
+   {
+    "text": "Chứng minh rằng phương trình $x^3 + y^3 + z^3 = 2029$ không có nghiệm nguyên."
+   },
+   {
+    "text": "Tìm các số tự nhiên $x, y$ thỏa mãn $2^x + 3 = y^2$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $19x^2 + 28y^2 = 729$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-bat-dang-thuc-kep",
+  "topic": "nghiem-nguyen",
+  "level": 2,
+  "title": "Dùng bất đẳng thức để kẹp nghiệm",
+  "summary": "Chặn miền giá trị của ẩn bằng bất đẳng thức, hoặc kẹp một biểu thức giữa hai lũy thừa liên tiếp.",
+  "body": "## Ý tưởng cốt lõi\n\nCó hai kiểu \"kẹp\" thường gặp:\n\n- **Kẹp ẩn:** dùng bất đẳng thức để chứng minh $|x|$ bị chặn, rồi thử hữu hạn giá trị.\n- **Kẹp lũy thừa:** nếu $A^n < B^n < (A + 1)^n$ với $A$ nguyên thì $B$ không nguyên. Vậy khi $y^n = f(x)$, ta tìm đa thức $g(x)$ sao cho $g(x)^n < f(x) < (g(x) + 2)^n$ với $|x|$ đủ lớn, và buộc $y = g(x) + 1$.\n\n## Công thức / định lí\n\n- Giữa hai số nguyên liên tiếp không có số nguyên nào; giữa $k^n$ và $(k+1)^n$ không có lũy thừa bậc $n$ nào.\n- Nếu $a < y < b$ với $a, b$ nguyên và $b - a = 2$ thì $y = a + 1$.\n- Đánh giá hay dùng: $x^2 + y^2 \\ge 2|xy|$; nếu $|x| \\ge 2$ thì $x^2 y^2 \\ge 4y^2$.\n\n## Mẹo ninja\n\n- Với $y^2 = $ đa thức bậc bốn, nhân $4$ hai vế để so sánh với $(2x^2 + x + c)^2$ có hệ số nguyên.\n- Tìm $g(x)$ bằng cách \"khai căn\" phần bậc cao: $\\sqrt[3]{x^3 + 2x^2 + \\cdots} \\approx x + \\frac{2}{3}$, nên thử $x$ và $x + 1$, $x + 2$.\n- Các giá trị $x$ không thỏa bất đẳng thức kẹp (thường là vài số nhỏ) phải thử trực tiếp, đừng bỏ sót.",
+  "examples": [
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^3 + 2x^2 + 3x + 2 = y^3$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $y^2 = x^4 + x^3 + x^2 + x + 1$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^2 + xy + y^2 = x^2 y^2$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-sap-thu-tu-doi-xung",
+  "topic": "nghiem-nguyen",
+  "level": 2,
+  "title": "Nghiệm nguyên dương đối xứng: sắp thứ tự các ẩn",
+  "summary": "Với phương trình đối xứng, giả sử $x \\le y \\le z$ để chặn ẩn nhỏ nhất rồi thu hẹp dần.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi phương trình không đổi lúc hoán vị các ẩn, ta được phép giả sử $1 \\le x \\le y \\le z$. Thứ tự này cho những đánh giá rất mạnh: $x + y + z \\le 3z$, $\\frac1x + \\frac1y + \\frac1z \\le \\frac3x$, $xyz \\ge x^3$... Từ đó ẩn nhỏ nhất bị chặn, thế vào để giảm số ẩn.\n\nCuối cùng, nhớ **hoán vị** các nghiệm tìm được để có đầy đủ nghiệm.\n\n## Công thức / định lí\n\n- Nếu $x \\le y \\le z$ thì $3x \\le x + y + z \\le 3z$ và $\\frac{3}{z} \\le \\frac1x + \\frac1y + \\frac1z \\le \\frac3x$.\n- Với nghiệm nguyên dương: $xy \\ge x$, $xyz \\ge xy$.\n- Phương trình hai ẩn còn lại thường đưa được về dạng ước số $(y - a)(z - b) = c$.\n\n## Mẹo ninja\n\n- Nếu phương trình chỉ đối xứng với một số ẩn, chỉ sắp thứ tự các ẩn đó.\n- Sau khi tìm $z$, kiểm tra lại điều kiện $y \\le z$ đã giả sử để tránh đếm trùng hoặc nhận nghiệm sai thứ tự.\n- Khi đề hỏi \"số nghiệm\", đếm cẩn thận số hoán vị: bộ ba phân biệt cho $6$, có hai số bằng nhau cho $3$, ba số bằng nhau cho $1$.",
+  "examples": [
+   {
+    "text": "Tìm các số nguyên dương $x, y, z$ thỏa mãn $x + y + z = xyz$."
+   },
+   {
+    "text": "Tìm các số nguyên dương $x, y, z$ thỏa mãn $\\dfrac1x + \\dfrac1y + \\dfrac1z = 1$."
+   },
+   {
+    "text": "Tìm các số nguyên dương $x, y, z$ thỏa mãn $xyz = 2(x + y + z)$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-bac-hai-mot-an",
+  "topic": "nghiem-nguyen",
+  "level": 2,
+  "title": "Xem như phương trình bậc hai theo một ẩn",
+  "summary": "Coi phương trình là bậc hai theo $x$: dùng $\\Delta \\ge 0$ để chặn $y$, hoặc buộc $\\Delta$ là số chính phương.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi phương trình có bậc hai theo một ẩn, ta viết nó dưới dạng $ax^2 + b(y)x + c(y) = 0$. Để có nghiệm thực thì $\\Delta(y) \\ge 0$; để có nghiệm **nguyên** thì $\\Delta(y)$ phải là số chính phương.\n\n- Nếu $\\Delta(y)$ có hệ số bậc cao âm, điều kiện $\\Delta \\ge 0$ chặn $y$ trong một đoạn hữu hạn.\n- Nếu $\\Delta(y)$ có hệ số bậc cao dương, đặt $\\Delta = k^2$ rồi đưa về phương trình ước số.\n\nNếu một ẩn chỉ có bậc nhất, rút ẩn đó ra và dùng điều kiện chia hết là nhanh nhất.\n\n## Công thức / định lí\n\n- $ax^2 + bx + c = 0$ có nghiệm hữu tỉ (với $a, b, c$ nguyên) khi và chỉ khi $\\Delta = b^2 - 4ac$ là số chính phương.\n- Nghiệm $x = \\dfrac{-b \\pm \\sqrt{\\Delta}}{2a}$; cần thêm $2a \\mid -b \\pm \\sqrt\\Delta$ để nghiệm nguyên.\n- Rút ẩn bậc nhất: $y = \\dfrac{P(x)}{Q(x)}$; chia đa thức $P = Q \\cdot S + r$ thì cần $Q(x) \\mid r$.\n\n## Mẹo ninja\n\n- Chọn ẩn để coi là \"biến chính\" sao cho $\\Delta$ đơn giản nhất.\n- Sau khi tìm $y$, nhớ giải lại phương trình theo $x$ và kiểm tra $x$ nguyên.\n- Với dạng $\\Delta = (y - p)^2 - q = k^2$, chỉ cần xét các cặp ước cùng tính chẵn lẻ của $q$.",
+  "examples": [
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^2 - xy + y^2 = x + y$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^2 - (y + 3)x + 2y + 5 = 0$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^2 - xy + 2x - 3y - 5 = 0$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-lui-vo-han",
+  "topic": "nghiem-nguyen",
+  "level": 3,
+  "title": "Phương pháp lùi vô hạn",
+  "summary": "Từ một nghiệm khác $0$ xây dựng nghiệm \"nhỏ hơn\" mãi mãi — điều không thể xảy ra với số tự nhiên.",
+  "body": "## Ý tưởng cốt lõi\n\nGiả sử phương trình có nghiệm nguyên không tầm thường. Chọn nghiệm có $|x| + |y| + |z|$ **nhỏ nhất** (dương). Bằng xét số dư, chứng minh mọi ẩn đều chia hết cho một số $p$, rồi chia cho $p$ để được nghiệm mới có tổng nhỏ hơn: mâu thuẫn với tính nhỏ nhất.\n\nCách trình bày tương đương: nếu $(x, y, z)$ là nghiệm thì $\\left(\\frac{x}{p}, \\frac{y}{p}, \\frac{z}{p}\\right)$ cũng là nghiệm, lặp lại vô hạn lần thì $x, y, z$ chia hết cho $p^k$ với mọi $k$, nên bằng $0$.\n\n## Công thức / định lí\n\n- Nguyên lí sắp thứ tự tốt: mọi tập con khác rỗng của $\\mathbb{N}$ có phần tử nhỏ nhất.\n- Phương trình thuần nhất (mọi hạng tử cùng bậc) có tính chất: nếu $(x, y, z)$ là nghiệm thì $(kx, ky, kz)$ và (khi chia hết) $\\left(\\frac xk, \\frac yk, \\frac zk\\right)$ cũng là nghiệm.\n- Nếu $x^2 + y^2 \\equiv 0 \\pmod 3$ thì $3 \\mid x$, $3 \\mid y$.\n\n## Mẹo ninja\n\n- Lùi vô hạn hợp nhất với phương trình **thuần nhất**; nếu không thuần nhất, thường phải tăng cường mệnh đề (thêm tham số $2^k$ chẳng hạn).\n- Viết rõ \"chọn nghiệm có tổng trị tuyệt đối nhỏ nhất\" để lời giải chặt chẽ.\n- Modulo hay dùng: $2$ và $4$ cho bình phương, $3$ cho $x^2 + y^2$, $2$ cho lập phương với hệ số $2, 4$.",
+  "examples": [
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^2 + y^2 = 3z^2$."
+   },
+   {
+    "text": "Tìm nghiệm nguyên của phương trình $x^3 + 2y^3 = 4z^3$."
+   },
+   {
+    "text": "Chứng minh phương trình $x^2 + y^2 + z^2 = 2xyz$ chỉ có nghiệm nguyên $(0, 0, 0)$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-phuong-trinh-mu",
+  "topic": "nghiem-nguyen",
+  "level": 3,
+  "title": "Phương trình nghiệm nguyên chứa lũy thừa",
+  "summary": "Các phương trình dạng $2^x + \\ldots = y^2$, $3^x - 2^y = 1$: kết hợp đồng dư, phân tích nhân tử và tính chất lũy thừa của số nguyên tố.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi ẩn nằm ở số mũ, không thể dùng bất đẳng thức bậc hai thông thường. Ba vũ khí chính:\n\n- **Đồng dư** để xác định tính chẵn lẻ của số mũ (mod $3$, $4$, $8$, $7$...).\n- **Phân tích:** khi số mũ chẵn, $a^{2k} - b^2 = (a^k - b)(a^k + b)$.\n- **Tính chất lũy thừa nguyên tố:** nếu $(u)(v) = p^n$ với $u, v$ nguyên dương thì $u = p^i$, $v = p^j$. Hai lũy thừa của $2$ hơn kém nhau $2$ chỉ có thể là $2$ và $4$.\n\n## Công thức / định lí\n\n- Ước dương của $p^n$ ($p$ nguyên tố) chỉ có dạng $p^i$, $0 \\le i \\le n$.\n- Nếu $2^b - 2^a = 2$ với $a < b$ thì $a = 1$, $b = 2$.\n- $2^n \\bmod 3$ bằng $1$ khi $n$ chẵn, bằng $2$ khi $n$ lẻ; $3^n \\bmod 4$ bằng $1$ khi $n$ chẵn, bằng $3$ khi $n$ lẻ.\n- Biểu diễn nhị phân của một số là duy nhất.\n\n## Mẹo ninja\n\n- Luôn thử các giá trị số mũ nhỏ ($0, 1, 2$) trước vì lập luận đồng dư thường cần số mũ đủ lớn.\n- Với tổng các lũy thừa của $2$, đặt thừa số chung nhỏ nhất ra ngoài: phần trong ngoặc là số lẻ.\n- Định lí Mihăilescu ($3^2 - 2^3$ là cặp lũy thừa liên tiếp duy nhất) chỉ dùng để đoán đáp số, không trích dẫn trong bài thi THCS.",
+  "examples": [
+   {
+    "text": "Tìm các số tự nhiên $x, y$ thỏa mãn $2^x + 1 = y^2$."
+   },
+   {
+    "text": "Tìm các số nguyên dương $x, y$ thỏa mãn $3^x - 2^y = 1$."
+   },
+   {
+    "text": "Tìm các số tự nhiên $x < y < z$ thỏa mãn $2^x + 2^y + 2^z = 2336$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-bo-ba-pythagore",
+  "topic": "nghiem-nguyen",
+  "level": 3,
+  "title": "Bộ ba Pythagore và phương trình $x^2 + y^2 = z^2$",
+  "summary": "Công thức tham số hóa mọi bộ ba Pythagore và ứng dụng vào bài toán tam giác vuông cạnh nguyên.",
+  "body": "## Ý tưởng cốt lõi\n\nMọi nghiệm nguyên dương của $x^2 + y^2 = z^2$ đều được sinh ra từ các bộ **nguyên thủy** (ba số không có ước chung lớn hơn $1$) bằng cách nhân với một số nguyên dương. Bộ nguyên thủy lại được mô tả hoàn toàn bằng hai tham số $m, n$.\n\nVới bài có một cạnh cho trước, không cần công thức tổng quát: viết $z^2 - y^2 = a^2$ rồi đưa về phương trình ước số.\n\n## Công thức / định lí\n\n- Bộ ba nguyên thủy (với $y$ chẵn) có dạng $x = m^2 - n^2$, $y = 2mn$, $z = m^2 + n^2$, trong đó $m > n \\ge 1$, $\\gcd(m, n) = 1$, $m$ và $n$ khác tính chẵn lẻ.\n- Mọi bộ ba Pythagore có dạng $(kx, ky, kz)$ với $(x, y, z)$ nguyên thủy.\n- Trong bộ nguyên thủy, $z$ lẻ và đúng một trong $x, y$ chẵn.\n- Tích hai cạnh góc vuông của tam giác vuông cạnh nguyên luôn chia hết cho $12$; tích ba cạnh chia hết cho $60$.\n\n## Mẹo ninja\n\n- Khi chứng minh tính chia hết của các cạnh, dùng đồng dư mod $3$, $4$, $5$ cho bình phương thay vì công thức tham số.\n- Kiểm tra đủ các cặp ước **cùng tính chẵn lẻ** khi giải $(z - y)(z + y) = a^2$.\n- Tam giác vuông cạnh nguyên có diện tích bằng chu vi hay \"diện tích bằng $k$ lần chu vi\" đều dẫn tới phương trình $(a - p)(b - q) = c$.",
+  "examples": [
+   {
+    "text": "Tìm tất cả tam giác vuông có độ dài ba cạnh là số nguyên dương và một cạnh góc vuông bằng $15$."
+   },
+   {
+    "text": "Tìm tất cả tam giác vuông có ba cạnh nguyên dương mà diện tích bằng chu vi (về số đo)."
+   },
+   {
+    "text": "Chứng minh rằng nếu $x, y, z$ là các số nguyên thỏa mãn $x^2 + y^2 = z^2$ thì $xy$ chia hết cho $12$."
+   }
+  ]
+ },
+ {
+  "id": "nghiem-nguyen-phuong-trinh-pell",
+  "topic": "nghiem-nguyen",
+  "level": 4,
+  "title": "Phương trình Pell đơn giản",
+  "summary": "Phương trình $x^2 - dy^2 = 1$: nghiệm nhỏ nhất sinh ra mọi nghiệm, và kĩ thuật \"lùi\" để chứng minh không sót nghiệm.",
+  "body": "## Ý tưởng cốt lõi\n\nVới $d$ nguyên dương không chính phương, phương trình $x^2 - dy^2 = 1$ có vô số nghiệm nguyên dương. Nếu $(x_1, y_1)$ là nghiệm nhỏ nhất thì mọi nghiệm có dạng\n\n$$x_n + y_n\\sqrt d = \\left(x_1 + y_1\\sqrt d\\right)^n.$$\n\nỞ cấp THCS, ta thường không trích dẫn định lí mà **chứng minh trực tiếp** bằng một phép biến đổi tuyến tính: từ một nghiệm lớn tạo ra nghiệm nhỏ hơn (lùi), và ngược lại từ nghiệm nhỏ tạo nghiệm lớn hơn (tiến).\n\n## Công thức / định lí\n\n- Công thức truy hồi: $x_{n+1} = x_1x_n + dy_1y_n$, $y_{n+1} = y_1x_n + x_1y_n$.\n- Với $x^2 - 2y^2 = 1$: nghiệm nhỏ nhất $(3, 2)$; phép tiến $(x, y) \\mapsto (3x + 4y,\\ 2x + 3y)$, phép lùi $(x, y) \\mapsto (3x - 4y,\\ 3y - 2x)$.\n- Với $x^2 - 8y^2 = 1$: nghiệm nhỏ nhất $(3, 1)$; phép tiến $(x, y) \\mapsto (3x + 8y,\\ x + 3y)$.\n- Kiểm tra phép biến đổi giữ phương trình: $(3x + 4y)^2 - 2(2x + 3y)^2 = x^2 - 2y^2$.\n\n## Mẹo ninja\n\n- Nhiều bài \"ngụy trang\" Pell: tổng $1 + 2 + \\cdots + n$ chính phương, $n^2 + (n+1)^2$ chính phương, tam giác có cạnh liên tiếp... Hãy đưa về $X^2 - dY^2 = c$.\n- Phương trình $x^2 - dy^2 = -1$ có thể vô nghiệm (ví dụ $d = 3$, xét mod $3$); kiểm tra đồng dư trước.\n- Khi lùi, phải chứng minh nghiệm mới vẫn **dương** và **nhỏ hơn** thực sự; đó là phần chấm điểm chính.",
+  "examples": [
+   {
+    "text": "Tìm tất cả nghiệm nguyên dương của phương trình $x^2 - 2y^2 = 1$."
+   },
+   {
+    "text": "Tìm các số nguyên dương $n$ sao cho $1 + 2 + \\cdots + n$ là số chính phương."
+   }
+  ]
+ }
+]

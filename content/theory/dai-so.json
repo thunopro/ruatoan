@@ -1,0 +1,287 @@
+[
+ {
+  "id": "dai-so-hang-dang-thuc-nang-cao",
+  "topic": "dai-so",
+  "level": 1,
+  "title": "Hằng đẳng thức nâng cao",
+  "summary": "Bộ hằng đẳng thức mở rộng thường dùng trong đề HSG và cách \"nhìn ra\" chúng trong biểu thức phức tạp.",
+  "body": "## Ý tưởng cốt lõi\n\nBảy hằng đẳng thức đáng nhớ chỉ là điểm khởi đầu. Trong bài khó, ta cần nhận ra các cấu trúc lớn hơn: bình phương của tổng ba số, lập phương viết qua tổng và tích, tích \"đối xứng\" $(a+b)(b+c)(c+a)$, hay đẳng thức Lagrange.\n\nNguyên tắc chung: **biểu diễn mọi thứ qua các đại lượng đã biết** (thường là tổng và tích), và nhân thêm một thừa số khéo léo để tạo ra hằng đẳng thức dây chuyền.\n\n## Công thức / định lí\n\n- $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.\n- $(a + b)^3 = a^3 + b^3 + 3ab(a + b)$, suy ra $a^3 + b^3 = (a + b)^3 - 3ab(a + b)$.\n- $a^n - b^n = (a - b)\\left(a^{n-1} + a^{n-2}b + \\cdots + b^{n-1}\\right)$.\n- $(a + b)(b + c)(c + a) = (a + b + c)(ab + bc + ca) - abc$.\n- $a^2 + b^2 + c^2 - ab - bc - ca = \\frac12\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right]$.\n- Lagrange: $(a^2 + b^2)(x^2 + y^2) = (ax + by)^2 + (ay - bx)^2$.\n- $(a + b + c)^3 = a^3 + b^3 + c^3 + 3(a + b)(b + c)(c + a)$.\n\n## Mẹo ninja\n\n- Gặp tích dạng $(2 + 1)(2^2 + 1)(2^4 + 1)\\cdots$, nhân thêm $(2 - 1)$ để hằng đẳng thức \"đổ dây chuyền\".\n- Tổng các bình phương bằng $0$ thì từng bình phương bằng $0$: đây là cách chứng minh các số bằng nhau.\n- Khi biết $a + b$ và $ab$, luôn tính $a^n + b^n$ theo thứ tự tăng dần của $n$, tận dụng kết quả trước.",
+  "examples": [
+   {
+    "text": "Cho $a + b = 5$ và $ab = 3$. Tính $a^3 + b^3$, $a^4 + b^4$ và $a^5 + b^5$."
+   },
+   {
+    "text": "Chứng minh rằng nếu $a^2 + b^2 + c^2 = ab + bc + ca$ thì $a = b = c$."
+   },
+   {
+    "text": "Tính $A = (2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1)(2^{16} + 1)$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-tong-lap-phuong-3abc",
+  "topic": "dai-so",
+  "level": 2,
+  "title": "Hằng đẳng thức $a^3 + b^3 + c^3 - 3abc$",
+  "summary": "Một trong những hằng đẳng thức \"vàng\" của đề chuyên: phân tích nhân tử, hệ quả $a + b + c = 0$ và ứng dụng.",
+  "body": "## Ý tưởng cốt lõi\n\nBiểu thức $a^3 + b^3 + c^3 - 3abc$ luôn chứa thừa số $a + b + c$. Thừa số còn lại là tổng các bình phương hiệu, không âm. Vì vậy:\n\n- Nếu $a + b + c = 0$ thì $a^3 + b^3 + c^3 = 3abc$.\n- Ngược lại, nếu $a^3 + b^3 + c^3 = 3abc$ thì hoặc $a + b + c = 0$, hoặc $a = b = c$.\n\nHai chiều này giải quyết rất nhiều bài tính giá trị biểu thức và phương trình.\n\n## Công thức / định lí\n\n- $a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)$.\n- $a^3 + b^3 + c^3 - 3abc = \\frac12(a + b + c)\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right]$.\n- Với $a, b, c \\ge 0$: $a^3 + b^3 + c^3 \\ge 3abc$ (một dạng của AM-GM).\n- Hệ quả đẹp: $(x - y)^3 + (y - z)^3 + (z - x)^3 = 3(x - y)(y - z)(z - x)$ vì ba số hạng có tổng bằng $0$.\n\n## Mẹo ninja\n\n- Khi thấy ba đại lượng có tổng bằng $0$ (như $x - y$, $y - z$, $z - x$), nghĩ ngay tới hằng đẳng thức này.\n- Đừng quên trường hợp $a = b = c$ khi suy ngược từ $a^3 + b^3 + c^3 = 3abc$.\n- Để chứng minh $\\sqrt[3]{A} + \\sqrt[3]{B} = C$, đặt $u = \\sqrt[3]{A}$, $v = \\sqrt[3]{B}$, $w = -C$ và kiểm tra $u^3 + v^3 + w^3 = 3uvw$.",
+  "examples": [
+   {
+    "text": "Phân tích thành nhân tử: $(x - y)^3 + (y - z)^3 + (z - x)^3$."
+   },
+   {
+    "text": "Cho các số thực $a, b, c$ khác $0$ thỏa mãn $a^3 + b^3 + c^3 = 3abc$. Tính giá trị của $P = \\left(1 + \\dfrac ab\\right)\\left(1 + \\dfrac bc\\right)\\left(1 + \\dfrac ca\\right)$."
+   },
+   {
+    "text": "Cho $x, y, z$ khác $0$ và $x + y + z = 0$. Tính $Q = \\dfrac{x^2}{yz} + \\dfrac{y^2}{zx} + \\dfrac{z^2}{xy}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-phan-tich-nhan-tu",
+  "topic": "dai-so",
+  "level": 1,
+  "title": "Phân tích đa thức thành nhân tử nâng cao",
+  "summary": "Thêm bớt hạng tử, đặt ẩn phụ, nhẩm nghiệm và hệ số bất định — bốn kĩ thuật mở khóa hầu hết bài phân tích khó.",
+  "body": "## Ý tưởng cốt lõi\n\nPhân tích nhân tử là bước nền của rút gọn, giải phương trình bậc cao và chứng minh chia hết. Khi các cách cơ bản (đặt nhân tử chung, hằng đẳng thức, nhóm hạng tử) không hiệu quả, dùng:\n\n- **Thêm bớt** để tạo hằng đẳng thức hoặc nhân tử chung.\n- **Đặt ẩn phụ** khi biểu thức lặp lại một cụm (ví dụ tích bốn thừa số ghép cặp).\n- **Nhẩm nghiệm**: nếu $P(a) = 0$ thì $P(x)$ có nhân tử $x - a$.\n- **Hệ số bất định**: giả sử dạng tích $(x^2 + ax + b)(x^2 + cx + d)$ rồi đồng nhất hệ số.\n\n## Công thức / định lí\n\n- $x^4 + x^2 + 1 = (x^2 + x + 1)(x^2 - x + 1)$.\n- $x^4 + 4y^4 = (x^2 + 2xy + 2y^2)(x^2 - 2xy + 2y^2)$.\n- $(x + a)(x + b)(x + c)(x + d)$ với $a + d = b + c$: ghép $(x+a)(x+d)$ và $(x+b)(x+c)$ để có cùng phần $x^2 + (a + d)x$.\n- $ab(a - b) + bc(b - c) + ca(c - a) = -(a - b)(b - c)(c - a)$.\n- Nghiệm nguyên của đa thức hệ số nguyên là ước của hệ số tự do.\n\n## Mẹo ninja\n\n- Hệ số lớn như $2025$, $2026$ thường là \"mồi nhử\": tách chúng thành $1 + 2025$ để lộ ra nhóm quen thuộc.\n- Với biểu thức hoán vị vòng quanh ba biến, coi là đa thức theo $a$ và thử $a = b$: nếu biểu thức bằng $0$ thì có nhân tử $a - b$.\n- Đặt ẩn phụ $t$ là **trung bình** của hai cụm (như $t = x^2 + 5x + 5$) để dùng hiệu hai bình phương.",
+  "examples": [
+   {
+    "text": "Phân tích thành nhân tử: $(x + 1)(x + 2)(x + 3)(x + 4) - 24$."
+   },
+   {
+    "text": "Phân tích thành nhân tử: $x^4 + 2026x^2 + 2025x + 2026$."
+   },
+   {
+    "text": "Phân tích thành nhân tử: $A = ab(a - b) + bc(b - c) + ca(c - a)$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-da-thuc-bezout",
+  "topic": "dai-so",
+  "level": 2,
+  "title": "Đa thức và định lí Bézout",
+  "summary": "Số dư của phép chia đa thức cho $x - a$, tìm tham số để chia hết, và tính chất của đa thức hệ số nguyên.",
+  "body": "## Ý tưởng cốt lõi\n\nThay vì thực hiện phép chia dài, ta tìm số dư bằng cách **thay giá trị**: số dư của $P(x)$ khi chia cho $x - a$ chính là $P(a)$. Khi chia cho đa thức bậc hai có hai nghiệm phân biệt, số dư có dạng $rx + s$ và được xác định bởi giá trị của $P$ tại hai nghiệm.\n\nVới đa thức hệ số nguyên, tính chất $a - b \\mid P(a) - P(b)$ là cầu nối giữa đại số và số học.\n\n## Công thức / định lí\n\n- **Bézout:** số dư khi chia $P(x)$ cho $x - a$ bằng $P(a)$. Đặc biệt $x - a \\mid P(x) \\Leftrightarrow P(a) = 0$.\n- Nếu $P(x) = (x - a)(x - b)Q(x) + rx + s$ thì $ra + s = P(a)$, $rb + s = P(b)$.\n- Đa thức $P$ hệ số nguyên: $a - b \\mid P(a) - P(b)$ với mọi số nguyên $a \\ne b$.\n- Nghiệm hữu tỉ $\\frac pq$ (tối giản) của $a_nx^n + \\cdots + a_0$ hệ số nguyên thỏa $p \\mid a_0$, $q \\mid a_n$.\n- Tổng các hệ số của $P$ bằng $P(1)$; tổng hệ số bậc chẵn bằng $\\frac{P(1) + P(-1)}{2}$.\n\n## Mẹo ninja\n\n- Khi chia cho $x^2 - 1$, $x^2 + x + 1$... dùng $x^2 = 1$ hoặc $x^3 = 1$ để hạ bậc nhanh.\n- \"Đa thức có nghiệm nguyên\" thường được bác bỏ bằng xét tính chẵn lẻ của $P(0)$ và $P(1)$.\n- Số dư khi chia cho đa thức bậc $n$ có bậc nhỏ hơn $n$; đừng quên hạng tử tự do.",
+  "examples": [
+   {
+    "text": "Tìm số dư khi chia $P(x) = x^{2026} + x^{13} + 1$ cho $x^2 - 1$."
+   },
+   {
+    "text": "Tìm $a, b$ để đa thức $f(x) = x^3 + ax^2 + bx + 2$ chia cho $x + 1$ dư $8$ và chia cho $x - 2$ dư $2$."
+   },
+   {
+    "text": "Cho $P(x)$ là đa thức hệ số nguyên sao cho $P(0)$ và $P(1)$ đều là số lẻ. Chứng minh $P(x)$ không có nghiệm nguyên."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-so-do-horner",
+  "topic": "dai-so",
+  "level": 1,
+  "title": "Sơ đồ Horner",
+  "summary": "Chia nhanh đa thức cho $x - a$, nhẩm nghiệm để hạ bậc, và khai triển đa thức theo lũy thừa của $x - a$.",
+  "body": "## Ý tưởng cốt lõi\n\nSơ đồ Horner là cách trình bày gọn của phép chia $P(x)$ cho $x - a$: chỉ làm việc với dãy hệ số. Hệ số đầu hạ xuống giữ nguyên; mỗi hệ số tiếp theo bằng $a$ nhân với kết quả vừa có rồi cộng hệ số tương ứng. Số cuối cùng là số dư $P(a)$.\n\nLặp lại sơ đồ nhiều lần cho ta khai triển $P(x)$ theo các lũy thừa của $x - a$, rất hữu ích khi đổi biến $t = x - a$.\n\n## Công thức / định lí\n\nNếu $P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_0$ và $P(x) = (x - a)(b_{n-1}x^{n-1} + \\cdots + b_0) + r$ thì:\n\n- $b_{n-1} = a_n$;\n- $b_{k-1} = a \\cdot b_k + a_k$ với $k = n - 1, \\dots, 1$;\n- $r = a \\cdot b_0 + a_0 = P(a)$.\n\nNhớ ghi hệ số $0$ cho các lũy thừa bị khuyết.\n\n## Mẹo ninja\n\n- Luôn viết đủ hệ số, kể cả hệ số $0$; bỏ sót là lỗi phổ biến nhất.\n- Để giải phương trình bậc ba, bậc bốn hệ số nguyên: thử các ước của hệ số tự do, số nào cho dư $0$ thì hạ bậc bằng Horner.\n- Nếu tổng các hệ số bằng $0$ thì $x = 1$ là nghiệm; nếu tổng hệ số bậc chẵn bằng tổng hệ số bậc lẻ thì $x = -1$ là nghiệm.",
+  "examples": [
+   {
+    "text": "Dùng sơ đồ Horner chia $P(x) = 2x^4 - 3x^3 + 5x - 7$ cho $x - 2$."
+   },
+   {
+    "text": "Giải phương trình $x^3 - 6x^2 + 11x - 6 = 0$."
+   },
+   {
+    "text": "Viết $P(x) = x^3 + 2x^2 - x + 3$ dưới dạng đa thức theo lũy thừa của $x - 1$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-tinh-tong-sai-phan",
+  "topic": "dai-so",
+  "level": 2,
+  "title": "Tính tổng bằng sai phân và tách phân số",
+  "summary": "Viết mỗi số hạng thành hiệu của hai biểu thức liên tiếp để tổng \"tự triệt tiêu\" (tổng lồng nhau).",
+  "body": "## Ý tưởng cốt lõi\n\nMuốn tính $S = u_1 + u_2 + \\cdots + u_n$, ta tìm dãy $v_k$ sao cho $u_k = v_{k+1} - v_k$. Khi đó các số hạng trung gian triệt tiêu và\n\n$$S = v_{n+1} - v_1.$$\n\nKĩ thuật này dùng cho cả đẳng thức (tính tổng) và bất đẳng thức (làm trội từng số hạng bằng một hiệu rồi cộng lại).\n\n## Công thức / định lí\n\n- $\\dfrac{1}{k(k+1)} = \\dfrac1k - \\dfrac{1}{k+1}$; tổng quát $\\dfrac{d}{k(k+d)} = \\dfrac1k - \\dfrac{1}{k+d}$.\n- $\\dfrac{2}{k(k+1)(k+2)} = \\dfrac{1}{k(k+1)} - \\dfrac{1}{(k+1)(k+2)}$.\n- $k(k+1) = \\dfrac13\\left[k(k+1)(k+2) - (k-1)k(k+1)\\right]$.\n- $\\dfrac{1}{\\sqrt k + \\sqrt{k+1}} = \\sqrt{k+1} - \\sqrt k$.\n- $1^2 + 2^2 + \\cdots + n^2 = \\dfrac{n(n+1)(2n+1)}{6}$, $1^3 + 2^3 + \\cdots + n^3 = \\left(\\dfrac{n(n+1)}{2}\\right)^2$.\n\n## Mẹo ninja\n\n- Hiệu của hai thừa số ở mẫu chính là \"tử số chuẩn\" cần có: với $\\frac{1}{(2k-1)(2k+1)}$ hiệu là $2$, nên nhân và chia cho $2$.\n- Để chứng minh tổng nhỏ hơn hằng số, làm trội số hạng thành hiệu lồng nhau, ví dụ $\\frac{1}{k^2} < \\frac{1}{k-1} - \\frac{1}{k}$.\n- Đếm đúng số hạng và xác định đúng số hạng đầu, cuối trước khi triệt tiêu.",
+  "examples": [
+   {
+    "text": "Tính $S = \\dfrac{1}{1 \\cdot 3} + \\dfrac{1}{3 \\cdot 5} + \\cdots + \\dfrac{1}{2025 \\cdot 2027}$."
+   },
+   {
+    "text": "Tính $S_n = 1 \\cdot 2 + 2 \\cdot 3 + \\cdots + n(n+1)$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$:\n$$\\frac{1}{2\\sqrt1} + \\frac{1}{3\\sqrt2} + \\cdots + \\frac{1}{(n+1)\\sqrt n} < 2.$$"
+   }
+  ]
+ },
+ {
+  "id": "dai-so-bieu-thuc-doi-xung",
+  "topic": "dai-so",
+  "level": 2,
+  "title": "Biểu thức đối xứng và công thức truy hồi",
+  "summary": "Biểu diễn biểu thức đối xứng qua tổng và tích; tính $x_1^n + x_2^n$ bằng công thức truy hồi.",
+  "body": "## Ý tưởng cốt lõi\n\nBiểu thức đối xứng hai biến (không đổi khi đổi chỗ $a$ và $b$) luôn viết được qua $S = a + b$ và $P = ab$. Với ba biến, dùng $p = a + b + c$, $q = ab + bc + ca$, $r = abc$.\n\nĐại lượng $s_n = a^n + b^n$ thỏa mãn truy hồi tuyến tính, nên có thể tính nhanh mà không cần biết $a, b$ cụ thể (kể cả khi chúng vô tỉ).\n\n## Công thức / định lí\n\n- $a^2 + b^2 = S^2 - 2P$, $a^3 + b^3 = S^3 - 3SP$, $(a - b)^2 = S^2 - 4P$.\n- Với $s_n = a^n + b^n$: $s_{n+1} = S \\cdot s_n - P \\cdot s_{n-1}$, trong đó $s_0 = 2$, $s_1 = S$.\n- Với $x + \\dfrac1x = t$: $x^{m+n} + \\dfrac{1}{x^{m+n}} = \\left(x^m + \\dfrac{1}{x^m}\\right)\\left(x^n + \\dfrac{1}{x^n}\\right) - \\left(x^{m-n} + \\dfrac{1}{x^{m-n}}\\right)$ khi $m \\ge n$.\n- Ba biến: $a^2 + b^2 + c^2 = p^2 - 2q$, $a^2b^2 + b^2c^2 + c^2a^2 = q^2 - 2pr$, $a^3 + b^3 + c^3 = p^3 - 3pq + 3r$.\n\n## Mẹo ninja\n\n- Nếu $x_1, x_2$ là nghiệm của $x^2 - Sx + P = 0$ thì truy hồi trên chính là phương trình nhân $x^{n-1}$ rồi cộng lại.\n- Tính $\\frac{1}{x_1^n} + \\frac{1}{x_2^n} = \\frac{s_n}{P^n}$.\n- Lập bảng các giá trị $s_0, s_1, s_2, \\dots$ để tránh nhầm lẫn khi tính tay.",
+  "examples": [
+   {
+    "text": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 5x + 2 = 0$. Tính $x_1^4 + x_2^4$ và $\\dfrac{1}{x_1^3} + \\dfrac{1}{x_2^3}$."
+   },
+   {
+    "text": "Cho $a + b + c = 0$ và $a^2 + b^2 + c^2 = 2$. Tính $a^4 + b^4 + c^4$."
+   },
+   {
+    "text": "Cho số thực $x$ thỏa mãn $x + \\dfrac1x = 3$. Tính $x^7 + \\dfrac{1}{x^7}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-can-thuc-long",
+  "topic": "dai-so",
+  "level": 2,
+  "title": "Căn thức lồng nhau và căn bậc ba",
+  "summary": "Đưa $\\sqrt{a \\pm 2\\sqrt b}$ về dạng bình phương đúng, tính tổng các căn bậc ba bằng hằng đẳng thức lập phương.",
+  "body": "## Ý tưởng cốt lõi\n\nBiểu thức $\\sqrt{a + 2\\sqrt b}$ \"gỡ\" được khi tìm được $x, y \\ge 0$ với $x + y = a$, $xy = b$, vì khi đó $a + 2\\sqrt b = \\left(\\sqrt x + \\sqrt y\\right)^2$.\n\nVới tổng hai căn bậc ba $u + v$ khi biết $u^3 + v^3$ và $uv$, dùng $(u + v)^3 = u^3 + v^3 + 3uv(u + v)$ để lập phương trình bậc ba theo $u + v$.\n\nVới tổng hai căn bậc hai \"liên hợp\", bình phương tổng thường cho kết quả gọn hơn.\n\n## Công thức / định lí\n\n- $\\sqrt{A^2} = |A|$; đặc biệt $\\sqrt{a - 2\\sqrt b} = \\left|\\sqrt x - \\sqrt y\\right|$ khi $x + y = a$, $xy = b$.\n- $\\sqrt{a \\pm \\sqrt b} = \\sqrt{\\dfrac{a + \\sqrt{a^2 - b}}{2}} \\pm \\sqrt{\\dfrac{a - \\sqrt{a^2 - b}}{2}}$ (với $a^2 \\ge b$, $a > 0$).\n- $(u + v)^3 = u^3 + v^3 + 3uv(u + v)$; $\\sqrt[3]{A}\\cdot\\sqrt[3]{B} = \\sqrt[3]{AB}$.\n- Trục căn: $\\dfrac{1}{\\sqrt a - \\sqrt b} = \\dfrac{\\sqrt a + \\sqrt b}{a - b}$; $\\dfrac{1}{\\sqrt[3]a - \\sqrt[3]b} = \\dfrac{\\sqrt[3]{a^2} + \\sqrt[3]{ab} + \\sqrt[3]{b^2}}{a - b}$.\n\n## Mẹo ninja\n\n- Nếu trước căn trong có hệ số không phải $2$, viết lại: $7 + 4\\sqrt3 = 7 + 2\\sqrt{12}$, rồi tìm $x + y = 7$, $xy = 12$.\n- Nhớ dấu giá trị tuyệt đối khi khai căn: $\\sqrt{(2 - \\sqrt5)^2} = \\sqrt5 - 2$.\n- Phương trình bậc ba thu được thường có nghiệm nhỏ dễ nhẩm; phần còn lại vô nghiệm thì kết luận ngay.",
+  "examples": [
+   {
+    "text": "Rút gọn $A = \\sqrt{7 + 4\\sqrt3} - \\sqrt{7 - 4\\sqrt3}$."
+   },
+   {
+    "text": "Chứng minh rằng $\\sqrt[3]{2 + \\sqrt5} + \\sqrt[3]{2 - \\sqrt5} = 1$."
+   },
+   {
+    "text": "Tính $B = \\sqrt{4 + \\sqrt{10 + 2\\sqrt5}} + \\sqrt{4 - \\sqrt{10 + 2\\sqrt5}}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-rut-gon-co-dieu-kien",
+  "topic": "dai-so",
+  "level": 3,
+  "title": "Tính giá trị biểu thức có điều kiện",
+  "summary": "Khai thác điều kiện ràng buộc như $abc = 1$, $\\frac1a + \\frac1b + \\frac1c = \\frac{1}{a+b+c}$ để rút gọn biểu thức phức tạp.",
+  "body": "## Ý tưởng cốt lõi\n\nBài toán cho điều kiện giữa các biến rồi yêu cầu tính một biểu thức. Ba hướng chính:\n\n- **Thay thế:** dùng điều kiện để thay một hằng số bằng biểu thức (ví dụ $1 = abc$) nhằm đồng nhất mẫu số.\n- **Biến đổi điều kiện** thành dạng tích bằng $0$, rồi xét từng trường hợp.\n- **Nhân điều kiện** với một đại lượng khéo léo để làm xuất hiện biểu thức cần tính.\n\n## Công thức / định lí\n\n- Nếu $abc = 1$: $\\dfrac{1}{ab + a + 1} = \\dfrac{c}{1 + ac + c}$ (nhân tử và mẫu với $c$).\n- $\\dfrac1a + \\dfrac1b + \\dfrac1c = \\dfrac{1}{a + b + c} \\Leftrightarrow (a + b)(b + c)(c + a) = 0$.\n- $\\dfrac{a}{b + c}(a + b + c) = \\dfrac{a^2}{b + c} + a$.\n- Nếu $a + b + c = 0$ thì $a^3 + b^3 + c^3 = 3abc$ và $a^2 + b^2 + c^2 = -2(ab + bc + ca)$.\n\n## Mẹo ninja\n\n- Khi \"chia trường hợp\" từ một tích bằng $0$, nhớ kiểm tra điều kiện xác định (mẫu khác $0$) trong từng trường hợp.\n- Thử số cụ thể thỏa điều kiện để **dự đoán đáp số** trước khi biến đổi.\n- Với các biểu thức hoán vị vòng quanh, biến đổi một số hạng cho \"giống\" số hạng kia rồi cộng.",
+  "examples": [
+   {
+    "text": "Cho $abc = 1$. Chứng minh rằng $\\dfrac{1}{ab + a + 1} + \\dfrac{1}{bc + b + 1} + \\dfrac{1}{ca + c + 1} = 1$."
+   },
+   {
+    "text": "Cho các số thực $a, b, c$ khác $0$ thỏa mãn $a + b + c \\ne 0$ và $\\dfrac1a + \\dfrac1b + \\dfrac1c = \\dfrac{1}{a + b + c}$. Chứng minh rằng\n$$\\frac{1}{a^{2027}} + \\frac{1}{b^{2027}} + \\frac{1}{c^{2027}} = \\frac{1}{a^{2027} + b^{2027} + c^{2027}}.$$"
+   },
+   {
+    "text": "Cho $a, b, c$ thỏa mãn $\\dfrac{a}{b + c} + \\dfrac{b}{c + a} + \\dfrac{c}{a + b} = 1$ (các mẫu khác $0$). Tính $P = \\dfrac{a^2}{b + c} + \\dfrac{b^2}{c + a} + \\dfrac{c^2}{a + b}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-phan-thuc-dai-so",
+  "topic": "dai-so",
+  "level": 1,
+  "title": "Phân thức đại số: rút gọn và giá trị nguyên",
+  "summary": "Rút gọn phân thức, chứng minh đẳng thức phân thức và tìm giá trị nguyên của biến để phân thức nhận giá trị nguyên.",
+  "body": "## Ý tưởng cốt lõi\n\nRút gọn phân thức = phân tích tử và mẫu thành nhân tử rồi giản ước nhân tử chung, **kèm điều kiện xác định** của phân thức ban đầu.\n\nĐể tìm $x$ nguyên sao cho $\\frac{P(x)}{Q(x)}$ nguyên, chia đa thức: $P = Q \\cdot S + R$ với $\\deg R < \\deg Q$. Khi $Q$ bậc nhất thì $R$ là hằng số và bài toán quy về $Q(x) \\mid R$.\n\n## Công thức / định lí\n\n- $\\dfrac{A \\cdot M}{B \\cdot M} = \\dfrac AB$ với $M \\ne 0$.\n- Điều kiện xác định: mọi mẫu số (kể cả mẫu trong các bước trung gian, chẳng hạn khi chia phân thức) khác $0$.\n- Nếu $\\dfrac{P(x)}{ax + b} = S(x) + \\dfrac{r}{ax + b}$ với $S$ hệ số nguyên và $x$ nguyên thì phân thức nguyên khi $ax + b \\mid r$.\n- Đồng nhất thức: $\\dfrac{a^2}{(a - b)(a - c)} + \\dfrac{b^2}{(b - a)(b - c)} + \\dfrac{c^2}{(c - a)(c - b)} = 1$.\n\n## Mẹo ninja\n\n- Khi rút gọn, ghi điều kiện xác định **trước** khi giản ước, vì sau khi giản ước điều kiện có thể \"biến mất\".\n- Với mẫu dạng $2x - 1$, ước của hằng số dư phải là số lẻ; lọc bớt trước khi thử.\n- Để chứng minh biểu thức không phụ thuộc biến, quy đồng với mẫu chung là tích các hiệu, rồi phân tích tử số.\n- Luôn thử lại giá trị tìm được vào phân thức ban đầu (mẫu khác $0$).\n- Biến đổi $x^4 + x^2 + 1$, $x^3 \\pm 1$, $x^4 + 4$ thành tích là chìa khóa của nhiều bài rút gọn.\n- Nếu tử và mẫu cùng bậc, tách phần nguyên trước khi xét tính chia hết.",
+  "examples": [
+   {
+    "text": "Rút gọn phân thức $A = \\dfrac{x^4 + x^2 + 1}{x^3 - 1}$."
+   },
+   {
+    "text": "Tìm các số nguyên $x$ để $B = \\dfrac{2x^2 + 3x + 3}{2x - 1}$ nhận giá trị nguyên."
+   },
+   {
+    "text": "Cho $a, b, c$ đôi một khác nhau. Chứng minh $\\dfrac{a^2}{(a - b)(a - c)} + \\dfrac{b^2}{(b - a)(b - c)} + \\dfrac{c^2}{(c - a)(c - b)} = 1$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-ti-le-thuc",
+  "topic": "dai-so",
+  "level": 1,
+  "title": "Tỉ lệ thức và dãy tỉ số bằng nhau",
+  "summary": "Kĩ thuật đặt $k$, tính chất dãy tỉ số bằng nhau và bẫy mẫu bằng $0$.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi $\\frac ab = \\frac cd = \\cdots$, cách chắc chắn nhất là **đặt giá trị chung bằng $k$**: $a = bk$, $c = dk$... rồi thay vào mọi biểu thức. Cách nhanh hơn là dùng tính chất dãy tỉ số bằng nhau để cộng/trừ tử và mẫu, nhưng phải để ý mẫu tổng có thể bằng $0$.\n\n## Công thức / định lí\n\n- $\\dfrac ab = \\dfrac cd \\Leftrightarrow ad = bc$ (với $b, d \\ne 0$).\n- Dãy tỉ số bằng nhau: $\\dfrac ab = \\dfrac cd = \\dfrac ef = \\dfrac{a + c + e}{b + d + f} = \\dfrac{ma - nc}{mb - nd}$ (khi các mẫu khác $0$).\n- Từ $\\dfrac ab = \\dfrac cd$ suy ra $\\dfrac{a + b}{b} = \\dfrac{c + d}{d}$, $\\dfrac{a}{a - b} = \\dfrac{c}{c - d}$, $\\dfrac{a^2}{b^2} = \\dfrac{ac}{bd}$.\n\n## Mẹo ninja\n\n- Trước khi cộng tử và mẫu, xét trường hợp tổng mẫu bằng $0$; đây là bẫy kinh điển (ví dụ $a + b + c = 0$).\n- Chọn hệ số nhân sao cho tổ hợp tử số đúng bằng dữ kiện đề cho.\n- Với bài chứng minh, đặt $k$ gần như luôn thành công, dù dài hơn.",
+  "examples": [
+   {
+    "text": "Tìm $x, y, z$ biết $\\dfrac x3 = \\dfrac y4 = \\dfrac z5$ và $2x + 3y - z = 39$."
+   },
+   {
+    "text": "Chứng minh rằng nếu $\\dfrac ab = \\dfrac cd$ (với $b, d \\ne 0$, $b^2 + d^2 \\ne 0$) thì $\\dfrac{a^2 + c^2}{b^2 + d^2} = \\dfrac{ac}{bd}$."
+   },
+   {
+    "text": "Cho $a, b, c$ khác $0$ thỏa mãn $\\dfrac{a}{b + c} = \\dfrac{b}{c + a} = \\dfrac{c}{a + b}$ (các mẫu khác $0$). Tính $P = \\dfrac{b + c}{a} + \\dfrac{c + a}{b} + \\dfrac{a + b}{c}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-noi-suy-lagrange",
+  "topic": "dai-so",
+  "level": 3,
+  "title": "Đa thức nội suy Lagrange",
+  "summary": "Qua $n + 1$ điểm có hoành độ phân biệt có đúng một đa thức bậc không quá $n$, và có công thức viết ra ngay đa thức đó.",
+  "body": "## Phát biểu\n\nCho $x_0, x_1, \\dots, x_n$ đôi một phân biệt và $y_0, y_1, \\dots, y_n$ tùy ý. Có **duy nhất** đa thức $P(x)$ bậc không quá $n$ với $P(x_i) = y_i$, cụ thể\n$$P(x) = \\sum_{i=0}^{n} y_i \\prod_{j \\ne i} \\frac{x - x_j}{x_i - x_j}.$$\n\nVí dụ với ba điểm $a, b, c$:\n$$P(x) = y_a\\frac{(x-b)(x-c)}{(a-b)(a-c)} + y_b\\frac{(x-c)(x-a)}{(b-c)(b-a)} + y_c\\frac{(x-a)(x-b)}{(c-a)(c-b)}.$$\n\n## Chứng minh ngắn (THCS-friendly)\n\nPhân thức ứng với chỉ số $i$ bằng $1$ tại $x = x_i$ và bằng $0$ tại mọi $x_j$ khác (tử có thừa số $x - x_j$), nên $P(x_i) = y_i$; mỗi số hạng có bậc $n$ nên $\\deg P \\le n$.\n\nDuy nhất: nếu $P, Q$ cùng thỏa mãn thì $P - Q$ có bậc không quá $n$ nhưng có $n + 1$ nghiệm $x_0, \\dots, x_n$. Theo Bézout, một đa thức khác $0$ bậc $k$ có không quá $k$ nghiệm, nên $P - Q = 0$.\n\n## Khi nào dùng\n\n- Tìm đa thức khi biết giá trị tại vài điểm.\n- Bài \"đa thức bậc $n$ có $P(k) = f(k)$ với $k = 0, 1, \\dots, n$, tính $P(n+1)$\": thường nhanh hơn nếu xét $Q(x) = (\\text{mẫu}) \\cdot P(x) - (\\text{tử})$ rồi viết $Q$ theo các nghiệm đã biết.\n- Chứng minh đẳng thức phân thức đối xứng: nội suy chính $x^k$ ($k \\le n$) rồi so sánh hệ số.\n\n## Lưu ý\n\n- Công thức cho bậc **không quá** $n$; hệ số bậc cao nhất có thể bằng $0$.\n- Hệ số của $x^n$ trong $P$ là $\\sum_i \\dfrac{y_i}{\\prod_{j \\ne i}(x_i - x_j)}$ — nguồn gốc của nhiều đẳng thức đẹp.\n- Khi đi thi, nếu tính trực tiếp quá dài, hãy đặt $P(x) = ax^2 + bx + c$ và giải hệ; Lagrange chỉ là một cách nhìn.",
+  "examples": [
+   {
+    "text": "Tìm đa thức $P(x)$ bậc không quá $2$ thỏa mãn $P(0) = 1$, $P(1) = 3$, $P(3) = 13$."
+   },
+   {
+    "text": "Cho đa thức $P(x)$ bậc $n$ thỏa mãn $P(k) = \\dfrac{k}{k+1}$ với $k = 0, 1, \\dots, n$. Tính $P(n+1)$."
+   },
+   {
+    "text": "Cho $a, b, c$ đôi một phân biệt. Chứng minh $\\dfrac{a^2}{(a-b)(a-c)} + \\dfrac{b^2}{(b-c)(b-a)} + \\dfrac{c^2}{(c-a)(c-b)} = 1$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-tong-luy-thua-newton",
+  "topic": "dai-so",
+  "level": 3,
+  "title": "Tổng lũy thừa các nghiệm và công thức Newton",
+  "summary": "Tổng $a^n + b^n + c^n$ tính được hoàn toàn qua $a + b + c$, $ab + bc + ca$, $abc$ bằng một công thức truy hồi.",
+  "body": "## Phát biểu\n\nĐặt $p = a + b + c$, $q = ab + bc + ca$, $r = abc$ và $S_n = a^n + b^n + c^n$ (với $S_0 = 3$). Khi đó $a, b, c$ là ba nghiệm của $t^3 - pt^2 + qt - r = 0$ và\n$$S_{n+3} = pS_{n+2} - qS_{n+1} + rS_n \\quad (n \\ge 0).$$\n\nCác giá trị đầu (công thức Newton):\n$$S_1 = p,\\quad S_2 = pS_1 - 2q,\\quad S_3 = pS_2 - qS_1 + 3r.$$\n\nVới hai số: $s_{n+2} = (a+b)s_{n+1} - ab\\,s_n$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nVì $a$ là nghiệm nên $a^3 = pa^2 - qa + r$. Nhân với $a^n$: $a^{n+3} = pa^{n+2} - qa^{n+1} + ra^n$. Viết tương tự cho $b, c$ rồi cộng lại.\n\n$S_2 = p^2 - 2q$ là khai triển $(a+b+c)^2$. Công thức $S_3$ chính là trường hợp $n = 0$ của truy hồi: $S_3 = pS_2 - qS_1 + 3r$.\n\n## Khi nào dùng\n\n- Cho trước $a + b + c$, $a^2 + b^2 + c^2$, $a^3 + b^3 + c^3$ (hoặc tương tự), yêu cầu tính $a^4 + b^4 + c^4$, $a^5 + b^5 + c^5$...\n- Biểu thức theo ba nghiệm của một phương trình bậc ba mà không giải được nghiệm.\n- Chứng minh $S_n$ là số nguyên, hoặc xét số dư của $S_n$ bằng quy nạp.\n- Đẳng thức có điều kiện $a + b + c = 0$ (khi đó $p = 0$, truy hồi rất gọn).\n\n## Lưu ý\n\n- Chú ý dấu: phương trình $t^3 + \\alpha t^2 + \\beta t + \\gamma = 0$ cho $p = -\\alpha$, $q = \\beta$, $r = -\\gamma$.\n- $S_0 = 3$ (không phải $1$) và công thức $S_3$ có hệ số $3r$, chỉ từ $S_3$ trở đi truy hồi mới là $rS_n$.\n- Lập bảng $S_0, S_1, S_2, \\dots$ để tránh nhầm khi tính tay.",
+  "examples": [
+   {
+    "text": "Cho các số thực $a, b, c$ thỏa mãn $a + b + c = 1$, $a^2 + b^2 + c^2 = 2$, $a^3 + b^3 + c^3 = 3$. Tính $a^4 + b^4 + c^4$ và $a^5 + b^5 + c^5$."
+   },
+   {
+    "text": "Gọi $x_1, x_2, x_3$ là ba nghiệm của phương trình $x^3 - 3x + 1 = 0$. Tính $x_1^5 + x_2^5 + x_3^5$."
+   },
+   {
+    "text": "Cho $a + b + c = 0$. Chứng minh $\\dfrac{a^5 + b^5 + c^5}{5} = \\dfrac{a^3 + b^3 + c^3}{3} \\cdot \\dfrac{a^2 + b^2 + c^2}{2}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-phuong-trinh-ham-don-gian",
+  "topic": "dai-so",
+  "level": 3,
+  "title": "Phương trình hàm đơn giản",
+  "summary": "Tìm hàm số thỏa mãn một đẳng thức với mọi biến: thế giá trị khéo léo, giải hệ, quy nạp trên số nguyên và phương trình Cauchy.",
+  "body": "## Phát biểu\n\nCác công cụ cơ bản cho bài \"tìm tất cả hàm $f$ sao cho ... với mọi $x, y$\":\n\n- **Thế giá trị đặc biệt:** $x = 0$, $y = 0$, $y = x$, $y = -x$, $x \\to \\frac1x$, $x \\to 1 - x$... để tìm $f(0)$, $f(1)$ hoặc chính $f(x)$.\n- **Lập hệ:** nếu đẳng thức chứa $f(x)$ và $f(g(x))$ với $g(g(x)) = x$, thay $x$ bởi $g(x)$ được hệ hai ẩn $f(x), f(g(x))$.\n- **Quy nạp:** hàm trên $\\mathbb{N}$ hoặc $\\mathbb{Z}$ thường xác định từ $f(0)$, $f(1)$ nhờ truy hồi.\n- **Phương trình Cauchy:** nếu $f : \\mathbb{Q} \\to \\mathbb{R}$ và $f(x + y) = f(x) + f(y)$ với mọi $x, y$ thì $f(x) = cx$ với $c = f(1)$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nCauchy: cho $x = y = 0$ được $f(0) = 0$; cho $y = -x$ được $f(-x) = -f(x)$. Quy nạp theo $n$: $f(nx) = nf(x)$ với $n$ nguyên dương. Với $x = \\frac mn$ ($m$ nguyên, $n$ nguyên dương): $n f\\!\\left(\\frac mn\\right) = f(m) = m f(1)$, nên $f\\!\\left(\\frac mn\\right) = c\\cdot\\frac mn$.\n\n## Khi nào dùng\n\n- Đề cho đẳng thức hàm \"với mọi $x$\" và hỏi $f(x)$ hoặc giá trị $f(2026)$.\n- Khi đẳng thức gần giống cộng tính, thử đổi hàm $g(x) = f(x) - h(x)$ (với $h$ là một nghiệm đoán được) để đưa về Cauchy.\n\n## Lưu ý\n\n- Thế giá trị chỉ cho **điều kiện cần**; bắt buộc thử lại hàm tìm được vào đẳng thức ban đầu.\n- Chú ý miền xác định: nếu $f$ xác định trên $\\mathbb{R} \\setminus \\{0\\}$ thì không được thế $x = 0$.\n- Cauchy trên $\\mathbb{R}$ chỉ cho $f(x) = cx$ khi có thêm giả thiết (đơn điệu, liên tục...); ở THCS thường chỉ dùng trên $\\mathbb{Q}$ hoặc $\\mathbb{Z}$.",
+  "examples": [
+   {
+    "text": "Tìm hàm số $f : \\mathbb{R} \\to \\mathbb{R}$ thỏa mãn $f(x - y) = f(x) + f(y) - 2xy$ với mọi số thực $x, y$."
+   },
+   {
+    "text": "Tìm hàm số $f$ xác định với mọi $x \\ne 0$ thỏa mãn $f(x) + 2f\\!\\left(\\dfrac1x\\right) = x$."
+   },
+   {
+    "text": "Tìm hàm số $f : \\mathbb{Q} \\to \\mathbb{Q}$ thỏa mãn $f(1) = 2$ và $f(x + y) = f(x) + f(y) + xy$ với mọi $x, y \\in \\mathbb{Q}$."
+   }
+  ]
+ },
+ {
+  "id": "dai-so-day-truy-hoi-tuyen-tinh",
+  "topic": "dai-so",
+  "level": 3,
+  "title": "Dãy truy hồi tuyến tính cấp hai",
+  "summary": "Dãy $u_{n+2} = au_{n+1} + bu_n$ có công thức tổng quát tìm được từ nghiệm của phương trình đặc trưng $t^2 = at + b$.",
+  "body": "## Phát biểu\n\nCho dãy $u_{n+2} = a u_{n+1} + b u_n$ ($b \\ne 0$) với $u_0, u_1$ cho trước. Xét **phương trình đặc trưng** $t^2 - at - b = 0$.\n\n- Hai nghiệm phân biệt $t_1 \\ne t_2$: $u_n = \\alpha t_1^n + \\beta t_2^n$.\n- Nghiệm kép $t_0$: $u_n = (\\alpha + \\beta n)\\, t_0^n$.\n\nHằng số $\\alpha, \\beta$ tìm từ $u_0, u_1$. Ngược lại, với $t_1, t_2$ là nghiệm của $t^2 = at + b$, mọi dãy dạng $\\alpha t_1^n + \\beta t_2^n$ đều thỏa truy hồi đó (kể cả khi $t_1, t_2$ vô tỉ).\n\n## Chứng minh ngắn (THCS-friendly)\n\nVì $t_i^2 = at_i + b$, nhân với $t_i^n$ được $t_i^{n+2} = at_i^{n+1} + bt_i^n$, nên $v_n = \\alpha t_1^n + \\beta t_2^n$ thỏa truy hồi. Chọn $\\alpha, \\beta$ từ hệ $\\alpha + \\beta = u_0$, $\\alpha t_1 + \\beta t_2 = u_1$ (có nghiệm vì $t_1 \\ne t_2$). Hai dãy $u_n, v_n$ trùng hai số hạng đầu và cùng truy hồi nên trùng nhau (quy nạp).\n\nNghiệm kép: $a = 2t_0$, $b = -t_0^2$. Kiểm tra $w_n = nt_0^n$: $a(n+1)t_0^{n+1} + bnt_0^n = 2(n+1)t_0^{n+2} - nt_0^{n+2} = (n+2)t_0^{n+2}$.\n\n## Khi nào dùng\n\n- Tìm công thức số hạng tổng quát, tính $u_{2026}$.\n- Chứng minh $(x + \\sqrt d)^n + (x - \\sqrt d)^n$ là số nguyên, hoặc tính phần nguyên của $(x + \\sqrt d)^n$.\n- Chứng minh tính chia hết, số dư, tuần hoàn của dãy bằng quy nạp trên truy hồi.\n- Truy hồi có hằng số $u_{n+2} = au_{n+1} + bu_n + c$ với $a + b \\ne 1$: đặt $v_n = u_n - k$, $k = \\frac{c}{1 - a - b}$ để khử $c$.\n\n## Lưu ý\n\n- Dãy đánh số từ $u_1$ thì lập hệ theo $u_1, u_2$, hoặc dời chỉ số.\n- Khi đi thi, sau khi đoán công thức nên chứng minh lại bằng quy nạp cho chặt chẽ.\n- Nếu phương trình đặc trưng vô nghiệm thực, công thức vẫn đúng với số phức nhưng ở THCS nên khai thác tính tuần hoàn thay thế (ví dụ $u_{n+2} = u_{n+1} - u_n$ có chu kì $6$).",
+  "examples": [
+   {
+    "text": "Cho dãy $u_0 = 2$, $u_1 = 5$, $u_{n+2} = 5u_{n+1} - 6u_n$. Tìm công thức tổng quát của $u_n$."
+   },
+   {
+    "text": "Cho dãy $u_0 = 1$, $u_1 = 4$, $u_{n+2} = 4u_{n+1} - 4u_n$. Tìm $u_n$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$, phần nguyên của $(2 + \\sqrt3)^n$ là một số lẻ."
+   }
+  ]
+ }
+]

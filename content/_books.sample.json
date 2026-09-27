@@ -1,0 +1,56 @@
+[
+ {
+  "id": "mau-nang-cao-phat-trien-toan-9",
+  "title": "Nâng cao và phát triển Toán 9 (tập 1, 2)",
+  "author": "Vũ Hữu Bình",
+  "publisher": "NXB Giáo dục Việt Nam",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc",
+   "so-hoc"
+  ],
+  "desc": "Bộ sách kinh điển để nâng cao từ kiến thức SGK lên mức thi HSG và vào 10 chuyên, bài tập xếp theo mức độ.",
+  "url": "https://sachhoc.com/",
+  "source": "sachhoc.com"
+ },
+ {
+  "id": "mau-bdt-suy-luan-kham-pha",
+  "title": "Bất đẳng thức – Suy luận và khám phá",
+  "author": "Phạm Văn Thuận, Lê Vĩ",
+  "publisher": "NXB ĐHQG Hà Nội",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Nhiều kỹ thuật chứng minh bất đẳng thức, phù hợp học sinh chuyên muốn đi sâu vào mảng cực trị.",
+  "url": "https://sachhoc.com/",
+  "source": "sachhoc.com"
+ },
+ {
+  "id": "mau-so-hoc-boi-duong-hsg",
+  "title": "Chuyên đề bồi dưỡng HSG Toán THCS: Số học",
+  "author": "Nhiều tác giả",
+  "publisher": "NXB Giáo dục Việt Nam",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "nghiem-nguyen",
+   "to-hop"
+  ],
+  "desc": "Chia hết, đồng dư, số nguyên tố, phương trình nghiệm nguyên và các bài toán rời rạc cho HSG lớp 6–9.",
+  "url": "https://sachhoc.com/",
+  "source": "sachhoc.com"
+ }
+]

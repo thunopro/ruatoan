@@ -1,0 +1,6 @@
+.cache
+scripts
+.data
+.claude
+REVIEW.md
+.env*

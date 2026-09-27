@@ -1,0 +1,209 @@
+[
+ {
+  "id": "to-hop-dirichlet-mo-rong",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Nguyên lí Dirichlet mở rộng",
+  "summary": "Nhốt $n$ vật vào $k$ ngăn thì có ngăn chứa ít nhất $\\left\\lceil \\frac nk \\right\\rceil$ vật; dạng trung bình cộng cho phép đánh giá tổng.",
+  "body": "## Phát biểu\n\n- Xếp $n$ vật vào $k$ ngăn thì có một ngăn chứa ít nhất $\\left\\lceil \\frac nk \\right\\rceil$ vật (số nguyên nhỏ nhất không nhỏ hơn $\\frac nk$).\n- Dạng trung bình: nếu $a_1 + a_2 + \\dots + a_k = S$ thì có $a_i \\ge \\frac Sk$ và có $a_j \\le \\frac Sk$. Nếu các $a_i$ nguyên thì $a_i \\ge \\left\\lceil \\frac Sk \\right\\rceil$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nGiả sử mọi ngăn chứa không quá $\\left\\lceil \\frac nk \\right\\rceil - 1$ vật. Vì $\\left\\lceil \\frac nk \\right\\rceil - 1 < \\frac nk$ nên tổng số vật nhỏ hơn $k \\cdot \\frac nk = n$, vô lí. Dạng trung bình chứng minh y hệt: nếu mọi $a_i < \\frac Sk$ thì tổng nhỏ hơn $S$.\n\n## Khi nào dùng\n\n- Đề hỏi \"chứng minh tồn tại\" hai (hay nhiều) đối tượng cùng tính chất, không cần chỉ ra cụ thể.\n- Số đối tượng lớn hơn hẳn số \"loại\" có thể: số dư, giá trị tổng, màu, phần lẻ của số...\n- Có một tổng cố định chia đều cho nhiều phần (tổng các bộ ba liên tiếp, tổng theo hàng...).\n\n## Lưu ý\n\n- Cái khó là **chọn ngăn**: ngăn phải ít hơn vật và \"cùng ngăn\" phải kéo theo điều cần chứng minh.\n- Với dạng trung bình, nhớ làm tròn lên khi các đại lượng nguyên: trung bình $16{,}5$ cho ra một tổng $\\ge 17$.",
+  "examples": [
+   {
+    "text": "Mỗi ô của bảng $5 \\times 5$ được ghi một trong các số $-1$, $0$, $1$. Chứng minh rằng trong $12$ tổng gồm tổng các số trên mỗi hàng, mỗi cột và hai đường chéo, có hai tổng bằng nhau."
+   },
+   {
+    "text": "Xếp các số $1, 2, \\dots, 10$ quanh một vòng tròn theo thứ tự tùy ý. Chứng minh có ba số đứng liền nhau có tổng không nhỏ hơn $17$."
+   },
+   {
+    "text": "Chứng minh rằng trong $n + 1$ số bất kì lấy từ tập $\\{1, 2, \\dots, 2n\\}$ luôn có hai số mà số này chia hết cho số kia."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-dirichlet-hinh-hoc",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Nguyên lí Dirichlet trong hình học",
+  "summary": "Chia hình thành các mảnh nhỏ hoặc so sánh tổng diện tích, độ dài để chứng minh có điểm bị phủ nhiều lần.",
+  "body": "## Phát biểu\n\n- **Chia ô:** chia hình thành $k$ mảnh; nếu có hơn $k \\cdot t$ điểm thì có một mảnh chứa ít nhất $t + 1$ điểm.\n- **Dạng độ dài / diện tích:** nếu các đoạn thẳng nằm trên một đoạn có độ dài $\\ell$ và tổng độ dài của chúng lớn hơn $t \\cdot \\ell$ thì có một điểm thuộc ít nhất $t + 1$ đoạn. Tương tự với các hình phẳng có tổng diện tích lớn hơn $t$ lần diện tích hình chứa chúng.\n\n## Chứng minh ngắn (THCS-friendly)\n\nChia ô là Dirichlet thông thường. Với dạng độ dài: nếu mỗi điểm thuộc không quá $t$ đoạn thì khi \"chồng\" các đoạn lên đoạn lớn, mỗi phần bị tính tối đa $t$ lần, nên tổng độ dài $\\le t \\cdot \\ell$, mâu thuẫn. Diện tích lập luận tương tự.\n\n## Khi nào dùng\n\n- Nhiều điểm trong một hình vuông, tam giác, hình tròn; cần chứng minh có vài điểm \"gần nhau\".\n- Nhiều hình (hình tròn, đoạn thẳng) có tổng kích thước lớn; cần một điểm hoặc một đường thẳng đi qua nhiều hình.\n- Kết hợp phép chiếu: chiếu các hình lên một cạnh để đưa về đoạn thẳng.\n\n## Lưu ý\n\n- Chọn cách chia sao cho mỗi mảnh \"đủ nhỏ\": thường dùng hình vuông con, hoặc hình tròn ngoại tiếp mảnh.\n- Điểm nằm trên biên chung của hai mảnh: quy ước gán cho một mảnh, lập luận vẫn đúng.",
+  "examples": [
+   {
+    "text": "Trong hình vuông cạnh $1$ cho $51$ điểm. Chứng minh có ba điểm nằm trong một hình tròn bán kính $\\frac17$."
+   },
+   {
+    "text": "Bên trong hình vuông cạnh $1$ có một số hình tròn với tổng chu vi bằng $10$. Chứng minh tồn tại một đường thẳng cắt ít nhất $4$ hình tròn trong số đó."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-bat-bien",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Bất biến",
+  "summary": "Tìm một đại lượng không đổi qua mọi phép biến đổi để chứng minh một trạng thái không thể đạt được hoặc tìm kết quả cuối.",
+  "body": "## Phát biểu\n\nCho một quá trình biến đổi từng bước. Nếu đại lượng $I$ (tổng, tích, tính chẵn lẻ, số dư...) không đổi sau mỗi bước thì $I$ của mọi trạng thái đạt được bằng $I$ của trạng thái ban đầu. Do đó trạng thái có $I$ khác không thể đạt được.\n\n## Chứng minh ngắn (THCS-friendly)\n\nQuy nạp theo số bước: sau $0$ bước $I$ bằng giá trị ban đầu; nếu sau $k$ bước vẫn bằng thì sau bước thứ $k + 1$ cũng bằng vì một bước không làm đổi $I$.\n\n## Khi nào dùng\n\n- Câu hỏi \"có thể hay không\", \"số cuối cùng là bao nhiêu\" sau một dãy thao tác tùy ý.\n- Ứng viên hay gặp: tính chẵn lẻ của tổng, tổng hoặc tích, số dư theo $3$, $4$, hiệu các số lượng, tích $\\prod (x_i + 1)$, tổng bình phương.\n\n## Lưu ý\n\n- Thử vài bước với số nhỏ, ghi lại điều gì \"không đổi\".\n- Bất biến chỉ chứng minh **không thể**; muốn chứng minh **có thể** phải chỉ ra cách làm cụ thể.\n- Nếu một bất biến chưa đủ phân biệt, kết hợp nhiều bất biến (chẳng hạn theo modulo khác).",
+  "examples": [
+   {
+    "text": "Trên bảng ghi các số $1, 2, \\dots, 2026$. Mỗi lần xóa hai số $a, b$ bất kì rồi viết số $|a - b|$. Sau $2025$ lần chỉ còn một số. Số đó có thể bằng $0$ không?"
+   },
+   {
+    "text": "Trên bảng ghi các số $1, 2, \\dots, 20$. Mỗi lần xóa hai số $a, b$ và viết số $a + b + ab$. Tìm số cuối cùng còn lại."
+   },
+   {
+    "text": "Trên đảo có $13$ tắc kè xám, $15$ nâu, $17$ đỏ. Khi hai con khác màu gặp nhau, cả hai đổi sang màu thứ ba. Có thể đến lúc nào đó mọi con đều cùng màu không?"
+   }
+  ]
+ },
+ {
+  "id": "to-hop-nua-bat-bien",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Nửa bất biến (đơn biến)",
+  "summary": "Một đại lượng nguyên chỉ tăng (hoặc chỉ giảm) và bị chặn thì quá trình phải dừng, và trạng thái dừng có tính chất cần tìm.",
+  "body": "## Phát biểu\n\nNếu mỗi bước của quá trình làm đại lượng $I$ thay đổi **ngặt** theo một chiều (chẳng hạn giảm ít nhất $1$), và $I$ chỉ nhận hữu hạn giá trị (hoặc là số nguyên không âm) thì quá trình dừng sau hữu hạn bước.\n\n## Chứng minh ngắn (THCS-friendly)\n\nNếu $I$ nguyên không âm, ban đầu bằng $I_0$ và mỗi bước giảm ít nhất $1$ thì sau $I_0 + 1$ bước $I$ âm, vô lí; vậy có không quá $I_0$ bước. Nếu chỉ biết $I$ nhận hữu hạn giá trị: $I$ thay đổi ngặt nên không trạng thái nào lặp lại, mà số trạng thái hữu hạn.\n\n## Khi nào dùng\n\n- Chứng minh tồn tại một cách chia, sắp xếp \"tốt\": bắt đầu từ cách bất kì, cứ gặp chỗ \"xấu\" thì sửa, và chỉ ra việc sửa làm một đại lượng tăng hoặc giảm ngặt.\n- Chứng minh một quá trình không thể kéo dài mãi.\n\n## Lưu ý\n\n- Đại lượng hay dùng: số cặp \"xấu\", tổng các số, tổng độ dài, tổng bình phương.\n- Phải chứng minh thay đổi là **ngặt**; nếu chỉ \"không giảm\" thì chưa kết luận được.\n- Cách viết tương đương: xét trạng thái làm $I$ nhỏ nhất (nguyên lí cực hạn) rồi chỉ ra nó đã tốt.",
+  "examples": [
+   {
+    "text": "Trong một nhóm người, mỗi người có không quá $3$ kẻ thù (nếu A là kẻ thù của B thì B là kẻ thù của A). Chứng minh có thể chia nhóm thành hai phe sao cho mỗi người có không quá $1$ kẻ thù cùng phe."
+   },
+   {
+    "text": "Mỗi ô của bảng $m \\times n$ ghi một số thực. Mỗi lần được đổi dấu tất cả các số trên một hàng hoặc một cột. Chứng minh có thể làm cho tổng các số trên mỗi hàng và mỗi cột đều không âm."
+   },
+   {
+    "text": "Trên mặt phẳng cho $n$ điểm đỏ và $n$ điểm xanh, không có ba điểm nào thẳng hàng. Chứng minh có thể nối thành $n$ đoạn thẳng, mỗi đoạn nối một điểm đỏ với một điểm xanh, sao cho không có hai đoạn nào cắt nhau."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-nguyen-ly-cuc-han",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Nguyên lí cực hạn",
+  "summary": "Xét phần tử lớn nhất, nhỏ nhất, dài nhất... của một tập hữu hạn để khai thác tính chất đặc biệt của nó.",
+  "body": "## Phát biểu\n\n- Mọi tập hữu hạn khác rỗng các số thực có phần tử lớn nhất và phần tử nhỏ nhất.\n- Mọi tập khác rỗng các số tự nhiên có phần tử nhỏ nhất.\n\nKĩ thuật: xét đối tượng \"cực hạn\" (số nhỏ nhất, đoạn dài nhất, dãy dài nhất, điểm xa nhất...) rồi chứng minh nó có tính chất cần tìm, hoặc dẫn tới một đối tượng \"cực hạn hơn\" (mâu thuẫn).\n\n## Chứng minh ngắn (THCS-friendly)\n\nVới tập hữu hạn: so sánh lần lượt từng phần tử, giữ lại số lớn hơn, sau hữu hạn bước được số lớn nhất. Với tập số tự nhiên $A$ khác rỗng: lấy $a \\in A$, trong các số $0, 1, \\dots, a$ chỉ có hữu hạn số, số nhỏ nhất thuộc $A$ trong đó là phần tử nhỏ nhất của $A$.\n\n## Khi nào dùng\n\n- Bảng số, dãy số với điều kiện \"trung bình\", \"bằng tổng\" các số lân cận.\n- Chứng minh tồn tại một cấu hình (dãy, đường đi, cách sắp xếp).\n- Chứng minh phản chứng: giả sử có phản ví dụ, xét phản ví dụ \"nhỏ nhất\".\n\n## Lưu ý\n\n- Phải chắc phần tử cực hạn **tồn tại**: tập vô hạn số thực có thể không có max (ví dụ $(0; 1)$).\n- Khi có nhiều phần tử cùng đạt cực hạn, chọn thêm tiêu chí phụ (ví dụ trái nhất rồi thấp nhất).",
+  "examples": [
+   {
+    "text": "Mỗi ô của một bảng ô vuông vô hạn về mọi phía được ghi một số nguyên dương sao cho mỗi số bằng trung bình cộng của bốn số ở bốn ô kề cạnh. Chứng minh mọi số trên bảng bằng nhau."
+   },
+   {
+    "text": "Trong một giải đấu vòng tròn, mỗi cặp đội đấu đúng một trận và không có trận hòa. Chứng minh có thể xếp tất cả các đội thành dãy $A_1, A_2, \\dots, A_n$ sao cho $A_i$ thắng $A_{i+1}$ với mọi $i$."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-dem-bang-hai-cach",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Đếm bằng hai cách",
+  "summary": "Đếm cùng một tập hợp theo hai cách khác nhau rồi cho hai kết quả bằng nhau để được đẳng thức hoặc bất đẳng thức.",
+  "body": "## Phát biểu\n\nCho hai tập $A$, $B$ và một quan hệ giữa phần tử của $A$ với phần tử của $B$. Gọi $d(a)$ là số phần tử của $B$ quan hệ với $a$, $d(b)$ tương tự. Khi đó số cặp $(a, b)$ có quan hệ bằng\n$$\\sum_{a \\in A} d(a) = \\sum_{b \\in B} d(b).$$\n\n## Chứng minh ngắn (THCS-friendly)\n\nLập bảng: hàng ứng với $a \\in A$, cột ứng với $b \\in B$, ô ghi $1$ nếu $a$ quan hệ với $b$, ngược lại ghi $0$. Tổng tất cả các ô tính theo hàng là $\\sum d(a)$, tính theo cột là $\\sum d(b)$.\n\n## Khi nào dùng\n\n- Bài về câu lạc bộ – thành viên, đội – trận đấu, điểm – đường thẳng, số – ước.\n- Cần một đẳng thức tổ hợp hoặc đánh giá số lượng (kết hợp với bất đẳng thức).\n- Đổi thứ tự lấy tổng trong số học, ví dụ tổng số ước.\n\n## Lưu ý\n\n- Xác định rõ \"đếm cái gì\": thường là các cặp hoặc bộ ba có một tính chất.\n- Nếu mỗi đối tượng bị đếm lặp đúng $k$ lần thì chia cho $k$ (ví dụ mỗi cạnh được đếm hai lần từ hai đầu mút).",
+  "examples": [
+   {
+    "text": "Kí hiệu $d(k)$ là số ước dương của $k$. Chứng minh\n$$d(1) + d(2) + \\dots + d(n) = \\left\\lfloor \\frac n1 \\right\\rfloor + \\left\\lfloor \\frac n2 \\right\\rfloor + \\dots + \\left\\lfloor \\frac nn \\right\\rfloor.$$"
+   },
+   {
+    "text": "Trong một giải đấu vòng tròn $n$ đội (mỗi cặp đấu một trận, không hòa), đội thứ $i$ thắng $w_i$ trận và thua $l_i$ trận. Chứng minh $w_1^2 + \\dots + w_n^2 = l_1^2 + \\dots + l_n^2$."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-to-mau",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Phương pháp tô màu",
+  "summary": "Tô màu bảng hoặc mặt phẳng một cách khéo léo để đếm và phát hiện mâu thuẫn trong bài lát, phủ, di chuyển.",
+  "body": "## Phát biểu\n\nNếu mỗi quân (hoặc mỗi bước đi) luôn chiếm một số ô cố định của mỗi màu, thì số ô mỗi màu trong vùng cần phủ phải tương ứng. Nếu số đếm không khớp thì việc phủ là không thể.\n\nCác cách tô hay dùng: bàn cờ đen trắng; tô theo hàng/cột xen kẽ; tô ô $(i, j)$ bằng màu số dư của $i + j$ (hoặc $i$) khi chia cho $k$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nNếu phủ được bằng $N$ quân, mỗi quân chứa đúng $c$ ô màu thứ nhất, thì vùng có đúng $Nc$ ô màu thứ nhất (đếm theo từng quân rồi cộng lại). Đây là một dạng bất biến / đếm bằng hai cách.\n\n## Khi nào dùng\n\n- Bài lát bảng bằng domino, quân chữ L, quân $1 \\times k$.\n- Quân cờ di chuyển trên bảng (con mã luôn đổi màu ô).\n- Tô màu mặt phẳng: chứng minh tồn tại hai điểm, tam giác cùng màu.\n\n## Lưu ý\n\n- Với quân $1 \\times k$, thử tô theo $i + j$ modulo $k$ hoặc theo hàng modulo $k$.\n- Tô màu chỉ chứng minh **không thể**; nếu đếm khớp vẫn chưa suy ra được là có thể.",
+  "examples": [
+   {
+    "text": "Bàn cờ $8 \\times 8$ bị cắt đi hai ô ở hai góc đối diện. Có thể phủ kín phần còn lại bằng $31$ quân domino $1 \\times 2$ không?"
+   },
+   {
+    "text": "Có thể phủ kín bảng $10 \\times 10$ bằng $25$ quân $1 \\times 4$ (đặt ngang hoặc dọc) không?"
+   },
+   {
+    "text": "Mỗi điểm của mặt phẳng được tô bằng một trong hai màu. Chứng minh tồn tại hai điểm cùng màu cách nhau đúng $1$."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-tro-choi-chien-thuat",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Trò chơi: vị trí thắng thua và chiến thuật đối xứng",
+  "summary": "Phân loại vị trí thắng, thua bằng cách đi ngược từ cuối, hoặc tạo thế đối xứng rồi bắt chước đối thủ.",
+  "body": "## Phát biểu\n\nXét trò chơi hai người luân phiên, hữu hạn nước, không hòa, ai không đi được thì thua.\n\n- **Vị trí thua (P)**: mọi nước đi đều dẫn tới vị trí thắng. **Vị trí thắng (N)**: có ít nhất một nước đi tới vị trí thua. Người đến lượt ở vị trí thắng có chiến thuật thắng.\n- **Chiến thuật đối xứng**: nếu sau nước của mình, thế cờ \"đối xứng\" và mọi nước của đối thủ đều có nước đối xứng hợp lệ, thì mình không bao giờ hết nước, nên thắng.\n\n## Chứng minh ngắn (THCS-friendly)\n\nTrạng thái kết thúc là vị trí thua; đi ngược lại từng bước, mỗi vị trí được xếp loại P hoặc N theo định nghĩa. Người ở vị trí N luôn đưa đối thủ về P; từ P đối thủ chỉ đưa về N; trò chơi hữu hạn nên đối thủ là người hết nước. Với chiến thuật đối xứng: mình luôn có nước đi trả lời, mà trò chơi hữu hạn, nên đối thủ hết nước trước.\n\n## Khi nào dùng\n\n- Bốc sỏi, bẻ sô-cô-la, đặt quân lên bàn, viết số lên bảng.\n- Hình có tâm đối xứng hoặc trục đối xứng; hai đống có thể làm bằng nhau.\n\n## Lưu ý\n\n- Tính tay các vị trí nhỏ, đoán quy luật (thường theo modulo), rồi chứng minh tập vị trí thua \"đóng\": từ P chỉ đi tới N, từ N đi được tới P.\n- Với chiến thuật đối xứng, phải kiểm tra nước đối xứng luôn **hợp lệ**, đặc biệt các ô, điểm nằm trên tâm hoặc trục.",
+  "examples": [
+   {
+    "text": "Có $2026$ viên kẹo. Hai người lần lượt lấy từ $1$ đến $5$ viên. Ai lấy viên cuối cùng thì thắng. Ai có chiến thuật thắng?"
+   },
+   {
+    "text": "Hai người lần lượt đặt các đồng xu giống hệt nhau lên một mặt bàn hình tròn, đồng xu không được chồng lên nhau và không tràn ra ngoài bàn. Ai không đặt được thì thua. Ai có chiến thuật thắng?"
+   },
+   {
+    "text": "Có hai đống sỏi gồm $20$ và $26$ viên. Hai người lần lượt chọn một đống và lấy đi một số viên tùy ý (ít nhất $1$). Ai lấy viên cuối cùng thì thắng. Ai có chiến thuật thắng?"
+   }
+  ]
+ },
+ {
+  "id": "to-hop-quy-nap-to-hop",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Quy nạp trong tổ hợp",
+  "summary": "Giải bài toán cỡ $n$ bằng cách đưa về cỡ nhỏ hơn: thêm một đường thẳng, chia đôi bảng, bớt một phần tử.",
+  "body": "## Phát biểu\n\nMuốn chứng minh mệnh đề $P(n)$ với mọi $n \\ge n_0$: kiểm tra $P(n_0)$; giả sử $P(k)$ đúng (hoặc $P(n_0), \\dots, P(k)$ đúng) rồi chứng minh $P(k + 1)$.\n\nTrong tổ hợp, bước chuyển thường là: từ cấu hình cỡ $k + 1$, **bỏ đi** một phần tử (hoặc chia thành các phần cỡ $k$), dùng giả thiết quy nạp, rồi **ghép lại**.\n\n## Chứng minh ngắn (THCS-friendly)\n\nNếu có $n$ nhỏ nhất làm $P(n)$ sai thì $n > n_0$ và $P(n - 1)$ đúng, nhưng bước chuyển cho $P(n)$ đúng, mâu thuẫn.\n\n## Khi nào dùng\n\n- Đếm số miền, số cách, số đường đi; lập công thức truy hồi $a_{n} = a_{n-1} + \\dots$\n- Chứng minh tồn tại cách lát, cách tô, cách sắp xếp cho mọi $n$.\n- Bảng $2^n \\times 2^n$, tập $n$ phần tử, $n$ đường thẳng.\n\n## Lưu ý\n\n- Bước chuyển phải xử lý **mọi** cấu hình cỡ $k + 1$, không chỉ những cấu hình dựng từ cỡ $k$.\n- Nếu không quy nạp được, thử làm mạnh mệnh đề (ví dụ: ô bỏ đi ở **vị trí bất kì**).",
+  "examples": [
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$, bảng $2^n \\times 2^n$ bỏ đi một ô bất kì luôn phủ kín được bằng các quân hình chữ L gồm $3$ ô."
+   },
+   {
+    "text": "Trên mặt phẳng có $n$ đường thẳng, không có hai đường nào song song và không có ba đường nào đồng quy. Các đường thẳng chia mặt phẳng thành bao nhiêu miền?"
+   }
+  ]
+ },
+ {
+  "id": "to-hop-bao-ham-loai-tru",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Nguyên lí bao hàm – loại trừ",
+  "summary": "Đếm số phần tử của hợp nhiều tập bằng cách cộng từng tập, trừ các giao đôi, cộng các giao ba...",
+  "body": "## Phát biểu\n\n$$|A \\cup B| = |A| + |B| - |A \\cap B|$$\n$$|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |B \\cap C| - |C \\cap A| + |A \\cap B \\cap C|$$\n\nTổng quát: cộng các tập, trừ các giao hai tập, cộng các giao ba tập, trừ các giao bốn tập,...\n\n## Chứng minh ngắn (THCS-friendly)\n\nXét một phần tử thuộc đúng $t \\ge 1$ tập trong ba tập. Ở vế phải nó được đếm: $t = 1$ thì $1$ lần; $t = 2$ thì $2 - 1 = 1$ lần; $t = 3$ thì $3 - 3 + 1 = 1$ lần. Phần tử không thuộc tập nào không được đếm. Vậy hai vế bằng nhau.\n\n## Khi nào dùng\n\n- Đếm số không chia hết cho bất kì số nào trong $a, b, c$; đếm số nguyên tố cùng nhau với $n$.\n- Đếm cách sắp xếp tránh một số điều kiện \"cấm\" (không ai ngồi đúng chỗ, không hai người nào cạnh nhau...).\n- Đếm phần bù: số \"tốt\" = tổng số − số vi phạm ít nhất một điều kiện.\n\n## Lưu ý\n\n- Số bội của $d$ trong $1, \\dots, n$ là $\\left\\lfloor \\frac nd \\right\\rfloor$; bội chung của $a, b$ là bội của $\\operatorname{BCNN}(a, b)$, không phải của $ab$ khi $a, b$ không nguyên tố cùng nhau.\n- Kiểm tra lại bằng một trường hợp nhỏ đếm tay được.",
+  "examples": [
+   {
+    "text": "Có bao nhiêu số nguyên từ $1$ đến $1000$ không chia hết cho số nào trong các số $2$, $3$, $5$?"
+   },
+   {
+    "text": "Bỏ $4$ lá thư vào $4$ phong bì đã ghi địa chỉ, mỗi phong bì một lá. Có bao nhiêu cách bỏ sao cho không lá thư nào vào đúng phong bì của nó?"
+   }
+  ]
+ },
+ {
+  "id": "to-hop-do-thi-co-ban",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Đồ thị cơ bản: bậc và bổ đề bắt tay",
+  "summary": "Mô hình hóa người – quen biết thành điểm – cạnh; tổng các bậc bằng hai lần số cạnh.",
+  "body": "## Phát biểu\n\nMột đồ thị gồm các **đỉnh** và các **cạnh** nối hai đỉnh (không có cạnh nối một đỉnh với chính nó, mỗi cặp đỉnh có nhiều nhất một cạnh). **Bậc** của đỉnh là số cạnh chứa nó.\n\n- **Bổ đề bắt tay:** tổng các bậc bằng hai lần số cạnh. Hệ quả: số đỉnh bậc lẻ là số chẵn.\n- Trong đồ thị có $n \\ge 2$ đỉnh, luôn có hai đỉnh cùng bậc.\n\n## Chứng minh ngắn (THCS-friendly)\n\nMỗi cạnh có hai đầu mút nên được tính đúng hai lần khi cộng các bậc. Tổng các bậc chẵn nên các bậc lẻ phải có số chẵn.\n\nMỗi bậc thuộc $\\{0, 1, \\dots, n - 1\\}$. Bậc $0$ và bậc $n - 1$ không thể cùng xuất hiện (đỉnh bậc $n - 1$ nối với mọi đỉnh). Vậy $n$ đỉnh nhận không quá $n - 1$ giá trị, theo Dirichlet có hai đỉnh cùng bậc.\n\n## Khi nào dùng\n\n- Bài quen biết, bắt tay, thi đấu, đường bay giữa các thành phố.\n- Cần chứng minh \"không thể\" do tính chẵn lẻ, hoặc \"có hai người cùng số...\".\n\n## Lưu ý\n\n- Luôn nói rõ đỉnh là gì, cạnh là gì khi dịch đề sang đồ thị.\n- Hai đỉnh không kề nhau mà có tổng số láng giềng lớn hơn số đỉnh còn lại thì có láng giềng chung (Dirichlet).",
+  "examples": [
+   {
+    "text": "Có thể có $9$ người mà mỗi người quen đúng $3$ người khác trong nhóm không?"
+   },
+   {
+    "text": "Một quốc gia có $15$ thành phố, mỗi thành phố có đường bay thẳng tới ít nhất $7$ thành phố khác. Chứng minh từ mỗi thành phố có thể bay tới mọi thành phố khác với nhiều nhất một lần đổi chuyến."
+   }
+  ]
+ },
+ {
+  "id": "to-hop-ramsey-r33",
+  "topic": "to-hop",
+  "level": 3,
+  "title": "Bài toán Ramsey: sáu người và tam giác cùng màu",
+  "summary": "Trong $6$ người luôn có $3$ người đôi một quen nhau hoặc đôi một không quen; đây là hạt nhân của nhiều bài tô màu cạnh.",
+  "body": "## Phát biểu\n\nNối mỗi cặp trong $6$ điểm bằng một đoạn và tô đoạn bằng một trong hai màu. Khi đó luôn có một tam giác có ba cạnh cùng màu. Con số $6$ là nhỏ nhất: với $5$ điểm, tô các cạnh của ngũ giác màu đỏ và các đường chéo màu xanh thì không có tam giác cùng màu.\n\n## Chứng minh ngắn (THCS-friendly)\n\nLấy điểm $A$. Có $5$ đoạn từ $A$, tô hai màu, nên theo Dirichlet có $3$ đoạn cùng màu, giả sử $AB, AC, AD$ màu đỏ. Nếu một trong $BC, CD, DB$ màu đỏ, chẳng hạn $BC$, thì $ABC$ đỏ. Nếu không, $BCD$ có ba cạnh xanh.\n\n## Khi nào dùng\n\n- Bài quen – không quen, thư từ trao đổi đề tài, đoạn thẳng tô màu.\n- Nhiều màu hơn: dùng Dirichlet ở một đỉnh để đưa về số màu ít hơn.\n\n## Lưu ý\n\n- Luôn bắt đầu bằng \"cố định một đỉnh rồi áp dụng Dirichlet cho các cạnh đi ra\".\n- Muốn đếm **số** tam giác cùng màu, đếm các \"góc hai màu\" (hai cạnh chung đỉnh khác màu).",
+  "examples": [
+   {
+    "text": "Có $17$ nhà khoa học, mỗi người trao đổi thư với tất cả những người còn lại, mỗi cặp chỉ trao đổi về một trong ba đề tài. Chứng minh có ba nhà khoa học đôi một trao đổi về cùng một đề tài."
+   },
+   {
+    "text": "Cho $6$ điểm, mỗi đoạn nối hai điểm được tô xanh hoặc đỏ. Chứng minh có ít nhất hai tam giác (với đỉnh là các điểm đã cho) có ba cạnh cùng màu."
+   }
+  ]
+ }
+]

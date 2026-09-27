@@ -1,0 +1,287 @@
+[
+ {
+  "id": "so-hoc-dong-du-chia-het",
+  "topic": "so-hoc",
+  "level": 1,
+  "title": "Đồng dư thức và bài toán chia hết",
+  "summary": "Ngôn ngữ đồng dư giúp \"thu nhỏ\" các số khổng lồ về số dư, là công cụ số một cho mọi bài chia hết.",
+  "body": "## Ý tưởng cốt lõi\n\nThay vì làm việc với cả một số rất lớn, ta chỉ quan tâm đến **số dư** của nó khi chia cho $m$. Hai số có cùng số dư được xem là \"bằng nhau\" theo modulo $m$, và các phép cộng, trừ, nhân, lũy thừa đều giữ nguyên quan hệ đó. Muốn chứng minh $A$ chia hết cho $m$, ta chỉ cần chứng minh $A \\equiv 0 \\pmod m$.\n\nKhi $m$ là tích của các số nguyên tố cùng nhau (ví dụ $30 = 2\\cdot 3\\cdot 5$), ta tách ra chứng minh chia hết cho từng thừa số rồi ghép lại.\n\n## Công thức / định lí\n\n- Định nghĩa: $a \\equiv b \\pmod m \\Leftrightarrow m \\mid a - b$.\n- Nếu $a \\equiv b$ và $c \\equiv d \\pmod m$ thì $a \\pm c \\equiv b \\pm d$ và $ac \\equiv bd \\pmod m$.\n- Nếu $a \\equiv b \\pmod m$ thì $a^n \\equiv b^n \\pmod m$ với mọi $n \\in \\mathbb{N}$.\n- Nếu $ac \\equiv bc \\pmod m$ và $\\gcd(c, m) = 1$ thì $a \\equiv b \\pmod m$.\n- Nếu $m_1 \\mid A$, $m_2 \\mid A$ và $\\gcd(m_1, m_2) = 1$ thì $m_1 m_2 \\mid A$.\n- Tích của $k$ số nguyên liên tiếp chia hết cho $k!$.\n- Hằng đẳng thức hay dùng: $a - b \\mid a^n - b^n$; với $n$ lẻ thì $a + b \\mid a^n + b^n$.\n\n## Mẹo ninja\n\n- Dùng số dư âm cho gọn: $10 \\equiv -1 \\pmod{11}$, $8 \\equiv 1 \\pmod 7$, $25 \\equiv 2 \\pmod{23}$.\n- Tìm một lũy thừa đồng dư với $1$ hoặc $-1$ rồi chia số mũ theo chu kì đó.\n- Không được \"chia hai vế\" một đồng dư khi số chia chung không nguyên tố cùng nhau với modulo: $2\\cdot 3 \\equiv 2 \\cdot 0 \\pmod 6$ nhưng $3 \\not\\equiv 0 \\pmod 6$.\n- Với biểu thức đa thức theo $n$, hãy thử phân tích thành tích các số nguyên liên tiếp, có thể bằng cách \"thêm bớt\" một bội của modulo.",
+  "examples": [
+   {
+    "text": "Chứng minh rằng $n^5 - n$ chia hết cho $30$ với mọi số nguyên $n$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số tự nhiên $n$, số $A = 5^{2n+1} + 2^{n+4} + 2^{n+1}$ chia hết cho $23$."
+   },
+   {
+    "text": "Tìm số dư khi chia $2^{2026}$ cho $7$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-fermat-euler",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Định lí Fermat nhỏ và định lí Euler",
+  "summary": "Fermat nhỏ cho phép hạ số mũ khổng lồ theo modulo một số nguyên tố; Euler mở rộng cho modulo bất kì.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi chia lũy thừa $a^n$ cho số nguyên tố $p$, dãy số dư của $a, a^2, a^3, \\dots$ lặp lại tuần hoàn, và chu kì luôn là ước của $p - 1$. Vì vậy ta được phép thay số mũ $n$ bằng số dư của $n$ khi chia cho $p - 1$ (khi $p \\nmid a$).\n\nĐịnh lí Fermat nhỏ cũng là \"máy phát hiện\" số nguyên tố trong các bài dạng $p \\mid f(p)$: thay $a^p$ bằng $a$ là biểu thức đơn giản ngay.\n\n## Công thức / định lí\n\n- **Fermat nhỏ.** Với $p$ nguyên tố và $a$ nguyên: $a^p \\equiv a \\pmod p$. Nếu thêm $p \\nmid a$ thì $a^{p-1} \\equiv 1 \\pmod p$.\n- **Hàm Euler.** $\\varphi(m)$ là số các số nguyên dương không vượt quá $m$ và nguyên tố cùng nhau với $m$. Nếu $m = p_1^{e_1}\\cdots p_k^{e_k}$ thì $\\varphi(m) = m\\left(1 - \\frac{1}{p_1}\\right)\\cdots\\left(1 - \\frac{1}{p_k}\\right)$.\n- **Định lí Euler.** Nếu $\\gcd(a, m) = 1$ thì $a^{\\varphi(m)} \\equiv 1 \\pmod m$.\n- **Cấp của phần tử.** Số nguyên dương $d$ nhỏ nhất để $a^d \\equiv 1 \\pmod m$ gọi là cấp của $a$; khi đó $a^n \\equiv 1 \\pmod m \\Leftrightarrow d \\mid n$. Đặc biệt $d \\mid \\varphi(m)$.\n\n## Mẹo ninja\n\n- Luôn kiểm tra điều kiện $p \\nmid a$ (hoặc $\\gcd(a,m)=1$) trước khi dùng $a^{p-1} \\equiv 1$. Trường hợp $p \\mid a$ xét riêng.\n- Chu kì thực tế có thể ngắn hơn $p - 1$: ví dụ $2^3 \\equiv 1 \\pmod 7$. Tìm chu kì ngắn nhất giúp tính nhanh hơn.\n- Trong đề HSG THCS, nếu dùng Fermat nhỏ nên phát biểu rõ định lí; một số đề yêu cầu chứng minh lại, khi đó có thể dùng quy nạp $(a+1)^p \\equiv a^p + 1 \\pmod p$.\n- Muốn chứng minh chia hết cho tích nhiều số nguyên tố, áp dụng Fermat cho từng số nguyên tố rồi ghép lại.",
+  "examples": [
+   {
+    "text": "Chứng minh rằng $n^{13} - n$ chia hết cho $2730$ với mọi số nguyên $n$."
+   },
+   {
+    "text": "Tìm tất cả các số nguyên tố $p$ sao cho $2^p + 1$ chia hết cho $p$."
+   },
+   {
+    "text": "Tìm số dư khi chia $3^{100}$ cho $13$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-so-nguyen-to",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Số nguyên tố",
+  "summary": "Các tính chất về dạng, số dư và phân tích thừa số của số nguyên tố, cùng kĩ thuật xét số dư để \"bắt\" số nguyên tố nhỏ.",
+  "body": "## Ý tưởng cốt lõi\n\nSố nguyên tố là số tự nhiên lớn hơn $1$ chỉ có hai ước dương là $1$ và chính nó. Trong các bài toán, ta thường khai thác hai hướng:\n\n- **Xét số dư:** trong vài số cùng là số nguyên tố, nếu buộc có một số chia hết cho $3$ (hoặc $2$, $5$...) thì số đó phải bằng chính $3$ ($2$, $5$...).\n- **Phân tích nhân tử:** nếu $N = A \\cdot B$ với $A, B$ nguyên dương mà $N$ nguyên tố thì một trong hai thừa số bằng $1$.\n\n## Công thức / định lí\n\n- Định lí cơ bản của số học: mọi số tự nhiên $n > 1$ phân tích được duy nhất (không kể thứ tự) thành tích các số nguyên tố.\n- Nếu $p$ nguyên tố và $p \\mid ab$ thì $p \\mid a$ hoặc $p \\mid b$.\n- Có vô hạn số nguyên tố (Euclid): nếu chỉ có $p_1, \\dots, p_k$ thì $p_1 p_2 \\cdots p_k + 1$ không chia hết cho số nào trong chúng, mâu thuẫn.\n- Mọi số nguyên tố $p > 3$ có dạng $6k \\pm 1$, và $p^2 \\equiv 1 \\pmod{24}$.\n- Nếu $n > 1$ là hợp số thì $n$ có ước nguyên tố không vượt quá $\\sqrt n$.\n- Hằng đẳng thức Sophie Germain: $a^4 + 4b^4 = (a^2 + 2ab + 2b^2)(a^2 - 2ab + 2b^2)$.\n- Nếu $2^n + 1$ là số nguyên tố thì $n$ là lũy thừa của $2$; nếu $a^n - 1$ ($a, n \\ge 2$) là số nguyên tố thì $a = 2$ và $n$ nguyên tố.\n\n## Mẹo ninja\n\n- Luôn tách riêng các trường hợp $p = 2$, $p = 3$ trước khi dùng \"số nguyên tố lẻ\" hay dạng $6k \\pm 1$.\n- Bộ ba $p, p + d, p + 2d$ với $3 \\nmid d$ luôn có một số chia hết cho $3$.\n- Khi thấy $n^4 + 4$, $n^4 + n^2 + 1$, $n^3 + 1$... hãy phân tích nhân tử rồi ép thừa số nhỏ bằng $1$.\n- Đừng quên $1$ không phải số nguyên tố và $2$ là số nguyên tố chẵn duy nhất.",
+  "examples": [
+   {
+    "text": "Tìm số nguyên tố $p$ sao cho $p + 10$ và $p + 14$ cũng là số nguyên tố."
+   },
+   {
+    "text": "Chứng minh rằng nếu $p$ là số nguyên tố lớn hơn $3$ thì $p^2 - 1$ chia hết cho $24$."
+   },
+   {
+    "text": "Tìm số tự nhiên $n$ sao cho $n^4 + 4$ là số nguyên tố."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-ucln-bcnn-euclid",
+  "topic": "so-hoc",
+  "level": 1,
+  "title": "ƯCLN, BCNN và thuật toán Euclid",
+  "summary": "Cách tính và khai thác ước chung lớn nhất, bội chung nhỏ nhất, đặc biệt kĩ thuật \"đặt $a = dx$, $b = dy$\".",
+  "body": "## Ý tưởng cốt lõi\n\nƯớc chung lớn nhất không thay đổi khi ta lấy số lớn trừ đi một bội của số nhỏ. Đó là nội dung thuật toán Euclid, và cũng là cách tính $\\gcd$ của các **biểu thức** chứa $n$: khử dần bậc cho tới khi còn một hằng số.\n\nVới bài toán cho biết $\\gcd$ hoặc $\\operatorname{lcm}$, ta đặt $d = \\gcd(a,b)$, $a = dx$, $b = dy$ với $\\gcd(x, y) = 1$, rồi đưa về phương trình theo $x, y$.\n\n## Công thức / định lí\n\n- $\\gcd(a, b) = \\gcd(b, a - kb)$ với mọi số nguyên $k$; đặc biệt $\\gcd(a, b) = \\gcd(b, r)$ với $r$ là số dư khi chia $a$ cho $b$.\n- $\\gcd(a, b) \\cdot \\operatorname{lcm}(a, b) = ab$ (với $a, b$ nguyên dương).\n- **Bézout:** tồn tại số nguyên $u, v$ sao cho $au + bv = \\gcd(a, b)$. Suy ra $\\gcd(a,b) = 1 \\Leftrightarrow$ tồn tại $u, v$ với $au + bv = 1$.\n- **Bổ đề Euclid:** nếu $a \\mid bc$ và $\\gcd(a, b) = 1$ thì $a \\mid c$.\n- $\\gcd(2^m - 1, 2^n - 1) = 2^{\\gcd(m,n)} - 1$.\n\n## Mẹo ninja\n\n- Chứng minh phân số $\\dfrac{A}{B}$ tối giản: tìm tổ hợp $uA + vB = 1$, hoặc gọi $d$ là ước chung rồi chứng minh $d \\mid 1$.\n- Khi tính $\\gcd(f(n), g(n))$ luôn nhớ bước cuối: $d$ chia hết hằng số $c$, rồi tìm điều kiện của $n$ để $d$ thực sự bằng từng ước của $c$.\n- Sau khi đặt $a = dx, b = dy$ đừng quên điều kiện $\\gcd(x, y) = 1$, đây là chỗ hay bị bỏ sót khi liệt kê nghiệm.",
+  "examples": [
+   {
+    "text": "Chứng minh rằng phân số $\\dfrac{21n + 4}{14n + 3}$ tối giản với mọi số tự nhiên $n$."
+   },
+   {
+    "text": "Tìm hai số nguyên dương $a \\le b$ biết $ab = 2940$ và $\\operatorname{lcm}(a, b) = 420$."
+   },
+   {
+    "text": "Với số tự nhiên $n$, tìm $\\gcd(n^2 + 2, n + 1)$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-so-chinh-phuong",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Số chính phương",
+  "summary": "Nhận diện và chứng minh một số có (hay không) là số chính phương bằng số dư, chữ số tận cùng và kĩ thuật kẹp.",
+  "body": "## Ý tưởng cốt lõi\n\nCó ba vũ khí chính:\n\n- **Số dư:** bình phương chỉ nhận một số ít số dư theo các modulo nhỏ. Nếu biểu thức rơi vào số dư \"cấm\" thì không chính phương.\n- **Kẹp giữa hai bình phương liên tiếp:** nếu $k^2 < N < (k+1)^2$ thì $N$ không chính phương.\n- **Phân tích:** $N = m^2$ thì thường đưa được về $(m - a)(m + a) = c$ và xét ước.\n\n## Công thức / định lí\n\n- Bình phương theo modulo: mod $3$ chỉ dư $0, 1$; mod $4$ chỉ dư $0, 1$; mod $5$ chỉ dư $0, 1, 4$; mod $8$ chỉ dư $0, 1, 4$; mod $9$ chỉ dư $0, 1, 4, 7$.\n- Chữ số tận cùng của số chính phương chỉ có thể là $0, 1, 4, 5, 6, 9$.\n- Nếu $p$ nguyên tố và $p \\mid m^2$ thì $p^2 \\mid m^2$. Số chính phương có mọi số mũ trong phân tích thừa số nguyên tố đều chẵn.\n- Nếu $ab = m^2$ với $a, b$ nguyên dương và $\\gcd(a, b) = 1$ thì $a$ và $b$ đều là số chính phương.\n- Một số có số ước dương lẻ khi và chỉ khi nó là số chính phương.\n\n## Mẹo ninja\n\n- Với biểu thức bậc hai $n^2 + bn + c$, so sánh với $(n + t)^2$ cho vài giá trị $t$ gần $b/2$ để kẹp.\n- Với bài \"tìm $n$ để $n^2 + bn + c$ chính phương\", nhân $4$ hai vế để đưa về $(2n + b)^2 + (4c - b^2) = (2m)^2$, rồi phân tích hiệu hai bình phương.\n- Tránh sai lầm: $k^2 < N < (k+2)^2$ chưa đủ để kết luận, còn trường hợp $N = (k+1)^2$.\n- Số tận cùng là $5$ thì phải tận cùng $25$ mới có thể chính phương; số chẵn chính phương phải chia hết cho $4$.",
+  "examples": [
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$, số $n^2 + n + 1$ không phải là số chính phương."
+   },
+   {
+    "text": "Chứng minh rằng tổng bình phương của năm số nguyên liên tiếp không thể là số chính phương."
+   },
+   {
+    "text": "Tìm số tự nhiên $n$ sao cho $n^2 + 2n + 12$ là số chính phương."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-chu-so-tan-cung",
+  "topic": "so-hoc",
+  "level": 1,
+  "title": "Chữ số tận cùng của lũy thừa",
+  "summary": "Tìm một hoặc hai chữ số tận cùng bằng tính tuần hoàn của lũy thừa theo modulo $10$ và $100$.",
+  "body": "## Ý tưởng cốt lõi\n\nChữ số tận cùng của $N$ chính là số dư của $N$ khi chia cho $10$; hai chữ số tận cùng là số dư khi chia cho $100$. Dãy chữ số tận cùng của $a, a^2, a^3, \\dots$ tuần hoàn với chu kì chia hết $4$, nên chỉ cần biết số dư của số mũ khi chia cho $4$.\n\n## Công thức / định lí\n\n- Với mọi số nguyên $a$ và $n \\ge 1$: $a^{n+4} \\equiv a^n \\pmod{10}$. Vì vậy $a^{4k + r}$ có cùng chữ số tận cùng với $a^r$ ($r \\in \\{1, 2, 3, 4\\}$).\n- Các số tận cùng $0, 1, 5, 6$ nâng lên lũy thừa bất kì (mũ $\\ge 1$) vẫn giữ chữ số tận cùng đó.\n- Chu kì của chữ số tận cùng: $2 \\to 4 \\to 8 \\to 6$; $3 \\to 9 \\to 7 \\to 1$; $7 \\to 9 \\to 3 \\to 1$; $4 \\to 6$; $9 \\to 1$.\n- Hai chữ số tận cùng: nếu $\\gcd(a, 10) = 1$ thì $a^{20} \\equiv 1 \\pmod{100}$; nếu $a$ chẵn và không chia hết cho $5$ thì $a^{20} \\equiv 76 \\pmod{100}$.\n\n## Mẹo ninja\n\n- Với tháp lũy thừa $a^{b^c}$, trước hết tìm $b^c \\bmod 4$ (hoặc mod $20$ khi cần hai chữ số).\n- Cẩn thận khi số mũ chia hết cho $4$: phải lấy $r = 4$ chứ không phải $r = 0$ (ví dụ $2^4$ tận cùng $6$, không phải $2^0 = 1$).\n- Muốn chứng minh một tổng chia hết cho $10$, chỉ cần cộng các chữ số tận cùng.",
+  "examples": [
+   {
+    "text": "Tìm chữ số tận cùng của $7^{2026}$."
+   },
+   {
+    "text": "Tìm hai chữ số tận cùng của $3^{2026}$."
+   },
+   {
+    "text": "Tìm chữ số tận cùng của $2^{3^{2026}}$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-phan-nguyen",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Phần nguyên và công thức Legendre",
+  "summary": "Các tính chất của phần nguyên $[x]$, cách giải phương trình chứa phần nguyên và đếm số mũ của số nguyên tố trong $n!$.",
+  "body": "## Ý tưởng cốt lõi\n\nPhần nguyên $[x]$ là số nguyên lớn nhất không vượt quá $x$. Mọi bài toán phần nguyên đều quy về bất đẳng thức kẹp $[x] \\le x < [x] + 1$: đặt $[x] = k$ nguyên rồi giải hệ bất phương trình theo $k$.\n\nPhần nguyên còn là công cụ đếm: số bội của $k$ trong $\\{1, 2, \\dots, n\\}$ là $\\left[\\frac{n}{k}\\right]$.\n\n## Công thức / định lí\n\n- $[x] \\le x < [x] + 1$, và $\\{x\\} = x - [x] \\in [0, 1)$.\n- $[x + m] = [x] + m$ với mọi số nguyên $m$.\n- $[x] + [y] \\le [x + y] \\le [x] + [y] + 1$.\n- $\\left[\\frac{[x]}{n}\\right] = \\left[\\frac{x}{n}\\right]$ với $n$ nguyên dương.\n- **Hermite:** $[x] + \\left[x + \\frac12\\right] = [2x]$.\n- **Legendre:** số mũ của số nguyên tố $p$ trong $n!$ là $v_p(n!) = \\left[\\frac{n}{p}\\right] + \\left[\\frac{n}{p^2}\\right] + \\left[\\frac{n}{p^3}\\right] + \\cdots$\n\n## Mẹo ninja\n\n- Phương trình dạng $[f(x)] = g(x)$: đặt $g(x) = t$ nguyên, biểu diễn $x$ theo $t$, rồi dùng $t \\le f(x) < t + 1$ để tìm $t$.\n- Số chữ số $0$ tận cùng của $n!$ bằng $v_5(n!)$ vì số mũ của $2$ luôn nhiều hơn.\n- Đừng nhầm $[-2{,}5] = -3$ chứ không phải $-2$.\n- Chứng minh đẳng thức phần nguyên: tách $x = k + r$ với $k = [x]$, $0 \\le r < 1$, rồi chia trường hợp theo $r$.",
+  "examples": [
+   {
+    "text": "Số $2026!$ tận cùng bằng bao nhiêu chữ số $0$?"
+   },
+   {
+    "text": "Giải phương trình $\\left[\\dfrac{x+1}{2}\\right] = \\dfrac{2x-1}{3}$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số thực $x$: $[x] + \\left[x + \\frac12\\right] = [2x]$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-he-dem-cau-tao-so",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Cấu tạo số và hệ đếm",
+  "summary": "Khai thác biểu diễn thập phân $\\overline{abc} = 100a + 10b + c$, tổng chữ số và các số dạng $\\overline{11\\ldots1}$.",
+  "body": "## Ý tưởng cốt lõi\n\nMột số viết trong hệ thập phân thực chất là một đa thức theo $10$. Viết ra dạng khai triển giúp biến bài toán \"chữ số\" thành phương trình nghiệm nguyên với ràng buộc $0 \\le$ chữ số $\\le 9$, chữ số đầu khác $0$.\n\nTổng chữ số $S(n)$ gắn chặt với modulo $9$ vì $10 \\equiv 1 \\pmod 9$; tổng đan dấu gắn với modulo $11$ vì $10 \\equiv -1 \\pmod{11}$.\n\n## Công thức / định lí\n\n- $\\overline{a_k a_{k-1} \\ldots a_0} = a_k 10^k + a_{k-1} 10^{k-1} + \\cdots + a_0$.\n- $n \\equiv S(n) \\pmod 9$; $n \\equiv a_0 - a_1 + a_2 - \\cdots \\pmod{11}$.\n- Số có $n$ chữ số $1$: $R_n = \\underbrace{11\\ldots1}_{n} = \\dfrac{10^n - 1}{9}$.\n- $\\underbrace{aa\\ldots a}_{n} = a \\cdot R_n$.\n- Biểu diễn trong cơ số $b$: $n = c_k b^k + \\cdots + c_1 b + c_0$ với $0 \\le c_i < b$, và biểu diễn này là duy nhất.\n- Nếu $n$ có $k$ chữ số thì $10^{k-1} \\le n < 10^k$ và $S(n) \\le 9k$.\n\n## Mẹo ninja\n\n- Đặt $x = 10^n$ để biến các số dạng $\\overline{11\\ldots1}$, $\\overline{33\\ldots3}$ thành biểu thức đại số dễ phân tích.\n- Với bài \"$n + S(n) = N$\": dùng $S(n) \\le 9k$ để khoanh vùng $n$, rồi dùng đồng dư modulo $9$ để lọc.\n- Khi giải phương trình chữ số, nhớ ràng buộc chữ số hàng cao nhất khác $0$.",
+  "examples": [
+   {
+    "text": "Tìm các số có hai chữ số bằng ba lần tích các chữ số của nó."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$, số $A = \\underbrace{11\\ldots1}_{2n} - \\underbrace{22\\ldots2}_{n}$ là số chính phương."
+   },
+   {
+    "text": "Tìm số tự nhiên $n$ sao cho $n + S(n) = 2026$, trong đó $S(n)$ là tổng các chữ số của $n$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-quy-nap-so-hoc",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Phương pháp quy nạp trong số học",
+  "summary": "Chứng minh các mệnh đề chia hết phụ thuộc $n$ bằng quy nạp toán học, kể cả quy nạp theo lũy thừa $2^n$, $3^n$.",
+  "body": "## Ý tưởng cốt lõi\n\nĐể chứng minh $P(n)$ đúng với mọi $n \\ge n_0$: kiểm tra $P(n_0)$, rồi giả sử $P(k)$ đúng và chứng minh $P(k+1)$ đúng. Chìa khóa của bước quy nạp trong bài chia hết là **biểu diễn biểu thức ở bước $k+1$ qua biểu thức ở bước $k$** cộng với một phần chia hết rõ ràng.\n\nNhiều bài có cấu trúc \"nhân đôi\" số mũ ($3^{2^n}$) hoặc \"nhân ba\" số chữ số ($R_{3^n}$); khi đó bước quy nạp dùng hằng đẳng thức $x^2 - 1 = (x-1)(x+1)$ hoặc $x^3 - 1 = (x-1)(x^2+x+1)$.\n\n## Công thức / định lí\n\n- **Quy nạp thường:** $P(n_0)$ đúng và $P(k) \\Rightarrow P(k+1)$ với mọi $k \\ge n_0$ thì $P(n)$ đúng với mọi $n \\ge n_0$.\n- **Quy nạp mạnh:** $P(n_0)$ đúng và ($P(n_0), \\dots, P(k)$ đúng) $\\Rightarrow P(k+1)$.\n- Mẫu biến đổi: nếu $A_k = a^k + f(k)$ thì $A_{k+1} = a \\cdot A_k + \\big(f(k+1) - a f(k)\\big)$.\n- $x^{2} - 1 = (x - 1)(x + 1)$, $x^3 - 1 = (x-1)(x^2 + x + 1)$.\n\n## Mẹo ninja\n\n- Viết rõ ràng ba bước: cơ sở, giả thiết quy nạp, bước chuyển. Giám khảo trừ điểm nếu thiếu bước cơ sở.\n- Nếu bước chuyển \"không khớp\", hãy thử làm mạnh mệnh đề (chứng minh điều mạnh hơn) hoặc đổi bước nhảy (từ $k$ sang $k + 2$).\n- Nhiều bài quy nạp có lời giải đồng dư ngắn hơn; nhưng quy nạp là con đường chắc chắn khi đồng dư khó thấy.",
+  "examples": [
+   {
+    "text": "Chứng minh rằng $4^n + 15n - 1$ chia hết cho $9$ với mọi số nguyên dương $n$."
+   },
+   {
+    "text": "Chứng minh rằng $3^{2^n} - 1$ chia hết cho $2^{n+2}$ với mọi số nguyên dương $n$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$, số gồm $3^n$ chữ số $1$ chia hết cho $3^n$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-luy-thua-lte",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Số mũ đúng và bổ đề LTE",
+  "summary": "Đếm chính xác số mũ của một số nguyên tố trong $a^n \\pm b^n$ bằng bổ đề nâng số mũ (LTE) và cách chứng minh sơ cấp tương ứng.",
+  "body": "## Ý tưởng cốt lõi\n\nKí hiệu $v_p(N)$ là số mũ lớn nhất của số nguyên tố $p$ sao cho $p^{v_p(N)} \\mid N$. Nhiều bài hỏi \"số mũ lớn nhất\", \"tìm $n$ để $p^n \\mid \\ldots$\" chỉ là tính $v_p$.\n\nBổ đề LTE cho công thức gọn. Tuy nhiên trong bài thi THCS, an toàn nhất là dùng LTE để **đoán đáp số**, rồi trình bày bằng phân tích nhân tử và quy nạp như các ví dụ dưới đây.\n\n## Công thức / định lí\n\n- $v_p(ab) = v_p(a) + v_p(b)$.\n- **LTE với $p$ lẻ:** nếu $p \\mid a - b$ và $p \\nmid ab$ thì $v_p(a^n - b^n) = v_p(a - b) + v_p(n)$.\n- **LTE cho tổng:** nếu $p$ lẻ, $p \\mid a + b$, $p \\nmid ab$ và $n$ lẻ thì $v_p(a^n + b^n) = v_p(a + b) + v_p(n)$.\n- **LTE với $p = 2$:** nếu $a, b$ lẻ và $n$ chẵn thì $v_2(a^n - b^n) = v_2(a - b) + v_2(a + b) + v_2(n) - 1$. Nếu $n$ lẻ thì $v_2(a^n - b^n) = v_2(a - b)$.\n- Bổ đề then chốt (trường hợp $p = 3$): nếu $x \\equiv 1 \\pmod 3$ thì $x^2 + x + 1 \\equiv 3 \\pmod 9$; nếu $x \\equiv -1 \\pmod 3$ thì $x^2 - x + 1 \\equiv 3 \\pmod 9$. Nhờ đó mỗi lần nâng lũy thừa $3$ thì số mũ của $3$ tăng đúng $1$.\n\n## Mẹo ninja\n\n- Điều kiện $p \\nmid ab$ là bắt buộc; quên nó dễ ra kết quả sai.\n- Với $p = 2$ phải dùng công thức riêng; áp nhầm công thức $p$ lẻ là lỗi rất hay gặp.\n- Bài \"tìm $n$ để $2^n \\mid 3^n - 1$\": tính $v_2$ rồi so sánh với $n$; vế trái tăng chậm (cỡ $\\log_2 n$) nên chỉ còn vài giá trị nhỏ.",
+  "examples": [
+   {
+    "text": "Tìm số mũ lớn nhất $k$ sao cho $3^{2026} - 1$ chia hết cho $2^k$."
+   },
+   {
+    "text": "Tìm tất cả số nguyên dương $n$ sao cho $3^n - 1$ chia hết cho $2^n$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số tự nhiên $n$, số $2^{3^n} + 1$ chia hết cho $3^{n+1}$ nhưng không chia hết cho $3^{n+2}$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-so-uoc-tong-uoc",
+  "topic": "so-hoc",
+  "level": 2,
+  "title": "Số ước và tổng các ước",
+  "summary": "Đếm số ước, tính tổng ước từ phân tích thừa số nguyên tố và các bài toán tìm số có số ước cho trước.",
+  "body": "## Ý tưởng cốt lõi\n\nMọi ước dương của $n = p_1^{e_1} p_2^{e_2} \\cdots p_k^{e_k}$ có dạng $p_1^{f_1} \\cdots p_k^{f_k}$ với $0 \\le f_i \\le e_i$. Đếm số cách chọn các số mũ cho ta số ước; khai triển tích các tổng lũy thừa cho ta tổng các ước.\n\nCác ước dương của $n$ ghép được thành cặp $(d, n/d)$; cặp \"tự ghép với chính nó\" chỉ xảy ra khi $d = \\sqrt n$. Đây là lí do số chính phương có số ước lẻ.\n\n## Công thức / định lí\n\n- Số ước dương: $\\tau(n) = (e_1 + 1)(e_2 + 1) \\cdots (e_k + 1)$.\n- Tổng các ước dương: $\\sigma(n) = \\dfrac{p_1^{e_1+1} - 1}{p_1 - 1} \\cdots \\dfrac{p_k^{e_k+1} - 1}{p_k - 1}$.\n- Tích các ước dương: $n^{\\tau(n)/2}$.\n- $\\tau(n)$ lẻ $\\Leftrightarrow$ $n$ là số chính phương.\n- Nếu $\\gcd(m, n) = 1$ thì $\\tau(mn) = \\tau(m)\\tau(n)$ và $\\sigma(mn) = \\sigma(m)\\sigma(n)$.\n\n## Mẹo ninja\n\n- Tìm số nhỏ nhất có đúng $N$ ước: liệt kê các cách viết $N$ thành tích các thừa số $> 1$, gán số mũ lớn cho số nguyên tố nhỏ, so sánh các ứng viên.\n- Bài \"bật tắt bóng đèn\", \"mở đóng cửa\" thực chất là hỏi tính chẵn lẻ của $\\tau(n)$.\n- Khi đề hỏi \"số ước lẻ/chẵn\", tách lũy thừa của $2$: số ước lẻ của $n = 2^a m$ ($m$ lẻ) bằng $\\tau(m)$.",
+  "examples": [
+   {
+    "text": "Tìm số tự nhiên nhỏ nhất có đúng $12$ ước dương."
+   },
+   {
+    "text": "Có $100$ bóng đèn đánh số từ $1$ đến $100$, ban đầu đều tắt. Lượt thứ $k$ ($k = 1, 2, \\dots, 100$), người ta đổi trạng thái (bật thành tắt, tắt thành bật) mọi bóng có số thứ tự chia hết cho $k$. Sau $100$ lượt, có bao nhiêu bóng sáng?"
+   },
+   {
+    "text": "Tính tổng các ước dương của $360$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-dinh-li-wilson",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Định lí Wilson",
+  "summary": "Với số nguyên tố $p$, tích $(p-1)!$ luôn chia $p$ dư $p - 1$; đây là cách hiếm hoi để \"thuần hóa\" giai thừa theo modulo.",
+  "body": "## Phát biểu\n\n- **Wilson:** nếu $p$ nguyên tố thì $(p-1)! \\equiv -1 \\pmod p$.\n- **Đảo lại:** nếu $n > 4$ là hợp số thì $(n-1)! \\equiv 0 \\pmod n$ (còn $3! \\equiv 2 \\pmod 4$). Vậy $n \\ge 2$ nguyên tố $\\Leftrightarrow n \\mid (n-1)! + 1$.\n- **Hệ quả:** với $p$ nguyên tố lẻ, $\\left(\\left(\\frac{p-1}{2}\\right)!\\right)^2 \\equiv (-1)^{\\frac{p+1}{2}} \\pmod p$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nVới $p = 2, 3$ kiểm tra trực tiếp. Xét $p \\ge 5$. Mỗi $a \\in \\{1, 2, \\dots, p-1\\}$ có đúng một $b$ trong tập đó với $ab \\equiv 1 \\pmod p$ (tồn tại theo Bézout vì $\\gcd(a, p) = 1$; duy nhất vì $ab \\equiv ab'$ kéo theo $p \\mid b - b'$). Nếu $b = a$ thì $p \\mid (a-1)(a+1)$, nên $a = 1$ hoặc $a = p - 1$. Vậy các số $2, 3, \\dots, p-2$ ghép được thành từng cặp có tích $\\equiv 1$, do đó $(p-1)! \\equiv 1 \\cdot (p-1) \\equiv -1 \\pmod p$.\n\nĐảo lại: $n = ab$ với $1 < a < b < n$ thì $a, b$ là hai thừa số khác nhau của $(n-1)!$, nên $n \\mid (n-1)!$. Nếu $n = a^2$ với $a > 2$ thì $a < 2a < a^2 = n$, nên $a \\cdot 2a = 2n \\mid (n-1)!$.\n\nHệ quả: ghép $k$ với $p - k \\equiv -k$ được $(p-1)! \\equiv \\prod_{k=1}^{(p-1)/2} (-k^2) = (-1)^{\\frac{p-1}{2}}\\left(\\left(\\frac{p-1}{2}\\right)!\\right)^2$, rồi dùng Wilson.\n\n## Khi nào dùng\n\n- Tính số dư của giai thừa (hoặc tích dài các số liên tiếp) cho một số nguyên tố.\n- Bài có điều kiện $n \\mid (n-1)! + 1$ hoặc hỏi khi nào $n \\mid (n-1)!$.\n- Cần một nghiệm cụ thể của $x^2 \\equiv -1 \\pmod p$ khi $p \\equiv 1 \\pmod 4$: lấy $x = \\left(\\frac{p-1}{2}\\right)!$.\n\n## Lưu ý\n\n- Thiếu thừa số gần $p$: dùng $p - k \\equiv -k$, ví dụ $(p-2)! \\equiv 1 \\pmod p$.\n- Trường hợp $n = 4$ là ngoại lệ duy nhất của chiều đảo, đừng quên khi liệt kê đáp số.\n- Trong bài thi nên trình bày lại phép ghép cặp nghịch đảo, vì Wilson không có trong SGK.",
+  "examples": [
+   {
+    "text": "Tìm số dư khi chia $14!$ cho $17$."
+   },
+   {
+    "text": "Tìm tất cả các số nguyên $n \\ge 2$ sao cho $(n-1)!$ không chia hết cho $n$."
+   },
+   {
+    "text": "Cho $p$ là số nguyên tố lẻ. Chứng minh $1^2 \\cdot 3^2 \\cdot 5^2 \\cdots (p-2)^2 \\equiv (-1)^{\\frac{p+1}{2}} \\pmod p$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-dinh-li-so-du-trung-hoa",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Định lí số dư Trung Hoa",
+  "summary": "Một hệ đồng dư với các modulo đôi một nguyên tố cùng nhau luôn có nghiệm, và nghiệm duy nhất theo modulo tích của chúng.",
+  "body": "## Phát biểu\n\nCho $m_1, m_2, \\dots, m_k$ đôi một nguyên tố cùng nhau và $M = m_1 m_2 \\cdots m_k$. Khi đó hệ\n$$x \\equiv a_1 \\pmod{m_1},\\ \\ x \\equiv a_2 \\pmod{m_2},\\ \\dots,\\ x \\equiv a_k \\pmod{m_k}$$\nluôn có nghiệm, và mọi nghiệm đồng dư với nhau theo modulo $M$.\n\nCông thức: đặt $M_i = M / m_i$, chọn $y_i$ với $M_i y_i \\equiv 1 \\pmod{m_i}$; một nghiệm là $x_0 = a_1 M_1 y_1 + \\cdots + a_k M_k y_k$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nVì $\\gcd(M_i, m_i) = 1$ nên theo Bézout có $y_i$ như trên. Với $j \\ne i$ thì $m_i \\mid M_j$, nên $x_0 \\equiv a_i M_i y_i \\equiv a_i \\pmod{m_i}$.\n\nNếu $x, x'$ đều là nghiệm thì $m_i \\mid x - x'$ với mọi $i$; các $m_i$ đôi một nguyên tố cùng nhau nên $M \\mid x - x'$.\n\nCách giải tay thường gọn hơn: **thế dần**. Từ phương trình đầu viết $x = a_1 + m_1 t$, thay vào phương trình thứ hai để tìm $t$ theo modulo $m_2$, cứ thế tiếp tục.\n\n## Khi nào dùng\n\n- Tìm số khi biết số dư của nó cho vài số.\n- Tính số dư theo modulo hợp số: tách thành các lũy thừa nguyên tố, ví dụ $1000 = 8 \\cdot 125$, tính riêng rồi ghép.\n- Bài tồn tại: \"có $k$ số nguyên liên tiếp mà mỗi số có tính chất...\" — đặt yêu cầu cho từng số thành một đồng dư với các modulo nguyên tố cùng nhau.\n\n## Lưu ý\n\n- Nếu các modulo không nguyên tố cùng nhau, hệ có thể vô nghiệm: $x \\equiv 0 \\pmod 4$ và $x \\equiv 1 \\pmod 6$ vô nghiệm vì hai điều kiện trái nhau về tính chẵn lẻ. Điều kiện cần và đủ cho hai phương trình là $a_1 \\equiv a_2 \\pmod{\\gcd(m_1, m_2)}$.\n- Đừng quên kết luận nghiệm tổng quát $x = x_0 + Mt$.",
+  "examples": [
+   {
+    "text": "Tìm tất cả các số tự nhiên chia $3$ dư $2$, chia $5$ dư $3$, chia $7$ dư $2$."
+   },
+   {
+    "text": "Tìm ba chữ số tận cùng của $2^{2026}$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số nguyên dương $k$, tồn tại $k$ số nguyên dương liên tiếp mà số nào cũng chia hết cho bình phương của một số nguyên tố."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-cap-cua-phan-tu",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Cấp của một số theo modulo",
+  "summary": "Số mũ nhỏ nhất $d$ để $a^d \\equiv 1 \\pmod m$ chia hết mọi số mũ khác có cùng tính chất, nhờ đó khống chế được ước nguyên tố của $a^n - 1$.",
+  "body": "## Phát biểu\n\nCho $\\gcd(a, m) = 1$. Số nguyên dương nhỏ nhất $d$ sao cho $a^d \\equiv 1 \\pmod m$ gọi là **cấp** của $a$ theo modulo $m$, kí hiệu $\\operatorname{ord}_m(a)$.\n\n- $a^n \\equiv 1 \\pmod m \\Leftrightarrow d \\mid n$.\n- Suy ra $d \\mid \\varphi(m)$; đặc biệt $d \\mid p - 1$ khi $m = p$ nguyên tố.\n- $a^x \\equiv a^y \\pmod m \\Leftrightarrow x \\equiv y \\pmod d$.\n- **Hệ quả hay dùng:** nếu $q$ nguyên tố và $p$ là ước nguyên tố của $a^q - 1$ thì $p \\mid a - 1$ hoặc $p \\equiv 1 \\pmod q$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nChia $n = sd + r$ với $0 \\le r < d$. Khi đó $a^n = (a^d)^s a^r \\equiv a^r \\pmod m$. Nếu $a^n \\equiv 1$ thì $a^r \\equiv 1$, mà $d$ nhỏ nhất nên $r = 0$. Chiều ngược lại hiển nhiên. Theo Euler $a^{\\varphi(m)} \\equiv 1$ nên $d \\mid \\varphi(m)$.\n\nHệ quả: $d = \\operatorname{ord}_p(a)$ chia hết $q$ nên $d = 1$ (tức $p \\mid a - 1$) hoặc $d = q$, khi đó $q \\mid p - 1$.\n\n## Khi nào dùng\n\n- Bài dạng $n \\mid a^n - 1$, $n \\mid 2^n + 1$: xét **ước nguyên tố nhỏ nhất** của $n$ và cấp theo nó.\n- Chứng minh ước nguyên tố của $a^q - 1$, $a^{2^k} + 1$ có dạng đặc biệt.\n- Tìm chu kì số dư của lũy thừa: chỉ cần thử các ước của $\\varphi(m)$.\n\n## Lưu ý\n\n- Bắt buộc $\\gcd(a, m) = 1$; nếu không thì không có cấp.\n- Khi $a^n \\equiv -1 \\pmod p$ ($p$ lẻ) thì $d \\mid 2n$ nhưng $d \\nmid n$; đây là mẹo để \"ép\" $d$ bằng đúng một lũy thừa của $2$.\n- Trong bài thi nên chứng minh lại tính chất $d \\mid n$ (chỉ ba dòng như trên).",
+  "examples": [
+   {
+    "text": "Chứng minh không tồn tại số nguyên $n > 1$ sao cho $n \\mid 2^n - 1$."
+   },
+   {
+    "text": "Cho $p$ là số nguyên tố lẻ và $q$ là một ước nguyên tố của $2^p - 1$. Chứng minh $q \\equiv 1 \\pmod{2p}$."
+   },
+   {
+    "text": "Chứng minh rằng mọi ước nguyên tố $p$ của $2^{2^n} + 1$ ($n \\ge 1$) đều có dạng $p = 2^{n+1}k + 1$."
+   }
+  ]
+ },
+ {
+  "id": "so-hoc-thang-du-binh-phuong",
+  "topic": "so-hoc",
+  "level": 3,
+  "title": "Thặng dư bình phương và ước nguyên tố của tổng hai bình phương",
+  "summary": "Phương trình $x^2 \\equiv -1 \\pmod p$ có nghiệm khi và chỉ khi $p = 2$ hoặc $p \\equiv 1 \\pmod 4$, kéo theo tính chất mạnh về ước của $a^2 + b^2$.",
+  "body": "## Phát biểu\n\nCho $p$ nguyên tố lẻ, $p \\nmid a$. Số $a$ gọi là **thặng dư bình phương** modulo $p$ nếu $x^2 \\equiv a \\pmod p$ có nghiệm.\n\n- Có đúng $\\frac{p-1}{2}$ thặng dư bình phương khác $0$, đó là số dư của $1^2, 2^2, \\dots, \\left(\\frac{p-1}{2}\\right)^2$.\n- Nếu $a$ là thặng dư bình phương thì $a^{\\frac{p-1}{2}} \\equiv 1 \\pmod p$. Do đó nếu $a^{\\frac{p-1}{2}} \\not\\equiv 1$ thì $a$ không là thặng dư bình phương.\n- $-1$ là thặng dư bình phương modulo $p$ $\\Leftrightarrow p \\equiv 1 \\pmod 4$.\n- **Hệ quả:** nếu $p \\equiv 3 \\pmod 4$ và $p \\mid a^2 + b^2$ thì $p \\mid a$ và $p \\mid b$. Mọi ước nguyên tố lẻ của $n^2 + 1$ đều có dạng $4k + 1$.\n\n## Chứng minh ngắn (THCS-friendly)\n\n$x^2 \\equiv y^2 \\pmod p \\Leftrightarrow p \\mid (x - y)(x + y) \\Leftrightarrow x \\equiv \\pm y$, nên $1^2, \\dots, \\left(\\frac{p-1}{2}\\right)^2$ cho các số dư khác nhau, và $(p - k)^2 \\equiv k^2$ không tạo thêm số dư mới.\n\nNếu $a \\equiv x^2$ thì $a^{\\frac{p-1}{2}} \\equiv x^{p-1} \\equiv 1$ (Fermat nhỏ).\n\nNếu $p \\equiv 3 \\pmod 4$ thì $\\frac{p-1}{2}$ lẻ, nên $(-1)^{\\frac{p-1}{2}} = -1 \\not\\equiv 1$: $-1$ không là thặng dư bình phương. Nếu $p \\equiv 1 \\pmod 4$ thì theo hệ quả của định lí Wilson, $x = \\left(\\frac{p-1}{2}\\right)!$ thỏa $x^2 \\equiv -1$.\n\nHệ quả: nếu $p \\nmid b$, chọn $c$ với $bc \\equiv 1$; nhân $a^2 \\equiv -b^2$ với $c^2$ được $(ac)^2 \\equiv -1$, vô lí. Vậy $p \\mid b$, rồi $p \\mid a^2$ nên $p \\mid a$.\n\n## Khi nào dùng\n\n- Phương trình nghiệm nguyên có dạng $a^2 + b^2 = \\dots$ hoặc $y^2 + 1 = \\dots$: tìm ở vế kia một ước nguyên tố dạng $4k + 3$.\n- Chứng minh chia hết kiểu \"$7 \\mid a^2 + b^2 \\Rightarrow 49 \\mid a^2 + b^2$\".\n- Chứng minh vô hạn số nguyên tố dạng $4k + 1$.\n\n## Lưu ý\n\n- Một số nguyên dương $\\equiv 3 \\pmod 4$ luôn có ít nhất một ước nguyên tố dạng $4k + 3$ (tích các số dạng $4k + 1$ vẫn là dạng $4k + 1$).\n- Kết quả chỉ đúng cho **tổng** hai bình phương; $a^2 - b^2$ không có tính chất này.\n- Khi đi thi, trình bày lại chứng minh chiều \"$p \\equiv 3 \\pmod 4$\" (chỉ cần Fermat nhỏ).",
+  "examples": [
+   {
+    "text": "Cho $a, b$ là các số nguyên thỏa mãn $a^2 + b^2$ chia hết cho $7$. Chứng minh $a^2 + b^2$ chia hết cho $49$."
+   },
+   {
+    "text": "Chứng minh phương trình $y^2 = x^3 + 7$ không có nghiệm nguyên."
+   },
+   {
+    "text": "Chứng minh có vô số số nguyên tố dạng $4k + 1$."
+   }
+  ]
+ }
+]

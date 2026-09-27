@@ -1,0 +1,285 @@
+[
+ {
+  "id": "bat-dang-thuc-bien-doi-tuong-duong",
+  "topic": "bat-dang-thuc",
+  "level": 1,
+  "title": "Biến đổi tương đương và tổng bình phương",
+  "summary": "Nền móng của mọi bất đẳng thức: đưa về tổng các đại lượng không âm hoặc tích có dấu xác định.",
+  "body": "## Ý tưởng cốt lõi\n\nMuốn chứng minh $A \\ge B$, xét hiệu $A - B$ và biến đổi nó thành một biểu thức **hiển nhiên không âm**: tổng các bình phương, tích của các thừa số cùng dấu, hoặc bình phương nhân với một đại lượng dương.\n\nPhương pháp này \"chậm mà chắc\": không cần đoán điểm rơi, và luôn cho thấy rõ khi nào xảy ra dấu bằng.\n\n## Công thức / định lí\n\n- $x^2 \\ge 0$, dấu bằng khi $x = 0$; tổng các bình phương bằng $0$ khi và chỉ khi từng số hạng bằng $0$.\n- $a^2 + b^2 \\ge 2ab$, $(a + b)^2 \\ge 4ab$, $2(a^2 + b^2) \\ge (a + b)^2$.\n- $a^2 + b^2 + c^2 \\ge ab + bc + ca$ và $3(a^2 + b^2 + c^2) \\ge (a + b + c)^2 \\ge 3(ab + bc + ca)$.\n- Với $a, b > 0$: $\\dfrac1a + \\dfrac1b \\ge \\dfrac{4}{a + b}$.\n- $a^n - b^n$ và $a - b$ cùng dấu (với $a, b \\ge 0$), nên $(a - b)(a^n - b^n) \\ge 0$.\n\n## Mẹo ninja\n\n- Nhân hai vế với $2$ thường làm lộ ra tổng các bình phương dạng $(a - b)^2 + (b - c)^2 + (c - a)^2$.\n- Biến đổi tương đương phải đúng chiều: khi nhân/chia cho biểu thức, chắc chắn biểu thức đó dương.\n- Trình bày: có thể biến đổi từ bất đẳng thức cần chứng minh về bất đẳng thức đúng, nhưng mỗi bước phải là \"$\\Leftrightarrow$\".",
+  "examples": [
+   {
+    "text": "Chứng minh rằng với mọi số thực $a, b$: $a^2 + b^2 + 1 \\ge ab + a + b$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi số thực $a, b$: $a^4 + b^4 \\ge a^3b + ab^3$."
+   },
+   {
+    "text": "Chứng minh rằng với $a, b \\ge 0$: $\\dfrac{a^3 + b^3}{2} \\ge \\left(\\dfrac{a + b}{2}\\right)^3$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-am-gm-diem-roi",
+  "topic": "bat-dang-thuc",
+  "level": 2,
+  "title": "Bất đẳng thức AM-GM và kĩ thuật điểm rơi",
+  "summary": "Dùng AM-GM (Cô-si) đúng cách: dự đoán dấu bằng trước rồi tách, ghép các số hạng cho khớp.",
+  "body": "## Ý tưởng cốt lõi\n\nAM-GM nói rằng trung bình cộng không nhỏ hơn trung bình nhân. Khó khăn nằm ở chỗ **dấu bằng** chỉ xảy ra khi các số hạng bằng nhau. Nếu áp dụng máy móc, dấu bằng có thể rơi vào điểm không thỏa điều kiện đề bài, dẫn đến kết quả sai.\n\nKĩ thuật điểm rơi: dự đoán giá trị của biến tại dấu bằng (thường là tại biên hoặc tại các biến bằng nhau), rồi tách hoặc thêm hệ số sao cho các số hạng được ghép **bằng nhau tại điểm đó**.\n\n## Công thức / định lí\n\n- Hai số: $a + b \\ge 2\\sqrt{ab}$ với $a, b \\ge 0$, dấu bằng khi $a = b$.\n- Ba số: $a + b + c \\ge 3\\sqrt[3]{abc}$ với $a, b, c \\ge 0$.\n- Tổng quát: $\\dfrac{a_1 + \\cdots + a_n}{n} \\ge \\sqrt[n]{a_1 \\cdots a_n}$.\n- Dạng tích: $ab \\le \\left(\\dfrac{a + b}{2}\\right)^2$, $abc \\le \\left(\\dfrac{a + b + c}{3}\\right)^3$.\n- Hệ quả hay dùng: $\\dfrac{x^2}{y} \\ge 2x - y$ với $y > 0$.\n\n## Mẹo ninja\n\n- Luôn viết ra \"dấu bằng xảy ra khi...\" và kiểm tra điều kiện đó thỏa mãn đề bài.\n- Với $a \\ge 2$, tìm min $a + \\frac1a$: tại $a = 2$ thì $\\frac a4 = \\frac1a$, nên tách $a = \\frac a4 + \\frac{3a}{4}$.\n- Khi điều kiện là tổng (như $a + b + c = 3$), ghép hằng số vào để tạo tích: $a^3 + 1 + 1 \\ge 3a$.\n- Chỉ áp dụng AM-GM cho các số **không âm**.",
+  "examples": [
+   {
+    "text": "Cho $a \\ge 2$. Tìm giá trị nhỏ nhất của $P = a + \\dfrac1a$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $\\dfrac{a^2}{b} + \\dfrac{b^2}{c} + \\dfrac{c^2}{a} \\ge a + b + c$."
+   },
+   {
+    "text": "Cho $x, y > 0$ thỏa mãn $x + y \\le 1$. Tìm giá trị nhỏ nhất của $P = \\dfrac{1}{x^2 + y^2} + \\dfrac{1}{xy}$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-cauchy-schwarz-engel",
+  "topic": "bat-dang-thuc",
+  "level": 2,
+  "title": "Bất đẳng thức Cauchy-Schwarz và dạng Engel (Svac-xơ)",
+  "summary": "Bất đẳng thức Bunhiacốpxki và dạng phân thức của nó — công cụ gộp tổng các phân thức cực mạnh.",
+  "body": "## Ý tưởng cốt lõi\n\nBất đẳng thức Cauchy-Schwarz (ở Việt Nam hay gọi là Bunhiacốpxki) so sánh \"tích của tổng bình phương\" với \"bình phương của tổng tích\". Dạng Engel (Svac-xơ) là hệ quả trực tiếp và đặc biệt tiện cho tổng các phân thức có tử là bình phương.\n\nKhi tử chưa là bình phương, ta **nhân thêm** vào tử và mẫu để tạo bình phương: $\\frac ab = \\frac{a^2}{ab}$.\n\n## Công thức / định lí\n\n- Bunhiacốpxki: $(a_1^2 + a_2^2 + \\cdots + a_n^2)(b_1^2 + \\cdots + b_n^2) \\ge (a_1b_1 + \\cdots + a_nb_n)^2$, dấu bằng khi $\\frac{a_1}{b_1} = \\cdots = \\frac{a_n}{b_n}$.\n- Dạng Engel: với $b_i > 0$, $\\dfrac{a_1^2}{b_1} + \\dfrac{a_2^2}{b_2} + \\cdots + \\dfrac{a_n^2}{b_n} \\ge \\dfrac{(a_1 + a_2 + \\cdots + a_n)^2}{b_1 + b_2 + \\cdots + b_n}$.\n- Chứng minh dạng Engel hai số hạng: $\\frac{a^2}{x} + \\frac{b^2}{y} - \\frac{(a + b)^2}{x + y} = \\frac{(ay - bx)^2}{xy(x + y)} \\ge 0$.\n- Hệ quả: $\\dfrac1a + \\dfrac1b + \\dfrac1c \\ge \\dfrac{9}{a + b + c}$.\n\n## Mẹo ninja\n\n- Dự đoán điểm rơi để chọn tử số: với $\\frac1a + \\frac4b + \\frac9c$, dấu bằng khi $a : b : c = 1 : 2 : 3$.\n- Engel \"ăn\" được mẫu số phức tạp: chọn cách viết sao cho tổng các mẫu đơn giản hoặc đánh giá được.\n- Trong bài thi, nên ghi rõ tên và phát biểu bất đẳng thức; một số đề yêu cầu chứng minh lại dạng Engel.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$ và $a + b + c = 1$. Chứng minh $\\dfrac1a + \\dfrac4b + \\dfrac9c \\ge 36$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $\\dfrac{a^2}{b + c} + \\dfrac{b^2}{c + a} + \\dfrac{c^2}{a + b} \\ge \\dfrac{a + b + c}{2}$."
+   },
+   {
+    "text": "(IMO 1995) Cho $x, y, z > 0$ và $xyz = 1$. Chứng minh\n$$\\frac{1}{x^3(y + z)} + \\frac{1}{y^3(z + x)} + \\frac{1}{z^3(x + y)} \\ge \\frac32.$$"
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-bdt-tam-giac",
+  "topic": "bat-dang-thuc",
+  "level": 2,
+  "title": "Bất đẳng thức với ba cạnh tam giác và phép thế Ravi",
+  "summary": "Khai thác $|b - c| < a < b + c$, và đổi biến $a = y + z$, $b = z + x$, $c = x + y$ để \"giải phóng\" điều kiện tam giác.",
+  "body": "## Ý tưởng cốt lõi\n\nVới $a, b, c$ là độ dài ba cạnh tam giác, các đại lượng $b + c - a$, $c + a - b$, $a + b - c$ đều dương. Có hai hướng:\n\n- Dùng trực tiếp: $a < b + c$ nhân với $a > 0$ cho $a^2 < ab + ac$...\n- **Phép thế Ravi:** đặt $x = \\frac{b + c - a}{2}$, $y = \\frac{c + a - b}{2}$, $z = \\frac{a + b - c}{2}$ (đều dương). Khi đó $a = y + z$, $b = z + x$, $c = x + y$ và bất đẳng thức trở thành bất đẳng thức với ba số dương tùy ý.\n\nVề hình học, $x, y, z$ chính là độ dài các đoạn tiếp tuyến từ ba đỉnh tới đường tròn nội tiếp.\n\n## Công thức / định lí\n\n- $a, b, c > 0$ là ba cạnh tam giác $\\Leftrightarrow a < b + c$, $b < c + a$, $c < a + b$ $\\Leftrightarrow |b - c| < a < b + c$.\n- Ravi: $a = y + z$, $b = z + x$, $c = x + y$ với $x, y, z > 0$.\n- $(x + y)(y + z)(z + x) \\ge 8xyz$ với $x, y, z \\ge 0$.\n- $\\dfrac xy + \\dfrac yx \\ge 2$ với $x, y > 0$.\n\n## Mẹo ninja\n\n- Nếu bất đẳng thức có các biểu thức $b + c - a$, hãy nghĩ ngay tới Ravi.\n- Với bất đẳng thức \"ngặt\" ($<$) cần dùng đúng điều kiện tam giác ngặt.\n- Sau khi đổi biến, dấu bằng thường là $x = y = z$, tương ứng tam giác đều.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Chứng minh $a^2 + b^2 + c^2 < 2(ab + bc + ca)$."
+   },
+   {
+    "text": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Chứng minh $abc \\ge (a + b - c)(b + c - a)(c + a - b)$."
+   },
+   {
+    "text": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Chứng minh $\\dfrac{a}{b + c - a} + \\dfrac{b}{c + a - b} + \\dfrac{c}{a + b - c} \\ge 3$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-sos",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Phương pháp SOS (tổng các bình phương)",
+  "summary": "Viết hiệu hai vế thành $S_a(b - c)^2 + S_b(c - a)^2 + S_c(a - b)^2$ rồi xét dấu các hệ số.",
+  "body": "## Ý tưởng cốt lõi\n\nVới bất đẳng thức đối xứng ba biến có dấu bằng tại $a = b = c$, hiệu $VT - VP$ thường viết được dưới dạng\n\n$$S_a(b - c)^2 + S_b(c - a)^2 + S_c(a - b)^2,$$\n\ntrong đó $S_a, S_b, S_c$ là các biểu thức theo $a, b, c$. Nếu cả ba hệ số không âm thì xong. Nếu có hệ số âm, dùng các tiêu chuẩn SOS kết hợp sắp thứ tự biến.\n\n## Công thức / định lí\n\nCác \"viên gạch\" SOS cơ bản:\n\n- $a^2 + b^2 + c^2 - ab - bc - ca = \\frac12\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right]$.\n- $a^3 + b^3 - ab(a + b) = (a + b)(a - b)^2$.\n- $\\dfrac{a^2}{b} - 2a + b = \\dfrac{(a - b)^2}{b}$.\n- $(a + b)(b + c)(c + a) - 8abc = a(b - c)^2 + b(c - a)^2 + c(a - b)^2$.\n\nTiêu chuẩn: với $S = S_a(b - c)^2 + S_b(c - a)^2 + S_c(a - b)^2$,\n\n- nếu $S_a, S_b, S_c \\ge 0$ thì $S \\ge 0$;\n- nếu $a \\ge b \\ge c$ và $S_b \\ge 0$, $S_b + S_a \\ge 0$, $S_b + S_c \\ge 0$ thì $S \\ge 0$ (dùng $(a - c)^2 \\ge (a - b)^2 + (b - c)^2$).\n\n## Mẹo ninja\n\n- Tách từng cặp hạng tử có dạng \"hiệu hai giá trị đối xứng\" rồi biến đổi thành bình phương hiệu.\n- SOS đặc biệt hợp với bất đẳng thức chứa phân thức: quy đồng từng cặp chứ đừng quy đồng tất cả.\n- Khi các $S$ phức tạp, giả sử thứ tự $a \\ge b \\ge c$ và chỉ cần kiểm tra điều kiện với $S_b$.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c \\ge 0$. Chứng minh $a^3 + b^3 + c^3 - 3abc \\ge 0$ và chỉ ra dạng SOS của vế trái."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $\\dfrac{a^2}{b} + \\dfrac{b^2}{c} + \\dfrac{c^2}{a} \\ge a + b + c$ bằng phương pháp SOS."
+   },
+   {
+    "text": "Cho $a, b, c \\ge 0$. Chứng minh $2(a^3 + b^3 + c^3) \\ge ab(a + b) + bc(b + c) + ca(c + a)$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-tiep-tuyen-he-so-bat-dinh",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Kĩ thuật tiếp tuyến (hệ số bất định)",
+  "summary": "Chặn từng hàm một biến bởi một đường thẳng tiếp xúc tại điểm rơi, rồi cộng lại theo điều kiện tổng.",
+  "body": "## Ý tưởng cốt lõi\n\nXét bất đẳng thức dạng $f(a) + f(b) + f(c) \\le M$ (hoặc $\\ge$) với điều kiện $a + b + c$ không đổi. Nếu dấu bằng tại $a = b = c = t_0$, ta tìm hằng số $\\alpha, \\beta$ sao cho\n\n$$f(x) \\le \\alpha x + \\beta \\quad \\text{với mọi } x \\text{ trong miền xét},$$\n\nvới dấu bằng tại $x = t_0$. Cộng ba bất đẳng thức, phần $\\alpha(a + b + c) + 3\\beta$ là hằng số, xong.\n\nĐường thẳng $\\alpha x + \\beta$ chính là **tiếp tuyến** của đồ thị $f$ tại $t_0$ (nên có tên gọi này). Ở THCS, ta tìm $\\alpha$ sao cho $f(x) - \\alpha x - \\beta$ có nghiệm kép $x = t_0$.\n\n## Công thức / định lí\n\n- Điều kiện chọn: $\\beta = f(t_0) - \\alpha t_0$, và $\\alpha$ chọn để biểu thức $\\alpha x + \\beta - f(x)$ (sau khi quy đồng) chia hết cho $(x - t_0)^2$.\n- Có thể dùng đạo hàm để tìm nhanh $\\alpha = f'(t_0)$, nhưng lời giải chỉ cần trình bày phần phân tích $(x - t_0)^2 \\cdot g(x)$.\n- Sau khi có $(x - t_0)^2 g(x)$, chỉ cần kiểm tra dấu của $g(x)$ trên miền giá trị của biến.\n\n## Mẹo ninja\n\n- Miền giá trị của biến rất quan trọng: với $a + b + c = 3$ và $a, b, c > 0$ thì $0 < a < 3$.\n- Nếu $g(x)$ không cùng dấu trên toàn miền, kĩ thuật tiếp tuyến thất bại ở vùng đó; cần chia trường hợp hoặc đổi phương pháp.\n- Kiểm tra nhanh bằng cách thử $x = t_0$: hai vế phải bằng nhau.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 1$. Chứng minh $\\dfrac{a}{1 + a^2} + \\dfrac{b}{1 + b^2} + \\dfrac{c}{1 + c^2} \\le \\dfrac{9}{10}$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 3$. Chứng minh $\\dfrac{1}{a^2 + b + c} + \\dfrac{1}{b^2 + c + a} + \\dfrac{1}{c^2 + a + b} \\le 1$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-don-bien",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Dồn biến đơn giản",
+  "summary": "Chứng minh biểu thức giảm (hoặc tăng) khi thay hai biến bằng trung bình của chúng, đưa bài toán ba biến về một biến.",
+  "body": "## Ý tưởng cốt lõi\n\nVới biểu thức đối xứng $f(a, b, c)$ và điều kiện $a + b + c$ cố định, ta so sánh $f(a, b, c)$ với $f(t, t, c)$ trong đó $t = \\frac{a + b}{2}$ (tổng vẫn giữ nguyên). Nếu chứng minh được\n\n$$f(a, b, c) \\ge f(t, t, c),$$\n\nthì chỉ còn phải chứng minh bất đẳng thức một biến $f(t, t, 3 - 2t) \\ge 0$.\n\nThông thường hiệu $f(a, b, c) - f(t, t, c)$ có dạng $(a - b)^2 \\cdot h$, và ta chọn $c$ là biến nhỏ nhất (hoặc lớn nhất) để $h \\ge 0$.\n\n## Công thức / định lí\n\n- Với $t = \\frac{a + b}{2}$: $a^2 + b^2 - 2t^2 = \\frac{(a - b)^2}{2}$ và $ab - t^2 = -\\frac{(a - b)^2}{4}$.\n- Nếu $c = \\min\\{a, b, c\\}$ và $a + b + c = 3$ thì $c \\le 1$ và $t \\ge 1$.\n- Với hai biến có tổng cố định $a + b = s$, mọi biểu thức đối xứng là hàm của $p = ab \\in \\left[0, \\frac{s^2}{4}\\right]$.\n\n## Mẹo ninja\n\n- Chọn biến không bị dồn là biến nhỏ nhất hoặc lớn nhất để có thêm một bất đẳng thức hỗ trợ ($c \\le 1$ hay $c \\ge 1$).\n- Bước một biến thường là một đa thức có nghiệm kép tại điểm rơi; phân tích ra $(t - 1)^2 \\cdot (\\ldots)$.\n- Đừng quên kiểm tra miền của $t$ sau khi dồn (ví dụ $c \\ge 0$ kéo theo $t \\le \\frac32$).",
+  "examples": [
+   {
+    "text": "Cho $a, b, c \\ge 0$ thỏa mãn $a + b + c = 3$. Chứng minh $a^2 + b^2 + c^2 + abc \\ge 4$."
+   },
+   {
+    "text": "Cho $a, b \\ge 0$ thỏa mãn $a + b = 2$. Chứng minh $a^3b^3\\left(a^3 + b^3\\right) \\le 2$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-schur",
+  "topic": "bat-dang-thuc",
+  "level": 4,
+  "title": "Bất đẳng thức Schur",
+  "summary": "Bất đẳng thức Schur bậc một và dạng $p, q, r$: vũ khí cho các bài có dấu bằng tại cả tâm lẫn biên.",
+  "body": "## Ý tưởng cốt lõi\n\nAM-GM và Cauchy-Schwarz thường chỉ cho bất đẳng thức \"một chiều\" với dấu bằng tại $a = b = c$. Schur mạnh hơn vì còn có dấu bằng tại biên (ví dụ $a = b$, $c = 0$), nên dùng được cho những bài mà các bất đẳng thức cổ điển quá \"thô\".\n\nViết qua $p = a + b + c$, $q = ab + bc + ca$, $r = abc$, Schur cho một **cận dưới của $r$** theo $p, q$ — rất tiện khi biểu thức cần chứng minh tuyến tính theo $r$.\n\n## Công thức / định lí\n\n- **Schur bậc một:** với $a, b, c \\ge 0$: $a(a - b)(a - c) + b(b - a)(b - c) + c(c - a)(c - b) \\ge 0$.\n- Dạng khai triển: $a^3 + b^3 + c^3 + 3abc \\ge ab(a + b) + bc(b + c) + ca(c + a)$.\n- Dạng $pqr$: $p^3 - 4pq + 9r \\ge 0$, tức $r \\ge \\dfrac{p(4q - p^2)}{9}$.\n- Dấu bằng khi $a = b = c$ hoặc hai biến bằng nhau và biến còn lại bằng $0$.\n- Các hằng đẳng thức: $p^3 = \\sum a^3 + 3\\sum_{sym} a^2b + 6abc$, $pq = \\sum_{sym} a^2b + 3abc$, với $\\sum_{sym} a^2b = ab(a + b) + bc(b + c) + ca(c + a)$.\n\n## Mẹo ninja\n\n- Chứng minh Schur: giả sử $a \\ge b \\ge c$, ghép hai số hạng đầu.\n- Khi bài có điều kiện $a + b + c = 1$ và biểu thức chứa $q$, $r$, Schur cho $r \\ge \\frac{4q - 1}{9}$.\n- Ở đề THCS, nên chứng minh lại Schur trong bài làm (chỉ vài dòng).",
+  "examples": [
+   {
+    "text": "Chứng minh bất đẳng thức Schur: với $a, b, c \\ge 0$,\n$$a(a - b)(a - c) + b(b - a)(b - c) + c(c - a)(c - b) \\ge 0.$$"
+   },
+   {
+    "text": "(IMO 1984) Cho $a, b, c \\ge 0$ thỏa mãn $a + b + c = 1$. Chứng minh $ab + bc + ca - 2abc \\le \\dfrac{7}{27}$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $a^2 + b^2 + c^2 + \\dfrac{9abc}{a + b + c} \\ge 2(ab + bc + ca)$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-cuc-tri-co-dieu-kien",
+  "topic": "bat-dang-thuc",
+  "level": 2,
+  "title": "Tìm cực trị có điều kiện",
+  "summary": "Tìm giá trị lớn nhất, nhỏ nhất bằng miền giá trị (điều kiện có nghiệm), đánh giá theo điều kiện, và bất đẳng thức từ biên.",
+  "body": "## Ý tưởng cốt lõi\n\nBài tìm cực trị gồm hai phần bắt buộc: chứng minh bất đẳng thức $P \\ge m$ (hoặc $P \\le M$) và **chỉ ra giá trị của biến** để dấu bằng xảy ra. Thiếu phần thứ hai thì $m$ chưa chắc là giá trị nhỏ nhất.\n\nBa phương pháp phổ biến:\n\n- **Miền giá trị:** coi $P$ là tham số, bài toán thành \"phương trình theo $x$ có nghiệm\", dùng $\\Delta \\ge 0$.\n- **Đánh giá theo điều kiện:** biểu diễn $P$ qua một đại lượng rồi chặn đại lượng đó.\n- **Điều kiện biên:** với $a \\in [\\alpha, \\beta]$, dùng $(a - \\alpha)(a - \\beta) \\le 0$ hoặc tích $(\\beta - a)(\\beta - b)(\\beta - c) \\ge 0$.\n\n## Công thức / định lí\n\n- $y = \\dfrac{ax^2 + bx + c}{a'x^2 + b'x + c'}$ nhận giá trị $y_0$ khi và chỉ khi phương trình $(a - y_0a')x^2 + (b - y_0b')x + (c - y_0c') = 0$ có nghiệm.\n- $-\\dfrac{x^2 + y^2}{2} \\le xy \\le \\dfrac{x^2 + y^2}{2}$.\n- Nếu $a, b, c \\in [0, k]$ thì $(k - a)(k - b)(k - c) \\ge 0$ và $abc \\ge 0$.\n\n## Mẹo ninja\n\n- Với phương pháp miền giá trị, xét riêng trường hợp hệ số của $x^2$ bằng $0$.\n- Cực trị tại biên thường có dấu bằng \"lệch\" như $(2, 1, 0)$; đừng mặc định dấu bằng tại các biến bằng nhau.\n- Luôn chỉ rõ bộ giá trị đạt cực trị và kiểm tra nó thỏa điều kiện.",
+  "examples": [
+   {
+    "text": "Tìm giá trị lớn nhất và nhỏ nhất của $A = \\dfrac{x^2 - x + 1}{x^2 + x + 1}$."
+   },
+   {
+    "text": "Cho các số thực $x, y$ thỏa mãn $x^2 + y^2 - xy = 1$. Tìm giá trị lớn nhất và nhỏ nhất của $P = x^2 + y^2$."
+   },
+   {
+    "text": "Cho $a, b, c \\in [0, 2]$ thỏa mãn $a + b + c = 3$. Tìm giá trị lớn nhất của $P = a^2 + b^2 + c^2$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-bdt-hinh-hoc",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Bất đẳng thức trong hình học",
+  "summary": "Các bất đẳng thức giữa cạnh, đường cao, diện tích, bán kính của tam giác và cách chứng minh bằng đại số.",
+  "body": "## Ý tưởng cốt lõi\n\nBất đẳng thức hình học thường được giải bằng một trong hai cách:\n\n- **Hình học thuần túy:** bất đẳng thức tam giác cho các đoạn thẳng, đường vuông góc ngắn hơn đường xiên, so sánh diện tích.\n- **Đại số hóa:** biểu diễn mọi đại lượng qua ba cạnh $a, b, c$ (diện tích bằng Heron, $h_a = \\frac{2S}{a}$, $r = \\frac Sp$...) rồi dùng AM-GM, Cauchy-Schwarz.\n\n## Công thức / định lí\n\n- Heron: $16S^2 = (a + b + c)(-a + b + c)(a - b + c)(a + b - c) = 2(a^2b^2 + b^2c^2 + c^2a^2) - (a^4 + b^4 + c^4)$.\n- $S = \\frac12 ah_a = pr$ với $p = \\frac{a + b + c}{2}$; $S = \\frac{abc}{4R}$.\n- Đường trung tuyến: $m_a^2 = \\dfrac{2b^2 + 2c^2 - a^2}{4}$.\n- Với $M$ nằm trong tam giác $ABC$: $MB + MC < AB + AC$.\n- $S = \\frac12 bc\\sin A \\le \\frac12 bc$.\n\n## Mẹo ninja\n\n- Khi bất đẳng thức chứa $S^2$, dùng dạng Heron khai triển để đưa về đa thức theo $a^2, b^2, c^2$.\n- Dấu bằng trong bất đẳng thức tam giác hầu như luôn tại tam giác đều; trong các bài \"điểm trong tam giác\" thì dấu bằng thường không xảy ra (bất đẳng thức ngặt).\n- Vẽ hình và kéo dài đoạn thẳng để tạo tam giác phụ là kĩ thuật cơ bản cho các bất đẳng thức độ dài.",
+  "examples": [
+   {
+    "text": "(Weitzenböck) Chứng minh rằng với mọi tam giác có cạnh $a, b, c$ và diện tích $S$: $a^2 + b^2 + c^2 \\ge 4\\sqrt3\\, S$."
+   },
+   {
+    "text": "Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh $\\dfrac{AB + BC + CA}{2} < MA + MB + MC < AB + BC + CA$."
+   },
+   {
+    "text": "Gọi $h_a, h_b, h_c$ là ba đường cao và $r$ là bán kính đường tròn nội tiếp của tam giác $ABC$. Chứng minh $h_a + h_b + h_c \\ge 9r$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-chebyshev",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Bất đẳng thức Chebyshev (hai dãy cùng chiều)",
+  "summary": "Hai dãy sắp cùng chiều thì trung bình của tích không nhỏ hơn tích các trung bình.",
+  "body": "## Phát biểu\n\nNếu $a_1 \\ge a_2 \\ge \\dots \\ge a_n$ và $b_1 \\ge b_2 \\ge \\dots \\ge b_n$ (hai dãy **cùng chiều**) thì\n$$n(a_1b_1 + a_2b_2 + \\dots + a_nb_n) \\ge (a_1 + a_2 + \\dots + a_n)(b_1 + b_2 + \\dots + b_n).$$\nNếu hai dãy **ngược chiều** thì bất đẳng thức đổi chiều. Dấu bằng khi một trong hai dãy là dãy hằng.\n\n## Chứng minh ngắn (THCS-friendly)\n\nKhai triển trực tiếp:\n$$n\\sum a_ib_i - \\sum a_i \\sum b_i = \\sum_{i < j} (a_i - a_j)(b_i - b_j).$$\nVới $n = 3$: $3(a_1b_1 + a_2b_2 + a_3b_3) - (a_1 + a_2 + a_3)(b_1 + b_2 + b_3) = (a_1 - a_2)(b_1 - b_2) + (a_2 - a_3)(b_2 - b_3) + (a_3 - a_1)(b_3 - b_1)$.\n\nHai dãy cùng chiều nên mỗi tích $(a_i - a_j)(b_i - b_j) \\ge 0$.\n\n## Khi nào dùng\n\n- Tổng dạng $\\sum a_i b_i$ mà hai thừa số \"cùng lớn cùng nhỏ\": $a$ và $a^2$, $a$ và $\\frac{1}{b + c}$...\n- Bài đối xứng: được giả sử $a \\ge b \\ge c$ rồi sắp thứ tự các đại lượng.\n- Tách một tổng khó thành tích hai tổng dễ đánh giá hơn.\n\n## Lưu ý\n\n- Chỉ được \"giả sử $a \\ge b \\ge c$\" khi biểu thức đối xứng; với biểu thức hoán vị vòng phải xét hai trường hợp.\n- Trong bài thi nên trình bày lại đẳng thức khai triển với $n = 3$ (một dòng) thay vì chỉ gọi tên.",
+  "examples": [
+   {
+    "text": "(Nesbitt) Cho $a, b, c > 0$. Chứng minh $\\dfrac{a}{b + c} + \\dfrac{b}{c + a} + \\dfrac{c}{a + b} \\ge \\dfrac32$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 3$. Chứng minh $a^4 + b^4 + c^4 \\ge a^3 + b^3 + c^3$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-hoan-vi",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Bất đẳng thức hoán vị (sắp xếp lại)",
+  "summary": "Ghép hai dãy theo cùng thứ tự cho tổng tích lớn nhất, ghép ngược thứ tự cho tổng tích nhỏ nhất.",
+  "body": "## Phát biểu\n\nCho $a_1 \\le a_2 \\le \\dots \\le a_n$ và $b_1 \\le b_2 \\le \\dots \\le b_n$. Với mọi hoán vị $(c_1, c_2, \\dots, c_n)$ của $(b_1, \\dots, b_n)$:\n$$a_1b_n + a_2b_{n-1} + \\dots + a_nb_1 \\le a_1c_1 + a_2c_2 + \\dots + a_nc_n \\le a_1b_1 + a_2b_2 + \\dots + a_nb_n.$$\nTóm tắt: **cùng chiều lớn nhất, ngược chiều nhỏ nhất**.\n\n## Chứng minh ngắn (THCS-friendly)\n\nGiả sử có $i < j$ mà $c_i > c_j$. Đổi chỗ $c_i$ và $c_j$ thì tổng thay đổi một lượng\n$$(a_ic_j + a_jc_i) - (a_ic_i + a_jc_j) = (a_j - a_i)(c_i - c_j) \\ge 0.$$\nMỗi lần đổi, tổng không giảm và số cặp \"sai thứ tự\" giảm đi, nên sau hữu hạn bước ta đến cách ghép cùng chiều. Vậy tổng cùng chiều là lớn nhất. Làm tương tự (đổi các cặp đúng thứ tự) cho vế trái.\n\n## Khi nào dùng\n\n- Bất đẳng thức hoán vị vòng như $a^2b + b^2c + c^2a$, $\\frac ab + \\frac bc + \\frac ca$: vế \"đẹp\" là cách ghép cùng/ngược chiều, vế kia là một hoán vị.\n- Khi cần so sánh hai tổng có cùng các \"thành phần\" nhưng ghép khác nhau.\n\n## Lưu ý\n\n- Không cần các số dương, chỉ cần sắp được thứ tự; nhưng các dãy như $(a^2)$ và $(a)$ chỉ cùng chiều khi $a, b, c \\ge 0$.\n- Không được giả sử thứ tự của $a, b, c$ nếu lập luận phụ thuộc vào cách ghép cụ thể; hãy chọn hai dãy luôn cùng/ngược chiều với nhau (như $a$ và $a^2$, $a$ và $\\frac1a$) — khi đó mọi thứ tự đều dùng được.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $a^3 + b^3 + c^3 \\ge a^2b + b^2c + c^2a$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $\\dfrac ab + \\dfrac bc + \\dfrac ca \\ge 3$ mà không dùng AM-GM."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-holder",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Bất đẳng thức Hölder",
+  "summary": "Mở rộng Cauchy-Schwarz cho ba thừa số, rất mạnh với các tổng có mũ ba hoặc căn bậc ba.",
+  "body": "## Phát biểu\n\nVới các số dương $a, b, c, x, y, z, m, n, p$:\n$$(a + b + c)(x + y + z)(m + n + p) \\ge \\left(\\sqrt[3]{axm} + \\sqrt[3]{byn} + \\sqrt[3]{czp}\\right)^3.$$\nDấu bằng khi $a : b : c = x : y : z = m : n : p$. Tương tự cho số số hạng bất kì trong mỗi ngoặc.\n\nHệ quả hay dùng: $\\dfrac{a^3}{x} + \\dfrac{b^3}{y} + \\dfrac{c^3}{z} \\ge \\dfrac{(a + b + c)^3}{3(x + y + z)}$ với $a, b, c, x, y, z > 0$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nĐặt $A = a + b + c$, $X = x + y + z$, $M = m + n + p$. Theo AM-GM ba số:\n$$\\sqrt[3]{\\frac aA \\cdot \\frac xX \\cdot \\frac mM} \\le \\frac13\\left(\\frac aA + \\frac xX + \\frac mM\\right).$$\nViết tương tự cho $(b, y, n)$, $(c, z, p)$ rồi cộng lại: vế phải bằng $\\frac13(1 + 1 + 1) = 1$. Do đó $\\sqrt[3]{axm} + \\sqrt[3]{byn} + \\sqrt[3]{czp} \\le \\sqrt[3]{AXM}$.\n\nHệ quả: áp dụng cho ba ngoặc $\\left(\\sum \\frac{a^3}{x}\\right)\\left(\\sum x\\right)(1 + 1 + 1)$.\n\n## Khi nào dùng\n\n- Tổng phân thức có tử bậc ba: $\\sum \\frac{a^3}{b}$, $\\sum \\frac{a^3}{b + c}$.\n- Tích ba ngoặc kiểu $(a^3 + 2)(b^3 + 2)(c^3 + 2)$.\n- Khử căn: $\\left(\\sum \\frac{a}{\\sqrt{b}}\\right)^2 \\left(\\sum ab\\right) \\ge \\left(\\sum a\\right)^3$.\n\n## Lưu ý\n\n- Chọn ngoặc phụ sao cho tích theo từng \"cột\" thành lập phương đẹp.\n- Luôn kiểm tra điều kiện dấu bằng khớp với điểm rơi dự đoán.\n- Nhiều đề THCS chưa cho dùng trực tiếp: hãy chứng minh lại bằng AM-GM như trên (4–5 dòng).",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 3$. Chứng minh $\\dfrac{a^3}{b} + \\dfrac{b^3}{c} + \\dfrac{c^3}{a} \\ge 3$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $(a^3 + 2)(b^3 + 2)(c^3 + 2) \\ge (a + b + c)^3$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-bernoulli",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Bất đẳng thức Bernoulli",
+  "summary": "Lũy thừa $(1 + x)^n$ luôn nằm trên \"tiếp tuyến\" $1 + nx$, cho cách hạ bậc nhanh gọn.",
+  "body": "## Phát biểu\n\nVới $x \\ge -1$ và số nguyên dương $n$:\n$$(1 + x)^n \\ge 1 + nx.$$\nDấu bằng khi $x = 0$ hoặc $n = 1$.\n\nDạng điểm rơi: với $a \\ge 0$, $k > 0$: $a^n \\ge k^n + nk^{n-1}(a - k)$ (thay $1 + x = \\frac ak$).\n\n## Chứng minh ngắn (THCS-friendly)\n\nQuy nạp theo $n$. Với $n = 1$ hiển nhiên. Giả sử $(1 + x)^n \\ge 1 + nx$. Vì $1 + x \\ge 0$ nên nhân hai vế với $1 + x$:\n$$(1 + x)^{n+1} \\ge (1 + nx)(1 + x) = 1 + (n + 1)x + nx^2 \\ge 1 + (n + 1)x.$$\n\nCách khác (khi $a \\ge 0$): AM-GM cho $n$ số $a^n, 1, \\dots, 1$ được $a^n + (n - 1) \\ge na$.\n\n## Khi nào dùng\n\n- Tổng lũy thừa bậc cao với điều kiện tổng: $a^n + b^n + c^n$ khi biết $a + b + c$.\n- So sánh nhanh lũy thừa với số cụ thể, ví dụ $1{,}01^{100}$.\n- Thay thế kĩ thuật tiếp tuyến cho hàm $x^n$ mà không cần tìm hệ số.\n\n## Lưu ý\n\n- Điều kiện $x \\ge -1$ (tức $a \\ge 0$) là cần thiết: với $x = -4$, $n = 3$ thì $(1 + x)^3 = -27 < -11 = 1 + 3x$.\n- Chọn $k$ bằng giá trị tại dấu bằng dự đoán (thường $k = \\frac{S}{n}$ khi tổng bằng $S$).",
+  "examples": [
+   {
+    "text": "So sánh $1{,}01^{100}$ và $2$."
+   },
+   {
+    "text": "Cho $a, b, c \\ge 0$ thỏa mãn $a + b + c = 6$. Tìm giá trị nhỏ nhất của $P = a^4 + b^4 + c^4$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-jensen-karamata",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Hàm lồi: bất đẳng thức Jensen và Karamata",
+  "summary": "Với hàm lồi, trung bình các giá trị không nhỏ hơn giá trị tại trung bình; bộ số \"dàn trải hơn\" cho tổng lớn hơn.",
+  "body": "## Phát biểu\n\nHàm $f$ gọi là **lồi** trên khoảng $I$ nếu đồ thị nằm dưới mọi dây cung; với hàm liên tục (đa thức, phân thức, căn...) chỉ cần kiểm tra\n$$f\\left(\\frac{x + y}{2}\\right) \\le \\frac{f(x) + f(y)}{2}\\quad \\forall x, y \\in I.$$\nVí dụ: $x^2$, $x^3$ (với $x \\ge 0$), $\\frac1x$ (với $x > 0$) là hàm lồi; $\\sqrt x$ là hàm lõm (bất đẳng thức đổi chiều).\n\n- **Jensen.** $f$ lồi trên $I$, $x_1, \\dots, x_n \\in I$ thì $f\\left(\\dfrac{x_1 + \\dots + x_n}{n}\\right) \\le \\dfrac{f(x_1) + \\dots + f(x_n)}{n}$.\n- **Karamata.** $x_1 \\ge \\dots \\ge x_n$, $y_1 \\ge \\dots \\ge y_n$ thuộc $I$, với $x_1 + \\dots + x_k \\ge y_1 + \\dots + y_k$ ($k < n$) và hai tổng toàn phần bằng nhau (ta nói $(x)$ **trội** $(y)$). Khi đó $f$ lồi thì $\\sum f(x_i) \\ge \\sum f(y_i)$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nJensen: với $n = 2$ là định nghĩa; áp dụng hai lần cho $n = 4$, rồi $8, 16, \\dots$ Với $n$ bất kì, chọn $N = 2^k \\ge n$ và thêm $N - n$ số bằng trung bình $m$: $f(m) \\le \\frac{\\sum f(x_i) + (N - n)f(m)}{N}$, suy ra $nf(m) \\le \\sum f(x_i)$.\n\nKaramata (ý chính): với hàm lồi, hệ số góc dây cung tăng theo mỗi đầu mút, nên $c_i = \\frac{f(x_i) - f(y_i)}{x_i - y_i}$ giảm dần. Đặt $X_k, Y_k$ là tổng $k$ số hạng đầu, ta có\n$$\\sum (f(x_i) - f(y_i)) = \\sum_{k=1}^{n-1} (c_k - c_{k+1})(X_k - Y_k) + c_n(X_n - Y_n) \\ge 0.$$\n\n## Khi nào dùng\n\n- Tổng dạng $f(a) + f(b) + f(c)$ với $a + b + c$ cố định: Jensen cho cực trị tại $a = b = c$.\n- Biến bị chặn trong đoạn: Karamata cho cực trị ở biên (bộ \"dàn trải\" nhất).\n\n## Lưu ý\n\n- Hàm phải lồi trên **toàn bộ** miền chứa các biến; nếu chỉ lồi một phần, dùng tiếp tuyến hoặc dồn biến.\n- Trong bài thi THCS nên chứng minh lại bước Jensen cần dùng (thường chỉ cần kiểm tra bất đẳng thức hai biến) hoặc chuyển sang kĩ thuật tiếp tuyến.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 1$. Chứng minh $\\dfrac{a}{b + c} + \\dfrac{b}{c + a} + \\dfrac{c}{a + b} \\ge \\dfrac32$ bằng Jensen."
+   },
+   {
+    "text": "Cho $x, y, z \\in [1, 3]$ thỏa mãn $x + y + z = 6$. Tìm giá trị lớn nhất của $P = \\dfrac1x + \\dfrac1y + \\dfrac1z$."
+   }
+  ]
+ },
+ {
+  "id": "bat-dang-thuc-pqr",
+  "topic": "bat-dang-thuc",
+  "level": 3,
+  "title": "Phương pháp pqr cơ bản",
+  "summary": "Đưa biểu thức đối xứng ba biến về $p = a + b + c$, $q = ab + bc + ca$, $r = abc$ rồi dùng các ràng buộc giữa chúng.",
+  "body": "## Phát biểu\n\nVới $p = a + b + c$, $q = ab + bc + ca$, $r = abc$:\n- $a^2 + b^2 + c^2 = p^2 - 2q$; $\\ a^3 + b^3 + c^3 = p^3 - 3pq + 3r$.\n- $(a + b)(b + c)(c + a) = pq - r$; $\\ a^2b^2 + b^2c^2 + c^2a^2 = q^2 - 2pr$.\n\nRàng buộc (với $a, b, c \\ge 0$):\n- $p^2 \\ge 3q$, $\\ q^2 \\ge 3pr$, $\\ pq \\ge 9r$.\n- Schur: $p^3 - 4pq + 9r \\ge 0$, tức $r \\ge \\dfrac{p(4q - p^2)}{9}$.\n\n## Chứng minh ngắn (THCS-friendly)\n\n- $p^2 - 3q = \\frac12\\left[(a - b)^2 + (b - c)^2 + (c - a)^2\\right] \\ge 0$; áp dụng cho ba số $ab, bc, ca$ được $q^2 \\ge 3pr$.\n- $pq \\ge 9r$: AM-GM cho $a + b + c \\ge 3\\sqrt[3]{abc}$ và $ab + bc + ca \\ge 3\\sqrt[3]{a^2b^2c^2}$ rồi nhân lại.\n- Schur: $a(a - b)(a - c) + b(b - a)(b - c) + c(c - a)(c - b) = p^3 - 4pq + 9r$, và vế trái $\\ge 0$ (giả sử $a \\ge b \\ge c$, ghép hai số hạng đầu).\n\n## Khi nào dùng\n\n- Bài đối xứng ba biến có điều kiện theo $p$ hoặc $q$ (ví dụ $a + b + c = 3$).\n- Khi biểu thức sau khi đổi sang $p, q, r$ là **bậc nhất theo $r$**: thay $r$ bằng cận trên/cận dưới rồi còn một biến $q$.\n\n## Lưu ý\n\n- Cận $r \\ge 0$ và cận Schur đều đúng, dùng cái nào lớn hơn tùy khoảng của $q$.\n- Dấu bằng của Schur gồm $a = b = c$ và $(t, t, 0)$: nếu bài có dấu bằng tại biên, Schur thường là chìa khóa.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $(a + b)(b + c)(c + a) \\ge \\dfrac89(a + b + c)(ab + bc + ca)$."
+   },
+   {
+    "text": "Cho $a, b, c > 0$ thỏa mãn $ab + bc + ca = 3$. Chứng minh $a + b + c \\ge 3abc$."
+   },
+   {
+    "text": "Cho $a, b, c \\ge 0$ thỏa mãn $a + b + c = 3$. Chứng minh $a^2 + b^2 + c^2 + \\dfrac32 abc \\ge \\dfrac92$."
+   }
+  ]
+ }
+]

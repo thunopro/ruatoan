@@ -1,0 +1,3646 @@
+[
+ {
+  "id": "tom-davis-math-circles",
+  "title": "Mathematical Circles Topics",
+  "author": "Tom Davis",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "to-hop",
+   "so-hoc",
+   "hinh-hoc"
+  ],
+  "desc": "Kho handout tiếng Anh cho câu lạc bộ toán: đếm, tô màu, đồ thị, quy nạp, hình học thi đấu.",
+  "url": "http://www.geometer.org/mathcircles/",
+  "source": "geometer.org",
+  "stage": 1,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "berkeley-math-circle-handouts",
+  "title": "Berkeley Math Circle – Handouts archive",
+  "publisher": "Berkeley Math Circle",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "to-hop",
+   "so-hoc",
+   "hinh-hoc"
+  ],
+  "desc": "Lưu trữ handout các buổi học từ 1998, chia theo năm và trình độ; tiếng Anh.",
+  "url": "https://mathcircle.berkeley.edu/circle-archives/handouts/",
+  "source": "mathcircle.berkeley.edu",
+  "stage": 1,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "ucla-math-circle-archive",
+  "title": "UCLA Olga Radko Math Circle – Meetings archive",
+  "publisher": "UCLA Department of Mathematics",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "to-hop",
+   "so-hoc",
+   "hinh-hoc"
+  ],
+  "desc": "Handout miễn phí theo từng buổi và nhóm trình độ, nhiều chủ đề bất biến, trò chơi, đồ thị.",
+  "url": "https://circles.math.ucla.edu/circles/archive.shtml",
+  "source": "circles.math.ucla.edu",
+  "stage": 1,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "polya-how-to-solve-it",
+  "title": "How to Solve It",
+  "author": "George Pólya",
+  "publisher": "Princeton University Press",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Cuốn sách kinh điển dạy cách suy nghĩ khi giải một bài toán lạ.",
+  "url": "https://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069111966X",
+  "source": "amazon.com",
+  "stage": 1,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "fomin-genkin-itenberg-mathematical-circles",
+  "title": "Mathematical Circles (Russian Experience)",
+  "author": "Dmitri Fomin, Sergey Genkin, Ilia Itenberg",
+  "publisher": "American Mathematical Society",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Bản tiếng Anh của giáo trình câu lạc bộ toán Leningrad, bài đi từ dễ đến khó.",
+  "url": "https://www.amazon.com/Mathematical-Circles-Russian-Experience-World/dp/0821804308",
+  "source": "amazon.com",
+  "stage": 1,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "genkin-itenberg-fomin-leningradskie-kruzhki",
+  "title": "Ленинградские математические кружки",
+  "author": "С. А. Генкин, И. В. Итенберг, Д. В. Фомин",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Bản gốc tiếng Nga của giáo trình câu lạc bộ toán Leningrad, miễn phí trên math.ru.",
+  "url": "https://math.ru/lib/434",
+  "source": "math.ru",
+  "stage": 1,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "spivak-matematicheskiy-kruzhok-7",
+  "title": "Математический кружок. 7 класс",
+  "author": "А. В. Спивак",
+  "grades": [
+   6,
+   7
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Tài liệu câu lạc bộ toán lớp 7 của Đại học Moskva, bài ngắn chia theo buổi học.",
+  "url": "https://old.mccme.ru/free-books/pdf/mmmf/spiv-7kl.pdf",
+  "source": "mccme.ru",
+  "stage": 1,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "cemc-past-contests",
+  "title": "CEMC Past Contests",
+  "publisher": "University of Waterloo – CEMC",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Đề thi Gauss, Pascal, Cayley, Fermat các năm kèm lời giải, rất hợp để bắt đầu.",
+  "url": "https://cemc.uwaterloo.ca/resources/past-contests",
+  "source": "cemc.uwaterloo.ca",
+  "stage": 1,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "cemc-problem-of-the-week",
+  "title": "CEMC Problem of the Week",
+  "publisher": "University of Waterloo – CEMC",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Mỗi tuần một bài toán theo cấp lớp, có lời giải sau một tuần.",
+  "url": "https://cemc.uwaterloo.ca/resources/potw",
+  "source": "cemc.uwaterloo.ca",
+  "stage": 1,
+  "free": true,
+  "lang": "en",
+  "kind": "magazine"
+ },
+ {
+  "id": "mathematical-reflections",
+  "title": "Mathematical Reflections",
+  "author": "Titu Andreescu (sáng lập)",
+  "publisher": "AwesomeMath",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Tạp chí đề toán trực tuyến miễn phí, mục Junior Problems vừa sức học sinh chuyên THCS.",
+  "url": "https://www.awesomemath.org/mathematical-reflections/",
+  "source": "awesomemath.org",
+  "stage": 2,
+  "free": true,
+  "lang": "en",
+  "kind": "magazine"
+ },
+ {
+  "id": "nang-cao-va-phat-trien-toan-vu-huu-binh",
+  "title": "Nâng cao và phát triển Toán 6–9",
+  "author": "Vũ Hữu Bình",
+  "publisher": "NXB Giáo dục Việt Nam",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Bộ sách nâng cao kinh điển theo từng lớp, nhiều bài chọn lọc có lời giải.",
+  "url": "https://www.fahasa.com/nang-cao-va-phat-trien-toan-9-tap-mot.html",
+  "source": "fahasa.com",
+  "stage": 2,
+  "free": false,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "toan-nang-cao-va-cac-chuyen-de-dai-so-9",
+  "title": "Toán nâng cao và các chuyên đề Đại số 9",
+  "author": "Vũ Dương Thụy, Nguyễn Ngọc Đạm",
+  "publisher": "NXB Giáo dục Việt Nam",
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "bat-dang-thuc"
+  ],
+  "desc": "Bài tập Đại số 9 nâng cao theo chương và chuyên đề phương trình bậc cao.",
+  "url": "https://nhanvan.vn/products/toan-nc-va-cac-chuyen-de-dai-so-9",
+  "source": "nhanvan.vn",
+  "stage": 2,
+  "free": false,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "23-chuyen-de-giai-1001-bai-toan-so-cap",
+  "title": "23 chuyên đề giải 1001 bài toán sơ cấp",
+  "author": "Nguyễn Đức Đồng, Nguyễn Văn Vĩnh",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc"
+  ],
+  "desc": "Hai tập chuyên đề sơ cấp kinh điển, nhiều bài lấy từ đề thi chuyên và học sinh giỏi.",
+  "url": "https://newshop.vn/23-chuyen-de-giai-1001-bai-toan-so-cap.nsv",
+  "source": "newshop.vn",
+  "stage": 2,
+  "free": false,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "cvetkovski-inequalities",
+  "title": "Inequalities: Theorems, Techniques and Selected Problems",
+  "author": "Zdravko Cvetkovski",
+  "publisher": "Springer",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Sách tiếng Anh trình bày rõ các định lý bất đẳng thức cơ bản, nhiều bài có lời giải.",
+  "url": "https://link.springer.com/book/10.1007/978-3-642-23792-8",
+  "source": "springer.com",
+  "stage": 2,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "zeitz-art-and-craft-of-problem-solving",
+  "title": "The Art and Craft of Problem Solving",
+  "author": "Paul Zeitz",
+  "publisher": "Wiley",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Sách tiếng Anh dễ đọc về chiến lược và chiến thuật giải toán thi đấu.",
+  "url": "https://www.wiley.com/en-sg/the-art-and-craft-of-problem-solving-3rd-edition-p-9781119239901",
+  "source": "wiley.com",
+  "stage": 2,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "kanel-kovaldzhi-kak-reshayut-nestandartnye-zadachi",
+  "title": "Как решают нестандартные задачи",
+  "author": "А. Канель-Белов, А. Ковальджи",
+  "grades": [
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Sách mỏng về cách tiếp cận bài toán không mẫu mực, MCCME cho tải miễn phí.",
+  "url": "https://old.mccme.ru/free-books/olymp/KanKov.pdf",
+  "source": "mccme.ru",
+  "stage": 2,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "moskovskie-matematicheskie-olimpiady-1935-1957",
+  "title": "Московские математические олимпиады 1935–1957",
+  "author": "В. В. Прасолов và cộng sự",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Đề Olympic Toán Moskva những năm đầu kèm lời giải chi tiết, miễn phí từ MCCME.",
+  "url": "https://old.mccme.ru/free-books/olymp/mmo-35-57.pdf",
+  "source": "mccme.ru",
+  "stage": 2,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "problems-ru",
+  "title": "Задачи (problems.ru)",
+  "publisher": "МЦНМО",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Cơ sở dữ liệu hàng chục nghìn bài toán olympic tiếng Nga, lọc theo chủ đề và lớp.",
+  "url": "https://problems.ru/",
+  "source": "problems.ru",
+  "stage": 2,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "math-ru-library",
+  "title": "Электронная библиотека math.ru",
+  "publisher": "math.ru / МЦНМО",
+  "grades": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Thư viện miễn phí các sách phổ biến toán học Nga như Библиотечка «Квант».",
+  "url": "https://math.ru/lib/",
+  "source": "math.ru",
+  "stage": 2,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "kvant",
+  "title": "Квант",
+  "publisher": "Российская академия наук / МЦНМО",
+  "grades": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Tạp chí toán lý nổi tiếng của Nga từ 1970, có mục Задачник «Кванта»; kho lưu trữ miễn phí.",
+  "url": "https://kvant.digital/",
+  "source": "kvant.digital",
+  "stage": 2,
+  "free": true,
+  "lang": "ru",
+  "kind": "magazine"
+ },
+ {
+  "id": "quantum-magazine",
+  "title": "Quantum: The Magazine of Math and Science",
+  "publisher": "NSTA",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Phiên bản tiếng Anh của Kvant (1990–2001), lưu trữ miễn phí trên trang NSTA.",
+  "url": "https://www.nsta.org/quantum-magazine-math-and-science",
+  "source": "nsta.org",
+  "stage": 2,
+  "free": true,
+  "lang": "en",
+  "kind": "magazine"
+ },
+ {
+  "id": "mathematical-excalibur",
+  "title": "Mathematical Excalibur",
+  "publisher": "HKUST",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Bản tin olympic 4 trang của Hồng Kông, mỗi số một bài chuyên đề ngắn; miễn phí.",
+  "url": "https://www.math.hkust.edu.hk/excalibur/",
+  "source": "math.hkust.edu.hk",
+  "stage": 2,
+  "free": true,
+  "lang": "en",
+  "kind": "magazine"
+ },
+ {
+  "id": "mathscope-tuyen-tap-chuyen-de-to-hop",
+  "title": "Tuyển tập các chuyên đề tổ hợp",
+  "author": "Thành viên diễn đàn Mathscope",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "desc": "Mười chuyên đề tổ hợp mức cao: đếm hai cách, bất biến, tô màu, bàn cờ, hàm sinh.",
+  "url": "https://toanmath.com/2020/08/tuyen-tap-cac-chuyen-de-to-hop.html",
+  "source": "toanmath.com",
+  "stage": 3,
+  "free": true,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "otis-excerpts",
+  "title": "The OTIS Excerpts",
+  "author": "Evan Chen",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "dai-so",
+   "so-hoc",
+   "to-hop",
+   "bat-dang-thuc"
+  ],
+  "desc": "Sách tiếng Anh miễn phí nhập môn olympic: đại số, tổ hợp, số học, kèm 200 bài có lời giải.",
+  "url": "https://web.evanchen.cc/excerpts.html",
+  "source": "web.evanchen.cc",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "kedlaya-a-less-than-b",
+  "title": "A < B (A is less than B)",
+  "author": "Kiran Kedlaya",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Tài liệu tiếng Anh kinh điển về bất đẳng thức: AM-GM, Cauchy-Schwarz, hoán vị, lồi.",
+  "url": "https://artofproblemsolving.com/articles/files/KedlayaInequalities.pdf",
+  "source": "artofproblemsolving.com",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "mildorf-olympiad-inequalities",
+  "title": "Olympiad Inequalities",
+  "author": "Thomas J. Mildorf",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Mười hai bất đẳng thức nền tảng và kỹ thuật olympic, nhiều ví dụ giải mẫu; tiếng Anh.",
+  "url": "https://artofproblemsolving.com/articles/files/MildorfInequalities.pdf",
+  "source": "artofproblemsolving.com",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "yufei-zhao-olympiad-handouts",
+  "title": "Math Olympiad training handouts",
+  "author": "Yufei Zhao",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "hinh-hoc",
+   "so-hoc",
+   "bat-dang-thuc"
+  ],
+  "desc": "Bộ handout tiếng Anh miễn phí, nổi bật là Lemmas in Euclidean Geometry cho hình học phẳng.",
+  "url": "https://yufeizhao.com/olympiad/",
+  "source": "yufeizhao.com",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "crux-mathematicorum",
+  "title": "Crux Mathematicorum",
+  "publisher": "Canadian Mathematical Society",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Tạp chí giải toán miễn phí từ 2019, có mục Olympiad Corner với đề và lời giải.",
+  "url": "https://cms.math.ca/publications/crux/",
+  "source": "cms.math.ca",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "magazine"
+ },
+ {
+  "id": "sang-tao-bat-dang-thuc",
+  "title": "Sáng tạo bất đẳng thức",
+  "author": "Phạm Kim Hùng",
+  "publisher": "NXB Tri Thức",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Sách bất đẳng thức nổi tiếng của cựu học sinh đội tuyển IMO, nhiều kỹ thuật hiện đại.",
+  "url": "https://www.fahasa.com/sang-tao-bat-dang-thuc.html",
+  "source": "fahasa.com",
+  "stage": 3,
+  "free": false,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "nhung-vien-kim-cuong-trong-bat-dang-thuc-toan-hoc",
+  "title": "Những viên kim cương trong bất đẳng thức toán học",
+  "author": "Trần Phương (chủ biên)",
+  "publisher": "NXB Tri Thức",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Bộ sách đồ sộ về bất đẳng thức, từ cổ điển đến dồn biến, SOS, khoảng 2000 bài.",
+  "url": "https://www.nhasachgiaoduc.vn/nhung-vien-kim-cuong-trong-bat-dang-thuc-toan-hoc",
+  "source": "nhasachgiaoduc.vn",
+  "stage": 3,
+  "free": false,
+  "lang": "vi",
+  "kind": "book"
+ },
+ {
+  "id": "secrets-in-inequalities",
+  "title": "Secrets in Inequalities (2 tập)",
+  "author": "Pham Kim Hung",
+  "publisher": "GIL Publishing House",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Hai tập tiếng Anh: tập 1 các bất đẳng thức cơ bản, tập 2 kỹ thuật nâng cao như SOS, dồn biến.",
+  "url": "https://www.amazon.com/Secrets-Inequalities-Pham-Kim-Hung/dp/6065000027",
+  "source": "amazon.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "old-and-new-inequalities",
+  "title": "Old and New Inequalities",
+  "author": "Titu Andreescu, Vasile Cîrtoaje, Gabriel Dospinescu, Mircea Lascu",
+  "publisher": "GIL Publishing House",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Tuyển bài bất đẳng thức thi đấu nổi tiếng kèm lời giải, mức olympic.",
+  "url": "https://books.google.com/books/about/Old_and_New_Inequalities.html?id=88zKXwAACAAJ",
+  "source": "books.google.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "cirtoaje-mathematical-inequalities-vol-1",
+  "title": "Mathematical Inequalities – Volume 1: Symmetric Polynomial Inequalities",
+  "author": "Vasile Cîrtoaje",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "desc": "Tập bất đẳng thức đa thức đối xứng rất lớn, tác giả đăng miễn phí trên trang cá nhân.",
+  "url": "http://ace.upg-ploiesti.ro/membri/vcirtoaje/math_ineq_1.pdf",
+  "source": "ace.upg-ploiesti.ro",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "engel-problem-solving-strategies",
+  "title": "Problem-Solving Strategies",
+  "author": "Arthur Engel",
+  "publisher": "Springer",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Kho bài olympic chia theo chiến thuật: bất biến, cực hạn, Dirichlet, tô màu, quy nạp.",
+  "url": "https://link.springer.com/book/10.1007/b97682",
+  "source": "springer.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "larson-problem-solving-through-problems",
+  "title": "Problem-Solving Through Problems",
+  "author": "Loren C. Larson",
+  "publisher": "Springer",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Sách tiếng Anh sắp bài theo kỹ thuật giải, phần đầu hợp với học sinh chuyên.",
+  "url": "https://link.springer.com/book/10.1007/978-1-4612-5498-0",
+  "source": "springer.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "andreescu-mathematical-olympiad-challenges",
+  "title": "Mathematical Olympiad Challenges",
+  "author": "Titu Andreescu, Răzvan Gelca",
+  "publisher": "Birkhäuser",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Các bài olympic chọn lọc chia theo chủ đề hình học, đại số, số học, tổ hợp.",
+  "url": "https://link.springer.com/book/10.1007/978-1-4612-2138-8",
+  "source": "springer.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "andreescu-feng-102-combinatorial-problems",
+  "title": "102 Combinatorial Problems",
+  "author": "Titu Andreescu, Zuming Feng",
+  "publisher": "Birkhäuser",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "desc": "102 bài tổ hợp chọn lọc từ đội tuyển Mỹ, có lời giải chi tiết.",
+  "url": "https://link.springer.com/book/10.1007/978-0-8176-8222-4",
+  "source": "springer.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "andreescu-104-number-theory-problems",
+  "title": "104 Number Theory Problems",
+  "author": "Titu Andreescu, Dorin Andrica, Zuming Feng",
+  "publisher": "Birkhäuser",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "desc": "Lý thuyết số học ngắn gọn rồi 104 bài chọn lọc từ đội tuyển Mỹ, có lời giải.",
+  "url": "https://link.springer.com/book/10.1007/978-0-8176-4561-8",
+  "source": "springer.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "stevens-olympiad-number-theory",
+  "title": "Olympiad Number Theory Through Challenging Problems",
+  "author": "Justin Stevens",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "desc": "Sách số học olympic miễn phí: chia hết, đồng dư, định lý Fermat, phương trình nghiệm nguyên.",
+  "url": "https://numbertheoryguy.com/publications/olympiad-number-theory-book/",
+  "source": "numbertheoryguy.com",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "coxeter-greitzer-geometry-revisited",
+  "title": "Geometry Revisited",
+  "author": "H. S. M. Coxeter, Samuel L. Greitzer",
+  "publisher": "MAA / AMS",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "desc": "Sách hình học kinh điển về Ceva, Menelaus, Ptolemy, Simson và các phép biến hình.",
+  "url": "https://www.amazon.com/Geometry-Revisited-New-Mathematical-Library/dp/0883856190",
+  "source": "amazon.com",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "evan-chen-egmo",
+  "title": "Euclidean Geometry in Mathematical Olympiads",
+  "author": "Evan Chen",
+  "publisher": "MAA / AMS",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "desc": "Sách hình học olympic hiện đại, trang tác giả có chương mẫu và lời giải miễn phí.",
+  "url": "https://web.evanchen.cc/geombook.html",
+  "source": "web.evanchen.cc",
+  "stage": 3,
+  "free": false,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "id": "prasolov-zadachi-po-planimetrii",
+  "title": "Задачи по планиметрии",
+  "author": "В. В. Прасолов",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "desc": "Khoảng 1900 bài hình học phẳng xếp theo chủ đề, có lời giải; miễn phí từ MCCME.",
+  "url": "https://old.mccme.ru/free-books/prasolov/planim5.pdf",
+  "source": "mccme.ru",
+  "stage": 3,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "turnir-gorodov",
+  "title": "Турнир городов (Tournament of Towns)",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Trang chính thức của cuộc thi Tournament of Towns, lưu đề các năm kèm lời giải.",
+  "url": "https://turgor.ru/",
+  "source": "turgor.ru",
+  "stage": 3,
+  "free": true,
+  "lang": "ru",
+  "kind": "book"
+ },
+ {
+  "id": "matematicheskoe-prosveshchenie",
+  "title": "Математическое просвещение",
+  "publisher": "МЦНМО",
+  "grades": [
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Tuyển tập chuyên sâu của MCCME có mục bài toán; các số tải miễn phí.",
+  "url": "https://old.mccme.ru/free-books/matpros.html",
+  "source": "mccme.ru",
+  "stage": 3,
+  "free": true,
+  "lang": "ru",
+  "kind": "magazine"
+ },
+ {
+  "id": "cms-canadian-mathematical-olympiad",
+  "title": "Canadian Mathematical Olympiad & Canadian Junior MO",
+  "publisher": "Canadian Mathematical Society",
+  "grades": [
+   9,
+   10
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so",
+   "bat-dang-thuc",
+   "hinh-hoc",
+   "to-hop"
+  ],
+  "desc": "Kho đề và lời giải Olympic Toán Canada, gồm cả kỳ thi dành cho học sinh nhỏ tuổi.",
+  "url": "https://cms.math.ca/competitions/cmo/",
+  "source": "cms.math.ca",
+  "stage": 3,
+  "free": true,
+  "lang": "en",
+  "kind": "book"
+ },
+ {
+  "title": "Chuyên đề góc và các vấn đề liên quan ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-goc-va-cac-van-de-lien-quan-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-goc-va-cac-van-đe-lien-quan-on-thi-hoc-sinh-gioi-t",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề hình học trực quan ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-hinh-hoc-truc-quan-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-hinh-hoc-truc-quan-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề một số hình phẳng trong thực tiễn ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-mot-so-hinh-phang-trong-thuc-tien-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-mot-so-hinh-phang-trong-thuc-tien-on-thi-hoc-sinh-",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề dữ liệu và xác suất thực nghiệm ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-du-lieu-va-xac-suat-thuc-nghiem-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-du-lieu-va-xac-suat-thuc-nghiem-on-thi-hoc-sinh-gi",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số thập phân ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-so-thap-phan-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-thap-phan-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề phân số ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-phan-so-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-phan-so-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề nguyên lí Dirichlet ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-nguyen-li-dirichlet-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-nguyen-li-dirichlet-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số nguyên ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-so-nguyen-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-nguyen-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số chính phương ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-so-chinh-phuong-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-chinh-phuong-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số nguyên tố và hợp số ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-so-nguyen-to-va-hop-so-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-nguyen-to-va-hop-so-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề ước chung lớn nhất và bội chung nhỏ nhất ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-uoc-chung-lon-nhat-va-boi-chung-nho-nhat-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-uoc-chung-lon-nhat-va-boi-chung-nho-nhat-on-thi-ho",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề phép chia hết và phép chia có dư ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-g",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề lũy thừa với số mũ tự nhiên ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-luy-thua-voi-so-mu-tu-nhien-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-luy-thua-voi-so-mu-tu-nhien-on-thi-hoc-sinh-gioi-t",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số tự nhiên ôn thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-so-tu-nhien-on-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-tu-nhien-on-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán thống kê và xác suất trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-thong-ke-va-xac-suat-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-thong-ke-va-xac-suat-trong-cac-đe-thi-hoc-sinh-gioi",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán suy luận logic, sơ đồ Ven trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-suy-luan-logic-so-do-ven-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-suy-luan-logic-so-đo-ven-trong-cac-đe-thi-hoc-sinh-",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán bất đẳng thức trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-bat-dang-thuc-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-bat-đang-thuc-trong-cac-đe-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán hình học trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-hinh-hoc-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-hinh-hoc-trong-cac-đe-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán so sánh phân số, lũy thừa trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-so-sanh-phan-so-luy-thua-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-so-sanh-phan-so-luy-thua-trong-cac-đe-thi-hoc-sinh-",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán phân số trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-phan-so-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-phan-so-trong-cac-đe-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán đồng dư thức trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-dong-du-thuc-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-đong-du-thuc-trong-cac-đe-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán số nguyên trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-so-nguyen-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-so-nguyen-trong-cac-đe-thi-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán số chính phương trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-so-chinh-phuong-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-so-chinh-phuong-trong-cac-đe-thi-hoc-sinh-gioi-toan",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán tính chất chia hết trong tập hợp số tự nhiên trong các đề thi HSG Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-tinh-chat-chia-het-trong-tap-hop-so-tu-nhien-trong-cac-de-thi-hsg-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-tinh-chat-chia-het-trong-tap-hop-so-tu-nhien-trong-",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán tính toán với số tự nhiên, số nguyên, phân số trong các đề thi HSG Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-tinh-toan-voi-so-tu-nhien-so-nguyen-phan-so-trong-cac-de-thi-hsg-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-tinh-toan-voi-so-tu-nhien-so-nguyen-phan-so-trong-c",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài toán tập hợp số tự nhiên trong các đề thi học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-tap-hop-so-tu-nhien-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-tap-hop-so-tu-nhien-trong-cac-đe-thi-hoc-sinh-gioi-",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Tuyển tập đầy đủ các chuyên đề bồi dưỡng học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-day-du-cac-chuyen-de-boi-duong-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-đay-đu-cac-chuyen-đe-boi-duong-hoc-sinh-gioi-toan-",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề hình học bồi dưỡng học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề ƯCLN và BCNN bồi dưỡng học sinh giỏi Toán 6",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-ucln-va-bcnn-boi-duong-hoc-sinh-gioi-toan-6.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-ucln-va-bcnn-boi-duong-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Bài tập cơ bản và nâng cao Hình học 6 – Bùi Đức Phương",
+  "url": "https://thcs.toanmath.com/2020/09/bai-tap-co-ban-va-nang-cao-hinh-hoc-6-bui-duc-phuong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-co-ban-va-nang-cao-hinh-hoc-6-bui-đuc-phuong",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Bài tập cơ bản và nâng cao Số học 6 – Bùi Đức Phương",
+  "url": "https://thcs.toanmath.com/2020/09/bai-tap-co-ban-va-nang-cao-so-hoc-6-bui-duc-phuong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-co-ban-va-nang-cao-so-hoc-6-bui-đuc-phuong",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Các dạng bài tập bồi dưỡng học sinh giỏi môn Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/cac-dang-bai-tap-boi-duong-hoc-sinh-gioi-mon-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-dang-bai-tap-boi-duong-hoc-sinh-gioi-mon-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán hình học trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-hinh-hoc-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-hinh-hoc-trong-cac-đe-thi-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán nguyên lý Dirichlet trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-nguyen-ly-dirichlet-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-nguyen-ly-dirichlet-trong-cac-đe-thi-hoc-sinh-gioi-",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán đồng dư thức trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-dong-du-thuc-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-đong-du-thuc-trong-cac-đe-thi-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán tỉ lệ thức và dãy tỉ số bằng nhau trong các đề thi HSG Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-ti-le-thuc-va-day-ti-so-bang-nhau-trong-cac-de-thi-hsg-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-ti-le-thuc-va-day-ti-so-bang-nhau-trong-cac-đe-thi-",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán phân số trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-phan-so-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-phan-so-trong-cac-đe-thi-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán biểu đồ và xác suất trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-bieu-do-va-xac-suat-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-bieu-đo-va-xac-suat-trong-cac-đe-thi-hoc-sinh-gioi-",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán đa thức trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-da-thuc-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-đa-thuc-trong-cac-đe-thi-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán số chính phương trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-so-chinh-phuong-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-so-chinh-phuong-trong-cac-đe-thi-hoc-sinh-gioi-toan-1",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán số nguyên tố và hợp số trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-so-nguyen-to-va-hop-so-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-so-nguyen-to-va-hop-so-trong-cac-đe-thi-hoc-sinh-gi",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán chứng minh chia hết, tìm chữ số tận cùng trong các đề thi HSG Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-chung-minh-chia-het-tim-chu-so-tan-cung-trong-cac-de-thi-hsg-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "so-hoc",
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-chung-minh-chia-het-tim-chu-so-tan-cung-trong-cac-đ",
+  "desc": "Tài liệu PDF miễn phí về số học, bất đẳng thức, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán lũy thừa số tự nhiên trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-luy-thua-so-tu-nhien-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-luy-thua-so-tu-nhien-trong-cac-đe-thi-hoc-sinh-gioi",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán tìm ẩn chưa biết trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-tim-an-chua-biet-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-tim-an-chua-biet-trong-cac-đe-thi-hoc-sinh-gioi-toa",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài toán thực hiện phép tính trong các đề thi học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2024/09/bai-toan-thuc-hien-phep-tinh-trong-cac-de-thi-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-toan-thuc-hien-phep-tinh-trong-cac-đe-thi-hoc-sinh-gioi-",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 7."
+ },
+ {
+  "title": "8 chuyên đề bồi dưỡng học sinh giỏi môn Toán 7 phần Đại số",
+  "url": "https://thcs.toanmath.com/2023/10/8-chuyen-de-boi-duong-hoc-sinh-gioi-mon-toan-7-phan-dai-so.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "8-chuyen-đe-boi-duong-hoc-sinh-gioi-mon-toan-7-phan-đai-so",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 7."
+ },
+ {
+  "title": "Tuyển tập đầy đủ các chuyên đề bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-day-du-cac-chuyen-de-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-đay-đu-cac-chuyen-đe-boi-duong-hoc-sinh-gioi-toan--1",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Chuyên đề đa thức bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-da-thuc-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-đa-thuc-boi-duong-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 7."
+ },
+ {
+  "title": "Chuyên đề tỉ lệ thuận và tỉ lệ nghịch bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-ti-le-thuan-va-ti-le-nghich-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-ti-le-thuan-va-ti-le-nghich-boi-duong-hoc-sinh-gio",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Chuyên đề tỉ lệ thức bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-ti-le-thuc-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-ti-le-thuc-boi-duong-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Chuyên đề hình học bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 7."
+ },
+ {
+  "title": "22 chuyên đề bồi dưỡng Hình học 7",
+  "url": "https://thcs.toanmath.com/2021/09/22-chuyen-de-boi-duong-hinh-hoc-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "22-chuyen-đe-boi-duong-hinh-hoc-7",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 15 chuyên đề bồi dưỡng học sinh giỏi Toán 7",
+  "url": "https://thcs.toanmath.com/2021/03/tuyen-tap-15-chuyen-de-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-15-chuyen-đe-boi-duong-hoc-sinh-gioi-toan-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài tập cơ bản và nâng cao Hình học 7 – Bùi Đức Phương",
+  "url": "https://thcs.toanmath.com/2020/10/bai-tap-co-ban-va-nang-cao-hinh-hoc-7-bui-duc-phuong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-co-ban-va-nang-cao-hinh-hoc-7-bui-đuc-phuong",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Các chuyên đề bồi dưỡng học sinh giỏi Hình học 7",
+  "url": "https://thcs.toanmath.com/2017/10/cac-chuyen-de-boi-duong-hoc-sinh-gioi-hinh-hoc-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-chuyen-đe-boi-duong-hoc-sinh-gioi-hinh-hoc-7",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "20 chuyên đề bồi dưỡng học sinh giỏi Hình học 8",
+  "url": "https://thcs.toanmath.com/2023/07/20-chuyen-de-boi-duong-hoc-sinh-gioi-hinh-hoc-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "20-chuyen-đe-boi-duong-hoc-sinh-gioi-hinh-hoc-8",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "26 chuyên đề bồi dưỡng học sinh giỏi Đại số 8",
+  "url": "https://thcs.toanmath.com/2023/07/26-chuyen-de-boi-duong-hoc-sinh-gioi-dai-so-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "26-chuyen-đe-boi-duong-hoc-sinh-gioi-đai-so-8",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề tam giác đồng dạng bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-tam-giac-dong-dang-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tam-giac-đong-dang-boi-duong-hoc-sinh-gioi-toan-8",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề tứ giác bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-tu-giac-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tu-giac-boi-duong-hoc-sinh-gioi-toan-8",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề tính giá trị biểu thức bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-tinh-gia-tri-bieu-thuc-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tinh-gia-tri-bieu-thuc-boi-duong-hoc-sinh-gioi-toa",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề giải phương trình bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-giai-phuong-trinh-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-giai-phuong-trinh-boi-duong-hoc-sinh-gioi-toan-8",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề phương trình nghiệm nguyên bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-phuong-trinh-nghiem-nguyen-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "nghiem-nguyen",
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-phuong-trinh-nghiem-nguyen-boi-duong-hoc-sinh-gioi",
+  "desc": "Tài liệu PDF miễn phí về nghiệm nguyên, phương trình, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề phân tích đa thức thành nhân tử bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-phan-tich-da-thuc-thanh-nhan-tu-boi-duong-hoc-sinh-gioi-toan-8-2.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-phan-tich-đa-thuc-thanh-nhan-tu-boi-duong-hoc-sinh",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề chia hết của đa thức bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-chia-het-cua-da-thuc-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "so-hoc",
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-chia-het-cua-đa-thuc-boi-duong-hoc-sinh-gioi-toan-",
+  "desc": "Tài liệu PDF miễn phí về số học, đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề bất đẳng thức bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-bat-đang-thuc-boi-duong-hoc-sinh-gioi-toan-8",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề giá trị lớn nhất, giá trị nhỏ nhất của biểu thức bồi dưỡng HSG Toán 8",
+  "url": "https://thcs.toanmath.com/2021/12/chuyen-de-gia-tri-lon-nhat-gia-tri-nho-nhat-cua-bieu-thuc-boi-duong-hsg-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "bat-dang-thuc",
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-gia-tri-lon-nhat-gia-tri-nho-nhat-cua-bieu-thuc-bo",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề tam giác đồng dạng, Ta-lét và liên quan bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-tam-giac-dong-dang-ta-let-va-lien-quan-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tam-giac-đong-dang-talet-va-lien-quan-boi-duong-ho",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề các bài toán về tứ giác bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-cac-bai-toan-ve-tu-giac-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-cac-bai-toan-ve-tu-giac-boi-duong-hoc-sinh-gioi-to",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Chuyên đề các bài toán về phân thức đại số bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-cac-bai-toan-ve-phan-thuc-dai-so-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-cac-bai-toan-ve-phan-thuc-đai-so-boi-duong-hoc-sin",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Một số chuyên đề bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2021/07/mot-so-chuyen-de-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "mot-so-chuyen-đe-boi-duong-hoc-sinh-gioi-toan-8",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Tuyển tập 405 bài toán giải bằng cách lập phương trình có đáp án chi tiết",
+  "url": "https://thcs.toanmath.com/2021/02/tuyen-tap-405-bai-toan-giai-bang-cach-lap-phuong-trinh-co-dap-an-chi-tiet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-405-bai-toan-giai-bang-cach-lap-phuong-trinh-co-đa",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Bồi dưỡng và phát triển tư duy đột phá Toán 8 (Tập 2: Hình học)",
+  "url": "https://thcs.toanmath.com/2019/08/boi-duong-va-phat-trien-tu-duy-dot-pha-toan-8-tap-2-hinh-hoc.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "boi-duong-va-phat-trien-tu-duy-đot-pha-toan-8-tap-2-hinh-hoc",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Tuyển tập những bài toán hình học lớp 9 hay và đặc sắc – Bùi Hoàng Nam",
+  "url": "https://thcs.toanmath.com/2025/02/tuyen-tap-nhung-bai-toan-hinh-hoc-lop-9-hay-va-dac-sac-bui-hoang-nam.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-nhung-bai-toan-hinh-hoc-lop-9-hay-va-đac-sac-bui-h",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Các dạng bài tập bồi dưỡng học sinh giỏi môn Toán 9",
+  "url": "https://thcs.toanmath.com/2024/09/cac-dang-bai-tap-boi-duong-hoc-sinh-gioi-mon-toan-9.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-dang-bai-tap-boi-duong-hoc-sinh-gioi-mon-toan-9",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Các chuyên đề bồi dưỡng học sinh giỏi Đại số 9",
+  "url": "https://thcs.toanmath.com/2022/08/cac-chuyen-de-boi-duong-hoc-sinh-gioi-dai-so-9.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-chuyen-đe-boi-duong-hoc-sinh-gioi-đai-so-9",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 6–9."
+ },
+ {
+  "title": "Các chuyên đề bồi dưỡng học sinh giỏi Hình học 9",
+  "url": "https://thcs.toanmath.com/2022/08/cac-chuyen-de-boi-duong-hoc-sinh-gioi-hinh-hoc-9.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-chuyen-đe-boi-duong-hoc-sinh-gioi-hinh-hoc-9",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề hệ phương trình bồi dưỡng học sinh giỏi THCS",
+  "url": "https://thcs.toanmath.com/2020/03/chuyen-de-he-phuong-trinh-boi-duong-hoc-sinh-gioi-thcs.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-he-phuong-trinh-boi-duong-hoc-sinh-gioi-thcs",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Các kĩ thuật đếm nâng cao trong bài toán tổ hợp và xác suất – Mai Thành Luân",
+  "url": "https://toanmath.com/2026/08/cac-ki-thuat-dem-nang-cao-trong-bai-toan-to-hop-va-xac-suat-mai-thanh-luan.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-ki-thuat-đem-nang-cao-trong-bai-toan-to-hop-va-xac-suat-",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập phương trình đại số hay và khó",
+  "url": "https://toanmath.com/2021/05/tuyen-tap-phuong-trinh-dai-so-hay-va-kho.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh",
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-phuong-trinh-đai-so-hay-va-kho",
+  "desc": "Tài liệu PDF miễn phí về phương trình, đại số, dành cho lớp 6–9."
+ },
+ {
+  "title": "Ôn luyện bồi dưỡng học sinh giỏi hình học không gian – Phan Huy Khải",
+  "url": "https://toanmath.com/2018/02/on-luyen-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-gian-phan-huy-khai.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "on-luyen-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-gian-phan-hu",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập những bài phương trình, hệ phương trình hay – Nguyễn Đức Thắng",
+  "url": "https://toanmath.com/2017/02/tuyen-tap-nhung-bai-phuong-trinh-he-phuong-trinh-hay-nguyen-duc-thang.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-nhung-bai-phuong-trinh-he-phuong-trinh-hay-nguyen-",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập bất đẳng thức – Diễn đàn Box Math",
+  "url": "https://toanmath.com/2016/05/tuyen-tap-bat-dang-thuc-dien-dan-box-math.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-bat-đang-thuc-dien-đan-box-math",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập bất đẳng thức – Diễn đàn Mathscope",
+  "url": "https://toanmath.com/2016/04/tuyen-tap-bat-dang-thuc-dien-dan-mathscope.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-bat-đang-thuc-dien-đan-mathscope",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập các định lí và cách chứng minh bất đẳng thức – Nguyễn Ngọc Tiến",
+  "url": "https://toanmath.com/2016/01/tuyen-tap-cac-dinh-li-va-cach-chung-minh-bat-dang-thuc-nguyen-ngoc-tien.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-cac-đinh-li-va-cach-chung-minh-bat-đang-thuc-nguye",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Bài tập nâng cao chuyên đề hình học không gian",
+  "url": "https://toanmath.com/2023/01/bai-tap-nang-cao-chuyen-de-hinh-hoc-khong-gian.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-nang-cao-chuyen-đe-hinh-hoc-khong-gian",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Bài tập trắc nghiệm Hình học 12 từ cơ bản đến nâng cao – Nguyễn Hoàng Việt",
+  "url": "https://toanmath.com/2022/08/bai-tap-trac-nghiem-hinh-hoc-12-tu-co-ban-den-nang-cao-nguyen-hoang-viet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-trac-nghiem-hinh-hoc-12-tu-co-ban-đen-nang-cao-nguye",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 300 bài toán bất đẳng thức chọn lọc có lời giải chi tiết",
+  "url": "https://toanmath.com/2022/05/tuyen-tap-300-bai-toan-bat-dang-thuc-chon-loc-co-loi-giai-chi-tiet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-300-bai-toan-bat-đang-thuc-chon-loc-co-loi-giai-ch",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập các bài toán diện tích thiết diện và tỉ số độ dài Hình học 11 – Đặng Việt Đông",
+  "url": "https://toanmath.com/2021/10/tuyen-tap-cac-bai-toan-dien-tich-thiet-dien-va-ti-so-do-dai-hinh-hoc-11-dang-viet-dong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-cac-bai-toan-dien-tich-thiet-dien-va-ti-so-đo-dai-",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập một số bài toán tổ hợp ôn thi HSG Toán",
+  "url": "https://toanmath.com/2021/02/tuyen-tap-mot-so-bai-toan-to-hop-on-thi-hsg-toan.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-mot-so-bai-toan-to-hop-on-thi-hsg-toan",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tài liệu bồi dưỡng học sinh giỏi hình học không gian",
+  "url": "https://toanmath.com/2020/08/tai-lieu-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-gian.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tai-lieu-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-gian",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Trắc nghiệm nâng cao tổ hợp và xác suất – Đặng Việt Đông",
+  "url": "https://toanmath.com/2018/05/trac-nghiem-nang-cao-to-hop-va-xac-suat-dang-viet-dong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "trac-nghiem-nang-cao-to-hop-va-xac-suat-đang-viet-đong",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập một số bài toán cực trị trong hình học tọa độ không gian – Lưu Huy Thưởng",
+  "url": "https://toanmath.com/2017/03/tuyen-tap-mot-so-bai-toan-cuc-tri-trong-hinh-hoc-toa-do-khong-gian-luu-huy-thuong.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-mot-so-bai-toan-cuc-tri-trong-hinh-hoc-toa-đo-khon",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 100 hệ phương trình hay thường gặp – Megabook",
+  "url": "https://toanmath.com/2016/06/tuyen-tap-100-he-phuong-trinh-hay-thuong-gap-megabook.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-100-he-phuong-trinh-hay-thuong-gap-megabook",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập các bài toán hình học không gian – Châu Ngọc Hùng",
+  "url": "https://toanmath.com/2016/06/tuyen-tap-cac-bai-toan-hinh-hoc-khong-gian-chau-ngoc-hung.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-cac-bai-toan-hinh-hoc-khong-gian-chau-ngoc-hung",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập hệ phương trình – Mẫn Ngọc Quang",
+  "url": "https://toanmath.com/2016/05/tuyen-tap-he-phuong-trinh-man-ngoc-quang.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-he-phuong-trinh-man-ngoc-quang",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập hệ phương trình – Diễn đàn Box Math",
+  "url": "https://toanmath.com/2016/04/tuyen-tap-he-phuong-trinh-dien-dan-box-math.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-he-phuong-trinh-dien-đan-box-math",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 30 bài toán bất phương trình vô tỉ – Nguyễn Minh Tiến",
+  "url": "https://toanmath.com/2015/07/tuyen-tap-30-bai-toan-bat-phuong-trinh-vo-ti-nguyen-minh-tien.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh",
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-30-bai-toan-bat-phuong-trinh-vo-ti-nguyen-minh-tie",
+  "desc": "Tài liệu PDF miễn phí về phương trình, bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 100 bài toán Hệ phương trình",
+  "url": "https://toanmath.com/2015/07/tuyen-tap-100-bai-toan-he-phuong-trinh.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "phuong-trinh"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-100-bai-toan-he-phuong-trinh",
+  "desc": "Tài liệu PDF miễn phí về phương trình, dành cho lớp 6–9."
+ },
+ {
+  "title": "Tuyển tập 50 đề ôn thi chọn học sinh giỏi môn Toán lớp 8 có lời giải",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-50-de-on-thi-chon-hoc-sinh-gioi-mon-toan-lop-8-co-loi-giai.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-50-đe-on-thi-chon-hoc-sinh-gioi-mon-toan-lop-8-co-",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 8."
+ },
+ {
+  "title": "Tuyển tập 50 đề ôn thi chọn học sinh giỏi môn Toán lớp 7 có lời giải",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-50-de-on-thi-chon-hoc-sinh-gioi-mon-toan-lop-7-co-loi-giai.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-50-đe-on-thi-chon-hoc-sinh-gioi-mon-toan-lop-7-co-",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Tuyển tập 50 đề thi học sinh giỏi Toán 9 cấp huyện / quận có lời giải",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-50-de-thi-hoc-sinh-gioi-toan-9-cap-huyen-quan-co-loi-giai.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-50-đe-thi-hoc-sinh-gioi-toan-9-cap-huyen-quan-co-l",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Tuyển tập 50 đề thi học sinh giỏi Toán 9 cấp tỉnh / thành phố có lời giải",
+  "url": "https://thcs.toanmath.com/2022/08/tuyen-tap-50-de-thi-hoc-sinh-gioi-toan-9-cap-tinh-thanh-pho-co-loi-giai.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-50-đe-thi-hoc-sinh-gioi-toan-9-cap-tinh-thanh-pho-",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Tuyển tập đề thi học sinh giỏi Toán 9",
+  "url": "https://thcs.toanmath.com/2021/03/tuyen-tap-de-thi-hoc-sinh-gioi-toan-9.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-đe-thi-hoc-sinh-gioi-toan-9",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Tuyển tập 45 đề thi HSG Toán 9 có lời giải chi tiết",
+  "url": "https://thcs.toanmath.com/2017/12/tuyen-tap-45-de-thi-hsg-toan-9-co-loi-giai-chi-tiet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tuyen-tap-45-đe-thi-hsg-toan-9-co-loi-giai-chi-tiet",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 9."
+ },
+ {
+  "title": "Tài liệu bồi dưỡng học sinh giỏi, Olympic chuyên đề dãy số",
+  "url": "https://toanmath.com/2023/07/tai-lieu-boi-duong-hoc-sinh-gioi-olympic-chuyen-de-day-so.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "tai-lieu-boi-duong-hoc-sinh-gioi-olympic-chuyen-đe-day-so",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 6–9."
+ },
+ {
+  "title": "Một số chuyên đề về tổ hợp dành cho học sinh giỏi Toán",
+  "url": "https://toanmath.com/2019/10/mot-so-chuyen-de-ve-to-hop-danh-cho-hoc-sinh-gioi-toan.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "mot-so-chuyen-đe-ve-to-hop-danh-cho-hoc-sinh-gioi-toan",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6–9."
+ },
+ {
+  "title": "15 đề thi HSG cấp huyện Toán 7 có lời giải chi tiết",
+  "url": "https://thcs.toanmath.com/2019/07/15-de-thi-hsg-cap-huyen-toan-7-co-loi-giai-chi-tiet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   7
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "15-đe-thi-hsg-cap-huyen-toan-7-co-loi-giai-chi-tiet",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 7."
+ },
+ {
+  "title": "Bài tập trắc nghiệm tổ hợp và xác suất nâng cao có lời giải chi tiết",
+  "url": "https://toanmath.com/2018/11/bai-tap-trac-nghiem-to-hop-va-xac-suat-nang-cao-co-loi-giai-chi-tiet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "to-hop"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "bai-tap-trac-nghiem-to-hop-va-xac-suat-nang-cao-co-loi-giai-",
+  "desc": "Tài liệu PDF miễn phí về tổ hợp, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề giá trị tuyệt đối bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-gia-tri-tuyet-doi-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-gia-tri-tuyet-đoi-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề chứng minh chia hết bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-chung-minh-chia-het-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc",
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-chung-minh-chia-het-boi-duong-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về số học, bất đẳng thức, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề số nguyên tố và số chính phương bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-so-nguyen-to-va-so-chinh-phuong-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-nguyen-to-va-so-chinh-phuong-boi-duong-hoc-sinh",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề phân số bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-phan-so-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-phan-so-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề so sánh bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-so-sanh-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-so-sanh-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề tìm x bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-tim-x-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tim-x-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "desc": "Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề bất đẳng thức bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-bat-đang-thuc-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề thực hiện phép tính bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-thuc-hien-phep-tinh-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-thuc-hien-phep-tinh-boi-duong-hoc-sinh-gioi-toan-6",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 6."
+ },
+ {
+  "title": "Chuyên đề tìm GTLN – GTNN của biểu thức bồi dưỡng học sinh giỏi Toán 8",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-tim-gtln-gtnn-cua-bieu-thuc-boi-duong-hoc-sinh-gioi-toan-8-2.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   8
+  ],
+  "topics": [
+   "dai-so"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-tim-gtln-gtnn-cua-bieu-thuc-boi-duong-hoc-sinh-gio",
+  "desc": "Tài liệu PDF miễn phí về đại số, dành cho lớp 8."
+ },
+ {
+  "title": "Các chuyên đề nâng cao và phát triển Hình học 9 – Nguyễn Hoàng Việt",
+  "url": "https://thcs.toanmath.com/2022/06/cac-chuyen-de-nang-cao-va-phat-trien-hinh-hoc-9-nguyen-hoang-viet.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "cac-chuyen-đe-nang-cao-va-phat-trien-hinh-hoc-9-nguyen-hoang",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề bồi dưỡng học sinh giỏi Toán THCS – chủ đề Số học",
+  "url": "https://thcs.toanmath.com/2018/01/chuyen-de-boi-duong-hoc-sinh-gioi-toan-thcs-chu-de-so-hoc.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "so-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-boi-duong-hoc-sinh-gioi-toan-thcs-chu-đe-so-hoc",
+  "desc": "Tài liệu PDF miễn phí về số học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề bồi dưỡng học sinh giỏi: Bất đẳng thức – Điểm rơi và kỹ thuật chứng minh",
+  "url": "https://toanmath.com/2026/09/chuyen-de-boi-duong-hoc-sinh-gioi-bat-dang-thuc-diem-roi-va-ky-thuat-chung-minh.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "bat-dang-thuc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-boi-duong-hoc-sinh-gioi-bat-đang-thuc-điem-roi-va-",
+  "desc": "Tài liệu PDF miễn phí về bất đẳng thức, dành cho lớp 6–9."
+ },
+ {
+  "title": "Chuyên đề trọng điểm bồi dưỡng học sinh giỏi hình học không gian – Nguyễn Quang Sơn",
+  "url": "https://toanmath.com/2017/10/chuyen-de-trong-diem-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-gian-nguyen-quang-son.html",
+  "source": "thcs.toanmath.com",
+  "lang": "vi",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "chuyen-đe-trong-điem-boi-duong-hoc-sinh-gioi-hinh-hoc-khong-",
+  "desc": "Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Bộ 30 Đề Thi Thử Học Sinh Giỏi Khoa Học Tự Nhiên 7 (Theo Chương Trình Giáo Dục Phổ Thông Mới)",
+  "url": "https://nhanvan.vn/bo-30-de-hoc-sinh-gioi-khoa-hoc-tu-nhien-lop-7",
+  "source": "nhanvan.vn",
+  "lang": "vi",
+  "free": false,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "publisher": "HỘ KINH DOANH TRƯƠNG THỦY TIÊN (Sách Thầy Hoàng Oppa)",
+  "id": "bo-30-đe-thi-thu-hoc-sinh-gioi-khoa-hoc-tu-nhien-7-theo-chuo",
+  "desc": "Sách in về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Пособие по уголовному праву России для подготовки к олимпиадам",
+  "url": "https://biblio.mccme.ru/node/333165",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "пособие-по-уголовному-праву-россии-для-подготовки-к-олимпиад",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Санкт-Петербургская математическая олимпиада начальной школы. 4 класс. Задания и решения турниров 2018–2025 годов. (переработанное)",
+  "url": "https://biblio.mccme.ru/node/302830",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "санктпетербургская-математическая-олимпиада-начальнои-школы-",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Санкт-Петербургская математическая олимпиада начальной школы. 3 класс. Задания и решения турниров 2018–2025 годов. (переработанное)",
+  "url": "https://biblio.mccme.ru/node/302829",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "санктпетербургская-математическая-олимпиада-начальнои-школы--1",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Санкт-Петербургская математическая олимпиада начальной школы. 2 класс. Задания и решения турниров 2018–2025 годов. (переработанное)",
+  "url": "https://biblio.mccme.ru/node/302828",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "санктпетербургская-математическая-олимпиада-начальнои-школы--2",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Санкт-Петербургская математическая олимпиада начальной школы. 1 класс. Задания и решения турниров 2018–2025 годов. (переработанное)",
+  "url": "https://biblio.mccme.ru/node/302827",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "санктпетербургская-математическая-олимпиада-начальнои-школы--3",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Традиционная олимпиада по лингвистике глазами её участников",
+  "url": "https://biblio.mccme.ru/node/281997",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "традиционная-олимпиада-по-лингвистике-глазами-ее-участников",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Make the top! Будь первым! Готовимся к олимпиадам по английскому языку",
+  "url": "https://biblio.mccme.ru/node/79577",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "make-the-top-будь-первым-готовимся-к-олимпиадам-по-англииско",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "II Международная олимпиада по экспериментальной физике. Задания и решения. (2-е, исправленное)",
+  "url": "https://biblio.mccme.ru/node/16155",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "ii-международная-олимпиада-по-экспериментальнои-физике-задан",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Олимпиада «Покори Воробьёвы горы!» по математике (2013–2018) (2-е, исправленное)",
+  "url": "https://biblio.mccme.ru/node/9602",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "олимпиада-покори-воробьевы-горы-по-математике-20132018-2е-ис",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Олимпиада по биологии. Взгляд изнутри (4-е, стереотипное)",
+  "url": "https://biblio.mccme.ru/node/6060",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "олимпиада-по-биологии-взгляд-изнутри-4е-стереотипное",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Математическая олимпиада им. Г.П. Кукина. Омск, 2007-2012",
+  "url": "https://biblio.mccme.ru/node/5796",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "математическая-олимпиада-им-гп-кукина-омск-20072012",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Задачи по математике. Международная олимпиада \"Туймаада\" 1994-2012",
+  "url": "https://biblio.mccme.ru/node/2916",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "задачи-по-математике-международная-олимпиада-туимаада-199420",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Задачи по информатике. Международная олимпиада \"Туймаада\" 1994-2012",
+  "url": "https://biblio.mccme.ru/node/2914",
+  "source": "mccme.ru",
+  "lang": "ru",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "id": "задачи-по-информатике-международная-олимпиада-туимаада-19942",
+  "desc": "Tiếng Nga. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Problem primer for the olympiad",
+  "url": "https://openlibrary.org/works/OL19896788W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "C. R. Pranesachar",
+  "publisher": "Prism Books",
+  "id": "problem-primer-for-the-olympiad",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "The Mathematical Olympiad handbook",
+  "url": "https://openlibrary.org/works/OL488647W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "Anthony Gardiner",
+  "publisher": "Oxford University Press",
+  "id": "the-mathematical-olympiad-handbook",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Math Olympiad contest problems for elementary and middle schools",
+  "url": "https://openlibrary.org/works/OL3370000W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "George Lenchner",
+  "publisher": "Glenwood Publications",
+  "id": "math-olympiad-contest-problems-for-elementary-and-middle-sch",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Lemmas in Olympiad Geometry",
+  "url": "https://openlibrary.org/works/OL27385285W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "Titu Andreescu; Sam Korsky; Cosmin Pohoata",
+  "publisher": "Xyz Pr; XYZ Press",
+  "id": "lemmas-in-olympiad-geometry",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "A Mathematical Olympiad Primer",
+  "url": "https://openlibrary.org/works/OL34576925W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "Geoff Smith",
+  "publisher": "United Kingdom Mathematics Trust",
+  "id": "a-mathematical-olympiad-primer",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ },
+ {
+  "title": "Mathematical Olympiad treasures",
+  "url": "https://openlibrary.org/works/OL18617507W",
+  "source": "openlibrary.org",
+  "lang": "en",
+  "free": true,
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "topics": [
+   "dai-so",
+   "hinh-hoc"
+  ],
+  "stage": 2,
+  "kind": "book",
+  "author": "Titu Andreescu; Bogdan Enescu",
+  "publisher": "Birkhäuser; Birkhäuser Boston",
+  "id": "mathematical-olympiad-treasures",
+  "desc": "Tiếng Anh. Tài liệu PDF miễn phí về đại số, hình học, dành cho lớp 6–9."
+ }
+]

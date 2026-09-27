@@ -1,0 +1,350 @@
+[
+ {
+  "id": "oly-cjmo-2026",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2026",
+  "grade": 9,
+  "year": 2026,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2026 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2026/03/CJMO2026-problems.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2026-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $a, b, c$ là các số nguyên dương phân biệt sao cho $a + b + c = 29$. Giá trị nhỏ nhất có thể của $a^2 + b^2 + c^2$ là bao nhiêu?",
+    "topics": [
+     "so-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2026-bai-2",
+    "label": "Bài 2",
+    "text": "Xét hình thang $ABCD$ với hai cạnh đáy $AB, CD$ song song. Cho các điểm $W, X, Y, Z$ sao cho các tứ giác $BCWX$ và $ADYZ$ là hình thoi, đồng thời phần trong của ba tứ giác $ABCD$, $BCWX$ và $ADYZ$ không giao nhau. Chứng minh rằng khoảng cách giữa tâm của hình thoi $BCWX$ và tâm của hình thoi $ADYZ$ không vượt quá nửa chu vi của hình thang $ABCD$. Chú ý: Tâm của hình thoi là giao điểm của hai đường chéo.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2026-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $a, b \\ge 2$ là các số nguyên nguyên tố cùng nhau. Gọi $S$ là tập hợp các điểm trong mặt phẳng có tọa độ nguyên nằm hoàn toàn bên trong tam giác có các đỉnh $(0, 0), (a, 0), (0, b)$. Hãy tính tổng $$\\sum_{(x,y)\\in S} (a - 2x)(b - 2y)$$ theo $a$ và $b$. Chú ý: Ký hiệu tổng ở đây có nghĩa là ta tính tổng giá trị $(a - 2x)(b - 2y)$ với mọi điểm $(x, y)$ thuộc $S$.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2026-bai-4",
+    "label": "Bài 4",
+    "text": "Có $n$ loại đồng xu trong mỏ vàng của Wario. Mỗi đồng xu loại thứ $i$ có giá trị $d_i$ xu, trong đó $d_1, \\dots, d_n$ là các số nguyên dương phân biệt. Một số nguyên dương $D$ được gọi là may mắn nếu thỏa mãn điều kiện sau: Với mỗi số nguyên dương $k$, bất kỳ tập hợp các đồng xu nào (chứa số lượng tùy ý các đồng xu của mỗi loại) có tổng giá trị chính xác bằng $kD$ xu đều có thể chia thành $k$ nhóm, mỗi nhóm có tổng giá trị là $D$ xu. Hỏi một số may mắn có nhất thiết phải tồn tại hay không?",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2026-bai-5",
+    "label": "Bài 5",
+    "text": "Ốc sên Turbo chơi một trò chơi trên một bảng có $2n$ hàng và $2n$ cột. Có $2n^2$ con quái vật lần lượt chọn chiếm $2n^2$ ô khác nhau, Turbo biết trước vị trí này. Sau đó, Turbo chọn bất kỳ một ô nào và đánh số $1$ cho ô đó. Bắt đầu từ ô này, Turbo đi qua tất cả $4n^2 - 1$ ô còn lại đúng một lần, đánh số theo thứ tự là $2, 3, \\dots, 4n^2$. Turbo chỉ di chuyển giữa các ô có chung cạnh và không bao giờ quay lại một ô đã đi qua. Điểm số cuối cùng là tổng các nhãn (số thứ tự) của các ô có quái vật. Các con quái vật cố gắng chọn vị trí để tối đa hóa điểm số, trong khi Turbo cố gắng thiểu hóa điểm số dựa trên vị trí của quái vật. Hãy tìm, theo $n$, điểm số lớn nhất mà các con quái vật có thể đảm bảo đạt được.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-cjmo-2025",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2025",
+  "grade": 9,
+  "year": 2025,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2025 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2025/03/CJMO2025-problems.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2025-bai-1",
+    "label": "Bài 1",
+    "text": "Giả sử một cấp số cộng các số nguyên vô hạn và không hằng chứa số $1$. Chứng minh rằng có vô số số chính phương lập phương (số lập phương hoàn hảo) trong cấp số cộng này. (Một số lập phương hoàn hảo là một số nguyên có dạng $k^3$, với $k$ là số nguyên. Ví dụ, $-8$, $0$ và $1$ là các số lập phương hoàn hảo.)",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2025-bai-2",
+    "label": "Bài 2",
+    "text": "Cho hình thang $ABCD$ với hai cạnh song song $AB$ và $CD$, trong đó $BC \\neq DA$. Một đường tròn đi qua $C$ và $D$ cắt các đoạn thẳng $AC$, $AD$, $BC$ và $BD$ lần lượt tại các điểm $W$, $X$, $Y$ và $Z$. Chứng minh rằng các đường thẳng $WZ$, $XY$ và $AB$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2025-bai-3",
+    "label": "Bài 3",
+    "text": "$n$ cầu thủ của một đội khúc côn cầu tụ tập để chọn đội trưởng. Ban đầu, họ đứng thành một vòng tròn, và mỗi người bầu cho người đứng bên trái mình. Các cầu thủ sẽ cập nhật phiếu bầu của họ qua một chuỗi các vòng. Trong một vòng, mỗi cầu thủ $a$ cập nhật phiếu bầu của mình, từng người một, theo quy trình sau: Tại thời điểm cập nhật, nếu $a$ đang bầu cho $b$, và $b$ đang bầu cho $c$, thì $a$ đổi phiếu bầu sang cho $c$. (Lưu ý rằng $a$, $b$ và $c$ không nhất thiết phải khác nhau; nếu $b = c$, thì phiếu bầu của $a$ không thay đổi trong lần cập nhật này.) Mỗi cầu thủ cập nhật phiếu bầu của mình đúng một lần trong mỗi vòng, theo thứ tự do các cầu thủ quyết định (có thể khác nhau giữa các vòng). Họ lặp lại quy trình cập nhật này trong $n$ vòng. Chứng minh rằng tại thời điểm này, tất cả $n$ cầu thủ sẽ đồng tâm nhất trí bầu cho cùng một người.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2025-bai-4",
+    "label": "Bài 4",
+    "text": "Tìm tất cả các số nguyên dương $a, b, c, p$ sao cho $p$ và $p + 2$ là các số nguyên tố lẻ và $2^a p^b = (p + 2)^c - 1$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2025-bai-5",
+    "label": "Bài 5",
+    "text": "Một đa thức $c_d x^d + c_{d-1} x^{d-1} + \\dots + c_1 x + c_0$ với bậc $d$ được gọi là phản chiếu nếu tồn tại một số nguyên $n \\neq d$ sao cho $c_i = c_{n-i}$ với mọi $0 \\neq i \\neq n$, trong đó $c_i = 0$ khi $i > d$. Cho $\\ell \\neq 2$ là một số nguyên và $p(x)$ là một đa thức với hệ số nguyên. Chứng minh rằng tồn tại các đa thức phản chiếu $q(x), r(x)$ với hệ số nguyên sao cho $(1 + x + x^2 + \\dots + x^{\\ell-1})p(x) = q(x) + x^{\\ell}r(x)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-cjmo-2024",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2024",
+  "grade": 9,
+  "year": 2024,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2024 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2024/03/CJMO2024-problems.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2024-bai-1",
+    "label": "Bài 1",
+    "text": "Nhiều thế kỷ trước, tên cướp biển Thuyền trưởng Blackboard đã chôn một lượng lớn kho báu vào một ô duy nhất của một hòn đảo có cấu trúc lưới $2 \times 4$. Bạn và thủy thủ đoàn đã đến hòn đảo và mang theo các thiết bị dò tìm kho báu đặc biệt để tìm ô chứa kho báu. Đối với mỗi máy dò, bạn có thể thiết lập nó để quét một vùng con cụ thể $[a, b] \times [c, d]$ với $1 \\\\leq a \\\\leq b \\\\leq 2$ và $1 \\\\leq c \\\\leq d \\\\leq 4$. Việc chạy máy dò sẽ cho bạn biết kho báu có nằm trong vùng đó hay không, mặc dù nó không thể chỉ rõ kho báu ở vị trí cụ thể nào trong vùng. Bạn dự định thiết lập $Q$ máy dò, và chúng chỉ có thể được chạy đồng thời sau khi tất cả $Q$ máy dò đã sẵn sàng. Giá trị tối thiểu của $Q$ để đảm bảo thủy thủ đoàn của bạn có thể xác định được vị trí kho báu huyền thoại của Blackboard là bao nhiêu?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2024-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $n$ là một số nguyên dương. Đặt $$I_n = \\\\sum_{i=1}^n \\\\sum_{j=1}^n \\\\sum_{k=1}^n \\\\min \\\\left(\\\\frac{1}{i}, \\\\frac{1}{j}, \\\\frac{1}{k}\\\\right)$$ và $H_n = 1 + \\\\frac{1}{2} + \\\\frac{1}{3} + \\\\dots + \\\\frac{1}{n}$. Hãy tính $I_n - H_n$ theo $n$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2024-bai-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác $ABC$ có tâm đường tròn nội tiếp $I$. Giả sử phép đối xứng của đường thẳng $AB$ qua $CI$ và phép đối xứng của đường thẳng $AC$ qua $BI$ cắt nhau tại một điểm $X$. Chứng minh rằng $XI$ vuông góc với $BC$. (Tâm đường tròn nội tiếp là điểm đồng quy của ba đường phân giác trong của tam giác).",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2024-bai-4",
+    "label": "Bài 4",
+    "text": "Jane viết $2024$ số tự nhiên xung quanh một đường tròn. Cô ấy muốn tích của $2024$ cặp số nằm cạnh nhau đúng bằng tập hợp $\\{1!, 2!, \\\\dots, 2024!\\}$. Cô ấy có thể thực hiện được điều đó hay không?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2024-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $N$ là số lượng các số nguyên dương có $10$ chữ số $d_9d_8 \\\\dots d_1d_0$ trong hệ thập phân (với $0 \\\\leq d_i \\\\leq 9$ với mọi $i$ và $d_9 > 0$) sao cho đa thức $$d_9 x^9 + d_8 x^8 + \\\\dots + d_1 x + d_0$$ là bất khả quy trên $\\\\mathbb{Q}$. Chứng minh rằng $N$ là một số chẵn. (Một đa thức là bất khả quy trên $\\\\mathbb{Q}$ nếu nó không thể được phân tích thành tích của hai đa thức không hằng số với các hệ số hữu tỉ).",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-cjmo-2023",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2023",
+  "grade": 9,
+  "year": 2023,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2023 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2023/03/2023CJMO-exam-en.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2023-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $a$ và $b$ là các số nguyên không âm. Xét dãy số $s_1, s_2, s_3, \\dots$ sao cho $s_1 = a$, $s_2 = b$ và $s_{i+1} = |s_i - s_{i-1}|$ với mọi $i \\ge 2$. Chứng minh rằng tồn tại chỉ số $i$ sao cho $s_i = 0$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2023-bai-2",
+    "label": "Bài 2",
+    "text": "Tam giác nhọn là tam giác có tất cả các góc nhỏ hơn $90^\\circ$ ($90^\\circ$ là góc vuông). Cho $ABC$ là tam giác vuông tại $C$ với $\\angle ACB = 90^\\circ$. Gọi $CD$ là đường cao từ $C$ xuống $AB$, và $E$ là giao điểm của phân giác góc $\\angle ACD$ với đoạn $AD$. Gọi $EF$ là đường cao từ $E$ xuống $BC$. Chứng minh rằng đường tròn ngoại tiếp tam giác $BEF$ đi qua trung điểm của đoạn thẳng $CE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2023-bai-3",
+    "label": "Bài 3",
+    "text": "William đang nghĩ đến một số nguyên từ $1$ đến $50$ (bao gồm cả $1$ và $50$). Victor có thể chọn một số nguyên dương $m$ và hỏi William rằng: \"số của bạn có chia hết cho $m$ không?\", và William phải trả lời trung thực. Victor tiếp tục đặt các câu hỏi như vậy cho đến khi xác định được chính xác số của William. Số lượng câu hỏi ít nhất mà Victor cần để đảm bảo tìm được số đó là bao nhiêu?",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2023-bai-4",
+    "label": "Bài 4",
+    "text": "Có $20$ học sinh trong một lớp học trung học, và mỗi học sinh có đúng ba người bạn thân trong lớp. Có năm học sinh đã mua vé xem một buổi hòa nhạc sắp tới. Nếu bất kỳ học sinh nào thấy rằng có từ hai người bạn thân trở lên trong số ba người bạn thân của mình đã mua vé, thì học sinh đó cũng sẽ mua vé. Liệu có khả năng toàn bộ lớp học đều mua vé đi xem hòa nhạc hay không? (Giả sử quan hệ bạn thân là hai chiều; nếu học sinh $A$ là bạn thân của học sinh $B$ thì $B$ cũng là bạn thân của $A$.)",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2023-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $ABC$ là tam giác nhọn với các đường cao $AD$, $BE$ và $CF$ đồng quy tại $H$. Đường tròn đi qua ba điểm $D$, $E$ và $F$ cắt các đường cao $AD$, $BE$ và $CF$ lần lượt tại các điểm thứ hai $X$, $Y$ và $Z$. Chứng minh bất đẳng thức sau: $\\frac{AH}{DX} + \\frac{BH}{EY} + \\frac{CH}{FZ} \\ge 3$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-cjmo-2022",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2022",
+  "grade": 9,
+  "year": 2022,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2022 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2022/03/2022CJMO_exam_en.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2022-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $ABC$ là một tam giác nhọn với đường tròn ngoại tiếp $\\Gamma$. Đường vuông góc kẻ từ $A$ xuống $BC$ cắt $\\Gamma$ tại $D$, và đường vuông góc kẻ từ $B$ xuống $AC$ cắt $\\Gamma$ tại $E$. Chứng minh rằng nếu $|AB| = |DE|$ thì $\\angle ACB = 60^\\circ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2022-bai-2",
+    "label": "Bài 2",
+    "text": "Bạn có một chồng vô hạn các quân domino hình chữ T (được ghép từ bốn ô vuông cạnh 1), và một bảng kích thước $n \\times n$. Bạn được phép đặt một số quân domino lên bảng, có thể xoay, sao cho không có hai quân nào chồng lên nhau và không có quân nào vượt ra ngoài bảng. Với những giá trị nào của $n$ thì bạn có thể phủ kín toàn bộ bảng?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-cjmo-2022-bai-3",
+    "label": "Bài 3",
+    "text": "Giả sử các số thực $a$ và $b$ thỏa mãn $ab + \\sqrt{ab + 1} + \\sqrt{a^2 + b} \\cdot \\sqrt{b^2 + a} = 0$. Hãy tìm, có chứng minh, giá trị của $a \\sqrt{b^2 + a} + b \\sqrt{a^2 + b}$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2022-bai-4",
+    "label": "Bài 4",
+    "text": "Ký hiệu $d(k)$ là số ước số nguyên dương của $k$. Ví dụ, $d(6) = 4$ vì 6 có 4 ước số dương là 1, 2, 3 và 6. Chứng minh rằng với mọi số nguyên dương $n$, ta có $d(1) + d(3) + d(5) + \\dots + d(2n - 1) \\le d(2) + d(4) + d(6) + \\dots + d(2n)$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2022-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $n \\ge 2$ là một số nguyên. Ban đầu, số 1 được viết $n$ lần trên bảng. Mỗi phút, Vishal chọn hai số được viết trên bảng, giả sử là $a$ và $b$, xóa chúng đi, và viết lên bảng hoặc $a + b$ hoặc $\\min\\{a^2, b^2\\}$. Sau $n - 1$ phút, trên bảng chỉ còn lại một số. Gọi giá trị lớn nhất có thể của số cuối cùng này là $f(n)$. Chứng minh rằng $2^{n/3} < f(n) \\le 3^{n/3}$.",
+    "topics": [
+     "to-hop",
+     "dai-so"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-cjmo-2021",
+  "kind": "olympic",
+  "title": "Olympic Toán Canada dành cho THCS (CJMO) 2021",
+  "grade": 9,
+  "year": 2021,
+  "sourceName": "Canadian Junior Mathematical Olympiad 2021 – Canadian Mathematical Society",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/2021/04/CJMO-2021-questions-en.pdf",
+  "problems": [
+   {
+    "id": "oly-cjmo-2021-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $C_1$ và $C_2$ là hai đường tròn đồng tâm với $C_1$ nằm bên trong $C_2$. Gọi $P_1$ và $P_2$ là hai điểm trên $C_1$ không đối xứng tâm qua nhau. Kéo dài đoạn thẳng $P_1P_2$ qua phía $P_2$ cho đến khi cắt đường tròn $C_2$ tại $Q_2$. Tiếp tuyến với $C_2$ tại $Q_2$ và tiếp tuyến với $C_1$ tại $P_1$ cắt nhau tại điểm $X$. Vẽ từ $X$ tiếp tuyến thứ hai tới $C_2$, tiếp tuyến này cắt $C_2$ tại điểm $Q_1$. Chứng minh rằng $P_1X$ là tia phân giác của góc $Q_1P_1Q_2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2021-bai-2",
+    "label": "Bài 2",
+    "text": "Có bao nhiêu cách hoán vị $n$ số nguyên dương đầu tiên sao cho trong hoán vị đó, với mỗi giá trị $k \\leq n$, $k$ phần tử đầu tiên của hoán vị có các số dư đôi một khác nhau khi chia cho $k$?",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2021-bai-3",
+    "label": "Bài 3",
+    "text": "Cho hình thang $ABCD$ với $AB$ song song với $CD$, $|AB| > |CD|$ và các cạnh bên bằng nhau $|AD| = |BC|$. Gọi $I$ là tâm của đường tròn tiếp xúc với các đường thẳng $AB$, $AC$ và $BD$, trong đó $A$ và $I$ nằm ở hai phía đối với $BD$. Gọi $J$ là tâm của đường tròn tiếp xúc với các đường thẳng $CD$, $AC$ và $BD$, trong đó $D$ và $J$ nằm ở hai phía đối với $AC$. Chứng minh rằng $|IC| = |JB|$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2021-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $n \\geq 2$ là một số nguyên dương cố định và giả sử $a_1, a_2, \\dots, a_n$ là các số thực dương thỏa mãn $a_1 + a_2 + \\dots + a_n = 2^n - 1$. Tìm giá trị nhỏ nhất có thể của $$\\frac{a_1}{1} + \\frac{a_2}{1 + a_1} + \\frac{a_3}{1 + a_1 + a_2} + \\dots + \\frac{a_n}{1 + a_1 + a_2 + \\dots + a_{n-1}}$$",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-cjmo-2021-bai-5",
+    "label": "Bài 5",
+    "text": "Một hàm số $f$ từ tập hợp các số nguyên dương đến các số nguyên dương được gọi là hàm Canada nếu nó thỏa mãn $$\\gcd(f(f(x)), f(x+y)) = \\gcd(x, y)$$ với mọi cặp số nguyên dương $x$ và $y$. Tìm tất cả các số nguyên dương $m$ sao cho $f(m) = m$ với mọi hàm Canada $f$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ }
+]

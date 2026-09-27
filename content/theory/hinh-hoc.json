@@ -1,0 +1,206 @@
+[
+ {
+  "id": "hinh-hoc-menelaus",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí Menelaus",
+  "summary": "Một đường thẳng cắt ba đường thẳng chứa cạnh tam giác tạo ra ba tỉ số có tích bằng $1$ — công cụ chuẩn để tính tỉ số và chứng minh thẳng hàng.",
+  "body": "## Phát biểu\n\nCho tam giác $ABC$ và đường thẳng $d$ không đi qua đỉnh nào, cắt các đường thẳng $BC, CA, AB$ lần lượt tại $M, N, P$. Khi đó\n$$\\frac{PA}{PB}\\cdot\\frac{MB}{MC}\\cdot\\frac{NC}{NA} = 1.$$\n\n**Đảo:** nếu $M, N, P$ nằm trên các đường thẳng $BC, CA, AB$, trong đó có đúng một điểm hoặc cả ba điểm nằm ngoài các cạnh, và tích trên bằng $1$, thì $M, N, P$ thẳng hàng.\n\n## Chứng minh ngắn (THCS-friendly)\n\nQua $C$ kẻ đường thẳng song song với $AB$, cắt $d$ tại $K$. Theo hệ quả định lí Thales:\n\n- $\\triangle MBP \\sim \\triangle MCK$ nên $\\dfrac{MB}{MC} = \\dfrac{PB}{CK}$.\n- $\\triangle NCK \\sim \\triangle NAP$ nên $\\dfrac{NC}{NA} = \\dfrac{CK}{PA}$.\n\nNhân lại: $\\dfrac{MB}{MC}\\cdot\\dfrac{NC}{NA} = \\dfrac{PB}{PA}$, suy ra điều phải chứng minh.\n\nĐảo: gọi $M'$ là giao của $NP$ với $BC$. Theo chiều thuận $\\frac{M'B}{M'C} = \\frac{MB}{MC}$, và $M, M'$ cùng nằm trong (hoặc cùng nằm ngoài) đoạn $BC$, nên $M' \\equiv M$.\n\n## Khi nào dùng\n\n- Có một cát tuyến cắt tam giác, cần tính tỉ số đoạn thẳng (thay cho việc kẻ thêm đường song song).\n- Chứng minh ba điểm thẳng hàng khi tính được các tỉ số.\n\n## Lưu ý\n\n- Mẹo nhớ: đi vòng quanh tam giác $A \\to P \\to B \\to M \\to C \\to N \\to A$, tử và mẫu xen kẽ.\n- Chọn tam giác \"đúng\": ba điểm cần dùng phải nằm trên ba đường thẳng chứa cạnh của nó.\n- Khi dùng chiều đảo phải kiểm tra vị trí các điểm (một hoặc ba điểm nằm ngoài cạnh).",
+  "examples": [
+   {
+    "text": "Cho tam giác $ABC$ có trung tuyến $AM$. Điểm $N$ trên cạnh $AC$ sao cho $NA = 2NC$. $BN$ cắt $AM$ tại $I$. Tính $\\dfrac{AI}{IM}$ và $\\dfrac{BI}{IN}$."
+   },
+   {
+    "text": "Cho tam giác $ABC$ có ba cạnh đôi một khác nhau. Các đường phân giác ngoài tại $A, B, C$ cắt các đường thẳng $BC, CA, AB$ lần lượt tại $D, E, F$. Chứng minh $D, E, F$ thẳng hàng."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-ceva",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí Ceva",
+  "summary": "Ba đường thẳng nối đỉnh với điểm trên cạnh đối diện đồng quy khi và chỉ khi tích ba tỉ số bằng $1$.",
+  "body": "## Phát biểu\n\nCho tam giác $ABC$ và các điểm $D, E, F$ lần lượt nằm trên các cạnh $BC, CA, AB$ (khác đỉnh). Khi đó $AD, BE, CF$ đồng quy khi và chỉ khi\n$$\\frac{DB}{DC}\\cdot\\frac{EC}{EA}\\cdot\\frac{FA}{FB} = 1.$$\n\n## Chứng minh ngắn (THCS-friendly)\n\nThuận: giả sử $AD, BE, CF$ đồng quy tại $O$. Hai tam giác chung đường cao có tỉ số diện tích bằng tỉ số đáy, nên\n$$\\frac{DB}{DC} = \\frac{S_{ABD}}{S_{ACD}} = \\frac{S_{OBD}}{S_{OCD}} = \\frac{S_{ABD} - S_{OBD}}{S_{ACD} - S_{OCD}} = \\frac{S_{AOB}}{S_{AOC}}.$$\nTương tự $\\frac{EC}{EA} = \\frac{S_{BOC}}{S_{AOB}}$ và $\\frac{FA}{FB} = \\frac{S_{AOC}}{S_{BOC}}$. Nhân ba đẳng thức được tích bằng $1$.\n\nĐảo: $AD$ cắt $BE$ tại $O$ trong tam giác, $CO$ cắt $AB$ tại $F'$. Theo chiều thuận $\\frac{F'A}{F'B} = \\frac{FA}{FB}$; hai điểm cùng nằm trên đoạn $AB$ nên $F' \\equiv F$.\n\n## Khi nào dùng\n\n- Chứng minh ba đường thẳng xuất phát từ ba đỉnh đồng quy.\n- Tính tỉ số trên cạnh thứ ba khi biết hai tỉ số và sự đồng quy.\n- Kết hợp với tính chất phân giác, tiếp tuyến, tỉ số lượng giác để có các tỉ số.\n\n## Lưu ý\n\n- Cách nhớ giống Menelaus: đi vòng $B \\to D \\to C \\to E \\to A \\to F \\to B$.\n- Nếu có điểm nằm ngoài cạnh (đúng hai điểm ngoài), định lí vẫn đúng nhưng ba đường có thể song song thay vì đồng quy.\n- Để có tỉ số diện tích, luôn nói rõ hai tam giác có chung đường cao nào.",
+  "examples": [
+   {
+    "text": "Đường tròn nội tiếp tam giác $ABC$ tiếp xúc với $BC, CA, AB$ lần lượt tại $D, E, F$. Chứng minh $AD, BE, CF$ đồng quy."
+   },
+   {
+    "text": "Cho tam giác $ABC$ nhọn với các đường cao $AD, BE, CF$. Dùng định lí Ceva chứng minh ba đường cao đồng quy."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-van-aubel",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí Van Aubel về tỉ số trên đường đồng quy",
+  "summary": "Khi ba đường $AD, BE, CF$ đồng quy tại $O$, tỉ số $\\dfrac{AO}{OD}$ bằng tổng hai tỉ số trên hai cạnh kề.",
+  "body": "## Phát biểu\n\nCho tam giác $ABC$, các điểm $D, E, F$ trên các cạnh $BC, CA, AB$ sao cho $AD, BE, CF$ đồng quy tại $O$. Khi đó\n$$\\frac{AO}{OD} = \\frac{AE}{EC} + \\frac{AF}{FB}.$$\n\n## Chứng minh ngắn (THCS-friendly)\n\nĐặt $x = S_{BOC}$, $y = S_{COA}$, $z = S_{AOB}$. Như trong chứng minh định lí Ceva:\n$$\\frac{AO}{OD} = \\frac{S_{AOB}}{S_{BOD}} = \\frac{S_{AOC}}{S_{COD}} = \\frac{S_{AOB} + S_{AOC}}{S_{BOD} + S_{COD}} = \\frac{y + z}{x}.$$\nTương tự $\\frac{AE}{EC} = \\frac{S_{AOB}}{S_{COB}} = \\frac zx$ và $\\frac{AF}{FB} = \\frac{S_{AOC}}{S_{BOC}} = \\frac yx$. Cộng lại được điều phải chứng minh.\n\n## Khi nào dùng\n\n- Tính tỉ số chia đoạn của giao điểm các đường nối đỉnh (thay cho kẻ song song).\n- Bài bất đẳng thức hình học với $\\frac{AO}{OD}, \\frac{BO}{OE}, \\frac{CO}{OF}$: chuyển về ba số dương $x, y, z$ rồi dùng AM-GM.\n\n## Lưu ý\n\n- Cách đặt diện tích $x, y, z$ là \"chìa khóa vạn năng\": $\\frac{BD}{DC} = \\frac zy$, $\\frac{AO}{AD} = \\frac{y+z}{x+y+z}$...\n- Công thức chỉ dùng khi $O$ nằm trong tam giác (các điểm trên cạnh).",
+  "examples": [
+   {
+    "text": "Cho tam giác $ABC$, điểm $E$ trên $CA$ với $AE = 2EC$, điểm $F$ trên $AB$ với $AF = 3FB$. $BE$ cắt $CF$ tại $O$, $AO$ cắt $BC$ tại $D$. Tính $\\dfrac{AO}{OD}$ và $\\dfrac{BD}{DC}$."
+   },
+   {
+    "text": "Cho $O$ là điểm nằm trong tam giác $ABC$; $AO, BO, CO$ cắt các cạnh đối diện tại $D, E, F$. Chứng minh $\\dfrac{AO}{OD} + \\dfrac{BO}{OE} + \\dfrac{CO}{OF} \\ge 6$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-ptolemy",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí Ptolemy và bất đẳng thức Ptolemy",
+  "summary": "Trong tứ giác nội tiếp, tích hai đường chéo bằng tổng tích các cặp cạnh đối; với tứ giác bất kì thì là bất đẳng thức.",
+  "body": "## Phát biểu\n\n- **Định lí Ptolemy.** Tứ giác $ABCD$ nội tiếp thì $AC\\cdot BD = AB\\cdot CD + AD\\cdot BC$.\n- **Bất đẳng thức Ptolemy.** Với tứ giác $ABCD$ bất kì: $AC\\cdot BD \\le AB\\cdot CD + AD\\cdot BC$, dấu bằng khi và chỉ khi $ABCD$ nội tiếp.\n\n## Chứng minh ngắn (THCS-friendly)\n\nDựng tam giác $ABE$ đồng dạng cùng hướng với tam giác $ACD$, tức $\\widehat{BAE} = \\widehat{CAD}$ và $\\widehat{ABE} = \\widehat{ACD}$. Khi đó, nên $BE = \\dfrac{AB\\cdot CD}{AC}$ và $\\dfrac{AB}{AC} = \\dfrac{AE}{AD}$.\n\nLại có $\\widehat{BAC} = \\widehat{EAD}$ (cùng cộng/trừ góc $\\widehat{EAC}$), nên $\\triangle ABC \\sim \\triangle AED$ (c.g.c), suy ra $ED = \\dfrac{AD\\cdot BC}{AC}$.\n\nVì $BD \\le BE + ED$ nên $AC\\cdot BD \\le AB\\cdot CD + AD\\cdot BC$. Dấu bằng khi $E$ nằm trên đoạn $BD$, tức $\\widehat{ABD} = \\widehat{ACD}$, tức $ABCD$ nội tiếp.\n\n## Khi nào dùng\n\n- Tứ giác nội tiếp cần liên hệ độ dài cạnh và đường chéo.\n- Điểm di động trên đường tròn ngoại tiếp tam giác đều, hình vuông, đa giác đều.\n- Bất đẳng thức hình học dạng $MA \\le MB + MC$, cực trị tổng khoảng cách.\n\n## Lưu ý\n\n- Viết đúng thứ tự các đỉnh trên đường tròn: đường chéo là cặp điểm không kề nhau.\n- Trong bài thi nên chứng minh lại định lí (khoảng 5 dòng như trên).",
+  "examples": [
+   {
+    "text": "Tam giác đều $ABC$ nội tiếp đường tròn $(O)$, $M$ là điểm trên cung $BC$ không chứa $A$. Chứng minh $MA = MB + MC$."
+   },
+   {
+    "text": "Cho tam giác đều $ABC$ và điểm $M$ bất kì trong mặt phẳng. Chứng minh $MB + MC \\ge MA$."
+   },
+   {
+    "text": "Cho thất giác đều $ABCDEFG$. Chứng minh $\\dfrac{1}{AB} = \\dfrac{1}{AC} + \\dfrac{1}{AD}$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-stewart-trung-tuyen-phan-giac",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí Stewart, độ dài trung tuyến và phân giác",
+  "summary": "Một công thức duy nhất tính độ dài đoạn nối đỉnh với điểm bất kì trên cạnh đối diện, từ đó suy ra ngay công thức trung tuyến và phân giác.",
+  "body": "## Phát biểu\n\nCho tam giác $ABC$ với $BC = a$, $CA = b$, $AB = c$, điểm $D$ trên cạnh $BC$ với $BD = m$, $DC = n$, $AD = d$. Khi đó\n$$b^2 m + c^2 n = a\\left(d^2 + mn\\right).$$\nHệ quả:\n\n- Trung tuyến: $m_a^2 = \\dfrac{2b^2 + 2c^2 - a^2}{4}$.\n- Phân giác trong: $BD = \\dfrac{ac}{b + c}$, $DC = \\dfrac{ab}{b+c}$ và $l_a^2 = bc - BD\\cdot DC = \\dfrac{bc\\left[(b+c)^2 - a^2\\right]}{(b+c)^2}$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nGọi $H$ là chân đường cao từ $A$, $AH = h$. Trên đường thẳng $BC$ chọn chiều dương từ $B$ tới $C$, gốc tại $D$: $B$ ứng với $-m$, $C$ ứng với $n$, $H$ ứng với $t$. Theo Pythagoras:\n$$c^2 = h^2 + (t + m)^2,\\quad b^2 = h^2 + (t - n)^2,\\quad d^2 = h^2 + t^2.$$\nSuy ra $c^2 n + b^2 m = (h^2 + t^2)(m + n) + 2tmn - 2tmn + m^2 n + n^2 m = a d^2 + amn$.\n\nTrung tuyến: thay $m = n = \\frac a2$. Phân giác: $\\frac{BD}{DC} = \\frac cb$ cho $m, n$; thay vào được $abc = a(d^2 + mn)$.\n\n## Khi nào dùng\n\n- Tính độ dài trung tuyến, phân giác, đoạn nối đỉnh với điểm chia cạnh theo tỉ số.\n- Chứng minh hệ thức giữa các cạnh (ví dụ hai trung tuyến vuông góc).\n\n## Lưu ý\n\n- Trường hợp tam giác cân $AB = AC$: $AD^2 = AB^2 - BD\\cdot DC$ với mọi $D$ trên $BC$.\n- Nhớ công thức trung tuyến dạng $b^2 + c^2 = 2m_a^2 + \\frac{a^2}{2}$.",
+  "examples": [
+   {
+    "text": "Cho tam giác $ABC$ có $AB = 4$, $AC = 6$, $BC = 5$. Tính độ dài trung tuyến $AM$ và phân giác trong $AD$."
+   },
+   {
+    "text": "Cho tam giác $ABC$ với $BC = a$, $CA = b$, $AB = c$; $BM$ và $CN$ là hai trung tuyến. Chứng minh $BM \\perp CN$ khi và chỉ khi $b^2 + c^2 = 5a^2$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-tinh-chat-phan-giac-hang-dieu-hoa",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Tính chất phân giác và hàng điểm điều hòa",
+  "summary": "Chân phân giác trong và ngoài chia cạnh đối diện theo cùng một tỉ số, tạo thành hàng điểm điều hòa — nền tảng của đường tròn Apollonius.",
+  "body": "## Phát biểu\n\n- Trong tam giác $ABC$ ($AB \\ne AC$), phân giác trong $AD$ và phân giác ngoài $AE$ ($D, E$ trên đường thẳng $BC$) thỏa mãn $\\dfrac{DB}{DC} = \\dfrac{EB}{EC} = \\dfrac{AB}{AC}$.\n- Bốn điểm thẳng hàng $B, C, D, E$ với $D$ nằm trong, $E$ nằm ngoài đoạn $BC$ và $\\frac{DB}{DC} = \\frac{EB}{EC}$ gọi là **hàng điểm điều hòa**.\n- Với hàng điều hòa đó, $M$ là trung điểm $BC$, $N$ là trung điểm $DE$: $MB^2 = MD\\cdot ME$ và $NB\\cdot NC = ND^2$.\n- **Đảo:** nếu $B, C, D, E$ điều hòa và $\\widehat{DAE} = 90^\\circ$ thì $AD, AE$ là phân giác trong và ngoài của góc $BAC$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nTính chất phân giác: $D$ cách đều $AB, AC$ nên $\\frac{DB}{DC} = \\frac{S_{ABD}}{S_{ACD}} = \\frac{AB}{AC}$ (hai tam giác chung đường cao từ $A$, và có đường cao từ $D$ bằng nhau). Với $E$ làm tương tự.\n\nHệ thức $MB^2 = MD\\cdot ME$: trên trục $BC$ đặt $B = -1$, $M = 0$, $C = 1$, $D = d$, $E = e$ (giả sử $e > 1$). Từ $\\frac{1 + d}{1 - d} = \\frac{e + 1}{e - 1}$ khai triển được $de = 1$. Hệ thức với $N$ suy ra từ $NB\\cdot NC = n^2 - 1$ và $ND^2 = \\frac{(e - d)^2}{4} = n^2 - de$ với $n = \\frac{d + e}{2}$.\n\nĐảo: qua $C$ kẻ đường song song với $AB$ cắt $AD, AE$ tại $P, Q$. Theo Thales $\\frac{DB}{DC} = \\frac{AB}{CP}$, $\\frac{EB}{EC} = \\frac{AB}{CQ}$, nên $CP = CQ$. Tam giác $APQ$ vuông tại $A$ có trung tuyến $AC$ nên $CA = CP$, suy ra $\\widehat{CAP} = \\widehat{CPA} = \\widehat{BAP}$ (so le trong).\n\n## Khi nào dùng\n\n- Tính đoạn thẳng khi có phân giác; tỉ số liên quan tâm nội tiếp.\n- Quỹ tích điểm $A$ với $\\frac{AB}{AC} = k$ không đổi (đường tròn Apollonius).\n- Chứng minh một đường là phân giác từ tỉ số và góc vuông.\n\n## Lưu ý\n\n- Phân giác trong và ngoài tại một đỉnh luôn vuông góc với nhau.\n- Khi $AB = AC$ phân giác ngoài song song với $BC$, không có điểm $E$.",
+  "examples": [
+   {
+    "text": "Cho tam giác $ABC$ có $AB = 6$, $AC = 9$, $BC = 10$. Phân giác trong và ngoài tại $A$ cắt đường thẳng $BC$ tại $D$ và $E$. Tính $DB$, $EB$, $DE$."
+   },
+   {
+    "text": "Cho hai điểm cố định $B, C$ với $BC = 3$. Tìm quỹ tích các điểm $A$ sao cho $AB = 2AC$."
+   },
+   {
+    "text": "Cho tam giác $ABC$ với $BC = a$, $CA = b$, $AB = c$, tâm nội tiếp $I$, $AI$ cắt $BC$ tại $D$. Chứng minh $\\dfrac{AI}{ID} = \\dfrac{b + c}{a}$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-bo-de-hinh-thang",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Bổ đề hình thang",
+  "summary": "Trong hình thang, giao điểm hai cạnh bên, giao điểm hai đường chéo và trung điểm hai đáy cùng nằm trên một đường thẳng.",
+  "body": "## Phát biểu\n\nCho hình thang $ABCD$ ($AB \\parallel CD$), $S$ là giao điểm của $AD$ và $BC$, $O$ là giao điểm của $AC$ và $BD$; $M, N$ là trung điểm của $AB, CD$. Khi đó $S, O, M, N$ thẳng hàng.\n\n**Đảo:** cho tam giác $SAB$, $D$ trên $SA$, $C$ trên $SB$, $O = AC \\cap BD$. Nếu $SO$ đi qua trung điểm $AB$ thì $CD \\parallel AB$.\n\n## Chứng minh ngắn (THCS-friendly)\n\n- $SM$ cắt $CD$ tại $N'$. Theo Thales: $\\frac{DN'}{AM} = \\frac{SN'}{SM} = \\frac{CN'}{BM}$; vì $AM = BM$ nên $DN' = CN'$, tức $N' \\equiv N$.\n- $OM$ cắt $CD$ tại $N''$. Vì $AB \\parallel CD$: $\\frac{CN''}{AM} = \\frac{ON''}{OM} = \\frac{DN''}{BM}$, nên $N'' \\equiv N$.\n\nHai đường $SM$ và $OM$ cùng đi qua $M$ và $N$ nên $S, O, M, N$ thẳng hàng.\n\nĐảo: $SO$ cắt $AB$ tại $M$. Ceva cho tam giác $SAB$: $\\frac{MA}{MB}\\cdot\\frac{CB}{CS}\\cdot\\frac{DS}{DA} = 1$. Vì $MA = MB$ nên $\\frac{SD}{DA} = \\frac{SC}{CB}$, theo Thales đảo $CD \\parallel AB$.\n\n## Khi nào dùng\n\n- Chứng minh đường thẳng đi qua trung điểm, ba điểm thẳng hàng trong hình có hai đường song song.\n- Dựng trung điểm chỉ bằng thước thẳng khi có sẵn một đường song song.\n- Chứng minh song song từ giả thiết trung tuyến (chiều đảo).\n\n## Lưu ý\n\n- Bổ đề thường \"ẩn\" trong tam giác: $D, E$ trên $AB, AC$ với $DE \\parallel BC$ tạo thành hình thang $DECB$ với $S \\equiv A$.\n- Nên chứng minh lại bằng Thales trong bài thi.",
+  "examples": [
+   {
+    "text": "Cho tam giác $ABC$ có trung tuyến $AM$. Các điểm $D, E$ lần lượt trên $AB, AC$ sao cho $DE \\parallel BC$; $BE$ cắt $CD$ tại $O$. Chứng minh $A, O, M$ thẳng hàng."
+   },
+   {
+    "text": "Cho tam giác $ABC$ có trung tuyến $AM$, điểm $O$ nằm trên đoạn $AM$ ($O \\ne A, M$). $BO$ cắt $AC$ tại $E$, $CO$ cắt $AB$ tại $D$. Chứng minh $DE \\parallel BC$."
+   },
+   {
+    "text": "Cho đoạn thẳng $AB$ và đường thẳng $d \\parallel AB$. Chỉ dùng thước thẳng (không có vạch chia), hãy dựng trung điểm của $AB$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-phuong-tich-truc-dang-phuong",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Phương tích và trục đẳng phương",
+  "summary": "Tích $MA\\cdot MB$ trên mọi cát tuyến qua $M$ là hằng số $|MO^2 - R^2|$; tập các điểm có cùng phương tích với hai đường tròn là một đường thẳng.",
+  "body": "## Phát biểu\n\n- Cho đường tròn $(O; R)$ và điểm $M$. Mọi đường thẳng qua $M$ cắt đường tròn tại $A, B$ đều có $MA\\cdot MB = \\left|MO^2 - R^2\\right|$. Nếu $M$ nằm ngoài và $MT$ là tiếp tuyến thì $MA\\cdot MB = MT^2$.\n- Số $\\mathcal P_{M/(O)} = MO^2 - R^2$ gọi là **phương tích** của $M$ (dương khi $M$ ở ngoài, âm khi ở trong).\n- **Trục đẳng phương:** với hai đường tròn không đồng tâm, tập các điểm có cùng phương tích với chúng là một đường thẳng vuông góc với đường nối tâm. Nếu hai đường tròn cắt nhau tại $A, B$ thì đó là đường thẳng $AB$.\n- **Tâm đẳng phương:** ba đường tròn có tâm không thẳng hàng thì ba trục đẳng phương từng cặp đồng quy.\n- **Đảo:** nếu $AB$ cắt $CD$ tại $M$ (cùng nằm trong hoặc cùng nằm ngoài hai đoạn) và $MA\\cdot MB = MC\\cdot MD$ thì $A, B, C, D$ cùng thuộc một đường tròn.\n\n## Chứng minh ngắn (THCS-friendly)\n\nGọi $H$ là trung điểm dây $AB$, $OH \\perp AB$. Khi đó\n$$MA\\cdot MB = \\left|MH - HA\\right|\\cdot\\left(MH + HA\\right) = \\left|MH^2 - HA^2\\right| = \\left|(MO^2 - OH^2) - (R^2 - OH^2)\\right| = \\left|MO^2 - R^2\\right|.$$\nTrục đẳng phương: gọi $K$ là hình chiếu của $M$ trên $OO'$. Điều kiện $MO^2 - R^2 = MO'^2 - R'^2$ tương đương $KO^2 - KO'^2 = R^2 - R'^2$. Đặt trục số trên $OO'$ với $O = 0$, $O' = d$, $K = x$: $x^2 - (x - d)^2 = 2dx - d^2$ là hằng số nên $x$ duy nhất. Vậy $M$ chạy trên đường vuông góc với $OO'$ tại một điểm cố định.\n\nTâm đẳng phương: giao điểm của hai trục có cùng phương tích với cả ba đường tròn nên nằm trên trục thứ ba.\n\n## Khi nào dùng\n\n- Đẳng thức tích đoạn thẳng, hai tiếp tuyến bằng nhau, trung điểm tiếp tuyến chung.\n- Chứng minh bốn điểm đồng viên (chiều đảo).\n- Chứng minh thẳng hàng (điểm nằm trên dây chung) và đồng quy (ba dây chung).\n\n## Lưu ý\n\n- Đường tròn đường kính $BC$ đi qua chân các đường cao từ $B, C$: nguồn tứ giác nội tiếp và phương tích dồi dào nhất.\n- Khi không dùng tên \"phương tích\", có thể trình bày bằng cặp tam giác đồng dạng $\\triangle MAC \\sim \\triangle MDB$.",
+  "examples": [
+   {
+    "text": "Hai đường tròn $(O)$ và $(O')$ cắt nhau tại $A, B$. Một tiếp tuyến chung tiếp xúc $(O)$ tại $M$ và $(O')$ tại $N$. Chứng minh đường thẳng $AB$ đi qua trung điểm của $MN$."
+   },
+   {
+    "text": "Cho tam giác nhọn $ABC$ với các đường cao $AD, BE, CF$ đồng quy tại $H$. Chứng minh $HA\\cdot HD = HB\\cdot HE = HC\\cdot HF$."
+   },
+   {
+    "text": "Cho ba đường tròn đôi một cắt nhau, có tâm không thẳng hàng. Chứng minh ba dây chung của từng cặp đồng quy. Áp dụng: trong tam giác nhọn $ABC$, dựng ba đường tròn có đường kính là ba cạnh. Chứng minh ba dây chung đồng quy tại trực tâm."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-dinh-li-con-buom",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Định lí con bướm",
+  "summary": "Qua trung điểm $I$ của dây $PQ$ kẻ hai dây bất kì; hai cánh bướm cắt $PQ$ tại hai điểm đối xứng qua $I$.",
+  "body": "## Phát biểu\n\nCho đường tròn $(O)$, dây $PQ$ có trung điểm $I$. Qua $I$ kẻ hai dây $AB$ và $CD$ ($A, C$ cùng phía với $PQ$). $AD$ và $BC$ cắt $PQ$ lần lượt tại $M$ và $N$. Khi đó $IM = IN$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nĐặt $IP = IQ = a$, $IM = x$, $IN = y$. Hạ $MM_1 \\perp AB$, $MM_2 \\perp CD$, $NN_1 \\perp AB$, $NN_2 \\perp CD$.\n\n- $\\triangle IMM_1 \\sim \\triangle INN_1$ và $\\triangle IMM_2 \\sim \\triangle INN_2$ (đối đỉnh): $\\dfrac xy = \\dfrac{MM_1}{NN_1} = \\dfrac{MM_2}{NN_2}$.\n- $\\widehat{BAD} = \\widehat{BCD}$ (cùng chắn cung $BD$) nên $\\triangle AMM_1 \\sim \\triangle CNN_2$: $\\dfrac{MM_1}{NN_2} = \\dfrac{AM}{CN}$.\n- $\\widehat{ADC} = \\widehat{ABC}$ nên $\\triangle DMM_2 \\sim \\triangle BNN_1$: $\\dfrac{MM_2}{NN_1} = \\dfrac{DM}{BN}$.\n\nNhân lại và dùng tích các đoạn của hai dây cắt nhau:\n$$\\frac{x^2}{y^2} = \\frac{AM\\cdot MD}{CN\\cdot NB} = \\frac{PM\\cdot MQ}{PN\\cdot NQ} = \\frac{a^2 - x^2}{a^2 - y^2}.$$\nSuy ra $x^2 a^2 = y^2 a^2$, nên $x = y$.\n\n## Khi nào dùng\n\n- Hình có dây đi qua trung điểm của một dây khác, cần chứng minh hai đoạn bằng nhau hoặc một điểm là trung điểm.\n- Kết hợp với $OI \\perp PQ$ để có tam giác cân $OMN$.\n\n## Lưu ý\n\n- Định lí vẫn đúng khi thay $AD, BC$ bằng $AC, BD$ cắt đường thẳng $PQ$ ở ngoài đường tròn (chứng minh tương tự).\n- Nếu không muốn gọi tên định lí, trình bày lại đủ chuỗi tam giác đồng dạng như trên.",
+  "examples": [
+   {
+    "text": "Cho đường tròn $(O)$, dây $PQ = 12$ có trung điểm $I$. Qua $I$ kẻ hai dây $AB$, $CD$. $AD$ cắt $PQ$ tại $M$ với $PM = 4$, $BC$ cắt $PQ$ tại $N$. Tính $PN$."
+   },
+   {
+    "text": "Với giả thiết định lí con bướm, chứng minh tam giác $OMN$ cân."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-duong-thang-simson",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Đường thẳng Simson",
+  "summary": "Chân ba đường vuông góc hạ từ một điểm trên đường tròn ngoại tiếp xuống ba cạnh tam giác thẳng hàng, và ngược lại.",
+  "body": "## Phát biểu\n\nCho tam giác $ABC$ nội tiếp đường tròn $(O)$ và điểm $M$. Gọi $D, E, F$ là hình chiếu của $M$ trên các đường thẳng $BC, CA, AB$. Khi đó $D, E, F$ thẳng hàng khi và chỉ khi $M$ thuộc $(O)$. Đường thẳng đó gọi là đường thẳng Simson của $M$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nXét hình vẽ thường gặp: $M$ thuộc cung $BC$ không chứa $A$, $D$ thuộc đoạn $BC$, $E$ thuộc đoạn $CA$, $F$ thuộc tia đối của tia $BA$ (các vị trí khác làm tương tự).\n\n- $\\widehat{MDB} = \\widehat{MFB} = 90^\\circ$ nên $MDBF$ nội tiếp: $\\widehat{BDF} = \\widehat{BMF}$.\n- $\\widehat{MDC} = \\widehat{MEC} = 90^\\circ$ nên $MDEC$ nội tiếp: $\\widehat{CDE} = \\widehat{CME}$.\n- $ABMC$ nội tiếp nên $\\widehat{MBF} = 180^\\circ - \\widehat{ABM} = \\widehat{ACM}$, do đó $\\widehat{BMF} = 90^\\circ - \\widehat{MBF} = 90^\\circ - \\widehat{MCE} = \\widehat{CME}$.\n\nSuy ra $\\widehat{BDF} = \\widehat{CDE}$. Vì $B, D, C$ thẳng hàng và $F, E$ nằm khác phía đối với $BC$, hai góc này đối đỉnh, nên $F, D, E$ thẳng hàng. Chiều đảo đi ngược chuỗi lập luận: từ $\\widehat{BDF} = \\widehat{CDE}$ suy ra $\\widehat{MBF} = \\widehat{ACM}$, nên $ABMC$ nội tiếp.\n\n## Khi nào dùng\n\n- Có một điểm trên đường tròn ngoại tiếp và các hình chiếu của nó xuống cạnh.\n- Chứng minh thẳng hàng, hoặc ngược lại dùng thẳng hàng để có vuông góc / đồng viên.\n\n## Lưu ý\n\n- Các cặp tam giác vuông đồng dạng xuất hiện trong chứng minh ($\\triangle MBD \\sim \\triangle MAE$, $\\triangle MCE \\sim \\triangle MBF$...) thường là chìa khóa cho các hệ thức độ dài.\n- Trong bài thi cần xét rõ vị trí các điểm hoặc ghi \"các trường hợp khác tương tự\".",
+  "examples": [
+   {
+    "text": "Tam giác $ABC$ nội tiếp $(O)$, $M$ thuộc cung $BC$ không chứa $A$. Gọi $E, F$ là hình chiếu của $M$ trên $CA, AB$; đường thẳng $EF$ cắt $BC$ tại $D$. Chứng minh $MD \\perp BC$."
+   },
+   {
+    "text": "Tam giác $ABC$ nội tiếp $(O)$, $M$ thuộc cung $BC$ không chứa $A$; $D, E, F$ là hình chiếu của $M$ trên $BC, CA, AB$ với $D$ thuộc đoạn $BC$, $E$ thuộc đoạn $CA$, $F$ thuộc tia đối của tia $BA$. Chứng minh $\\dfrac{BC}{MD} = \\dfrac{CA}{ME} + \\dfrac{AB}{MF}$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-he-thuc-euler-oi",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Hệ thức Euler giữa tâm nội tiếp và tâm ngoại tiếp",
+  "summary": "Khoảng cách giữa tâm ngoại tiếp và tâm nội tiếp thỏa mãn $OI^2 = R^2 - 2Rr$, suy ra ngay $R \\ge 2r$.",
+  "body": "## Phát biểu\n\nTam giác $ABC$ có tâm, bán kính đường tròn ngoại tiếp $O, R$ và nội tiếp $I, r$. Khi đó\n$$OI^2 = R^2 - 2Rr.$$\nHệ quả: $R \\ge 2r$, dấu bằng khi và chỉ khi tam giác đều.\n\n**Bổ đề (hay dùng):** $AI$ cắt $(O)$ tại $D$ thì $DB = DC = DI$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nBổ đề: $\\widehat{DBI} = \\widehat{DBC} + \\widehat{CBI} = \\frac{\\widehat A}{2} + \\frac{\\widehat B}{2}$ và góc ngoài $\\widehat{BID} = \\widehat{BAI} + \\widehat{ABI} = \\frac{\\widehat A}{2} + \\frac{\\widehat B}{2}$, nên $DB = DI$. Cung $DB$ bằng cung $DC$ nên $DB = DC$.\n\nHệ thức: dây $AD$ đi qua $I$ nằm trong đường tròn, theo phương tích $IA\\cdot ID = R^2 - OI^2$. Cần chứng minh $IA\\cdot DB = 2Rr$.\n\nKẻ đường kính $DK$, gọi $F$ là tiếp điểm của đường tròn nội tiếp với $AB$. Hai tam giác vuông $AFI$ và $KBD$ có $\\widehat{FAI} = \\widehat{BAD} = \\widehat{BKD}$ (cùng chắn cung $BD$), nên đồng dạng:\n$$\\frac{AI}{KD} = \\frac{FI}{BD} \\Rightarrow AI\\cdot BD = 2R\\cdot r.$$\n\n## Khi nào dùng\n\n- Bài có đồng thời tâm nội tiếp và tâm ngoại tiếp; tính $OI$.\n- Bất đẳng thức $R \\ge 2r$ và các hệ quả.\n- Bổ đề $DB = DC = DI$ là công cụ số một khi có đường phân giác cắt lại đường tròn ngoại tiếp.\n\n## Lưu ý\n\n- Tương tự với tâm bàng tiếp $J$ góc $A$: $OJ^2 = R^2 + 2Rr_a$, và $D$ cũng là trung điểm $IJ$.\n- Nên trình bày lại cả bổ đề và cặp tam giác đồng dạng khi dùng trong bài thi.",
+  "examples": [
+   {
+    "text": "Tam giác $ABC$ nội tiếp $(O)$, $I$ là tâm đường tròn nội tiếp, $AI$ cắt $(O)$ tại $D$. Chứng minh $D$ là tâm đường tròn ngoại tiếp tam giác $BIC$."
+   },
+   {
+    "text": "Chứng minh rằng với mọi tam giác $R \\ge 2r$, dấu bằng khi và chỉ khi tam giác đều. Tính $OI$ cho tam giác vuông có ba cạnh $3, 4, 5$."
+   }
+  ]
+ },
+ {
+  "id": "hinh-hoc-duong-thang-euler-duong-tron-euler",
+  "topic": "hinh-hoc",
+  "level": 3,
+  "title": "Đường thẳng Euler và đường tròn Euler",
+  "summary": "Trực tâm, trọng tâm, tâm ngoại tiếp thẳng hàng với $GH = 2GO$; chín điểm đặc biệt cùng nằm trên đường tròn bán kính $\\dfrac R2$.",
+  "body": "## Phát biểu\n\nTam giác $ABC$ có trực tâm $H$, trọng tâm $G$, tâm ngoại tiếp $O$ (bán kính $R$), $M$ là trung điểm $BC$.\n\n- **Bổ đề:** $AH = 2OM$ và $AH \\parallel OM$.\n- **Đường thẳng Euler:** $O, G, H$ thẳng hàng và $GH = 2GO$.\n- **Đường tròn Euler:** trung điểm ba cạnh, chân ba đường cao, trung điểm $HA, HB, HC$ cùng thuộc đường tròn tâm $E$ (trung điểm $OH$), bán kính $\\frac R2$.\n\n## Chứng minh ngắn (THCS-friendly)\n\nBổ đề: kẻ đường kính $AA'$. $BH \\perp AC$, $A'C \\perp AC$ nên $BH \\parallel A'C$; tương tự $CH \\parallel A'B$. Vậy $BHCA'$ là hình bình hành, $M$ là trung điểm $HA'$. $OM$ là đường trung bình tam giác $AHA'$.\n\nĐường thẳng Euler: $AM$ cắt $OH$ tại $G'$. Vì $AH \\parallel OM$, $\\triangle G'AH \\sim \\triangle G'MO$ tỉ số $2$, nên $AG' = 2G'M$, tức $G' \\equiv G$ và $GH = 2GO$.\n\nĐường tròn Euler: gọi $K$ là trung điểm $AH$. $KH = OM$, $KH \\parallel OM$ và cùng hướng, nên $KHMO$ là hình bình hành: $KM$ đi qua trung điểm $E$ của $OH$. Tương tự $AKMO$ là hình bình hành nên $KM = AO = R$, $EK = EM = \\frac R2$. Chân đường cao $D$ từ $A$ có $\\widehat{KDM} = 90^\\circ$ nên $D$ thuộc đường tròn đường kính $KM$. Làm tương tự cho hai đỉnh còn lại.\n\n## Khi nào dùng\n\n- Bài có đồng thời trực tâm và tâm ngoại tiếp: tính $AH$, chứng minh song song, thẳng hàng.\n- Quỹ tích trực tâm khi một đỉnh chạy trên đường tròn.\n- Chứng minh các trung điểm và chân đường cao cùng nằm trên một đường tròn.\n\n## Lưu ý\n\n- Hệ thức $AH = 2OM$ cho $AH^2 = 4R^2 - BC^2$.\n- Trong tam giác vuông $H$ trùng đỉnh góc vuông; cần xét riêng khi hình bình hành suy biến.",
+  "examples": [
+   {
+    "text": "Cho đường tròn $(O; R)$ và dây $BC$ cố định. Điểm $A$ di động trên cung lớn $BC$, $H$ là trực tâm tam giác $ABC$. Chứng minh $H$ luôn nằm trên một đường tròn cố định."
+   },
+   {
+    "text": "Tam giác nhọn $ABC$ có trực tâm $H$, $BE$ và $CF$ là đường cao. Gọi $M, K$ là trung điểm $BC$ và $AH$. Chứng minh $MK \\perp EF$."
+   }
+  ]
+ }
+]

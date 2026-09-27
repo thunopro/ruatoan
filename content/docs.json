@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "chuyen-de-ucln-va-bcnn-boi-duong-hoc-sinh-gioi-toan-6",
+  "topic": "so-hoc",
+  "title": "Chuyên đề ƯCLN và BCNN bồi dưỡng học sinh giỏi Toán 6",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   6
+  ],
+  "pages": 42,
+  "desc": "Các dạng toán ước chung, bội chung, ƯCLN, BCNN cho học sinh giỏi lớp 6, có lời giải.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-ucln-va-bcnn-boi-duong-hoc-sinh-gioi-toan-6.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-ucln-va-bcnn-boi-duong-hoc-sinh-gioi-toan-6.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-so-nguyen-to-va-so-chinh-phuong-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "topic": "so-hoc",
+  "title": "Chuyên đề số nguyên tố và số chính phương bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 16,
+  "desc": "Tóm tắt ngắn gọn về số nguyên tố, số chính phương và các dạng bài hay gặp ở lớp 6–7.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-so-nguyen-to-va-so-chinh-phuong-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-so-nguyen-to-va-so-chinh-phuong-boi-duong-hoc-sinh-gioi-toan-6-7.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-so-nguyen-to",
+  "topic": "so-hoc",
+  "title": "Chuyên đề số nguyên tố",
+  "author": "Trịnh Bình",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "pages": 72,
+  "desc": "Các dạng toán điển hình về số nguyên tố, từ tính chất cơ bản đến bài thi học sinh giỏi.",
+  "url": "https://thcs.toanmath.com/2019/12/chuyen-de-so-nguyen-to.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-so-nguyen-to.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-so-chinh-phuong",
+  "topic": "so-hoc",
+  "title": "Chuyên đề số chính phương",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "pages": 63,
+  "desc": "Bốn dạng toán về số chính phương: nhận biết, chứng minh, tìm số và bài toán liên quan.",
+  "url": "https://thcs.toanmath.com/2020/03/chuyen-de-so-chinh-phuong.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-so-chinh-phuong.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-quan-he-chia-het-tren-tap-hop-so",
+  "topic": "so-hoc",
+  "title": "Chuyên đề quan hệ chia hết trên tập hợp số",
+  "author": "Trịnh Bình",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "pages": 56,
+  "desc": "Phương pháp chứng minh chia hết trên tập số nguyên, phân theo dạng, phù hợp học sinh lớp 6–8.",
+  "url": "https://thcs.toanmath.com/2019/12/chuyen-de-quan-he-chia-het-tren-tap-hop-so.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-quan-he-chia-het-tren-tap-hop-so.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-gioi-toan-6",
+  "topic": "so-hoc",
+  "title": "Chuyên đề phép chia hết và phép chia có dư ôn thi học sinh giỏi Toán 6",
+  "author": "Nhóm Các Dự Án Giáo Dục",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 84,
+  "desc": "Chia hết và chia có dư cho học sinh giỏi lớp 6, lý thuyết ngắn và bài tập phân dạng.",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-gioi-toan-6.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-gioi-toan-6.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-chu-so-tan-cung",
+  "topic": "so-hoc",
+  "title": "Chuyên đề chữ số tận cùng",
+  "grades": [
+   6,
+   7,
+   8
+  ],
+  "pages": 45,
+  "desc": "Cách tìm chữ số tận cùng của lũy thừa và ứng dụng vào bài toán chia hết.",
+  "url": "https://thcs.toanmath.com/2022/07/chuyen-de-chu-so-tan-cung.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-chu-so-tan-cung.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "phan-dang-va-phuong-phap-giai-toan-so-hoc-va-to-hop-nguyen-quoc-bao",
+  "topic": "so-hoc",
+  "title": "Phân dạng và phương pháp giải toán số học và tổ hợp",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 523,
+  "desc": "Phân dạng số học đầy đủ: ước bội, chia hết, đồng dư, số chính phương, nghiệm nguyên.",
+  "url": "https://thcs.toanmath.com/2021/07/phan-dang-va-phuong-phap-giai-toan-so-hoc-va-to-hop-nguyen-quoc-bao.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/phan-dang-va-phuong-phap-giai-toan-so-hoc-va-to-hop-nguyen-quoc-bao.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "ung-dung-dong-du-thuc-trong-giai-toan-so-hoc",
+  "topic": "so-hoc",
+  "title": "Ứng dụng đồng dư thức trong giải toán số học",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 32,
+  "desc": "Đồng dư thức, định lý Fermat nhỏ và cách dùng để chứng minh chia hết, tìm số dư.",
+  "url": "https://thcs.toanmath.com/2021/07/ung-dung-dong-du-thuc-trong-giai-toan-so-hoc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/ung-dung-dong-du-thuc-trong-giai-toan-so-hoc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-so-hoc-tuyen-chon-tu-cac-de-tuyen-sinh-lop-10-chuyen-toan",
+  "topic": "so-hoc",
+  "title": "Các bài toán số học tuyển chọn từ các đề tuyển sinh lớp 10 chuyên Toán",
+  "author": "Phan Quang Đạt, Nguyễn Nhất Huy, Dương Quỳnh Châu (Mathpiad)",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 62,
+  "desc": "Bài số học chọn từ đề vào 10 chuyên Toán, có tóm tắt kiến thức và lời giải.",
+  "url": "https://thcs.toanmath.com/2021/08/cac-bai-toan-so-hoc-tuyen-chon-tu-cac-de-tuyen-sinh-lop-10-chuyen-toan.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-so-hoc-tuyen-chon-tu-cac-de-tuyen-sinh-lop-10-chuyen-toan.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "bi-quyet-giai-toan-so-hoc-thcs-theo-chu-de",
+  "topic": "so-hoc",
+  "title": "Bí quyết giải toán số học THCS theo chủ đề",
+  "author": "Huỳnh Kim Linh, Nguyễn Quốc Bảo",
+  "grades": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "pages": 525,
+  "desc": "Tuyển tập số học THCS chia theo chủ đề, từ ước bội đến bài thi HSG và vào 10 chuyên.",
+  "url": "https://thcs.toanmath.com/2020/08/bi-quyet-giai-toan-so-hoc-thcs-theo-chu-de.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bi-quyet-giai-toan-so-hoc-thcs-theo-chu-de.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "phuong-trinh-nghiem-nguyen-chon-loc",
+  "topic": "so-hoc",
+  "title": "Phương trình nghiệm nguyên chọn lọc",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 218,
+  "desc": "Hệ thống các phương pháp giải phương trình nghiệm nguyên, từ xét chia hết đến kẹp và lùi vô hạn.",
+  "url": "https://thcs.toanmath.com/2022/04/phuong-trinh-nghiem-nguyen-chon-loc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/phuong-trinh-nghiem-nguyen-chon-loc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-phuong-phap-giai-bai-toan-phuong-trinh-nghiem-nguyen",
+  "topic": "so-hoc",
+  "title": "Một số phương pháp giải bài toán phương trình nghiệm nguyên",
+  "grades": [
+   8,
+   9
+  ],
+  "pages": 67,
+  "desc": "Trình bày ngắn gọn từng phương pháp giải phương trình nghiệm nguyên với ví dụ mẫu có lời giải.",
+  "url": "https://thcs.toanmath.com/2023/07/mot-so-phuong-phap-giai-bai-toan-phuong-trinh-nghiem-nguyen.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/mot-so-phuong-phap-giai-bai-toan-phuong-trinh-nghiem-nguyen.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-ve-phan-nguyen-trong-so-hoc",
+  "topic": "so-hoc",
+  "title": "Các bài toán về phần nguyên trong số học",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 33,
+  "desc": "Định nghĩa, tính chất phần nguyên và các dạng bài số học dùng phần nguyên, có lời giải.",
+  "url": "https://thcs.toanmath.com/2021/07/cac-bai-toan-ve-phan-nguyen-trong-so-hoc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-ve-phan-nguyen-trong-so-hoc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-ve-nguyen-ly-dirichlet-trong-so-hoc",
+  "topic": "so-hoc",
+  "title": "Các bài toán về nguyên lý Dirichlet trong số học",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 26,
+  "desc": "Dùng nguyên lý Dirichlet để chứng minh chia hết, tồn tại số có tính chất cho trước.",
+  "url": "https://thcs.toanmath.com/2021/07/cac-bai-toan-ve-nguyen-ly-dirichlet-trong-so-hoc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-ve-nguyen-ly-dirichlet-trong-so-hoc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "ung-dung-dinh-ly-viete-trong-cac-bai-toan-so-hoc",
+  "topic": "so-hoc",
+  "title": "Ứng dụng định lý Viète trong các bài toán số học",
+  "author": "Doãn Quang Tiến, Nguyễn Minh Tuấn",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 38,
+  "desc": "Giới thiệu kỹ thuật bước nhảy Vi-ét để giải phương trình nghiệm nguyên khó.",
+  "url": "https://toanmath.com/2019/12/ung-dung-dinh-ly-viete-trong-cac-bai-toan-so-hoc.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/ung-dung-dinh-ly-viete-trong-cac-bai-toan-so-hoc.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "yufei-zhao-modular-arithmetic",
+  "topic": "so-hoc",
+  "title": "Modular Arithmetic",
+  "author": "Yufei Zhao",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 13,
+  "desc": "Handout tiếng Anh về đồng dư và các định lý Fermat, Euler, Wilson kèm bài tập chọn lọc.",
+  "url": "https://yufeizhao.com/olympiad/",
+  "pdf": "https://yufeizhao.com/olympiad/mod2.pdf",
+  "source": "yufeizhao.com",
+  "stage": 3,
+  "lang": "en"
+ },
+ {
+  "id": "chuyen-de-tinh-tong-day-so-co-quy-luat",
+  "topic": "dai-so",
+  "title": "Chuyên đề tính tổng dãy số có quy luật",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 103,
+  "desc": "Các dạng tổng dãy số có quy luật hay gặp trong đề học sinh giỏi lớp 6, có lời giải.",
+  "url": "https://thcs.toanmath.com/2022/07/chuyen-de-tinh-tong-day-so-co-quy-luat.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-tinh-tong-day-so-co-quy-luat.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-ti-le-thuc-boi-duong-hoc-sinh-gioi-toan-7",
+  "topic": "dai-so",
+  "title": "Chuyên đề tỉ lệ thức bồi dưỡng học sinh giỏi Toán 7",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   7
+  ],
+  "pages": 28,
+  "desc": "Tỉ lệ thức và dãy tỉ số bằng nhau: tìm x, tính giá trị, chứng minh đẳng thức.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-ti-le-thuc-boi-duong-hoc-sinh-gioi-toan-7.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-ti-le-thuc-boi-duong-hoc-sinh-gioi-toan-7.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-phan-tich-da-thuc-thanh-nhan-tu-boi-duong-hoc-sinh-gioi-toan-8",
+  "topic": "dai-so",
+  "title": "Chuyên đề phân tích đa thức thành nhân tử bồi dưỡng học sinh giỏi Toán 8",
+  "author": "Trần Đình Hoàng",
+  "grades": [
+   8
+  ],
+  "pages": 66,
+  "desc": "Các phương pháp phân tích đa thức thành nhân tử, từ nhóm hạng tử đến hệ số bất định.",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-phan-tich-da-thuc-thanh-nhan-tu-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-phan-tich-da-thuc-thanh-nhan-tu-boi-duong-hoc-sinh-gioi-toan-8.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-cac-bai-toan-ve-phan-thuc-dai-so-boi-duong-hoc-sinh-gioi-toan-8",
+  "topic": "dai-so",
+  "title": "Chuyên đề các bài toán về phân thức đại số bồi dưỡng học sinh giỏi Toán 8",
+  "author": "Trần Đình Hoàng",
+  "grades": [
+   8
+  ],
+  "pages": 66,
+  "desc": "Bài toán phân thức đại số mức học sinh giỏi: rút gọn, tính giá trị, chứng minh đẳng thức.",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-cac-bai-toan-ve-phan-thuc-dai-so-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-cac-bai-toan-ve-phan-thuc-dai-so-boi-duong-hoc-sinh-gioi-toan-8.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "8-chuyen-de-boi-duong-hoc-sinh-gioi-mon-toan-7-phan-dai-so",
+  "topic": "dai-so",
+  "title": "8 chuyên đề bồi dưỡng học sinh giỏi môn Toán 7 phần Đại số",
+  "author": "Nguyễn Văn Tiến",
+  "grades": [
+   7
+  ],
+  "pages": 424,
+  "desc": "Tám chuyên đề đại số cho HSG lớp 7: chia hết, lũy thừa, giá trị tuyệt đối, tỉ lệ thức.",
+  "url": "https://thcs.toanmath.com/2023/10/8-chuyen-de-boi-duong-hoc-sinh-gioi-mon-toan-7-phan-dai-so.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/8-chuyen-de-boi-duong-hoc-sinh-gioi-mon-toan-7-phan-dai-so.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-dang-toan-va-phuong-phap-giai-he-phuong-trinh-dai-so-nguyen-quoc-bao",
+  "topic": "dai-so",
+  "title": "Các dạng toán và phương pháp giải hệ phương trình đại số",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 203,
+  "desc": "Phân loại hệ phương trình thường gặp và các kỹ thuật giải: thế, đặt ẩn phụ, đánh giá, liên hợp.",
+  "url": "https://thcs.toanmath.com/2021/06/cac-dang-toan-va-phuong-phap-giai-he-phuong-trinh-dai-so-nguyen-quoc-bao.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-dang-toan-va-phuong-phap-giai-he-phuong-trinh-dai-so-nguyen-quoc-bao.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-chuyen-de-nang-cao-va-phat-trien-dai-so-9-nguyen-hoang-viet",
+  "topic": "dai-so",
+  "title": "Các chuyên đề nâng cao và phát triển Đại số 9",
+  "author": "Nguyễn Hoàng Việt",
+  "grades": [
+   9
+  ],
+  "pages": 347,
+  "desc": "Đại số 9 nâng cao theo chương: căn thức, hàm số, phương trình, hệ và bất đẳng thức.",
+  "url": "https://thcs.toanmath.com/2022/06/cac-chuyen-de-nang-cao-va-phat-trien-dai-so-9-nguyen-hoang-viet.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-chuyen-de-nang-cao-va-phat-trien-dai-so-9-nguyen-hoang-viet.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-phuong-trinh-vo-ty-on-thi-vao-lop-10",
+  "topic": "dai-so",
+  "title": "Chuyên đề phương trình vô tỷ ôn thi vào lớp 10",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 100,
+  "desc": "Các dạng phương trình vô tỷ thường gặp trong đề vào 10, kèm bài tập trích từ đề chuyên.",
+  "url": "https://thcs.toanmath.com/2021/12/chuyen-de-phuong-trinh-vo-ty-on-thi-vao-lop-10.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-phuong-trinh-vo-ty-on-thi-vao-lop-10.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-chung-minh-dang-thuc-va-tinh-gia-tri-bieu-thuc-nguyen-quoc-bao",
+  "topic": "dai-so",
+  "title": "Chuyên đề chứng minh đẳng thức và tính giá trị biểu thức",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9
+  ],
+  "pages": 94,
+  "desc": "Kỹ thuật chứng minh đẳng thức và tính giá trị biểu thức có điều kiện, dành cho bồi dưỡng HSG.",
+  "url": "https://thcs.toanmath.com/2020/06/chuyen-de-chung-minh-dang-thuc-va-tinh-gia-tri-bieu-thuc-nguyen-quoc-bao.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-chung-minh-dang-thuc-va-tinh-gia-tri-bieu-thuc-nguyen-quoc-bao.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "238-bai-toan-bien-doi-can-thuc-nang-cao-luong-tuan-duc",
+  "topic": "dai-so",
+  "title": "238 bài toán biến đổi căn thức nâng cao",
+  "author": "Lương Tuấn Đức",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 107,
+  "desc": "Tuyển 238 bài biến đổi, rút gọn căn thức mức nâng cao, sắp xếp từ dễ đến khó.",
+  "url": "https://thcs.toanmath.com/2017/10/238-bai-toan-bien-doi-can-thuc-nang-cao-luong-tuan-duc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/238-bai-toan-bien-doi-can-thuc-nang-cao-luong-tuan-duc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "van-dung-dinh-li-viete-giai-cac-dang-toan-lien-quan-den-phuong-trinh-bac-hai",
+  "topic": "dai-so",
+  "title": "Vận dụng định lí Viète giải các dạng toán liên quan đến phương trình bậc hai",
+  "author": "Phạm Văn Tuyên",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 18,
+  "desc": "Các dạng toán vận dụng hệ thức Vi-ét cho phương trình bậc hai, kèm ví dụ có lời giải.",
+  "url": "https://thcs.toanmath.com/2023/07/van-dung-dinh-li-viete-giai-cac-dang-toan-lien-quan-den-phuong-trinh-bac-hai.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/van-dung-dinh-li-viete-giai-cac-dang-toan-lien-quan-den-phuong-trinh-bac-hai.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "nghien-cuu-dinh-ly-viete-va-ung-dung-nguyen-thanh-nhan",
+  "topic": "dai-so",
+  "title": "Nghiên cứu định lý Viète và ứng dụng",
+  "author": "Nguyễn Thành Nhân",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 56,
+  "desc": "Định lý Vi-ét cho bậc hai và bậc cao cùng nhiều mẹo giải bài toán nghiệm có tham số.",
+  "url": "https://toanmath.com/2021/10/nghien-cuu-dinh-ly-viete-va-ung-dung-nguyen-thanh-nhan.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/nghien-cuu-dinh-ly-viete-va-ung-dung-nguyen-thanh-nhan.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-phuong-trinh-dai-so-trinh-binh",
+  "topic": "dai-so",
+  "title": "Chuyên đề phương trình đại số",
+  "author": "Trịnh Bình",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 56,
+  "desc": "Phương pháp giải phương trình đa thức bậc cao và phương trình đại số thường gặp.",
+  "url": "https://thcs.toanmath.com/2019/09/chuyen-de-phuong-trinh-dai-so-trinh-binh.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-phuong-trinh-dai-so-trinh-binh.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-he-phuong-trinh-boi-duong-hoc-sinh-gioi-thcs",
+  "topic": "dai-so",
+  "title": "Chuyên đề hệ phương trình bồi dưỡng học sinh giỏi THCS",
+  "author": "Trịnh Bình",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 133,
+  "desc": "Các hệ phương trình điển hình trong đề HSG THCS và những kỹ thuật giải thường dùng.",
+  "url": "https://thcs.toanmath.com/2020/03/chuyen-de-he-phuong-trinh-boi-duong-hoc-sinh-gioi-thcs.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-he-phuong-trinh-boi-duong-hoc-sinh-gioi-thcs.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "phuong-phap-giai-he-phuong-trinh-doi-xung-pham-hung-vuong",
+  "topic": "dai-so",
+  "title": "Phương pháp giải hệ phương trình đối xứng",
+  "author": "Phạm Hùng Vương",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 12,
+  "desc": "Hệ đối xứng loại I, loại II và hệ đẳng cấp, có ví dụ giải mẫu và bài tự luyện.",
+  "url": "https://toanmath.com/2016/02/phuong-phap-giai-he-phuong-trinh-doi-xung-pham-hung-vuong.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/phuong-phap-giai-he-phuong-trinh-doi-xung-pham-hung-vuong.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tong-hop-cac-bai-toan-phuong-trinh-vo-ti-hay-va-kho-huynh-thanh-phong",
+  "topic": "dai-so",
+  "title": "Tổng hợp các bài toán phương trình vô tỉ hay và khó",
+  "author": "Huỳnh Thanh Phong",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 56,
+  "desc": "Tuyển các phương trình vô tỉ khó do học sinh chuyên biên soạn, lời giải chú trọng cách tìm hướng.",
+  "url": "https://thcs.toanmath.com/2025/04/tong-hop-cac-bai-toan-phuong-trinh-vo-ti-hay-va-kho-huynh-thanh-phong.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/tong-hop-cac-bai-toan-phuong-trinh-vo-ti-hay-va-kho-huynh-thanh-phong.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-phuong-trinh-vo-ti-pham-kim-chung",
+  "topic": "dai-so",
+  "title": "Chuyên đề phương trình vô tỉ",
+  "author": "Phạm Kim Chung",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 224,
+  "desc": "Hệ thống phương pháp giải phương trình vô tỉ, phân tích ưu nhược điểm từng cách.",
+  "url": "https://toanmath.com/2020/09/chuyen-de-phuong-trinh-vo-ti-pham-kim-chung.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/chuyen-de-phuong-trinh-vo-ti-pham-kim-chung.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "ung-dung-dinh-ly-viete-trong-phuong-trinh-bac-ba-nguyen-thanh-hai",
+  "topic": "dai-so",
+  "title": "Ứng dụng định lý Viète trong phương trình bậc ba",
+  "author": "Nguyễn Thanh Hải",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 5,
+  "desc": "Bài viết ngắn đăng THTT về Vi-ét cho phương trình bậc ba, kèm ví dụ và bài tập.",
+  "url": "https://toanmath.com/2022/09/ung-dung-dinh-ly-viete-trong-phuong-trinh-bac-ba-nguyen-thanh-hai.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/ung-dung-dinh-ly-viete-trong-phuong-trinh-bac-ba-nguyen-thanh-hai.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-6-7",
+  "topic": "bat-dang-thuc",
+  "title": "Chuyên đề bất đẳng thức bồi dưỡng học sinh giỏi Toán 6 – 7",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 17,
+  "desc": "So sánh tổng lũy thừa, tổng phân số và các bất đẳng thức đầu tiên cho lớp 6–7.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-6-7.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-6-7.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-8",
+  "topic": "bat-dang-thuc",
+  "title": "Chuyên đề bất đẳng thức bồi dưỡng học sinh giỏi Toán 8",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   8
+  ],
+  "pages": 47,
+  "desc": "Chứng minh bất đẳng thức bằng định nghĩa, biến đổi tương đương và hằng đẳng thức.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-bat-dang-thuc-boi-duong-hoc-sinh-gioi-toan-8.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-bat-dang-thuc",
+  "topic": "bat-dang-thuc",
+  "title": "Chuyên đề bất đẳng thức",
+  "grades": [
+   8,
+   9
+  ],
+  "pages": 28,
+  "desc": "Tài liệu ngắn giới thiệu các phương pháp chứng minh bất đẳng thức cơ bản và ứng dụng.",
+  "url": "https://thcs.toanmath.com/2017/07/chuyen-de-bat-dang-thuc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-bat-dang-thuc.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-tim-gtln-gtnn-cua-bieu-thuc-boi-duong-hoc-sinh-gioi-toan-8",
+  "topic": "bat-dang-thuc",
+  "title": "Chuyên đề tìm GTLN – GTNN của biểu thức bồi dưỡng học sinh giỏi Toán 8",
+  "author": "Trần Đình Hoàng",
+  "grades": [
+   8
+  ],
+  "pages": 66,
+  "desc": "Tìm GTLN, GTNN của biểu thức ở mức lớp 8, phân dạng theo loại biểu thức.",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-tim-gtln-gtnn-cua-bieu-thuc-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-tim-gtln-gtnn-cua-bieu-thuc-boi-duong-hoc-sinh-gioi-toan-8.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "bi-quyet-chung-minh-bat-dang-thuc-nguyen-quoc-bao",
+  "topic": "bat-dang-thuc",
+  "title": "Bí quyết chứng minh bất đẳng thức",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 327,
+  "desc": "Tổng hợp các phương pháp chứng minh bất đẳng thức THCS, mỗi phương pháp có ví dụ và bài tập.",
+  "url": "https://thcs.toanmath.com/2020/08/bi-quyet-chung-minh-bat-dang-thuc-nguyen-quoc-bao.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bi-quyet-chung-minh-bat-dang-thuc-nguyen-quoc-bao.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-boi-duong-hoc-sinh-gioi-bat-dang-thuc-diem-roi-va-ky-thuat-chung-minh",
+  "topic": "bat-dang-thuc",
+  "title": "Chuyên đề bồi dưỡng học sinh giỏi: Bất đẳng thức – Điểm rơi và kỹ thuật chứng minh",
+  "author": "Mai Thành Luân",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 213,
+  "desc": "Dạy cách dự đoán điểm rơi rồi chọn AM-GM, Cauchy-Schwarz hay Schur cho từng bài.",
+  "url": "https://toanmath.com/2026/09/chuyen-de-boi-duong-hoc-sinh-gioi-bat-dang-thuc-diem-roi-va-ky-thuat-chung-minh.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/chuyen-de-boi-duong-hoc-sinh-gioi-bat-dang-thuc-diem-roi-va-ky-thuat-chung-minh.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tuyen-tap-bat-dang-thuc-thi-chuyen-toan-2020-mathpiad",
+  "topic": "bat-dang-thuc",
+  "title": "Tuyển tập một số bài toán bất đẳng thức trong kì thi chuyên toán 2020",
+  "author": "Nguyễn Nhất Huy",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 67,
+  "desc": "Các bài bất đẳng thức trong đề vào 10 chuyên năm 2020, kèm kiến thức nền và lời giải.",
+  "url": "https://lovetoan.wordpress.com/2020/10/15/tuyen-tap-bat-dang-thuc-thi-chuyen-toan/",
+  "pdf": "https://lovetoan.wordpress.com/wp-content/uploads/2020/10/hi-1.pdf",
+  "source": "Mathpiad (lovetoan.wordpress.com)",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tong-hop-108-bai-tap-bat-dang-thuc-toan-thcs-co-loi-giai-chi-tiet",
+  "topic": "bat-dang-thuc",
+  "title": "Tổng hợp 108 bài tập bất đẳng thức Toán THCS có lời giải chi tiết",
+  "author": "Lê Trọng Hiếu, La Tuấn Khôi",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 140,
+  "desc": "108 bài bất đẳng thức THCS có lời giải chi tiết, do hai học sinh chuyên tổng hợp.",
+  "url": "https://thcs.toanmath.com/2026/08/tong-hop-108-bai-tap-bat-dang-thuc-toan-thcs-co-loi-giai-chi-tiet.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/tong-hop-108-bai-tap-bat-dang-thuc-toan-thcs-co-loi-giai-chi-tiet.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "phan-tich-binh-luan-111-bai-toan-bat-dang-thuc-nguyen-cong-loi",
+  "topic": "bat-dang-thuc",
+  "title": "Phân tích bình luận 111 bài toán bất đẳng thức",
+  "author": "Nguyễn Công Lợi",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 96,
+  "desc": "Mỗi bài bất đẳng thức được phân tích hướng suy nghĩ trước khi trình bày lời giải.",
+  "url": "https://thcs.toanmath.com/2020/05/phan-tich-binh-luan-111-bai-toan-bat-dang-thuc-nguyen-cong-loi.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/phan-tich-binh-luan-111-bai-toan-bat-dang-thuc-nguyen-cong-loi.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-ky-thuat-su-dung-bat-dang-thuc-am-gm-va-bat-dang-thuc-bunyakovski",
+  "topic": "bat-dang-thuc",
+  "title": "Một số kỹ thuật sử dụng bất đẳng thức AM – GM và bất đẳng thức Bunyakovski",
+  "author": "Đào Văn Nam",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 50,
+  "desc": "Các quy tắc và kỹ thuật dùng bất đẳng thức AM-GM và Bunyakovski, có nhiều ví dụ.",
+  "url": "https://thcs.toanmath.com/2023/04/mot-so-ky-thuat-su-dung-bat-dang-thuc-am-gm-va-bat-dang-thuc-bunyakovski.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/mot-so-ky-thuat-su-dung-bat-dang-thuc-am-gm-va-bat-dang-thuc-bunyakovski.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "102-bai-toan-bat-dang-thuc-va-gia-tri-lon-nhat-gia-tri-nho-nhat-chon-loc",
+  "topic": "bat-dang-thuc",
+  "title": "102 bài toán bất đẳng thức và giá trị lớn nhất, giá trị nhỏ nhất chọn lọc",
+  "author": "Cù Minh Quảng",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 58,
+  "desc": "102 bài bất đẳng thức và cực trị chọn lọc cho thi HSG và vào 10, có lời giải.",
+  "url": "https://thcs.toanmath.com/2022/04/102-bai-toan-bat-dang-thuc-va-gia-tri-lon-nhat-gia-tri-nho-nhat-chon-loc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/102-bai-toan-bat-dang-thuc-va-gia-tri-lon-nhat-gia-tri-nho-nhat-chon-loc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "ky-thuat-su-dung-bat-dang-thuc-phu-trong-chung-minh-bat-dang-thuc",
+  "topic": "bat-dang-thuc",
+  "title": "Kỹ thuật sử dụng bất đẳng thức phụ trong chứng minh bất đẳng thức",
+  "author": "Phạm Văn Quý",
+  "grades": [
+   9
+  ],
+  "pages": 18,
+  "desc": "Hai mươi bất đẳng thức phụ hay dùng và cách vận dụng chúng qua ví dụ.",
+  "url": "https://thcs.toanmath.com/2022/10/ky-thuat-su-dung-bat-dang-thuc-phu-trong-chung-minh-bat-dang-thuc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/ky-thuat-su-dung-bat-dang-thuc-phu-trong-chung-minh-bat-dang-thuc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "bien-doi-de-tim-cuc-tri-dang-phan-thuc-ap-dung-vao-phuong-trinh-bac-hai-co-tham-so",
+  "topic": "bat-dang-thuc",
+  "title": "Biến đổi để tìm cực trị dạng phân thức, áp dụng vào phương trình bậc hai có tham số",
+  "author": "Lương Công Hiển",
+  "grades": [
+   9
+  ],
+  "pages": 15,
+  "desc": "Kỹ thuật tách tử theo mẫu để tìm cực trị phân thức, áp dụng vào bài toán Vi-ét.",
+  "url": "https://thcs.toanmath.com/2026/02/bien-doi-de-tim-cuc-tri-dang-phan-thuc-ap-dung-vao-phuong-trinh-bac-hai-co-tham-so.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bien-doi-de-tim-cuc-tri-dang-phan-thuc-ap-dung-vao-phuong-trinh-bac-hai-co-tham-so.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tiep-can-cac-bat-dang-thuc-bang-hinh-hoc-truc-quan",
+  "topic": "bat-dang-thuc",
+  "title": "Tiếp cận các bất đẳng thức bằng hình học trực quan",
+  "author": "Tạp Chí Và Tư Liệu Toán Học",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 71,
+  "desc": "Minh họa các bất đẳng thức quen thuộc bằng hình vẽ để hiểu vì sao chúng đúng.",
+  "url": "https://toanmath.com/2021/08/tiep-can-cac-bat-dang-thuc-bang-hinh-hoc-truc-quan.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/tiep-can-cac-bat-dang-thuc-bang-hinh-hoc-truc-quan.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tuyen-tap-cac-dinh-li-va-cach-chung-minh-bat-dang-thuc-nguyen-ngoc-tien",
+  "topic": "bat-dang-thuc",
+  "title": "Tuyển tập các định lí và cách chứng minh bất đẳng thức",
+  "author": "Nguyễn Ngọc Tiến",
+  "grades": [
+   10
+  ],
+  "pages": 88,
+  "desc": "Các bất đẳng thức cổ điển Schur, Muirhead, Cauchy-Schwarz, Holder cùng cách chứng minh.",
+  "url": "https://toanmath.com/2016/01/tuyen-tap-cac-dinh-li-va-cach-chung-minh-bat-dang-thuc-nguyen-ngoc-tien.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/tuyen-tap-cac-dinh-li-va-cach-chung-minh-bat-dang-thuc-nguyen-ngoc-tien.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "bat-dang-thuc-schur-va-phuong-phap-doi-bien-pqr-vo-thanh-van",
+  "topic": "bat-dang-thuc",
+  "title": "Bất đẳng thức Schur và phương pháp đổi biến PQR",
+  "author": "Võ Thành Văn",
+  "grades": [
+   10
+  ],
+  "pages": 17,
+  "desc": "Bất đẳng thức Schur và cách đổi biến p, q, r cho bài ba biến đối xứng.",
+  "url": "https://toanmath.com/2015/07/bat-dang-thuc-schur-va-phuong-phap-doi-bien-pqr-vo-thanh-van.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/bat-dang-thuc-schur-va-phuong-phap-doi-bien-pqr-vo-thanh-van.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "phuong-phap-don-bien-chung-minh-bat-dang-thuc-phan-thanh-viet",
+  "topic": "bat-dang-thuc",
+  "title": "Phương pháp dồn biến chứng minh bất đẳng thức",
+  "author": "Phan Thành Việt",
+  "grades": [
+   10
+  ],
+  "pages": 60,
+  "desc": "Kỹ thuật dồn biến về trung bình hoặc về biên cho bất đẳng thức ba, bốn biến.",
+  "url": "https://toanmath.com/2015/07/phuong-phap-don-bien-chung-minh-bat-dang-thuc-phan-thanh-viet.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/phuong-phap-don-bien-chung-minh-bat-dang-thuc-phan-thanh-viet.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "su-dung-nguyen-li-dirichle-chung-minh-bat-dang-thuc-nguyen-tai-chung",
+  "topic": "bat-dang-thuc",
+  "title": "Sử dụng nguyên lí Dirichle chứng minh bất đẳng thức",
+  "author": "Nguyễn Tài Chung",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 28,
+  "desc": "Dùng nguyên lí Dirichlet để chọn cặp biến cùng phía, chứng minh bất đẳng thức ba biến.",
+  "url": "https://thcs.toanmath.com/2020/05/su-dung-nguyen-li-dirichle-chung-minh-bat-dang-thuc-nguyen-tai-chung.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/su-dung-nguyen-li-dirichle-chung-minh-bat-dang-thuc-nguyen-tai-chung.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-6",
+  "topic": "hinh-hoc",
+  "title": "Chuyên đề hình học bồi dưỡng học sinh giỏi Toán 6",
+  "author": "Ngô Thế Hoàng",
+  "grades": [
+   6
+  ],
+  "pages": 27,
+  "desc": "Góc, tia phân giác, đoạn thẳng và bài đếm hình cho học sinh giỏi lớp 6.",
+  "url": "https://thcs.toanmath.com/2022/02/chuyen-de-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-6.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-hinh-hoc-boi-duong-hoc-sinh-gioi-toan-6.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "22-chuyen-de-boi-duong-hinh-hoc-7",
+  "topic": "hinh-hoc",
+  "title": "22 chuyên đề bồi dưỡng Hình học 7",
+  "grades": [
+   7
+  ],
+  "pages": 229,
+  "desc": "Hình học 7 từ song song, tam giác bằng nhau đến các đường đồng quy, có lời giải.",
+  "url": "https://thcs.toanmath.com/2021/09/22-chuyen-de-boi-duong-hinh-hoc-7.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/22-chuyen-de-boi-duong-hinh-hoc-7.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "bai-toan-chung-minh-vuong-goc-goc-nhin-tu-phep-lay-doi-xung",
+  "topic": "hinh-hoc",
+  "title": "Bài toán chứng minh vuông góc – góc nhìn từ phép lấy đối xứng",
+  "author": "Nguyễn Đăng Khoa",
+  "grades": [
+   8,
+   9
+  ],
+  "pages": 26,
+  "desc": "Dùng phép lấy đối xứng qua trung điểm để chứng minh vuông góc, 22 bài xếp theo mức độ.",
+  "url": "https://thcs.toanmath.com/2026/09/bai-toan-chung-minh-vuong-goc-goc-nhin-tu-phep-lay-doi-xung.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bai-toan-chung-minh-vuong-goc-goc-nhin-tu-phep-lay-doi-xung.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-tam-giac-dong-dang-ta-let-va-lien-quan-boi-duong-hoc-sinh-gioi-toan-8",
+  "topic": "hinh-hoc",
+  "title": "Chuyên đề tam giác đồng dạng, Ta-lét và liên quan bồi dưỡng học sinh giỏi Toán 8",
+  "author": "Trần Đình Hoàng",
+  "grades": [
+   8
+  ],
+  "pages": 87,
+  "desc": "Ta-lét, phân giác, tam giác đồng dạng và định lý Menelaus, Ceva cho học sinh giỏi lớp 8.",
+  "url": "https://thcs.toanmath.com/2021/09/chuyen-de-tam-giac-dong-dang-ta-let-va-lien-quan-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-tam-giac-dong-dang-ta-let-va-lien-quan-boi-duong-hoc-sinh-gioi-toan-8.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-bai-toan-ve-dien-tich",
+  "topic": "hinh-hoc",
+  "title": "Một số bài toán về diện tích",
+  "grades": [
+   8,
+   9
+  ],
+  "pages": 69,
+  "desc": "Tính chất diện tích và các bài toán dùng diện tích để chứng minh, tính toán.",
+  "url": "https://thcs.toanmath.com/2021/09/mot-so-bai-toan-ve-dien-tich.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/mot-so-bai-toan-ve-dien-tich.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "tuyen-tap-chuyen-de-hinh-hoc-phang-trong-de-thi-toan-chuyen-mai-thanh-luan",
+  "topic": "hinh-hoc",
+  "title": "Tuyển tập chuyên đề hình học phẳng trong đề thi Toán chuyên",
+  "author": "Mai Thành Luân",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 172,
+  "desc": "Các mô hình hình học phẳng hay gặp trong đề chuyên: tứ giác nội tiếp, phương tích, trực tâm.",
+  "url": "https://thcs.toanmath.com/2026/08/tuyen-tap-chuyen-de-hinh-hoc-phang-trong-de-thi-toan-chuyen-mai-thanh-luan.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/tuyen-tap-chuyen-de-hinh-hoc-phang-trong-de-thi-toan-chuyen-mai-thanh-luan.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-chung-minh-ba-diem-thang-hang-ba-duong-thang-dong-quy",
+  "topic": "hinh-hoc",
+  "title": "Các bài toán chứng minh ba điểm thẳng hàng – ba đường thẳng đồng quy",
+  "author": "Nguyễn Công Lợi",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 80,
+  "desc": "Các phương pháp chứng minh ba điểm thẳng hàng và ba đường thẳng đồng quy, có bài tập mẫu.",
+  "url": "https://thcs.toanmath.com/2021/03/cac-bai-toan-chung-minh-ba-diem-thang-hang-ba-duong-thang-dong-quy.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-chung-minh-ba-diem-thang-hang-ba-duong-thang-dong-quy.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-bai-toan-ve-duong-co-dinh-va-diem-co-dinh",
+  "topic": "hinh-hoc",
+  "title": "Một số bài toán về đường cố định và điểm cố định",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 71,
+  "desc": "Bài toán điểm cố định, đường cố định: cách dự đoán yếu tố cố định rồi chứng minh.",
+  "url": "https://thcs.toanmath.com/2021/09/mot-so-bai-toan-ve-duong-co-dinh-va-diem-co-dinh.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/mot-so-bai-toan-ve-duong-co-dinh-va-diem-co-dinh.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tuyen-chon-cac-bai-toan-ve-bat-dang-thuc-va-cuc-tri-hinh-hoc",
+  "topic": "hinh-hoc",
+  "title": "Tuyển chọn các bài toán về bất đẳng thức và cực trị hình học",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 102,
+  "desc": "Bất đẳng thức và cực trị trong hình học phẳng, từ quan hệ cạnh góc đến bài khó.",
+  "url": "https://thcs.toanmath.com/2021/09/tuyen-chon-cac-bai-toan-ve-bat-dang-thuc-va-cuc-tri-hinh-hoc.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/tuyen-chon-cac-bai-toan-ve-bat-dang-thuc-va-cuc-tri-hinh-hoc.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-nhung-dinh-ly-hinh-hoc-noi-tieng-on-thi-vao-lop-10",
+  "topic": "hinh-hoc",
+  "title": "Chuyên đề những định lý hình học nổi tiếng ôn thi vào lớp 10",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 39,
+  "desc": "Giới thiệu các định lý nổi tiếng như Euler, Simson, Menelaus, Ceva và bài áp dụng.",
+  "url": "https://thcs.toanmath.com/2021/12/chuyen-de-nhung-dinh-ly-hinh-hoc-noi-tieng-on-thi-vao-lop-10.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-nhung-dinh-ly-hinh-hoc-noi-tieng-on-thi-vao-lop-10.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-chuyen-de-nang-cao-va-phat-trien-hinh-hoc-9-nguyen-hoang-viet",
+  "topic": "hinh-hoc",
+  "title": "Các chuyên đề nâng cao và phát triển Hình học 9",
+  "author": "Nguyễn Hoàng Việt",
+  "grades": [
+   9
+  ],
+  "pages": 312,
+  "desc": "Hình học 9 nâng cao theo chương: hệ thức lượng, đường tròn, góc và tứ giác nội tiếp.",
+  "url": "https://thcs.toanmath.com/2022/06/cac-chuyen-de-nang-cao-va-phat-trien-hinh-hoc-9-nguyen-hoang-viet.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-chuyen-de-nang-cao-va-phat-trien-hinh-hoc-9-nguyen-hoang-viet.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "tuyen-tap-nhung-bai-toan-hinh-hoc-lop-9-hay-va-dac-sac-bui-hoang-nam",
+  "topic": "hinh-hoc",
+  "title": "Tuyển tập những bài toán hình học lớp 9 hay và đặc sắc",
+  "author": "Bùi Hoàng Nam",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 69,
+  "desc": "Tuyển bài hình học lớp 9 hay, có lời giải, do học sinh đỗ trường chuyên biên soạn.",
+  "url": "https://thcs.toanmath.com/2025/02/tuyen-tap-nhung-bai-toan-hinh-hoc-lop-9-hay-va-dac-sac-bui-hoang-nam.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/tuyen-tap-nhung-bai-toan-hinh-hoc-lop-9-hay-va-dac-sac-bui-hoang-nam.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "bai-toan-ve-quy-tich-tap-hop-diem",
+  "topic": "hinh-hoc",
+  "title": "Bài toán về quỹ tích – tập hợp điểm",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 59,
+  "desc": "Phương pháp giải bài toán quỹ tích: dự đoán, phần thuận, phần đảo, kèm ví dụ.",
+  "url": "https://thcs.toanmath.com/2021/09/bai-toan-ve-quy-tich-tap-hop-diem.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bai-toan-ve-quy-tich-tap-hop-diem.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-bai-toan-hinh-hoc-phang-thi-vao-lop-10-chuyen-nam-hoc-2026-2027",
+  "topic": "hinh-hoc",
+  "title": "Một số bài toán hình học phẳng thi vào lớp 10 chuyên năm học 2026 – 2027",
+  "author": "Nguyễn Đăng Khoa",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 38,
+  "desc": "Bài hình học phẳng thi vào 10 chuyên gần đây, lời giải nêu các bổ đề then chốt.",
+  "url": "https://thcs.toanmath.com/2026/06/mot-so-bai-toan-hinh-hoc-phang-thi-vao-lop-10-chuyen-nam-hoc-2026-2027.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/mot-so-bai-toan-hinh-hoc-phang-thi-vao-lop-10-chuyen-nam-hoc-2026-2027.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "su-dung-dinh-ly-ceva-va-menelaus-trong-bai-toan-chung-minh-dong-quy-thang-hang",
+  "topic": "hinh-hoc",
+  "title": "Sử dụng định lý Ceva và Menelaus trong bài toán chứng minh đồng quy, thẳng hàng",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 18,
+  "desc": "Cách chọn tam giác và cát tuyến để áp dụng Ceva, Menelaus cho bài đồng quy, thẳng hàng.",
+  "url": "https://toanmath.com/2021/11/su-dung-dinh-ly-ceva-va-menelaus-trong-bai-toan-chung-minh-dong-quy-thang-hang.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/su-dung-dinh-ly-ceva-va-menelaus-trong-bai-toan-chung-minh-dong-quy-thang-hang.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "su-dung-phuong-tich-truc-dang-phuong-trong-bai-toan-chung-minh-dong-quy-thang-hang",
+  "topic": "hinh-hoc",
+  "title": "Sử dụng phương tích – trục đẳng phương trong bài toán chứng minh đồng quy, thẳng hàng",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 23,
+  "desc": "Phương tích, trục đẳng phương, tâm đẳng phương và ứng dụng vào bài đồng quy, thẳng hàng.",
+  "url": "https://toanmath.com/2021/11/su-dung-phuong-tich-truc-dang-phuong-trong-bai-toan-chung-minh-dong-quy-thang-hang.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/su-dung-phuong-tich-truc-dang-phuong-trong-bai-toan-chung-minh-dong-quy-thang-hang.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "yufei-zhao-cyclic-quadrilaterals",
+  "topic": "hinh-hoc",
+  "title": "Cyclic Quadrilaterals – The Big Picture",
+  "author": "Yufei Zhao",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 12,
+  "desc": "Handout tiếng Anh về tứ giác nội tiếp: cách nhận ra, cách dùng và bài tập chọn lọc.",
+  "url": "https://yufeizhao.com/olympiad/",
+  "pdf": "https://yufeizhao.com/olympiad/cyclic_quad.pdf",
+  "source": "yufeizhao.com",
+  "stage": 3,
+  "lang": "en"
+ },
+ {
+  "id": "yufei-zhao-lemmas-in-euclidean-geometry",
+  "topic": "hinh-hoc",
+  "title": "Lemmas in Euclidean Geometry",
+  "author": "Yufei Zhao",
+  "grades": [
+   10
+  ],
+  "pages": 10,
+  "desc": "Tổng hợp bổ đề hình học phẳng hay dùng như Simson, Ptolemy, đường tròn Euler; tiếng Anh.",
+  "url": "https://yufeizhao.com/olympiad/",
+  "pdf": "https://yufeizhao.com/olympiad/geolemmas.pdf",
+  "source": "yufeizhao.com",
+  "stage": 3,
+  "lang": "en"
+ },
+ {
+  "id": "ucla-math-circle-invariants-ii",
+  "topic": "to-hop",
+  "title": "Invariants II (LA Math Circle)",
+  "author": "Los Angeles Math Circle – UCLA",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 8,
+  "desc": "Handout tiếng Anh về bất biến: tắc kè đổi màu, phủ bàn cờ bằng domino, có lời giải.",
+  "url": "https://circles.math.ucla.edu/circles/archive.shtml",
+  "pdf": "https://circles.math.ucla.edu/circles/lib/data/Handout-1035-1074.pdf",
+  "source": "circles.math.ucla.edu",
+  "stage": 1,
+  "lang": "en"
+ },
+ {
+  "id": "tom-davis-graph-problems",
+  "topic": "to-hop",
+  "title": "Graph Problems",
+  "author": "Tom Davis",
+  "grades": [
+   7,
+   8,
+   9
+  ],
+  "pages": 9,
+  "desc": "Handout tiếng Anh nhập môn đồ thị qua các bài toán bắt tay, tô bản đồ, đường đi.",
+  "url": "http://www.geometer.org/mathcircles/",
+  "pdf": "http://www.geometer.org/mathcircles/graphprobs.pdf",
+  "source": "geometer.org",
+  "stage": 1,
+  "lang": "en"
+ },
+ {
+  "id": "tom-davis-counting-things",
+  "topic": "to-hop",
+  "title": "Counting Things",
+  "author": "Tom Davis",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 10,
+  "desc": "Handout tiếng Anh về các chiến lược đếm: quy tắc cộng nhân, hoán vị, tổ hợp, bù trừ.",
+  "url": "http://www.geometer.org/mathcircles/",
+  "pdf": "http://www.geometer.org/mathcircles/counting.pdf",
+  "source": "geometer.org",
+  "stage": 1,
+  "lang": "en"
+ },
+ {
+  "id": "chuyen-de-nguyen-li-dirichlet-on-thi-hoc-sinh-gioi-toan-6",
+  "topic": "to-hop",
+  "title": "Chuyên đề nguyên lí Dirichlet ôn thi học sinh giỏi Toán 6",
+  "author": "Nhóm Các Dự Án Giáo Dục",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 23,
+  "desc": "Nguyên lí Dirichlet cho học sinh giỏi lớp 6: chia hết, sắp xếp, bài toán hình học.",
+  "url": "https://thcs.toanmath.com/2025/09/chuyen-de-nguyen-li-dirichlet-on-thi-hoc-sinh-gioi-toan-6.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/chuyen-de-nguyen-li-dirichlet-on-thi-hoc-sinh-gioi-toan-6.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "bai-toan-suy-luan-logic-so-do-ven-trong-cac-de-thi-hoc-sinh-gioi-toan-6",
+  "topic": "to-hop",
+  "title": "Bài toán suy luận logic, sơ đồ Ven trong các đề thi học sinh giỏi Toán 6",
+  "grades": [
+   6,
+   7
+  ],
+  "pages": 57,
+  "desc": "Bài toán suy luận logic và sơ đồ Ven lấy từ đề thi học sinh giỏi lớp 6.",
+  "url": "https://thcs.toanmath.com/2024/11/bai-toan-suy-luan-logic-so-do-ven-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/bai-toan-suy-luan-logic-so-do-ven-trong-cac-de-thi-hoc-sinh-gioi-toan-6.pdf",
+  "source": "toanmath.com",
+  "stage": 1,
+  "lang": "vi"
+ },
+ {
+  "id": "ung-dung-cua-nguyen-ly-dirichlet-trong-giai-toan-thcs",
+  "topic": "to-hop",
+  "title": "Ứng dụng của nguyên lý Dirichlet trong giải toán THCS",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 94,
+  "desc": "Nguyên lý Dirichlet và ứng dụng trong bài toán số học, tổ hợp, hình học, bất đẳng thức.",
+  "url": "https://thcs.toanmath.com/2019/12/ung-dung-cua-nguyen-ly-dirichlet-trong-giai-toan-thcs.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/ung-dung-cua-nguyen-ly-dirichlet-trong-giai-toan-thcs.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "excalibur-pigeonhole-principle",
+  "topic": "to-hop",
+  "title": "Pigeonhole Principle (Mathematical Excalibur 1/1)",
+  "author": "Kin Y. Li",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 4,
+  "desc": "Bài viết tiếng Anh ngắn về nguyên lý Dirichlet với các ví dụ chọn hộp thông minh.",
+  "url": "https://www.math.hkust.edu.hk/excalibur/",
+  "pdf": "https://www.math.hkust.edu.hk/excalibur/v1_n1.pdf",
+  "source": "math.hkust.edu.hk",
+  "stage": 2,
+  "lang": "en"
+ },
+ {
+  "id": "108-bai-toan-to-hop-phuong-phap",
+  "topic": "to-hop",
+  "title": "108 bài toán tổ hợp – phương pháp",
+  "author": "Nguyễn Văn Lợi, Ngô Thị Nhã",
+  "grades": [
+   7,
+   8,
+   9
+  ],
+  "pages": 28,
+  "desc": "108 bài chọn lọc: sơ đồ Venn, Dirichlet, bàn cờ, hình học tổ hợp, trò chơi, quy nạp.",
+  "url": "https://toanmath.com/2019/01/108-bai-toan-to-hop-phuong-phap.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/108-bai-toan-to-hop-phuong-phap.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-su-dung-nguyen-ly-bat-bien-trong-giai-toan",
+  "topic": "to-hop",
+  "title": "Các bài toán sử dụng nguyên lý bất biến trong giải toán",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 16,
+  "desc": "Nguyên lý bất biến qua các bài toán biến đổi trạng thái, có lời giải chi tiết.",
+  "url": "https://thcs.toanmath.com/2021/07/cac-bai-toan-su-dung-nguyen-ly-bat-bien-trong-giai-toan.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-su-dung-nguyen-ly-bat-bien-trong-giai-toan.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "cac-bai-toan-su-dung-nguyen-ly-cuc-han",
+  "topic": "to-hop",
+  "title": "Các bài toán sử dụng nguyên lý cực hạn",
+  "author": "Nguyễn Quốc Bảo",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 20,
+  "desc": "Nguyên lý cực hạn: xét phần tử lớn nhất, nhỏ nhất để chứng minh tồn tại.",
+  "url": "https://thcs.toanmath.com/2021/07/cac-bai-toan-su-dung-nguyen-ly-cuc-han.html",
+  "pdf": "https://thcs.toanmath.com/thcs-pdf/cac-bai-toan-su-dung-nguyen-ly-cuc-han.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "excalibur-mathematical-games-1",
+  "topic": "to-hop",
+  "title": "Mathematical Games I (Mathematical Excalibur 7/3)",
+  "author": "Kin Y. Li",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 4,
+  "desc": "Bài viết tiếng Anh về bất biến và đơn biến trong các trò chơi toán học.",
+  "url": "https://www.math.hkust.edu.hk/excalibur/",
+  "pdf": "https://www.math.hkust.edu.hk/excalibur/v7_n3_20180122.pdf",
+  "source": "math.hkust.edu.hk",
+  "stage": 2,
+  "lang": "en"
+ },
+ {
+  "id": "tom-davis-coloring",
+  "topic": "to-hop",
+  "title": "Coloring",
+  "author": "Tom Davis",
+  "grades": [
+   8,
+   9,
+   10
+  ],
+  "pages": 10,
+  "desc": "Handout tiếng Anh về phương pháp tô màu trong bài toán phủ bàn cờ và tồn tại, có gợi ý.",
+  "url": "http://www.geometer.org/mathcircles/",
+  "pdf": "http://www.geometer.org/mathcircles/coloring.pdf",
+  "source": "geometer.org",
+  "stage": 2,
+  "lang": "en"
+ },
+ {
+  "id": "chuyen-de-ve-bai-toan-chia-keo-euler",
+  "topic": "to-hop",
+  "title": "Chuyên đề về bài toán chia kẹo Euler",
+  "author": "PimaX",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 41,
+  "desc": "Bài toán chia kẹo Euler và các biến thể đếm nghiệm nguyên, có ví dụ minh họa.",
+  "url": "https://toanmath.com/2025/03/chuyen-de-ve-bai-toan-chia-keo-euler.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/chuyen-de-ve-bai-toan-chia-keo-euler.pdf",
+  "source": "toanmath.com",
+  "stage": 2,
+  "lang": "vi"
+ },
+ {
+  "id": "chuyen-de-nguyen-ly-cuc-han-huynh-kim-linh",
+  "topic": "to-hop",
+  "title": "Chuyên đề nguyên lý cực hạn",
+  "author": "Huỳnh Kim Linh",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 25,
+  "desc": "Nguyên lý cực hạn ứng dụng cho bài tổ hợp, hình học và số học ở mức học sinh giỏi.",
+  "url": "https://toanmath.com/2023/01/chuyen-de-nguyen-ly-cuc-han-huynh-kim-linh.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/chuyen-de-nguyen-ly-cuc-han-huynh-kim-linh.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "excalibur-mathematical-games-2",
+  "topic": "to-hop",
+  "title": "Mathematical Games II (Mathematical Excalibur 7/5)",
+  "author": "Kin Y. Li",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 4,
+  "desc": "Bài viết tiếng Anh về chiến thuật thắng trong trò chơi lấy sỏi và trò chơi đối xứng.",
+  "url": "https://www.math.hkust.edu.hk/excalibur/",
+  "pdf": "https://www.math.hkust.edu.hk/excalibur/v7_n5.pdf",
+  "source": "math.hkust.edu.hk",
+  "stage": 3,
+  "lang": "en"
+ },
+ {
+  "id": "excalibur-coloring-problems",
+  "topic": "to-hop",
+  "title": "Coloring Problems (Mathematical Excalibur 20/3)",
+  "author": "Kin Y. Li",
+  "grades": [
+   9,
+   10
+  ],
+  "pages": 4,
+  "desc": "Bài viết tiếng Anh về tô màu bàn cờ để chứng minh không lát được bằng domino.",
+  "url": "https://www.math.hkust.edu.hk/excalibur/",
+  "pdf": "https://www.math.hkust.edu.hk/excalibur/v20_n3.pdf",
+  "source": "math.hkust.edu.hk",
+  "stage": 3,
+  "lang": "en"
+ },
+ {
+  "id": "tuyen-tap-mot-so-bai-toan-to-hop-on-thi-hsg-toan",
+  "topic": "to-hop",
+  "title": "Tuyển tập một số bài toán tổ hợp ôn thi HSG Toán",
+  "author": "Tạp Chí Và Tư Liệu Toán Học",
+  "grades": [
+   10
+  ],
+  "pages": 153,
+  "desc": "Tuyển bài tổ hợp olympic thú vị từ nhiều nguồn, luyện tư duy hơn là công thức.",
+  "url": "https://toanmath.com/2021/02/tuyen-tap-mot-so-bai-toan-to-hop-on-thi-hsg-toan.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/tuyen-tap-mot-so-bai-toan-to-hop-on-thi-hsg-toan.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ },
+ {
+  "id": "mot-so-chuyen-de-ve-to-hop-danh-cho-hoc-sinh-gioi-toan",
+  "topic": "to-hop",
+  "title": "Một số chuyên đề về tổ hợp dành cho học sinh giỏi Toán",
+  "grades": [
+   10
+  ],
+  "pages": 67,
+  "desc": "Mười chuyên đề tổ hợp: quy tắc đếm, song ánh, Dirichlet, truy hồi, đồ thị.",
+  "url": "https://toanmath.com/2019/10/mot-so-chuyen-de-ve-to-hop-danh-cho-hoc-sinh-gioi-toan.html",
+  "pdf": "https://toanmath.com/toanmath-pdf/mot-so-chuyen-de-ve-to-hop-danh-cho-hoc-sinh-gioi-toan.pdf",
+  "source": "toanmath.com",
+  "stage": 3,
+  "lang": "vi"
+ }
+]

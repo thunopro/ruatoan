@@ -1,0 +1,1081 @@
+[
+ {
+  "id": "crux-2006-01",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 1 (2006)",
+  "grade": 9,
+  "year": 2006,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 1/2006",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv32n1.pdf",
+  "problems": [
+   {
+    "id": "crux-2006-01-3106",
+    "label": "3106",
+    "text": "Chứng minh các đồng nhất thức sau:\n\na) $\\sum_{k=1}^n \\sum_{i=1}^{k+1} \\frac{\\binom{k}{i-1}^2 \\binom{2k}{k}}{2^{2k} \\binom{2k}{2i-2} (2i-1)} = \\frac{2^{2n+1}}{\\binom{2n+1}{n}} - 2$.\n\nb) $\\sum_{k=1}^n \\sum_{i=1}^{k+1} \\frac{\\binom{k}{i-1}^2 \\binom{2k}{k}}{2^{2k} \\binom{2k}{2i-2} i} = \\frac{(2n+3) \\binom{2n+2}{n+1}}{2^{2n+1}} - 3$.\n\n*(Đề xuất: Mihály Bencze, Brasov, Romania)*",
+    "topics": [
+     "dai-so",
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3107",
+    "label": "3107",
+    "text": "Cho hai tam giác $A_1B_1C_1$ và $A_2B_2C_2$ có $A_1C_1 = A_2C_2$. Giả sử các đường phân giác trong $A_1D_1$ và $A_2D_2$ bằng nhau.\n\na) Nếu các đường cao $B_1H_1$ và $B_2H_2$ bằng nhau, hãy chứng minh rằng hai tam giác này bằng nhau.\n\nb) Nếu các đường phân giác trong $B_1E_1$ và $B_2E_2$ bằng nhau, hãy chứng minh rằng hai tam giác này bằng nhau.\n\n*(Đề xuất: Victor Oxman, Western Galilee College, Israel)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3108",
+    "label": "3108",
+    "text": "Cho tam giác $ABC$ có các góc $B$ và $C$ đều nhọn. Gọi $H$ là điểm trên cạnh $BC$ sao cho $AH \\perp BC$. Gọi $r, r_1$ và $r_2$ lần lượt là bán kính đường tròn nội tiếp của các tam giác $ABC, ABH$ và $AHC$. Chứng minh rằng $r + r_1 + r_2 - AH$ mang dấu dương, âm hoặc bằng 0 tương ứng với việc góc $A$ là góc tù, góc nhọn hoặc góc vuông.\n\n*(Đề xuất: Juan-Bosco Romero Márquez, Universidad de Valladolid, Valladolid, Spain)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3109",
+    "label": "3109",
+    "text": "Cho tam giác $ABC$ có các góc $B$ và $C$ đều nhọn, và gọi $a, b, c$ lần lượt là độ dài các cạnh đối diện với các đỉnh $A, B, C$. Nếu $h_a$ là đường cao từ $A$ đến $BC$, hãy chứng minh rằng $\\frac{1}{h_a^2} - \\left( \\frac{1}{b^2} + \\frac{1}{c^2} \\right)$ mang dấu dương, âm hoặc bằng 0 tương ứng với việc góc $A$ là góc tù, góc nhọn hoặc góc vuông.\n\n*(Đề xuất: Juan-Bosco Romero Márquez, Universidad de Valladolid, Valladolid, Spain)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3110",
+    "label": "3110",
+    "text": "Gọi $m_b$ là độ dài đường trung tuyến ứng với cạnh $b$ trong tam giác $ABC$, và định nghĩa $m_c$ tương tự. Chứng minh rằng $4a^4 + 9b^2c^2 - 16m_b^2m_c^2$ mang dấu dương, âm hoặc bằng 0 tương ứng với việc góc $A$ là góc nhọn, góc tù hoặc góc vuông.\n\n*(Đề xuất: Juan-Bosco Romero Márquez, Universidad de Valladolid, Valladolid, Spain)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3111",
+    "label": "3111",
+    "text": "Cho $a_k, b_k$ và $c_k$ lần lượt là độ dài các cạnh đối diện với các đỉnh $A_k, B_k$ và $C_k$ trong tam giác $A_kB_kC_k$, với $k = 1, 2, \\dots, n$. Nếu $r_k$ là bán kính đường tròn nội tiếp và $R_k$ là bán kính đường tròn ngoại tiếp của tam giác $A_kB_kC_k$, hãy chứng minh rằng\n\n$$6\\sqrt{3} \\left( \\prod_{k=1}^n r_k \\right)^{\\frac{1}{n}} \\le \\left( \\prod_{k=1}^n a_k \\right)^{\\frac{1}{n}} + \\left( \\prod_{k=1}^n b_k \\right)^{\\frac{1}{n}} + \\left( \\prod_{k=1}^n c_k \\right)^{\\frac{1}{n}} \\le 3\\sqrt{3} \\left( \\prod_{k=1}^n R_k \\right)^{\\frac{1}{n}}.$$\n\n*(Đề xuất: Mihály Bencze, Brasov, Romania)*",
+    "topics": [
+     "bat-dang-thuc",
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-3113",
+    "label": "3113",
+    "text": "Cho tam giác $ABC$ có $a$ là độ dài cạnh đối diện với đỉnh $A$. Gọi $m_a$ là độ dài đường trung tuyến kẻ từ $A$ đến cạnh $BC$, và $R$ là bán kính đường tròn ngoại tiếp tam giác $ABC$. Chứng minh rằng $m_a - R$ dương, âm hoặc bằng 0 tùy theo $\\angle A$ là góc tù, góc nhọn hoặc góc vuông.\n\n*(Đề xuất: Juan-Bosco Romero Márquez, Đại học Valladolid, Valladolid, Tây Ban Nha)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m226",
+    "label": "M226",
+    "text": "Antonino có một ngăn kéo chứa đầy các chiếc tất màu đen giống hệt nhau và các chiếc tất màu trắng giống hệt nhau. Nếu anh ta chọn ngẫu nhiên hai chiếc tất từ ngăn kéo, xác suất để hai chiếc tất đó cùng màu là $\\frac{1}{2}$. Hỏi Antonino có bao nhiêu chiếc tất mỗi màu? (Có nhiều hơn một đáp số).\n\n*(Đề xuất: John Ciriani, Kamloops, BC)*",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m227",
+    "label": "M227",
+    "text": "Cho $N$ là một số nguyên dương sao cho $N$ chia cho 6 dư 2 hoặc 4 và tồn tại các số nguyên $x, y$ sao cho $N = x^2 + 27y^2$. Chứng minh rằng tồn tại các số nguyên $a, b$ sao cho $N = a^2 + 3b^2$ với $b$ không chia hết cho 3.\n\n*(Đề xuất: Kenneth S. Williams, Đại học Carleton, Ottawa, ON)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m228",
+    "label": "M228",
+    "text": "a) Các nghiệm của đa thức $P(x) = x^2 - 5x + 2$ chính là các kích thước của một hình chữ nhật tính bằng xăng-ti-mét. Hãy xác định chu vi và diện tích của hình chữ nhật đó.\n\nb) Các nghiệm của đa thức $P(x) = x^3 - 70x^2 + 1629x - 12600$ chính là các kích thước bên trong của một căn phòng hình hộp chữ nhật tính bằng mét. Hãy tìm tổng diện tích bề mặt và thể tích bên trong của căn phòng (khi các cửa ra vào và cửa sổ được đóng kín).\n\n*(Đề xuất: K. R. S. Sastry, Bangalore, Ấn Độ)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m229",
+    "label": "M229",
+    "text": "Một tam giác đều nằm trên một hình vuông sao cho chúng có chung một cạnh. Tất cả các cạnh của tam giác và hình vuông đều có độ dài bằng 1. Một đường tròn đi qua ba điểm $P, Q$ và $R$, trong đó $P$ là đỉnh của tam giác đều không nằm trên cạnh chung, còn $Q$ và $R$ là hai đỉnh của hình vuông không nằm trên cạnh chung với tam giác. Tính bán kính của đường tròn đó.\n\n*(Đề xuất: Edward J. Barbeau, Đại học Toronto, Toronto, ON)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m230",
+    "label": "M230",
+    "text": "Al, Betty, Cecil, Dora và Eugene chia nhau $n$ đồng xu với các điều kiện sau:\n\n1. Mỗi người nhận được ít nhất một đồng xu.\n\n2. Số đồng xu Al nhận được ít hơn Betty, Betty ít hơn Cecil, Cecil ít hơn Dora và Dora ít hơn Eugene.\n\n3. Mỗi người chỉ biết tổng số $n$ và số đồng xu mà mình nhận được.\n\nTìm giá trị nhỏ nhất của $n$ sao cho không ai có thể suy ra được số đồng xu mà những người còn lại nhận được nếu không có thêm thông tin.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2006-01-m231",
+    "label": "M231",
+    "text": "Cordelia và Kent chơi một trò chơi như sau. Cordelia đi trước và hai người thay phiên nhau thực hiện lượt chơi. Mỗi người chọn một số từ 1 đến 6 sao cho số đó chưa được chọn trước đó; trò chơi kết thúc sau sáu lượt.\n\nKết thúc mỗi lượt, người vừa thực hiện lượt chơi tính tổng của tất cả các số đã được chọn bởi cả hai người cho đến thời điểm đó và nhận tất cả các ước dương của tổng này.\n\nKhi trò chơi kết thúc, điểm số của mỗi người là số $k$ lớn nhất sao cho người đó đã nhận được tất cả các số liên tiếp $1, 2, 3, \\dots, k$. Người chiến thắng là người có điểm số cao hơn; nếu cả hai có cùng điểm số thì không ai thắng và trò chơi hòa.\n\nLiệu có cách nào để ngăn Cordelia chiến thắng nếu cô ấy chơi một cách tối ưu không?\n\n*(Đề xuất: Edward J. Barbeau, Đại học Toronto, Toronto, ON)*",
+    "topics": [
+     "to-hop"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2006-03",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 3 (2006)",
+  "grade": 9,
+  "year": 2006,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 3/2006",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv32n3.pdf",
+  "problems": [
+   {
+    "id": "crux-2006-03-m239",
+    "label": "M239",
+    "text": "Cho $a, b, c > 0$, chứng minh rằng $$\\frac{1}{a+b} + \\frac{1}{b+c} + \\frac{1}{c+a} \\le \\frac{(a+b+c)^2}{6abc}$$\n\n*(Đề xuất: Aliyev Yakub, Đại học Tổng hợp Baku, Baku, Azerbaijan)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2006-03-m240",
+    "label": "M240",
+    "text": "Sử dụng mỗi chữ số $0, 1, 2, 3, \\dots, 9$ đúng một lần, hãy tìm bốn số chính phương (lớn hơn 0) sao cho một số có bốn chữ số, một số có ba chữ số, một số có hai chữ số và một số có một chữ số.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-03-m241",
+    "label": "M241",
+    "text": "Ba tay súng tên là Quick, Fast và Slow đứng tại ba đỉnh của một tam giác đều. Quick rút súng nhanh hơn Fast, và Fast rút súng nhanh hơn Slow. Nếu $x$ định bắn $y$, ta nói $x$ nhắm vào $y$. Giả sử rằng nếu $x$ bắn $y$ thì $y$ sẽ bị trúng đạn, và nếu cả $x$ và $y$ cùng nhắm vào nhau thì người chậm hơn sẽ bị trúng đạn trước khi kịp bắn. Một người không thể bắn sau khi đã bị trúng đạn.\n\nTrong giai đoạn đầu của cuộc đối đầu, mỗi người nhắm vào một trong hai người còn lại và bắn tối đa một phát. Không ai biết tốc độ của hai người kia, việc chọn mục tiêu được thực hiện ngẫu nhiên và không thể thay đổi trong giai đoạn đầu.\n\nNếu có hai người sống sót sau giai đoạn đầu, họ sẽ đối đầu với nhau trong giai đoạn thứ hai và người rút súng nhanh nhất sẽ thắng. Nếu chỉ có một người sống sót sau giai đoạn đầu, người đó là người chiến thắng (và không có giai đoạn thứ hai).\n\nTìm xác suất để:\n\na) Quick sống sót;\n\nb) Fast sống sót;\n\nc) Slow sống sót.\n\n*(Đề xuất: J. Walter Lynch, Athens, GA, USA)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2006-03-m242",
+    "label": "M242",
+    "text": "Tìm tất cả các số tự nhiên $x$ sao cho $x^4 + x^3 + x^2 + x + 1$ là một số chính phương.\n\n*(Đề xuất: Houda Anoun, Bordeaux, Pháp)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-03-m243",
+    "label": "M243",
+    "text": "Trong một hình sao 7 cánh, không có ba đường thẳng nào đồng quy. Tính tổng $A_1 + A_2 + \\dots + A_7$, trong đó $A_1, A_2, \\dots, A_7$ là các góc tại các đỉnh của hình sao.\n\n*(Đề xuất: K.R.S. Sastry, Bangalore, Ấn Độ)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2006-04",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 4 (2006)",
+  "grade": 9,
+  "year": 2006,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 32 số 4/2006",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv32n4.pdf",
+  "problems": [
+   {
+    "id": "crux-2006-04-bai-1",
+    "label": "Bài 1",
+    "text": "Các chữ số 1, 2, 3, 4 và 5 mỗi chữ số được dùng một lần để tạo thành một số có năm chữ số $\\overline{abcde}$ sao cho số có ba chữ số $\\overline{abc}$ chia hết cho 4, $\\overline{bcd}$ chia hết cho 5 và $\\overline{cde}$ chia hết cho 3. Tìm chữ số $a$.\n\n*(Đề xuất: BC Colleges High School Mathematics Contest 2005)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-04-bai-2",
+    "label": "Bài 2",
+    "text": "Một chiếc bình chứa ba quả bóng trắng, sáu quả bóng đỏ và bốn quả bóng đen.\n\na) Nếu chọn ngẫu nhiên một quả bóng, xác suất để quả bóng được chọn có màu đỏ là bao nhiêu?\n\nb) Nếu chọn ngẫu nhiên hai quả bóng, xác suất để cả hai quả đều màu đen là bao nhiêu?\n\nc) Nếu chọn ngẫu nhiên hai quả bóng, biết rằng hai quả bóng có cùng màu, xác suất để cả hai quả đều màu đen là bao nhiêu?\n\n*(Đề xuất: BC Colleges High School Mathematics Contest 2005)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2006-04-bai-4",
+    "label": "Bài 4",
+    "text": "Phương trình $x^2 - 3x + q = 0$ có hai nghiệm thực $\\alpha$ và $\\beta$. Biết rằng $\\alpha^3 + \\beta^3 = 81$, hãy tìm giá trị của $q$.\n\n*(Đề xuất: BC Colleges High School Mathematics Contest 2005)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2006-04-bai-5",
+    "label": "Bài 5",
+    "text": "Một số chính phương có bốn chữ số được tạo ra bằng cách viết số tuổi của Anne theo sau là số tuổi của Tom. Tương tự, 31 năm sau, tuổi của họ viết theo thứ tự đó cũng tạo thành một số chính phương có bốn chữ số. Xác định tuổi hiện nay của Anne và Tom.\n\n*(Đề xuất: BC Colleges High School Mathematics Contest 2005)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2006-04-m244",
+    "label": "M244",
+    "text": "Cho tứ giác lồi $ABCD$, gọi $P, Q, R, S$ lần lượt là trung điểm của các cạnh $AB, BC, CD, DA$. Giả sử bốn đường thẳng lần lượt đi qua $P, Q, R, S$ đồng quy tại một điểm $O$. Vẽ bốn đường thẳng song song với bốn đường thẳng trên nhưng lần lượt đi qua trung điểm của các cạnh đối diện. Chứng minh rằng bốn đường thẳng này cũng đồng quy.\n\n*(Đề xuất: Mohammed Aassila, Strasbourg, Pháp)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-02",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 2 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 2/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n2.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-02-skoliad-84-1",
+    "label": "Skoliad 84 1",
+    "text": "Năm túi gạo được cân từng đôi một theo tất cả các tổ hợp có thể. Mười kết quả cân thu được là $72, 73, 76, 77, 79, 80, 81, 83, 84$ và $87$. Hãy tìm khối lượng của mỗi túi gạo.\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-02-skoliad-84-2",
+    "label": "Skoliad 84 2",
+    "text": "Xóa đi 60 chữ số từ số $123456...383940$ sao cho số còn lại là nhỏ nhất có thể.\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-skoliad-84-3",
+    "label": "Skoliad 84 3",
+    "text": "Giải ô chữ số sau (lưới $3 \\times 3$ với một số ô bị tô đen):\n\nHàng ngang:\n1. Lập phương của một số nguyên tố.\n4. Một số chính phương.\n5. Một số chính phương.\n7. Một số lập phương.\n\nHàng dọc:\n1. Bình phương của một số nguyên tố.\n2. Gấp ba lần căn bậc ba của số ở hàng ngang 1.\n3. Bình phương của một số nguyên tố.\n6. Gấp hai lần căn bậc ba của số ở hàng ngang 7.\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-skoliad-84-4",
+    "label": "Skoliad 84 4",
+    "text": "Tính tổng các chữ số của số $10^{2004} - 2004$.\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-skoliad-84-5",
+    "label": "Skoliad 84 5",
+    "text": "Một chiếc bình chứa 100 quả bóng với các màu khác nhau, cụ thể là: 10 quả màu trắng, 10 quả màu đen, 12 quả màu vàng, 14 quả màu xanh dương, 24 quả màu xanh lá và 30 quả màu đỏ. Hỏi phải lấy ra ít nhất bao nhiêu quả bóng từ bình mà không nhìn để chắc chắn rằng có ít nhất 15 quả bóng cùng màu?\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2005-02-skoliad-84-6",
+    "label": "Skoliad 84 6",
+    "text": "Cho hình vuông $ABCD$ có cạnh dài $24\\text{ cm}$ và hình vuông $AEFG$ có cạnh dài $2\\text{ cm}$, trong đó điểm $E$ nằm trên cạnh $AB$ và điểm $G$ nằm trên cạnh $AD$. Tính độ dài đoạn thẳng $CE$ theo đơn vị $\\text{cm}$.\n\n*(Đề xuất: South African Interprovincial Mathematics Olympiad 2004)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-m183",
+    "label": "M183",
+    "text": "Trong một bảng gồm lưới 6x7 chữ cái, hai chữ cái được gọi là lân cận nhau nếu chúng kề nhau theo chiều ngang, chiều dọc hoặc đường chéo. Bắt đầu từ một chữ cái \"M\" bất kỳ nằm trên đường biên của bảng, hãy tìm số cách để đánh vần từ \"MATH\" bằng cách chỉ di chuyển giữa các chữ cái lân cận.\n\n*(Đề xuất: Équipe de Mayhem)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2005-02-m184",
+    "label": "M184",
+    "text": "Tìm tất cả các nghiệm $(a, b)$ của phương trình $ab - 24 = 2a$, trong đó $a$ và $b$ là các số nguyên dương.\n\n*(Đề xuất: Équipe de Mayhem)*",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-m186",
+    "label": "M186",
+    "text": "Kí hiệu $[x]$ là số nguyên lớn nhất không vượt quá $x$. Ví dụ, $[2.5] = 2$ và $[-7.4] = -8$. Biết rằng $\\sum_{i=1}^n [\\sqrt{i}] = 217$, hãy tìm giá trị của $n$.\n\n*(Đề xuất: Équipe de Mayhem)*",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-02-m187",
+    "label": "M187",
+    "text": "Một đường tròn $\\Gamma$ bán kính $2r$ nội tiếp trong hình vuông $KLMN$. Đoạn thẳng $AB$ là một đường kính của đường tròn này, với $A$ và $B$ lần lượt là trung điểm của hai cạnh đối diện của hình vuông. Hai đường tròn $\\Gamma_1$ và $\\Gamma_2$ bán kính $r$ có tâm nằm trên $AB$, tiếp xúc ngoài với nhau và mỗi đường tròn tiếp xúc trong với $\\Gamma$. Hai đường tròn $\\Gamma_3$ và $\\Gamma_4$ tiếp xúc ngoài với $\\Gamma_1$ và $\\Gamma_2$, đồng thời tiếp xúc trong với $\\Gamma$. Bằng thước kẻ và compa, hãy dựng tiếp tuyến chung của $\\Gamma_1$ và $\\Gamma_3$ sao cho số lần sử dụng compa là ít nhất. Hỏi số lần sử dụng compa tối thiểu là bao nhiêu?\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial de Terre-Neuve, St. John's, NL)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-02-3013",
+    "label": "3013",
+    "text": "Cho hình thang cân $ABCD$ có $AB = BC = CD$ nội tiếp trong một đường tròn $\\Gamma$. Gọi $E$ là một điểm thay đổi trên cung $AD$ của $\\Gamma$ không chứa các điểm $B$ và $C$. Gọi $F$ và $G$ lần lượt là giao điểm của $EB$ với $AC$ và của $EC$ với $BD$.\n\na) Chứng minh rằng diện tích của tứ giác $FBCG$ là không đổi.\n\nb) Chứng minh rằng $[EFG] : [EAD] = BC : AD$, trong đó $[PQR]$ kí hiệu là diện tích của tam giác $PQR$.\n\n*(Đề xuất: Toshio Seimiya, Kawasaki, Nhật Bản)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-03",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 3 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 3/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n3.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-03-skoliad-4th-annual-cnu-regional-high-school-mathematics-contest-7",
+    "label": "Bài 7",
+    "text": "*(Trích từ: Skoliad 4th Annual CNU Regional High School Mathematics Contest)*\n\nTìm các hàm số thỏa mãn $f\\left(\\frac{x+y}{2}\\right) = \\frac{1}{2}(f(x) + f(y))$.\n\n*(Đề xuất: 4th Annual CNU Regional High School Mathematics Contest)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-03-skoliad-4th-annual-cnu-regional-high-school-mathematics-contest-10",
+    "label": "Bài 10",
+    "text": "*(Trích từ: Skoliad 4th Annual CNU Regional High School Mathematics Contest)*\n\nTỉ số diện tích của một hình vuông nội tiếp trong nửa hình tròn và diện tích của một hình vuông nội tiếp trong hình tròn đó là bao nhiêu?\n\n*(Đề xuất: 4th Annual CNU Regional High School Mathematics Contest)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-03-skoliad-4th-annual-cnu-regional-high-school-mathematics-contest-12",
+    "label": "Bài 12",
+    "text": "*(Trích từ: Skoliad 4th Annual CNU Regional High School Mathematics Contest)*\n\nCho hàm số $f(x) = 3^x + 5$. Tìm tập xác định của hàm số ngược $f^{-1}$.\n\n*(Đề xuất: 4th Annual CNU Regional High School Mathematics Contest)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-03-skoliad-4th-annual-cnu-regional-high-school-mathematics-contest-13",
+    "label": "Bài 13",
+    "text": "*(Trích từ: Skoliad 4th Annual CNU Regional High School Mathematics Contest)*\n\nMột người có một túi tiền lẻ, nhưng không thể đổi được đúng 1 đô la. Giá trị lớn nhất của số tiền lẻ mà người đó có thể có là bao nhiêu?\n\n*(Đề xuất: 4th Annual CNU Regional High School Mathematics Contest)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2005-03-skoliad-2004-bc-colleges-high-school-mathematics-contest-junior-final-round-part-b-1",
+    "label": "Bài 1",
+    "text": "*(Trích từ: Skoliad 2004 BC Colleges High School Mathematics Contest Junior Final Round Part B)*\n\nCác số lớn hơn 1 được sắp xếp vào một bảng có các cột được đánh số từ 1 đến 5 từ trái sang phải. Cột 1 là cột chỉ số hàng, các số được điền vào 4 cột còn lại theo quy luật: hàng dữ liệu thứ nhất điền từ trái sang phải, hàng dữ liệu thứ hai điền từ phải sang trái, và cứ thế luân phiên. Ví dụ: hàng dữ liệu thứ nhất là 2, 3, 4, 5; hàng dữ liệu thứ hai là 9, 8, 7, 6; hàng dữ liệu thứ ba là 10, 11, 12, 13; hàng dữ liệu thứ tư là 17, 16, 15, 14; ...\n\na) Số 2004 nằm ở cột nào?\n\nb) Số 1999 nằm ở cột nào?\n\nc) Với $n$ là số nguyên dương, số $n^2 + 1$ có thể nằm ở (các) cột nào?\n\n*(Đề xuất: 2004 BC Colleges High School Mathematics Contest Junior Final Round Part B)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2005-03-m188",
+    "label": "M188",
+    "text": "Cho tam giác $ABC$ có $\\angle B = \\angle C = 35^\\circ$. Trong tam giác, lấy điểm $M$ sao cho $\\angle MBC = 25^\\circ$ và $\\angle MCB = 30^\\circ$. Không dùng lượng giác, hãy chứng minh rằng $\\angle AMC = 150^\\circ$.\n\n*(Đề xuất: Charalampos Stergiou, Chalkida, Greece)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-03-m189",
+    "label": "M189",
+    "text": "Tìm tất cả các nghiệm thực của hệ phương trình sau:\n$$x + \\sqrt{x^2 + 1} = 10^{y-x},$$\n$$y + \\sqrt{y^2 + 1} = 10^{z-y},$$\n$$z + \\sqrt{z^2 + 1} = 10^{x-z}.$$\n\n*(Đề xuất: Mihály Bencze, Brasov, Romania)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-03-m190",
+    "label": "M190",
+    "text": "Cho ba điểm bất kỳ trong một hình vuông đơn vị. Chứng minh rằng luôn tồn tại một cặp điểm trong số đó có khoảng cách không vượt quá $\\sqrt{6} - \\sqrt{2}$.\n\n*(Đề xuất: Li Zhou, Polk Community College, Winter Haven, FL, USA)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-03-m192",
+    "label": "M192",
+    "text": "Cho hai tam giác $A_1B_1C_1$ và $A_2B_2C_2$. Biết rằng $A_1C_1 = A_2C_2$, hai đường trung tuyến $B_1M_1$ và $B_2M_2$ bằng nhau, và hai đường phân giác $A_1D_1$ và $A_2D_2$ bằng nhau. Chứng minh rằng hai tam giác này bằng nhau.\n\n*(Đề xuất: Victor Oxman, Western Galilee College, Israel)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-03-m193",
+    "label": "M193",
+    "text": "Cho hình vuông $ABCD$. Vẽ tam giác đều $ABE$ nằm bên trong hình vuông và tam giác đều $BCF$ nằm bên ngoài hình vuông. Chứng minh rằng ba điểm $D, E, F$ thẳng hàng.\n\n*(Đề xuất: Robert Bilinski, Outremont, QC)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-04",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 4 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 4/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n4.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-04-m194",
+    "label": "M194",
+    "text": "Giả sử $n-1$ và $n+1$ là hai số nguyên tố sinh đôi với $n \\in \\mathbb{N}$ và $n \\ge 3$. Chứng minh rằng các số $1, 2, 3, \\dots, n$ có thể được sắp xếp thành một hàng sao cho tổng của hai số liên tiếp bất kỳ luôn là một số nguyên tố. (Ví dụ, khi $n=6$, một cách sắp xếp như vậy là $6, 5, 2, 1, 4, 3$.)\n\n*(Đề xuất: Edward T.H. Wang, Đại học Wilfrid Laurier, Waterloo, ON)*",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2005-04-m195",
+    "label": "M195",
+    "text": "Một sợi dây có độ dài đơn vị được chia thành ba đoạn, dùng để tạo thành một hình vuông, một hình tròn và một tam giác đều sao cho mỗi hình đều có diện tích bằng nhau. Tìm độ dài của mỗi đoạn dây trong ba đoạn đó.\n\n*(Đề xuất: J. Walter Lynch, Athens, GA, USA)*",
+    "topics": [
+     "dai-so",
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-04-m196",
+    "label": "M196",
+    "text": "Các ủy ban được thành lập từ một nhóm người. Chứng minh rằng số cách chọn ủy ban có số thành viên lẻ đúng bằng số cách chọn ủy ban có số thành viên chẵn.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "to-hop"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-05",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 5 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 5/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n5.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-05-3051",
+    "label": "3051",
+    "text": "Cho $x, y, z \\in [0, 1)$ sao cho $x + y + z = 1$. Chứng minh rằng\n\na) $\\sqrt{\\frac{x}{x + yz}} + \\sqrt{\\frac{y}{y + zx}} + \\sqrt{\\frac{z}{z + xy}} \\le 3\\sqrt{\\frac{3}{2}}$;\n\nb) $\\frac{\\sqrt{xyz}}{(1 - x)(1 - y)(1 - z)} \\le \\frac{3\\sqrt{3}}{8}$.\n\n*(Đề xuất: Vedula N. Murty, Dover, PA, USA)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2005-05-3052",
+    "label": "3052",
+    "text": "Cho $G$ là trọng tâm của $\\triangle ABC$, và $A_1, B_1, C_1$ lần lượt là trung điểm của $BC, CA, AB$. Nếu $P$ là một điểm bất kỳ trên mặt phẳng chứa $\\triangle ABC$, chứng minh rằng $PA + PB + PC + 3PG \\ge 2(PA_1 + PB_1 + PC_1)$.\n\n*(Đề xuất: Ovidiu Furdui, sinh viên Đại học Western Michigan, Kalamazoo, MI, USA)*",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2005-05-3053",
+    "label": "3053",
+    "text": "Cho $a_1, a_2, \\dots, a_n$ là các số thực không âm có tổng bằng 1. Chứng minh rằng $n - 1 \\le \\sqrt{\\frac{1 - a_1}{1 + a_1}} + \\sqrt{\\frac{1 - a_2}{1 + a_2}} + \\dots + \\sqrt{\\frac{1 - a_n}{1 + a_n}} \\le n - 2 + \\frac{2}{\\sqrt{3}}$.\n\n*(Đề xuất: Avet A. Grigoryan và Hayk N. Sedrakyan, học sinh Trường Vật lý và Toán học A. Shahinyan, Yerevan, Armenia)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2005-05-3054",
+    "label": "3054",
+    "text": "Với $n = 0, 1, 2, \\dots$, đặt $U_n = \\sum_{k=0}^n \\binom{2k}{k}$ và $V_n = \\sum_{k=0}^n (-1)^k \\binom{2k}{k}$. Hãy tính giá trị dưới dạng công thức đóng của các biểu thức sau:\n\na) $U_n^2 + 2 \\sum_{k=1}^n \\binom{2n + 2k}{n + k} U_{n-k}$;\n\nb) $V_n^2 + 2 \\sum_{k=1}^n (-1)^{n+k} \\binom{2n + 2k}{n + k} V_{n-k}$.\n\n*(Đề xuất: Michel Bataille, Rouen, Pháp)*",
+    "topics": [
+     "to-hop",
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-05-3055",
+    "label": "3055",
+    "text": "Cho đường tròn nội tiếp của tam giác nhọn $ABC$ tiếp xúc với $BC, CA, AB$ lần lượt tại $D, E, F$. Gọi $D_0$ là điểm đối xứng của $D$ qua tâm đường tròn nội tiếp $\\triangle ABC$, và $D_1, D_2$ lần lượt là điểm đối xứng của $D$ qua các đường kính của đường tròn nội tiếp đi qua $E$ và $F$. Xác định các điểm $E_0, E_1, E_2$ và $F_0, F_1, F_2$ một cách tương tự. Chứng minh rằng $[D_0D_1D_2] + [E_0E_1E_2] + [F_0F_1F_2] = [DD_1D_2] = [EE_1E_2] = [FF_1F_2] \\le \\frac{1}{4}[ABC]$, trong đó $[XYZ]$ ký hiệu diện tích của $\\triangle XYZ$.\n\n*(Đề xuất: Michel Bataille, Rouen, Pháp)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-06",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 6 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 6/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n6.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-1",
+    "label": "Bài 1",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nMột người nông dân chi đúng $100$ đô la để mua $100$ con vật. Giá một con bò là $10$ đô la, một con cừu là $3$ đô la và một con lợn là $0,5$ đô la. Hỏi ông ta đã mua bao nhiêu con mỗi loại?\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-2",
+    "label": "Bài 2",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nChứng minh rằng nếu một số có ba chữ số chia hết cho $3$ thì tổng các chữ số của nó cũng chia hết cho $3$.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-3",
+    "label": "Bài 3",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nCho các điểm $A(1,0)$, $B(3,0)$, $C(3,5)$ và $D(1,4)$. Tìm phương trình đường thẳng đi qua gốc tọa độ chia tứ giác $ABCD$ thành hai phần có diện tích bằng nhau.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-4",
+    "label": "Bài 4",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nTìm tất cả các nghiệm thực của phương trình $1 + x + x^2 + x^3 = x^4 + x^5$.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-5",
+    "label": "Bài 5",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nTính diện tích chính xác của hình bát giác đều được tạo thành bằng cách cắt bỏ các tam giác vuông cân bằng nhau tại bốn góc của một hình vuông có cạnh dài một đơn vị.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-7",
+    "label": "Bài 7",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nCho $a + b + c = 0$ và $abc = 4$, hãy tính giá trị của $a^3 + b^3 + c^3$.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-06-skoliad-21st-w-j-blundon-mathematics-contest-9",
+    "label": "Bài 9",
+    "text": "*(Trích từ: Skoliad 21st W.J. Blundon Mathematics Contest)*\n\nCho một hình ngôi sao năm cánh có các đỉnh được ký hiệu là $A, B, C, D, E$. Hãy tính tổng các góc $A, B, C, D$ và $E$.\n\n*(Đề xuất: Bruce Shawyer, Đại học Memorial Newfoundland, St. John's, NL)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-06-m207",
+    "label": "M207",
+    "text": "Vào buổi trưa, Iphigenia bắt đầu đạp xe từ nhà ở Saskatoon với tốc độ thong thả là $20\text{ km/h}$ trên địa hình bằng phẳng. Một lúc sau, mẹ cô nhận thấy cô đã quên bữa trưa và cử Electra đạp xe đi gặp cô; Electra duy trì tốc độ ổn định là $30\text{ km/h}$. Nhưng sau đó trời tối sầm và mây bão kéo đến. Vì vậy, chính xác nửa giờ sau khi Electra xuất phát, Orestes được cử đi gặp mọi người để mang theo đồ đi mưa. Orestes đạp xe với tốc độ ổn định là $40\text{ km/h}$. Cả ba người đi cùng một lộ trình. Thực tế là cả ba anh chị em đã gặp nhau vào cùng một thời điểm. Hỏi thời điểm đó là mấy giờ?\n\n*(Đề xuất: Edward J. Barbeau, Đại học Toronto, Toronto, ON)*",
+    "topics": [
+     "dai-so"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2005-08",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 8 (2005)",
+  "grade": 9,
+  "year": 2005,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 31 số 8/2005",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv31n8.pdf",
+  "problems": [
+   {
+    "id": "crux-2005-08-2005-maritime-mathematics-competition-1",
+    "label": "Bài 1",
+    "text": "*(Trích từ: 2005 Maritime Mathematics Competition)*\n\nMột người làm vườn có một máy cắt cỏ ngồi lái và một máy cắt cỏ đẩy tay. Cô ấy mất 3 giờ để cắt toàn bộ bãi cỏ bằng máy đẩy tay nhưng chỉ mất 75 phút bằng máy ngồi lái. Một ngày nọ, cô ấy cắt một phần bãi cỏ bằng máy đẩy tay và phần còn lại bằng máy ngồi lái. Nếu tổng thời gian cắt cỏ là 96 phút, hãy tính phân số diện tích bãi cỏ được cắt bằng máy ngồi lái.",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-08-2005-maritime-mathematics-competition-2",
+    "label": "Bài 2",
+    "text": "*(Trích từ: 2005 Maritime Mathematics Competition)*\n\nGiả sử $W, X, Y, Z$ là bốn đỉnh của một bàn bida hình chữ nhật $WXYZ$. Cạnh $WZ$ dài 5 feet và cạnh $WX$ dài 10 feet. Một quả bóng đỏ được đặt cách cạnh $YZ$ là 1 foot và cách cạnh $WZ$ là 2 feet. Một quả bóng xanh được đặt cách cả hai cạnh $WX$ và $XY$ là 1 foot. Giả sử quả bóng xanh được đánh hướng về phía cạnh $YZ$, tại đó nó sẽ nảy ra với góc tới bằng góc phản xạ. Quả bóng xanh phải chạm vào điểm nào trên cạnh $YZ$ để sau khi nảy, nó chạm vào quả bóng đỏ?",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2005-08-2005-maritime-mathematics-competition-3",
+    "label": "Bài 3",
+    "text": "*(Trích từ: 2005 Maritime Mathematics Competition)*\n\nBa học sinh chơi một trò chơi với quy ước là người thua cuộc phải gấp đôi số tiền của mỗi người còn lại. Sau ba ván chơi, mỗi người đều thua một lần và mỗi người đều có 24 đô la. Hỏi lúc bắt đầu mỗi học sinh có bao nhiêu tiền?",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-08-2005-maritime-mathematics-competition-4",
+    "label": "Bài 4",
+    "text": "*(Trích từ: 2005 Maritime Mathematics Competition)*\n\nTìm tất cả các số nguyên $a$ sao cho phương trình $x^3 - 13x + a = 0$ có ba nghiệm nguyên.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2005-08-2005-maritime-mathematics-competition-6",
+    "label": "Bài 6",
+    "text": "*(Trích từ: 2005 Maritime Mathematics Competition)*\n\nTính tổng sau: $$\\frac{1}{1^4 + 1^2 + 1} + \\frac{2}{2^4 + 2^2 + 1} + \\dots + \\frac{2005}{2005^4 + 2005^2 + 1}.$$",
+    "topics": [
+     "dai-so"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2004-01",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 1 (2004)",
+  "grade": 9,
+  "year": 2004,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 1/2004",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv30n1.pdf",
+  "problems": [
+   {
+    "id": "crux-2004-01-m126",
+    "label": "M126",
+    "text": "Cho các chữ số $A, B, C, D, E, F$ đôi một khác nhau. Tìm giá trị của các chữ số này sao cho $$\\overline{ABC} \\times \\overline{DEF} = 232323$$ trong đó $\\overline{ABC}$ và $\\overline{DEF}$ là các số có ba chữ số.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-01-m127",
+    "label": "M127",
+    "text": "Chứng minh rằng nếu $a, b \\in \\mathbb{R}$ và $a - b = 1$ thì $a^3 - b^3 \\ge \\frac{1}{4}$.\n\n*(Đề xuất: Ovidiu Gabriel Dinu, Balcesti, Valcea, Romania)*",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-01-m128",
+    "label": "M128",
+    "text": "(a) Cho chín điểm được sắp xếp đều trong một lưới ô vuông $3 \\times 3$. Hãy xác nhận rằng có 8 tam giác không bằng nhau có thể được tạo ra bằng cách chọn ba trong số các điểm đó làm đỉnh.\n\n(b) Giả sử một lưới ô vuông $4 \\times 4$ gồm các điểm được sử dụng. Có bao nhiêu tam giác không bằng nhau có thể được tạo ra bằng cách chọn ba trong số các điểm đó làm đỉnh?\n\n*(Đề xuất: Lobzang Dorji, Paro, Bhutan)*",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-01-m130",
+    "label": "M130",
+    "text": "Các tấm vé được đánh số $1, 2, 3, 4, \\dots, N$. Có đúng một nửa số vé có chứa chữ số 1.\n\n(a) Nếu $N$ là một số có ba chữ số, hãy xác định tất cả các giá trị có thể có của $N$.\n\n(b) Hãy xác định một số giá trị có thể có của $N$ nếu $N$ là một số có bốn chữ số, năm chữ số, v.v.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2004-02",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 2 (2004)",
+  "grade": 9,
+  "year": 2004,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 2/2004",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv30n2.pdf",
+  "problems": [
+   {
+    "id": "crux-2004-02-bai-1",
+    "label": "Bài 1",
+    "text": "Cho tam giác $ABC$ có độ dài các cạnh là $a = b - \\frac{r}{4}$, $b$, $c = b - \\frac{r}{4}$, trong đó $r$ là bán kính đường tròn nội tiếp. Hãy xác định độ dài các cạnh của tam giác này theo $r$.\n\n*(Đề xuất: Hội Toán học Croatia, Kỳ thi cấp tỉnh, Cấp độ Junior (Lớp 1), ngày 4 tháng 4 năm 2003)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-02-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $a > 0$, hãy xác định tất cả các điểm $(x, y)$ trên mặt phẳng tọa độ Descartes thỏa mãn bất đẳng thức $||x + a| - |y - a|| < a$.\n\n*(Đề xuất: Hội Toán học Croatia, Kỳ thi cấp tỉnh, Cấp độ Junior (Lớp 1), ngày 4 tháng 4 năm 2003)*",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2004-02-bai-3",
+    "label": "Bài 3",
+    "text": "Tìm tất cả các nghiệm nguyên của phương trình $4x + y + 4\\sqrt{xy} - 28\\sqrt{x} - 14\\sqrt{y} + 48 = 0$.\n\n*(Đề xuất: Hội Toán học Croatia, Kỳ thi cấp tỉnh, Cấp độ Junior (Lớp 1), ngày 4 tháng 4 năm 2003)*",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-02-bai-4",
+    "label": "Bài 4",
+    "text": "Có bao nhiêu số nguyên dương có bốn chữ số chia hết cho 7 sao cho khi hoán đổi chữ số đầu tiên và chữ số cuối cùng, ta được một số nguyên dương (không nhất thiết có bốn chữ số) cũng chia hết cho 7?\n\n*(Đề xuất: Hội Toán học Croatia, Kỳ thi cấp tỉnh, Cấp độ Junior (Lớp 1), ngày 4 tháng 4 năm 2003)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-02-bai-5",
+    "label": "Bài 5",
+    "text": "Trục căn thức ở mẫu của biểu thức: $\\frac{1}{\\sqrt{2} + \\sqrt{3} + \\sqrt{6}}$.\n\n*(Đề xuất: Skoliad No. 76, Shawn Godin)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-02-bai-6",
+    "label": "Bài 6",
+    "text": "Hai điểm $A$ và $B$ nằm trên parabol $y = 2x^2 + 4x - 2$. Gốc tọa độ là trung điểm của đoạn thẳng $AB$. Hãy tính độ dài của đoạn thẳng $AB$.\n\n*(Đề xuất: Skoliad No. 76, Shawn Godin)*",
+    "topics": [
+     "dai-so",
+     "hinh-hoc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2004-03",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 3 (2004)",
+  "grade": 9,
+  "year": 2004,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 3/2004",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv30n3.pdf",
+  "problems": [
+   {
+    "id": "crux-2004-03-bai-1",
+    "label": "Bài 1",
+    "text": "Một đơn vị thi công đường bộ gồm một số công nhân và một lượng thiết bị nhất định. Ba đơn vị như vậy đã lát được $20\\text{ km}$ đường trong $10$ ngày. Hỏi cần thêm bao nhiêu đơn vị thi công nữa để lát nốt $50\\text{ km}$ đường còn lại trong $15$ ngày?\n\n*(Đề xuất: Croatian Mathematical Society City-Level Competition)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-bai-2",
+    "label": "Bài 2",
+    "text": "Cho tam giác $ABC$ cân tại $A$ có $\\angle A = 120^\\circ$. Đường thẳng đi qua đỉnh $A$ và vuông góc với một trong hai cạnh kề của đỉnh $A$ chia tam giác $ABC$ thành hai tam giác, một trong hai tam giác đó là tam giác tù và có đường tròn nội tiếp với bán kính bằng $1$. Tính diện tích tam giác $ABC$.\n\n*(Đề xuất: Croatian Mathematical Society City-Level Competition)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-bai-3",
+    "label": "Bài 3",
+    "text": "Tính tổng $\\frac{2}{2 \\cdot 5} + \\frac{2}{5 \\cdot 8} + \\dots + \\frac{2}{1997 \\cdot 2000} + \\frac{2}{2000 \\cdot 2003}$.\n\n*(Đề xuất: Croatian Mathematical Society City-Level Competition)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-bai-4",
+    "label": "Bài 4",
+    "text": "Cho các số thực $a, b, c$ thỏa mãn $\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} = 1$. Chứng minh rằng $\\frac{a^2}{b+c} + \\frac{b^2}{c+a} + \\frac{c^2}{a+b} = 0$.\n\n*(Đề xuất: Croatian Mathematical Society City-Level Competition)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m138",
+    "label": "M138",
+    "text": "Có năm điểm nằm trên một đường thẳng. Khi liệt kê mười khoảng cách giữa các cặp điểm theo thứ tự từ nhỏ đến lớn, ta được dãy số: $2, 4, 5, 7, 8, k, 13, 15, 17, 19$. Hãy xác định giá trị của $k$.\n\n*(Đề xuất: Richard Hoshino, Đại học Dalhousie, Halifax, NS và Sarah McCurdy, Đại học New Brunswick, Fredericton, NB)*",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m139",
+    "label": "M139",
+    "text": "Các chữ số $1, 2, 3, 4$ và $5$ mỗi chữ số được dùng một lần để tạo thành một số có năm chữ số $\\overline{abcde}$, sao cho số có ba chữ số $\\overline{abc}$ chia hết cho $4$, số $\\overline{bcd}$ chia hết cho $5$ và số $\\overline{cde}$ chia hết cho $3$. Tìm số $\\overline{abcde}$.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m140",
+    "label": "M140",
+    "text": "Arthur, Bernie và Charlie chơi một trò chơi mà người thua cuộc phải gấp ba số tiền của mỗi người chơi còn lại. Ba ván chơi được thực hiện, trong đó những người thua lần lượt là Arthur, Bernie và Charlie. Sau cùng, mỗi người đều có 27 đô la. Hỏi lúc đầu mỗi người có bao nhiêu tiền?\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "to-hop",
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m141",
+    "label": "M141",
+    "text": "Hãy lập danh sách các số chính phương mà tất cả các chữ số của chúng cũng là các số chính phương (tức là chỉ gồm các chữ số 0, 1, 4, 9).\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m142",
+    "label": "M142",
+    "text": "Với mỗi số tự nhiên $n$, định nghĩa $S(n)$ là số nguyên $m$ duy nhất (nếu tồn tại) thỏa mãn phương trình $n = [m] + [\\frac{m}{2!}] + [\\frac{m}{3!}] + \\dots + [\\frac{m}{k!}] + \\dots$, trong đó $[x]$ là số nguyên lớn nhất không vượt quá $x$.\n\na) Tìm $S(3438)$.\n\nb) Có tồn tại số $k$ sao cho với mọi số nguyên không âm $n$, ít nhất một trong các giá trị $S(n+1), S(n+2), \\dots, S(n+k)$ tồn tại không?\n\n*(Đề xuất: Ali Feizmohammadi, Đại học Toronto, Toronto, ON)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-m143",
+    "label": "M143",
+    "text": "Tìm phương trình (các phương trình) của đường thẳng đi qua điểm $(2, 5)$ sao cho tung độ gốc là một số nguyên tố và hoành độ gốc là một số nguyên.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-israel-mathematical-olympiad-1",
+    "label": "Bài 1",
+    "text": "*(Trích từ: Israel Mathematical Olympiad)*\n\nTìm tất cả các nghiệm của hệ phương trình: $x_1 + x_2 + \\dots + x_{2000} = 2000$ và $x_1^4 + x_2^4 + \\dots + x_{2000}^4 = x_1^3 + x_2^3 + \\dots + x_{2000}^3$.\n\n*(Đề xuất: Olympic Toán học Israel 2001)*",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-03-israel-mathematical-olympiad-2",
+    "label": "Bài 2",
+    "text": "*(Trích từ: Israel Mathematical Olympiad)*\n\nCho 2001 số thực $x_1, x_2, \\dots, x_{2001}$ sao cho $0 \\le x_n \\le 1$ với mỗi $n = 1, 2, \\dots, 2001$, tìm giá trị lớn nhất của biểu thức $(\\frac{1}{2001} \\sum_{n=1}^{2001} x_n^2) - (\\frac{1}{2001} \\sum_{n=1}^{2001} x_n)^2$. Giá trị lớn nhất này đạt được khi nào?\n\n*(Đề xuất: Olympic Toán học Israel 2001)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-brazilian-mathematical-olympiad-3",
+    "label": "Bài 3",
+    "text": "*(Trích từ: Brazilian Mathematical Olympiad)*\n\nĐặt $n$ quân cờ lên các ô của một bàn cờ $10 \times 10$ sao cho không có bốn quân cờ nào là bốn đỉnh của một hình chữ nhật có các cạnh song song với các cạnh của bàn cờ. Tìm giá trị lớn nhất của $n$ để điều này có thể xảy ra.\n\n*(Đề xuất: Brazilian Mathematical Olympiad 2001)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2004-03-brazilian-mathematical-olympiad-4",
+    "label": "Bài 4",
+    "text": "*(Trích từ: Brazilian Mathematical Olympiad)*\n\nHành tinh Zork có hình cầu và có nhiều thành phố. Với mỗi thành phố, luôn có một thành phố đối diện (tức là đối xứng qua tâm của hành tinh). Có các con đường nối các cặp thành phố trên Zork. Nếu có một con đường nối thành phố $P$ và $Q$, thì cũng có một con đường nối thành phố $P'$ và $Q'$, trong đó $P'$ là thành phố đối diện của $P$ và $Q'$ là thành phố đối diện của $Q$. Các con đường không cắt nhau. Với hai thành phố $P$ và $Q$ bất kỳ, luôn có thể đi từ $P$ đến $Q$ theo một chuỗi các con đường. Giá của Kriptonita tính bằng Urghs (đơn vị tiền tệ của hành tinh) ở hai thành phố được nối bởi một con đường chênh lệch nhau không quá 100 Urghs. Chứng minh rằng tồn tại hai thành phố đối diện sao cho giá của Kriptonita ở hai thành phố này chênh lệch nhau không quá 100 Urghs.\n\n*(Đề xuất: Brazilian Mathematical Olympiad 2001)*",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2004-03-bai-7",
+    "label": "Bài 7",
+    "text": "Một đường thẳng chia cả diện tích và chu vi của một tam giác thành hai phần bằng nhau. Chứng minh rằng đường thẳng này đi qua tâm đường tròn nội tiếp của tam giác đó. Phát biểu đảo có luôn đúng không?",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-bai-8",
+    "label": "Bài 8",
+    "text": "Cho phương trình $x^2 + y^2 + z^2 + u^2 = xyzu + 6$. Tìm:\n\na) ít nhất một nghiệm nguyên dương;\n\nb) ít nhất 33 nghiệm nguyên dương như vậy;\n\nc) ít nhất 100 nghiệm nguyên dương như vậy.",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-2926",
+    "label": "2926",
+    "text": "Trong đường tròn $\\Gamma$ tâm $O$ bán kính $R$, cho ba dây song song $A_1A_2, B_1B_2$ và $C_1C_2$. Chứng minh rằng trực tâm của tám tam giác có các đỉnh $A_i, B_j$ và $C_k$ (với $i, j, k \\in \\{1, 2\\}$) cùng nằm trên một đường thẳng.\n\n*(Đề xuất: D.J. Smeenk, Zaltbommel, Hà Lan)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-2927",
+    "label": "2927",
+    "text": "Cho $a, b$ và $c$ là các số thực dương. Chứng minh rằng $$\\frac{a^3}{b^2-bc+c^2} + \\frac{b^3}{c^2-ca+a^2} + \\frac{c^3}{a^2-ab+b^2} \\ge \\frac{3(ab+bc+ca)}{a+b+c}$$\n\n*(Đề xuất: Šefket Arslanagić, Đại học Sarajevo, Sarajevo, Bosnia và Herzegovina)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-2935",
+    "label": "2935",
+    "text": "Cho $a, b, c$ là các số thực dương thỏa mãn $a^2 + b^2 + c^2 = 1$ và $n > 1$ là một số nguyên dương. Chứng minh rằng $$\\frac{a}{1-a^n} + \\frac{b}{1-b^n} + \\frac{c}{1-c^n} \\ge \\frac{(n+1)^{1+\\frac{1}{n}}}{n}.$$\n\n*(Đề xuất: Titu Zvonaru, Bucharest, Romania)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-2936",
+    "label": "2936",
+    "text": "Cho tam giác $ABC$ có $\\angle ABC = 2\\angle ACB$ và $\\angle BAC > 90^\\circ$. Đường thẳng đi qua $C$ và vuông góc với $AC$ cắt đường thẳng $AB$ tại $D$. Chứng minh rằng $$\\frac{1}{AB} - \\frac{1}{BD} = \\frac{2}{BC}.$$\n\n*(Đề xuất: Toshio Seimiya, Kawasaki, Nhật Bản)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-03-2937",
+    "label": "2937",
+    "text": "Cho $x_1, \\dots, x_n$ ($n \\ge 2$) là các số thực dương. Chứng minh rằng $$(x_1^2 + \\dots + x_n^2) \\left( \\frac{1}{x_1^2 + x_1x_2} + \\dots + \\frac{1}{x_n^2 + x_nx_1} \\right) \\ge \\frac{n^2}{2}.$$\n\n*(Đề xuất: Todor Mitev, Đại học Rousse, Rousse, Bulgaria)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2004-07",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 7 (2004)",
+  "grade": 9,
+  "year": 2004,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 7/2004",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv30n7.pdf",
+  "problems": [
+   {
+    "id": "crux-2004-07-skoliad-junior-final-round-2",
+    "label": "Bài 2",
+    "text": "*(Trích từ: Skoliad Junior Final Round)*\n\nCó bao nhiêu tập hợp gồm hai hoặc nhiều số nguyên dương liên tiếp có tổng bằng 105?\n\n*(Đề xuất: Kỳ thi Toán Trung học các trường Cao đẳng BC 2004)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-skoliad-junior-final-round-3",
+    "label": "Bài 3",
+    "text": "*(Trích từ: Skoliad Junior Final Round)*\n\nTâm của bốn đường tròn bán kính 12 tạo thành một hình vuông. Mỗi đường tròn tiếp xúc với hai đường tròn có tâm là các đỉnh kề với tâm của đường tròn đó trong hình vuông. Một đường tròn nhỏ hơn, có tâm là giao điểm của hai đường chéo hình vuông, tiếp xúc với cả bốn đường tròn lớn. Tính bán kính của đường tròn nhỏ.\n\n*(Đề xuất: Kỳ thi Toán Trung học các trường Cao đẳng BC 2004)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-skoliad-junior-final-round-4",
+    "label": "Bài 4",
+    "text": "*(Trích từ: Skoliad Junior Final Round)*\n\nDãy Fibonacci bắt đầu bằng: $1, 1, 2, 3, 5, 8, 13, 21, \\dots$ (mỗi số kể từ số thứ ba bằng tổng của hai số liền trước nó). Ký hiệu $f_n$ là số hạng thứ $n$; ví dụ $f_4 = 3$ và $f_7 = 13$.\n\na) Trong các số hạng sau của dãy Fibonacci, số nào là số lẻ? Giải thích kết luận của bạn: $f_{38}, f_{51}, f_{150}, f_{200}, f_{300}$.\n\nb) Trong các số hạng sau của dãy Fibonacci, số nào chia hết cho 3? Giải thích kết luận của bạn: $f_{48}, f_{75}, f_{196}, f_{379}, f_{1000}$.\n\n*(Đề xuất: Kỳ thi Toán Trung học các trường Cao đẳng BC 2004)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m153",
+    "label": "M153",
+    "text": "Cho tam giác $ABC$. Hai tam giác $APB$ và $BQC$ đồng dạng được dựng ra phía ngoài tam giác $ABC$. Gọi $R$ là điểm sao cho tứ giác $PBQR$ là một hình bình hành. Chứng minh rằng tam giác $ARC$ đồng dạng với tam giác $APB$.\n\n*(Đề xuất: Yufei Zhao, Don Mills Collegiate Institute, Toronto, ON)*",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m163",
+    "label": "M163",
+    "text": "Chứng minh rằng có thể ghi các số nguyên dương lên các mặt của hai con xúc xắc (không nhất thiết hai con xúc xắc phải giống nhau) sao cho khi gieo hai con xúc xắc, các tổng từ 1 đến 12 đều có xác suất xuất hiện như nhau.\n\n*(Đề xuất: Ban biên tập Mayhem)*",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m164",
+    "label": "M164",
+    "text": "Xét quy trình chia số có ba chữ số 375 cho 8 như sau: Viết số được tạo bởi hai chữ số đầu tiên, tức là 37. Nhân số này với 2 để được 74. Cộng vào đó chữ số hàng đơn vị của 375 (số ban đầu), ta được $74 + 5 = 79$. Sau đó chia cho 8 để được 9 dư 7. Cộng kết quả này (9, dư 7) vào số 37 (hai chữ số đầu của 375) để được đáp số: 46, dư 7. Như vậy, 375 chia cho 8 bằng 46 dư 7. Phương pháp này có luôn đúng với mọi số có ba chữ số không? Tại sao có hoặc tại sao không?\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m165",
+    "label": "M165",
+    "text": "Cho $a, b > 0$, chứng minh rằng:\n\na) $\\sqrt{ab} \\ge \\frac{2}{1/a + 1/b}$\n\nb) $a^6 + b^6 + 8a^3 + 8b^3 + 2a^3b^3 + 16 \\ge 36ab$.\n\n*(Đề xuất: Babis Stergiou, Chalkida, Hy Lạp)*",
+    "topics": [
+     "bat-dang-thuc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m166",
+    "label": "M166",
+    "text": "a) Rút gọn các biểu thức sau: $(3n)^2 + (4n-1)^2 - (5n-1)^2$ và $(3n+2)^2 + (4n)^2 - (5n+1)^2$.\n\nb) Sử dụng kết quả ở câu a) hoặc bằng cách khác, chứng minh rằng mọi số nguyên dương đều có thể biểu diễn dưới dạng $a^2 + b^2 - c^2$ với $a, b, c$ là các số nguyên và $0 < a < b < c$.\n\n*(Đề xuất: Mayhem Staff)*",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-07-m168",
+    "label": "M168",
+    "text": "Có bao nhiêu mảng số nguyên không âm kích thước $3 \\times 3$ khác nhau có thể được xây dựng sao cho mỗi tổng của ba hàng và mỗi tổng của ba cột đều bằng 7, tổng đường chéo thứ nhất bằng 10 và tổng đường chéo thứ hai bằng 9? (Hai mảng có thể biến đổi thành nhau bằng phép quay và/hoặc phép đối xứng không được coi là khác nhau). Dưới đây là một ví dụ về một mảng như vậy:\n\n2 3 2\n\n2 4 1\n\n3 0 4.\n\n*(Đề xuất: Neven Jurič, Zagreb, Croatia)*",
+    "topics": [
+     "to-hop"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "crux-2004-08",
+  "kind": "tapchi",
+  "title": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 8 (2004)",
+  "grade": 9,
+  "year": 2004,
+  "sourceName": "Tạp chí Crux Mathematicorum (Canada) tập 30 số 8/2004",
+  "sourceUrl": "https://cms.math.ca/wp-content/uploads/crux-pdfs/CRUXv30n8.pdf",
+  "problems": [
+   {
+    "id": "crux-2004-08-skoliad-game-4-1",
+    "label": "Skoliad Game #4 1",
+    "text": "Nếu $n$ là một số nguyên dương thì $n!$ (đọc là \"n giai thừa\") được định nghĩa là $n \\cdot (n-1) \\cdot (n-2) \\cdot (n-3) \\cdots 3 \\cdot 2 \\cdot 1$. Ví dụ $6! = 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 720$ và $4! = 4 \\cdot 3 \\cdot 2 \\cdot 1 = 24$. Hãy xác định số nguyên dương $m$ sao cho số giây trong một năm nằm giữa $m!$ và $(m+1)!$.\n\n*(Đề xuất: 1993-1994 Newfoundland and Labrador Teachers Association Senior Mathematics League)*",
+    "topics": [
+     "so-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-2",
+    "label": "Bài 2",
+    "text": "Một buổi chiếu phim có 500 người tham dự. Người lớn trả 10 đô la mỗi vé và trẻ em trả 4 đô la mỗi vé. Tổng số tiền thu được từ bán vé là 4.160 đô la. Hỏi có bao nhiêu trẻ em đã tham dự?",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $a, b$ và $c$ là các số nguyên. Định nghĩa phép toán $a \\star b = ab - 2a - 2b + 6$. Hãy tính giá trị của biểu thức $(a \\star b) \\star c - a \\star (b \\star c)$.",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-6",
+    "label": "Bài 6",
+    "text": "Tìm giá trị hoặc các giá trị của $k$, nếu có, để $x^2 + k$ là một nhân tử của đa thức $x^4 - 3x^3 + 6x^2 - 3kx + 8$.",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-8",
+    "label": "Bài 8",
+    "text": "Một chiếc hamburger lớn điển hình có 427 calo, trong đó 48% lượng calo đến từ chất béo. Một chiếc hamburger tương tự có thêm phô mai thì có 31 gram chất béo, và 53% lượng calo của nó đến từ chất béo. Khoai tây chiên thông thường có tổng cộng 220 calo và 12 gram chất béo. Một phần kem sundae phổ biến có 360 calo, và 28% trong số đó là calo từ chất béo. Một học sinh trung học có một bữa ăn bao gồm chiếc hamburger có thêm gấp đôi phô mai, một phần khoai tây chiên thông thường và một phần kem sundae phổ biến. Hỏi phần trăm calo từ chất béo trong bữa ăn đó là bao nhiêu? Biết rằng 1 gram chất béo cung cấp 9 calo. Hãy cho biết đáp án dưới dạng số nguyên gần nhất.",
+    "topics": [
+     "dai-so"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-9",
+    "label": "Bài 9",
+    "text": "Một chiếc túi chứa 2 bắp cải đỏ và 3 bắp cải xanh. Tracy, trong tình trạng bị bịt mắt, chọn ngẫu nhiên một bắp cải và đặt vào một chiếc chảo trống. Sau đó, cô ấy chọn ngẫu nhiên bắp cải thứ hai từ những bắp cải còn lại trong túi và cũng đặt vào chảo. Tính xác suất phần trăm để trong hai bắp cải hiện có trong chảo, có một bắp cải đỏ và một bắp cải xanh?",
+    "topics": [
+     "to-hop"
+    ]
+   },
+   {
+    "id": "crux-2004-08-bai-10",
+    "label": "Bài 10",
+    "text": "Có ba đường tròn nhỏ, mỗi đường tròn có bán kính 1 cm, và một đường tròn lớn hơn được đặt như sau: ba đường tròn nhỏ có bán kính 1 cm được sắp xếp thành một tam giác sao cho chúng tiếp xúc với nhau, và một đường tròn lớn hơn bao quanh cả ba đường tròn này. Hãy xác định diện tích của đường tròn lớn. Kết quả của bạn phải được viết dưới dạng $\\left(\\frac{a+b\\sqrt{3}}{c}\\right)\\pi$, trong đó $a, b,$ và $c$ là các số nguyên.",
+    "topics": [
+     "hinh-hoc"
+    ]
+   },
+   {
+    "id": "crux-2004-08-relay-r1",
+    "label": "Relay R1",
+    "text": "Tổng của năm số nguyên liên tiếp là 130. Gọi số nhỏ nhất trong các số này là $A$. Hãy tìm giá trị của $A$.",
+    "topics": [
+     "dai-so"
+    ]
+   }
+  ]
+ }
+]

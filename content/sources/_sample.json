@@ -1,0 +1,207 @@
+[
+ {
+  "id": "_mau-hsg9-2025",
+  "kind": "hsg",
+  "title": "Đề thi HSG Toán 9 cấp tỉnh 2024–2025 (đề mẫu giao diện)",
+  "grade": 9,
+  "year": 2025,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/",
+  "problems": [
+   {
+    "id": "_mau-hsg9-2025-cau1a",
+    "label": "Câu 1a",
+    "text": "Chứng minh rằng với mọi số nguyên $n$, số $A = n^5 - n$ chia hết cho $30$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "_mau-hsg9-2025-cau1b",
+    "label": "Câu 1b",
+    "text": "Tính giá trị của biểu thức $$S = \\frac{1}{\\sqrt{1}+\\sqrt{2}} + \\frac{1}{\\sqrt{2}+\\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{99}+\\sqrt{100}}.$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "_mau-hsg9-2025-cau2",
+    "label": "Câu 2",
+    "text": "Giải hệ phương trình $$\\begin{cases} x^2 + y^2 + xy = 7 \\\\ x + y + xy = 5. \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "_mau-hsg9-2025-cau3",
+    "label": "Câu 3",
+    "text": "Cho các số thực dương $a, b, c$ thỏa mãn $a + b + c = 3$. Chứng minh rằng $$\\frac{a}{1+b^2} + \\frac{b}{1+c^2} + \\frac{c}{1+a^2} \\ge \\frac{3}{2}.$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "_mau-hsg9-2025-cau4",
+    "label": "Câu 4",
+    "text": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$, các đường cao $AD, BE, CF$ cắt nhau tại $H$. Chứng minh rằng $OA \\perp EF$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "_mau-hsg9-2025-cau5",
+    "label": "Câu 5",
+    "text": "Chọn ra $51$ số tùy ý từ tập $\\{1, 2, 3, \\dots, 100\\}$. Chứng minh rằng trong các số đã chọn luôn có hai số mà số này chia hết cho số kia.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "_mau-chuyen10-2024",
+  "kind": "chuyen",
+  "title": "Đề thi vào lớp 10 chuyên Toán 2024 (đề mẫu giao diện)",
+  "grade": 10,
+  "year": 2024,
+  "province": "TP. Hồ Chí Minh",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/",
+  "problems": [
+   {
+    "id": "_mau-chuyen10-2024-bai1",
+    "label": "Bài 1",
+    "text": "Giải phương trình $\\sqrt{x+3} + \\sqrt{6-x} - \\sqrt{(x+3)(6-x)} = 3$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "_mau-chuyen10-2024-bai2",
+    "label": "Bài 2",
+    "text": "Cho phương trình $x^2 - 2(m+1)x + m^2 + 2 = 0$ ($m$ là tham số). Tìm $m$ để phương trình có hai nghiệm $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$.",
+    "topics": [
+     "phuong-trinh",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "_mau-chuyen10-2024-bai3",
+    "label": "Bài 3",
+    "text": "Tìm tất cả các cặp số nguyên $(x; y)$ thỏa mãn $x^2 + xy + y^2 = x^2y^2$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "_mau-chuyen10-2024-bai4",
+    "label": "Bài 4",
+    "text": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Gọi $M, N$ lần lượt là hình chiếu vuông góc của $H$ trên $AB, AC$. Chứng minh rằng $AM \\cdot AB = AN \\cdot AC$ và tứ giác $BMNC$ nội tiếp.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "_mau-chuyen10-2024-bai5",
+    "label": "Bài 5",
+    "text": "Cho $x, y > 0$ thỏa mãn $x + y = 1$. Tìm giá trị nhỏ nhất của $P = \\left(1 + \\dfrac1x\\right)\\left(1 + \\dfrac1y\\right)$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "_mau-hsg6-2023",
+  "kind": "hsg",
+  "title": "Đề thi HSG Toán 6 cấp huyện 2022–2023 (đề mẫu giao diện)",
+  "grade": 6,
+  "year": 2023,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/",
+  "problems": [
+   {
+    "id": "_mau-hsg6-2023-cau1",
+    "label": "Câu 1",
+    "text": "Tìm số tự nhiên nhỏ nhất mà khi chia cho $3, 4, 5, 6$ đều có số dư lần lượt là $2, 3, 4, 5$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "_mau-hsg6-2023-cau2",
+    "label": "Câu 2",
+    "text": "Trên bảng ghi các số $1, 2, 3, \\dots, 2025$. Mỗi lượt, bạn Rùa xóa hai số $a, b$ bất kì và viết thêm số $|a - b|$. Sau $2024$ lượt trên bảng còn đúng một số. Số đó có thể bằng $0$ không?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "_mau-olympic-2025",
+  "kind": "olympic",
+  "title": "Tuyển chọn bài Olympic (đề mẫu giao diện)",
+  "grade": 10,
+  "year": 2025,
+  "sourceName": "Tuyển chọn (mẫu)",
+  "sourceUrl": "https://www.imo-official.org/",
+  "problems": [
+   {
+    "id": "_mau-olympic-2025-bai1",
+    "label": "Bài 1",
+    "text": "Cho các số thực dương $a, b, c$ thỏa mãn $abc = 1$. Chứng minh rằng $$\\frac{1}{a^3(b+c)} + \\frac{1}{b^3(c+a)} + \\frac{1}{c^3(a+b)} \\ge \\frac32.$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "_mau-olympic-2025-bai2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng không tồn tại các số nguyên $x, y$ thỏa mãn $x^2 = y^5 - 4$.",
+    "topics": [
+     "nghiem-nguyen",
+     "so-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "_mau-tapchi-thtt",
+  "kind": "tapchi",
+  "title": "Tạp chí Toán học và Tuổi trẻ — bài mẫu",
+  "grade": 8,
+  "year": 2025,
+  "sourceName": "Tạp chí Toán học và Tuổi trẻ (mẫu)",
+  "sourceUrl": "https://thtt.vn/",
+  "problems": [
+   {
+    "id": "_mau-tapchi-thtt-t1-mau",
+    "label": "T1/mẫu",
+    "text": "Cho $a + b + c = 0$ và $abc \\ne 0$. Tính giá trị của biểu thức $$M = \\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}.$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   }
+  ]
+ }
+]

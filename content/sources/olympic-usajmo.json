@@ -1,0 +1,1146 @@
+[
+ {
+  "id": "oly-usajmo-2026",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2026",
+  "grade": 9,
+  "year": 2026,
+  "sourceName": "USA Junior Mathematical Olympiad 2026 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2026-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2026-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $a$, $b$, $c$ là các số nguyên dương phân biệt thỏa mãn $ab+c=c^2$. Chứng minh rằng $(a-b)^2 \\geq 4c$.",
+    "topics": [
+     "nghiem-nguyen",
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2026-bai-2",
+    "label": "Bài 2",
+    "text": "Có $m$ con cáo và $n$ con thỏ ngồi ở $m+n$ ghế xung quanh một bàn tròn, trong đó tất cả các con vật đều phân biệt. Nếu một con cáo và một con thỏ ngồi cạnh nhau, chúng có thể đổi chỗ cho nhau. Với một cấu hình xuất phát cố định, hãy xác định số lượng cấu hình có thể đạt được bằng một chuỗi các phép đổi chỗ. (Các phép quay và đối xứng của một cấu hình được coi là khác nhau).",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2026-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $ABC$ là tam giác nhọn, không cân và không có góc nào bằng $60^{\\circ}$. Gọi $\\omega$ là đường tròn ngoại tiếp của tam giác $ABC$. Gọi $\\Delta_B$ là tam giác đều có ba đỉnh nằm trên $\\omega$, trong đó có một đỉnh là $B$. Gọi $\\ell_B$ là đường thẳng đi qua hai đỉnh của $\\Delta_B$ khác $B$. Gọi $\\Delta_C$ và $\\ell_C$ được định nghĩa tương tự. Gọi $Y$ là giao điểm của $AC$ và $\\ell_B$, và $Z$ là giao điểm của $AB$ và $\\ell_C$. Giả sử đường tròn ngoại tiếp của tam giác $AYZ$ cắt $\\omega$ tại $P$ khác $A$, $BC$ cắt $YZ$ tại $D$, và $PA$ cắt $YZ$ tại $E$. Chứng minh rằng $PE=PD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2026-bai-4",
+    "label": "Bài 4",
+    "text": "Tam giác $ABC$ có đường tròn ngoại tiếp $\\omega$ và tâm ngoại tiếp $O$. Các đường thẳng $AO$ và $BC$ cắt nhau tại điểm $D$. Gọi $X$ là tâm đường tròn bàng tiếp góc $A$ của tam giác $ABD$ và gọi $Y$ là tâm đường tròn bàng tiếp góc $A$ của tam giác $ACD$. Chứng minh rằng nếu $X$ nằm trên $\\omega$ thì $Y$ cũng nằm trên $\\omega$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2026-bai-5",
+    "label": "Bài 5",
+    "text": "Một số nguyên dương $n$ được gọi là \"cô độc\" nếu với mọi số nguyên không âm $a$ và $b$ thỏa mãn $a+b=n$, thì ít nhất $a$ hoặc $b$ chứa chữ số \"1\". Hãy xác định và chứng minh số lượng các số nguyên dương cô độc nhỏ hơn $10^{2026}$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2026-bai-6",
+    "label": "Bài 6",
+    "text": "Emily có một tờ giấy màu đỏ. Cô vẽ $2026$ đường tròn (không nhất thiết bằng nhau) lên tờ giấy đó. Cô chọn một hình tròn để tô màu đen, sau đó cắt tờ giấy theo chu vi của tất cả $2026$ hình tròn. Cô sau đó tách các mảnh giấy thành ít nhất $2$ mảnh màu đen và một số mảnh màu đỏ. Liệu có thể tất cả các mảnh màu đen đều bằng nhau không?",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2025",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2025",
+  "grade": 9,
+  "year": 2025,
+  "sourceName": "USA Junior Mathematical Olympiad 2025 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2025-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2025-bai-1",
+    "label": "Bài 1",
+    "text": "Chứng minh rằng nếu $f ∶ \\mathbb{Z} \\to \\mathbb{Z}$ là một hàm số bất kỳ, thì tồn tại vô số số nguyên $c$ sao cho hàm số $g(x) = f(x)+cx$ không phải là một song ánh.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2025-bai-2",
+    "label": "Bài 2",
+    "text": "Cho các số nguyên dương $k$ và $d$ cố định. Chứng minh rằng với mọi số nguyên dương lẻ $n$ đủ lớn, các chữ số trong biểu diễn cơ số $2n$ của $n^k$ đều lớn hơn $d$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2025-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $m$ và $n$ là các số nguyên dương, và $\\mathcal R$ là một bảng ô vuông đơn vị kích thước $2m \\times 2n$. Một quân domino là một hình chữ nhật $1 \\times 2$ hoặc $2 \\times 1$. Đường đi hướng lên-phải là một đường đi từ góc dưới bên trái của $\\mathcal R$ đến góc trên bên phải của $\\mathcal R$ được tạo bởi đúng $2m+2n$ cạnh của các ô vuông trong bảng. Theo $m$ và $n$, hãy tìm số lượng đường đi hướng lên-phải chia $\\mathcal R$ thành hai tập hợp con (có thể rỗng), mà mỗi tập hợp đều có thể lát kín bằng các quân domino.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2025-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $n$ là số nguyên dương và $a_0 \\ge a_1 \\ge \\dots \\ge a_n \\ge 0$ là các số nguyên. Chứng minh rằng $$\\sum_{i=0}^n i\\binom{a_i}{2} \\le \\frac12 \\binom{a_0+a_1+\\dots+a_n}{2}.$$",
+    "topics": [
+     "bat-dang-thuc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2025-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $H$ là trực tâm của một tam giác nhọn $ABC$, gọi $F$ là chân đường cao hạ từ $C$ xuống $AB$, và $P$ là điểm đối xứng của $H$ qua $BC$. Giả sử đường tròn ngoại tiếp tam giác $AFP$ cắt đường thẳng $BC$ tại hai điểm phân biệt $X$ và $Y$. Chứng minh rằng $CX = CY$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2025-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $S$ là một tập hợp các số nguyên thỏa mãn các tính chất sau:\n- $\\{ 1, 2, \\dots, 2025 \\} \\subseteq S$.\n- Nếu $a, b \\in S$ và $\\gcd(a, b) = 1$, thì $ab \\in S$.\n- Nếu $s + 1$ là hợp số với một phần tử $s \\in S$ nào đó, thì tất cả các ước số dương của $s + 1$ đều thuộc $S$.\nChứng minh rằng tập hợp $S$ chứa tất cả các số nguyên dương.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2024",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2024",
+  "grade": 9,
+  "year": 2024,
+  "sourceName": "USA Junior Mathematical Olympiad 2024 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2024-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2024-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $ABCD$ là một tứ giác nội tiếp với $AB=7$ và $CD=8$. Các điểm $P$ và $Q$ được lấy trên đoạn thẳng $AB$ sao cho $AP=BQ=3$. Các điểm $R$ và $S$ được lấy trên đoạn thẳng $CD$ sao cho $CR=DS=2$. Chứng minh rằng $PQRS$ là một tứ giác nội tiếp.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2024-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $m$ và $n$ là các số nguyên dương. Gọi $S$ là tập hợp các điểm lưới $(x,y)$ với $1 \\\\leq x \\\\leq 2m$ và $1 \\\\leq y \\\\leq 2n$. Một cấu hình gồm $mn$ hình chữ nhật có cạnh song song với các trục tọa độ được gọi là \"hạnh phúc\" nếu mỗi điểm của $S$ là đỉnh của đúng một hình chữ nhật. Chứng minh rằng số lượng cấu hình hạnh phúc là một số lẻ.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2024-bai-3",
+    "label": "Bài 3",
+    "text": "Một dãy số nguyên dương $a_1$, $a_2$, $\\\\dots$ được xác định bằng hệ thức truy hồi $a_1 = 2$ và $a_{n+1} = a_n^{n+1} - 1$ với mọi $n \\\\geq 1$. Chứng minh rằng với mọi số nguyên tố lẻ $p$ và số nguyên $k$, tồn tại một số hạng của dãy chia hết cho $p^k$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2024-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $n \\\\geq 3$ là một số nguyên. Rowan và Colin chơi một trò chơi trên bảng ô vuông kích thước $n \\\\times n$, trong đó mỗi ô được tô bằng màu đỏ hoặc màu xanh. Rowan được phép hoán vị các hàng của bảng và Colin được phép hoán vị các cột. Một cách tô màu bảng được gọi là \"có trật tự\" nếu: dù Rowan có hoán vị các hàng của cách tô màu thế nào đi nữa, Colin vẫn có thể hoán vị các cột để khôi phục lại cách tô màu ban đầu của bảng; và dù Colin có hoán vị các cột của cách tô màu thế nào đi nữa, Rowan vẫn có thể hoán vị các hàng để khôi phục lại cách tô màu ban đầu của bảng. Theo $n$, có bao nhiêu cách tô màu có trật tự?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2024-bai-5",
+    "label": "Bài 5",
+    "text": "Giải phương trình hàm trên $\\\\mathbb{R}$: $$f(x^2-y)+2yf(x) = f(f(x))+f(y).$$",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2024-bai-6",
+    "label": "Bài 6",
+    "text": "Điểm $D$ được lấy bên trong tam giác nhọn $ABC$ sao cho $\\angle DAC = \\angle ACB$ và $\\angle BDC = 90^\\circ + \\angle BAC$. Điểm $E$ được chọn trên tia $BD$ sao cho $AE = EC$. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng đường thẳng $AB$ tiếp xúc với đường tròn ngoại tiếp tam giác $BEM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2023",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2023",
+  "grade": 9,
+  "year": 2023,
+  "sourceName": "USA Junior Mathematical Olympiad 2023 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2023-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2023-bai-1",
+    "label": "Bài 1",
+    "text": "Tìm tất cả các bộ ba số nguyên dương $(x, y, z)$ thỏa mãn $$2(x+y+z+2xyz)^2 = (2xy+2yz+2zx+1)^2 + 2023.$$",
+    "topics": [
+     "nghiem-nguyen",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2023-bai-2",
+    "label": "Bài 2",
+    "text": "Cho tam giác nhọn $ABC$, gọi $M$ là trung điểm của đoạn thẳng $BC$. Gọi $P$ là chân đường vuông góc kẻ từ $C$ xuống $AM$. Giả sử đường tròn ngoại tiếp tam giác $ABP$ cắt đường thẳng $BC$ tại hai điểm phân biệt $B$ và $Q$. Gọi $N$ là trung điểm của đoạn thẳng $AQ$. Chứng minh rằng $NB = NC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2023-bai-3",
+    "label": "Bài 3",
+    "text": "Xét một bảng ô vuông kích thước $n \times n$ với $n$ là một số nguyên dương lẻ. Ta nói một tập hợp $C$ gồm các quân đô-mi-nô giống nhau là một cấu hình phủ bảng tối đa nếu $C$ gồm $(n^2-1)/2$ quân đô-mi-nô, trong đó mỗi quân phủ đúng hai ô vuông kề nhau và các quân không chồng lên nhau: khi đó $C$ phủ toàn bộ các ô trừ đúng một ô trống trên bảng. Ta được phép trượt (nhưng không xoay) một quân đô-mi-nô trên bảng để che đi ô đang trống, tạo ra một cấu hình phủ bảng tối đa mới với một ô trống khác. Gọi $k(C)$ là số lượng các cấu hình phủ bảng tối đa phân biệt có thể thu được từ $C$ bằng cách trượt các quân đô-mi-nô liên tiếp. Tìm giá trị lớn nhất có thể của $k(C)$ theo hàm số của $n$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2023-bai-4",
+    "label": "Bài 4",
+    "text": "Hai người chơi, Blake và Ruby, chơi trò chơi sau trên một lưới vô hạn gồm các ô vuông đơn vị, ban đầu tất cả đều được tô màu trắng. Hai người chơi lần lượt đi nước đi đầu tiên thuộc về Blake. Trong lượt của Blake, Blake chọn một ô vuông đơn vị màu trắng và tô nó màu xanh. Trong lượt của Ruby, Ruby chọn hai ô vuông đơn vị màu trắng và tô chúng màu đỏ. Hai người chơi luân phiên nhau cho đến khi Blake quyết định kết thúc trò chơi. Tại thời điểm này, Blake nhận được một điểm số, được tính bằng số lượng các ô vuông đơn vị trong đa giác đơn lớn nhất (xét về diện tích) chỉ chứa các ô vuông đơn vị màu xanh. Điểm số lớn nhất mà Blake có thể đảm bảo là bao nhiêu?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2023-bai-5",
+    "label": "Bài 5",
+    "text": "Các số nguyên dương $a$ và $N$ được cho trước, và có $N$ số nguyên dương được viết trên bảng đen. Alice và Bob chơi trò chơi sau. Trong lượt của Alice, cô ấy phải thay thế một số nguyên $n$ bất kỳ trên bảng bằng $n+a$, và trong lượt của Bob, anh ấy phải thay thế một số nguyên chẵn $n$ bất kỳ trên bảng bằng $n/2$. Alice đi trước và họ lần lượt đi. Nếu đến lượt của mình mà Bob không có nước đi hợp lệ nào, trò chơi kết thúc. Sau khi phân tích $N$ số nguyên trên bảng, Bob nhận ra rằng, bất kể Alice đi những nước nào, anh ấy sẽ có thể buộc trò chơi phải kết thúc sau một hữu hạn bước. Chứng minh rằng, trên thực tế, với giá trị $a$ và $N$ số nguyên trên bảng này, trò chơi chắc chắn sẽ kết thúc bất kể các nước đi của Alice hay Bob.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2023-bai-6",
+    "label": "Bài 6",
+    "text": "Tam giác cân $ABC$ với $AB=AC$ được nội tiếp trong đường tròn $\\omega$. Gọi $D$ là một điểm bất kỳ nằm trên đoạn $BC$ sao cho $BD \\neq DC$. Tia $AD$ cắt $\\omega$ tại điểm thứ hai $E$ (khác $A$). Điểm $F$ (khác $E$) được chọn trên $\\omega$ sao cho $\\angle DFE = 90^\\circ$. Đường thẳng $FE$ cắt các tia $AB$ và $AC$ lần lượt tại các điểm $X$ và $Y$. Chứng minh rằng $\\angle XDE = \\angle EDY$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2022",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2022",
+  "grade": 9,
+  "year": 2022,
+  "sourceName": "USA Junior Mathematical Olympiad 2022 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2022-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2022-bai-1",
+    "label": "Bài 1",
+    "text": "Với các số nguyên dương $m$ nào thì tồn tại một dãy số vô hạn trong vành $\\mathbb{Z}/m\\mathbb{Z}$ vừa là cấp số cộng vừa là cấp số nhân, nhưng không phải là dãy hằng?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2022-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $a$ và $b$ là các số nguyên dương. Mỗi ô của một bảng vuông kích thước $(a+b+1)\\times (a+b+1)$ được tô bằng một trong hai màu hổ phách hoặc đồng sao cho có ít nhất $a^2+ab-b$ ô màu hổ phách và ít nhất $b^2+ab-a$ ô màu đồng. Chứng minh rằng luôn có thể chọn ra $a$ ô màu hổ phách và $b$ ô màu đồng sao cho không có hai ô nào trong tổng số $a+b$ ô được chọn nằm trên cùng một hàng hoặc cùng một cột.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2022-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $b\\geq 2$ và $w\\geq 2$ là các số nguyên cố định, và $n=b+w$. Cho trước $2b$ thanh màu đen giống hệt nhau và $2w$ thanh màu trắng giống hệt nhau, mỗi thanh có độ dài cạnh bằng $1$. Ta lắp ráp một đa giác đều $2n$-cạnh bằng các thanh này sao cho các cạnh song song có cùng màu. Sau đó, một đa giác lồi $2b$-cạnh $B$ được tạo thành bằng cách tịnh tiến các thanh màu đen, và một đa giác lồi $2w$-cạnh $W$ được tạo thành bằng cách tịnh tiến các thanh màu trắng. (Minh họa cho trường hợp $b=3$ và $w=2$ thể hiện các đa giác $B$ và $W$ thu được). Chứng minh rằng hiệu diện tích của $B$ và $W$ chỉ phụ thuộc vào các số $b$ và $w$, chứ không phụ thuộc vào cách lắp ráp đa giác $2n$-cạnh ban đầu.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2022-bai-4",
+    "label": "Bài 4",
+    "text": "Cho hình thoi $ABCD$, và gọi $K, L$ là hai điểm sao cho $K$ nằm bên trong hình thoi, $L$ nằm bên ngoài hình thoi, và thỏa mãn $KA = KB = LC = LD$. Chứng minh rằng tồn tại các điểm $X$ và $Y$ lần lượt nằm trên các đường thẳng $AC$ và $BD$ sao cho tứ giác $KXLY$ cũng là một hình thoi.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2022-bai-5",
+    "label": "Bài 5",
+    "text": "Tìm tất cả các cặp số nguyên tố $(p, q)$ sao cho cả $p-q$ và $pq-q$ đều là các số chính phương.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2022-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $a_0$, $b_0$, $c_0$ là các số phức, và định nghĩa các dãy số sao cho $a_{n+1} = a_n^2 + 2b_nc_n$, $b_{n+1} = b_n^2 + 2c_na_n$, và $c_{n+1} = c_n^2 + 2a_nb_n$ với mọi số nguyên không âm $n$. Giả sử rằng $\\max\\{|a_n|, |b_n|, |c_n|\\} \\leq 2022$ với mọi $n \\ge 0$. Chứng minh rằng $|a_0|^2 + |b_0|^2 + |c_0|^2 \\leq 1$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2021",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2021",
+  "grade": 9,
+  "year": 2021,
+  "sourceName": "USA Junior Mathematical Olympiad 2021 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2021-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2021-bai-1",
+    "label": "Bài 1",
+    "text": "Tìm tất cả các hàm số $f: \\mathbb{Z}^+ \\to \\mathbb{Z}^+$ thỏa mãn $f(a^2+b^2)=f(a)f(b)$ và $f(a^2)=f(a)^2$ với mọi số nguyên dương $a$ và $b$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2021-bai-2",
+    "label": "Bài 2",
+    "text": "Các hình chữ nhật $BCC_1B_2$, $CAA_1C_2$ và $ABB_1A_2$ được dựng ở phía bên ngoài của một tam giác nhọn $ABC$. Giả sử rằng $\\angle BC_1C + \\angle CA_1A + \\angle AB_1B = 180^\\circ$. Chứng minh rằng các đường thẳng $B_1C_2$, $C_1A_2$ và $A_1B_2$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2021-bai-3",
+    "label": "Bài 3",
+    "text": "Cho một tam giác đều $\\Delta$ có độ dài cạnh $L > 0$. Giả sử có $n$ tam giác đều cạnh $1$ có phần trong không chồng lên nhau được vẽ bên trong $\\Delta$, sao cho mỗi tam giác đều đơn vị có các cạnh song song với $\\Delta$, nhưng ngược hướng. Chứng minh rằng $n \\le \\frac{2}{3} L^2$.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2021-bai-4",
+    "label": "Bài 4",
+    "text": "Carina có ba chiếc ghim, lần lượt được kí hiệu là $A$, $B$ và $C$, ban đầu đều đặt tại gốc tọa độ của mặt phẳng tọa độ. Trong một nước đi, Carina có thể di chuyển một chiếc ghim tới một điểm lưới nguyên kề bên cách nó một khoảng bằng $1$. Hỏi số nước đi ít nhất mà Carina cần thực hiện để tam giác $ABC$ có diện tích bằng $2021$ là bao nhiêu?",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2021-bai-5",
+    "label": "Bài 5",
+    "text": "Một tập hợp hữu hạn $S$ gồm các số nguyên dương có tính chất là, với mỗi $s \\in S$ và mỗi ước số dương $d$ của $s$, tồn tại duy nhất một phần tử $t \\in S$ thỏa mãn $\\gcd(s,t) = d$ (các phần tử $s$ và $t$ có thể bằng nhau). Với thông tin này, hãy tìm tất cả các giá trị có thể của số phần tử của tập hợp $S$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2021-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $n \\ge 4$ là một số nguyên. Tìm tất cả các nghiệm thực dương của hệ $2n$ phương trình sau: $a_1 = \\frac{1}{a_{2n}} + \\frac{1}{a_{2}}$, $a_2 = a_1 + a_3$, $a_3 = \\frac{1}{a_{2}} + \\frac{1}{a_{4}}$, $a_4 = a_3 + a_5$, $a_5 = \\frac{1}{a_{4}} + \\frac{1}{a_{6}}$, $a_6 = a_5 + a_7$, ..., $a_{2n-1} = \\frac{1}{a_{2n-2}} + \\frac{1}{a_{2n}}$, $a_{2n} = a_{2n-1} + a_1$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2020",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2020",
+  "grade": 9,
+  "year": 2020,
+  "sourceName": "USA Junior Mathematical Olympiad 2020 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2020-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2020-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $n \textge 2$ là một số nguyên. Carl có $n$ cuốn sách được xếp trên một giá sách. Mỗi cuốn sách có một chiều cao và một chiều rộng. Không có hai cuốn sách nào có cùng chiều cao, và không có hai cuốn sách nào có cùng chiều rộng. Ban đầu, các cuốn sách được xếp theo thứ tự tăng dần của chiều cao từ trái sang phải. Trong một bước di chuyển, Carl chọn bất kỳ hai cuốn sách kề nhau nào mà cuốn sách bên trái rộng hơn và thấp hơn cuốn sách bên thực, rồi đổi chỗ vị trí của chúng. Carl thực hiện việc này lặp lại cho đến khi không thể thực hiện thêm bước di chuyển nào nữa. Chứng minh rằng bất kể Carl thực hiện các bước di chuyển như thế nào, anh ta phải dừng lại sau một số hữu hạn các bước, và khi anh ta dừng lại, các sách được sắp xếp theo thứ tự tăng dần của chiều rộng từ trái sang phải.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2020-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $\\omega$ là đường tròn nội tiếp của một tam giác đều cố định $ABC$. Gọi $\\ell$ là một đường thẳng thay đổi tiếp xúc với $\\omega$ và cắt phần trong của các đoạn thẳng $BC$ và $CA$ lần lượt tại các điểm $P$ và $Q$. Một điểm $R$ được chọn sao cho $PR=PA$ và $QR=QB$. Tìm tất cả các vị trí có thể có của điểm $R$ trên tất cả các cách chọn đường thẳng $\\ell$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2020-bai-3",
+    "label": "Bài 3",
+    "text": "Cho một hình lập phương $2020 \\times 2020 \\times 2020$ trống, và một lưới $2020 \\times 2020$ gồm các ô vuông đơn vị được vẽ trên mỗi mặt trong sáu mặt của nó. Một thanh là một hình lăng trụ chữ nhật $1 \\times 1 \\times 2020$. Một số thanh được đặt bên trong hình lập phương thỏa mãn các điều kiện sau: Hai mặt $1 \\times 1$ của mỗi thanh trùng với các ô đơn vị nằm trên hai mặt đối diện của hình lập phương. (Do đó, có $3 \\cdot 2020^2$ vị trí có thể cho một thanh.) Không có hai thanh nào có phần trong cắt nhau. Phần trong của mỗi mặt trong bốn mặt $1 \\times 2020$ của mỗi thanh chạm vào một mặt của hình lập phương hoặc phần trong mặt của một thanh khác. Số nguyên dương nhỏ nhất các thanh có thể được đặt để thỏa mãn các điều kiện này là bao nhiêu?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2020-bai-4",
+    "label": "Bài 4",
+    "text": "Cho tứ giác lồi $ABCD$ nội tiếp đường tròn và thỏa mãn $DA < AB = BC < CD$. Các điểm $E$ và $F$ được chọn trên các cạnh $CD$ và $AB$ sao cho $BE \\perp AC$ và $EF \\parallel BC$. Chứng minh rằng $FB=FD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2020-bai-5",
+    "label": "Bài 5",
+    "text": "Giả sử $(a_1, b_1), (a_2, b_2), \\dots, (a_{100}, b_{100})$ là các cặp có thứ tự phân biệt gồm các số nguyên không âm. Gọi $N$ là số các cặp số nguyên $(i,j)$ thỏa mãn $1 \\le i < j \\le 100$ và $\\left\\lvert a_ib_j - a_jb_i \\right\\rvert = 1$. Xác định giá trị lớn nhất có thể của $N$ trên tất cả các cách chọn $100$ cặp có thứ tự.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2020-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $n \\ge 2$ là một số nguyên. Cho $P(x_1, x_2, \\dots, x_n)$ là một đa thức $n$ biến không hằng với hệ số thực. Giả sử rằng $P$ triệt tiêu bất cứ khi nào có hai biến của nó bằng nhau, chứng minh rằng $P$ có ít nhất $n!$ hạng tử.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2019",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2019",
+  "grade": 9,
+  "year": 2019,
+  "sourceName": "USA Junior Mathematical Olympiad 2019 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2019-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2019-bai-1",
+    "label": "Bài 1",
+    "text": "Có $a+b$ chiếc bát được xếp thành một hàng, được đánh số từ $1$ đến $a+b$, trong đó $a$ và $b$ là các số nguyên dương cho trước. Ban đầu, mỗi chiếc trong $a$ chiếc bát đầu tiên chứa một quả táo, và mỗi chiếc trong $b$ chiếc bát cuối cùng chứa một quả lê. Một nước đi hợp lệ gồm việc chuyển một quả táo từ bát $i$ sang bát $i+1$ và một quả lê từ bát $j$ sang bát $j-1$, với điều kiện hiệu $i-j$ là số chẵn. Cho phép nhiều loại trái cây ở cùng một chiếc bát tại cùng một thời điểm. Mục tiêu là kết thúc với $b$ chiếc bát đầu tiên mỗi chiếc chứa một quả lê và $a$ chiếc bát cuối cùng mỗi chiếc chứa một quả táo. Chứng minh rằng điều này có thể thực hiện được khi và chỉ khi tích $ab$ là số chẵn.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2019-bai-2",
+    "label": "Bài 2",
+    "text": "Với các cặp số nguyên $(a, b)$ nào thì tồn tại các hàm số $f\to \\mathbb{Z}$ và $g\to \\mathbb{Z}$ thỏa mãn $f(g(x)) = x + a$ và $g(f(x)) = x + b$ với mọi số nguyên $x$?",
+    "topics": [
+     "dai-so",
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2019-bai-3",
+    "label": "Bài 3",
+    "text": "Cho tứ giác nội tiếp $ABCD$ thỏa mãn $AD^2 + BC^2 = AB^2$. Các đường chéo của $ABCD$ cắt nhau tại $E$. Gọi $P$ là một điểm trên cạnh $AB$ thỏa mãn $\\angle APD = \\angle BPC$. Chứng minh rằng đường thẳng $PE$ chia đôi đoạn thẳng $CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2019-bai-4",
+    "label": "Bài 4",
+    "text": "Cho tam giác $ABC$ với $\\angle B > 90^\\circ$ và gọi $E$ và $F$ là chân các đường cao hạ từ $B$ và $C$. Đường thẳng $EF$ có thể tiếp xúc với đường tròn bàng tiếp góc $A$ hay không?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2019-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $n$ là một số nguyên không âm. Xác định số cách chọn các tập hợp $S_{ij} \\subseteq \\{1, 2, \\dots, 2n\\}$, cho tất cả $0 \\le i \\le n$ và $0 \\le j \\le n$ (không nhất thiết phải phân biệt), sao cho $|S_{ij}| = i+j$, và $S_{ij} \\subseteq S_{kl}$ nếu $0 \\le i \\le k \\le n$ và $0 \\le j \\le l \\le n$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2019-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $m$ và $n$ là các số nguyên dương nguyên tố cùng nhau. Các số $\\frac{m}{n}$ và $\\frac{n}{m}$ được viết lên bảng. Tại bất kỳ thời điểm nào, Evan có thể chọn hai số $x$ và $y$ được viết trên bảng và viết lên đó либо trung bình cộng $\\frac{1}{2}(x+y)$ либо trung bình điều hòa $\\frac{2xy}{x+y}$. Với các cặp $(m,n)$ nào thì Evan có thể viết số $1$ lên bảng trong hữu hạn bước?",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2018",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2018",
+  "grade": 9,
+  "year": 2018,
+  "sourceName": "USA Junior Mathematical Olympiad 2018 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2018-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2018-bai-1",
+    "label": "Bài 1",
+    "text": "Với mỗi số nguyên dương $n$, hãy tìm số các số nguyên dương có $n$ chữ số sao cho không có hai chữ số liên tiếp nào bằng nhau và chữ số tận cùng là một số nguyên tố.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2018-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $a$, $b$, $c$ là các số thực dương thỏa mãn $a+b+c = 4\\sqrt[3]{abc}$ không, $a+b+c = 4\\sqrt[3]{abc}$ viết lại là $a+b+c = 4\\sqrt[3]{abc}$ hoặc $a+b+c = 4\\sqrt[3]{abc}$. Chứng minh rằng $$2(ab+bc+ca) + 4\\min (a^2, b^2, c^2) \\ge a^2 + b^2 + c^2.$$",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2018-bai-3",
+    "label": "Bài 3",
+    "text": "Cho tứ giác $ABCD$ nội tiếp đường tròn $\\omega$ với $AC \\perp BD$. Gọi $E$ và $F$ lần lượt là điểm đối xứng của $D$ qua $AB$ và $BC$, và gọi $P$ là giao điểm của $BD$ và $EF$. Giả sử các đường tròn ngoại tiếp của tam giác $EPD$ và $FPD$ cắt $\\omega$ tại $Q$ và $R$ khác $D$. Chứng minh rằng $EQ = FR$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2018-bai-4",
+    "label": "Bài 4",
+    "text": "Tìm tất cả các số thực $x$ sao cho tồn tại tam giác $ABC$ có bán kính đường tròn ngoại tiếp bằng $2$, thỏa mãn $\\angle ABC \\ge 90^\\circ$ và $$x^4 + ax^3 + bx^2 + cx + 1 = 0$$ trong đó $a = BC$, $b = CA$, $c = AB$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2018-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $p$ là số nguyên tố và $a_1$, $\\dots$, $a_p$ là các số nguyên. Chứng minh rằng tồn tại một số nguyên $k$ sao cho các số $$a_1 + k, \\; a_2 + 2k, \\; \\dots, \\; a_p + pk$$ tạo ra ít nhất $\\frac{1}{2}p$ số dư phân biệt khi chia cho $p$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2018-bai-6",
+    "label": "Bài 6",
+    "text": "Karl bắt đầu với $n$ thẻ được đánh số $1$, $2$, $\\dots$, $n$ xếp thành một hàng theo thứ tự ngẫu nhiên trên bàn của anh ấy. Anh ấy gọi một cặp thẻ $(a,b)$ là \"đảo ngược\" nếu $a > b$ và thẻ mang số $a$ nằm bên trái thẻ mang số $b$. Karl nhặt thẻ mang số $1$ lên và chèn nó trở lại dãy ở vị trí đối xứng: nếu thẻ mang số $1$ trước đó có $i$ thẻ ở bên trái nó, thì bây giờ nó có $i$ thẻ ở bên phải nó. Sau đó, anh ấy nhặt thẻ mang số $2$ lên và chèn lại theo cách tương tự, và cứ tiếp tục như vậy, cho đến khi anh ấy đã nhặt và đặt lại từng thẻ trong số $1$, $\\dots$, $n$ đúng một lần theo thứ tự đó. Chứng minh rằng, bất kể thứ tự ban đầu của các thẻ mà Karl bắt đầu là gì, dãy cuối cùng của anh ấy có cùng số cặp đảo ngược với dãy ban đầu.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2017",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2017",
+  "grade": 9,
+  "year": 2017,
+  "sourceName": "USA Junior Mathematical Olympiad 2017 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2017-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2017-bai-1",
+    "label": "Bài 1",
+    "text": "Chứng minh rằng tồn tại vô hạn cặp số nguyên dương nguyên tố cùng nhau $a,b > 1$ sao cho $a+b$ chia hết cho $a^b+b^a$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2017-bai-2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng phương trình nghiệm nguyên dương $$\\left( 3x^3+xy^2 \\right)\\left( x^2y+3y^3 \\right) = (x-y)^7$$ có vô hạn nghiệm, và hãy mô tả tất cả các nghiệm đó.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2017-bai-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác $ABC$ đều và $P$ là một điểm nằm trên đường tròn ngoại tiếp tam giác đó. Gọi $D = \\overline{PA} \\cap \\overline{BC}$, $E = \\overline{PB} \\cap \\overline{CA}$, $F = \\overline{PC} \\cap \\overline{AB}$. Chứng minh rằng diện tích tam giác $DEF$ gấp đôi diện tích tam giác $ABC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2017-bai-4",
+    "label": "Bài 4",
+    "text": "Tồn tại hay không các bộ ba số nguyên dương $(a,b,c)$ sao cho $(a-2)(b-2)(c-2)+12$ là một số nguyên tố chia hết thực sự số nguyên dương $a^2+b^2+c^2+abc-2017$?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2017-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $O$ và $H$ lần lượt là tâm đường tròn ngoại tiếp và trực tâm của tam giác nhọn $ABC$. Các điểm $M$ và $D$ nằm trên cạnh $BC$ sao cho $BM = CM$ và $\\angle BAD = \\angle CAD$. Tia $MO$ cắt đường tròn ngoại tiếp tam giác $BHC$ tại điểm $N$. Chứng minh rằng $\\angle ADO = \\angle HAN$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2017-bai-6",
+    "label": "Bài 6",
+    "text": "Cho $P_1$, $P_2$, $\\dots$, $P_{2n}$ là $2n$ điểm phân biệt trên đường tròn đơn vị $x^2+y^2=1$, khác điểm $(1,0)$. Mỗi điểm được tô màu đỏ hoặc xanh, với đúng $n$ điểm đỏ và $n$ điểm xanh. Cho $R_1$, $R_2$, $\\dots$, $R_n$ là một thứ tự bất kỳ của các điểm đỏ. Gọi $B_1$ là điểm xanh gần nhất với $R_1$ khi di chuyển ngược chiều kim đồng hồ quanh đường tròn bắt đầu từ $R_1$. Sau đó gọi $B_2$ là điểm gần nhất trong các điểm xanh còn lại đối với $R_2$ khi di chuyển ngược chiều kim đồng hồ từ $R_2$, cứ tiếp tục như vậy cho đến khi chúng ta đã gán nhãn tất cả các điểm xanh $B_1$, $\\dots$, $B_n$. Chứng minh rằng số cung ngược chiều kim đồng hồ dạng $R_i \\to B_i$ chứa điểm $(1,0)$ là không phụ thuộc vào cách chúng ta chọn thứ tự $R_1$, $\\dots$, $R_n$ của các điểm đỏ.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2016",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2016",
+  "grade": 9,
+  "year": 2016,
+  "sourceName": "USA Junior Mathematical Olympiad 2016 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2016-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2016-bai-1",
+    "label": "Bài 1",
+    "text": "Tam giác cân $\\triangle ABC$ với $AB=AC$ nội tiếp đường tròn $\\omega$. Gọi $P$ là một điểm di động trên cung $BC$ không chứa $A$, và gọi $I_B, I_C$ lần lượt là tâm đường tròn nội tiếp của các tam giác $\\triangle ABP$ và $\\triangle ACP$. Chứng minh rằng khi $P$ thay đổi, đường tròn ngoại tiếp tam giác $\\triangle PI_{B}I_{C}$ luôn đi qua một điểm cố định.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2016-bai-2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng tồn tại một số nguyên dương $n < 10^6$ sao cho $5^n$ có sáu chữ số $0$ liên tiếp trong biểu diễn thập phân của nó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2016-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $X_1, X_2, \\dots, X_{100}$ là một dãy gồm các tập hợp con khác rỗng và đôi một khác nhau của một tập hợp $S$. Hai tập hợp bất kỳ $X_i$ và $X_{i+1}$ rời nhau và hợp của chúng không phải là toàn bộ tập hợp $S$, nghĩa là $X_i \\cap X_{i+1} = \\emptyset$ và $X_i \\cup X_{i+1} \\neq S$ với mọi $i \\in \\{1, \\dots, 99\\}$. Tìm số phần tử nhỏ nhất có thể của $S$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2016-bai-4",
+    "label": "Bài 4",
+    "text": "Tìm, có chứng minh, số nguyên nhỏ nhất $N$ sao cho nếu bỏ đi bất kỳ $2016$ phần tử nào từ tập hợp $\\{1, 2, \to, N\\}$, ta vẫn có thể tìm được $2016$ số phân biệt trong số các phần tử còn lại có tổng bằng $N$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2016-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $\triangle ABC$ là một tam giác nhọn với $O$ là tâm đường tròn ngoại tiếp. Điểm $H$ là chân đường vuông góc kẻ từ $A$ xuống đường thẳng $BC$, và các điểm $P, Q$ lần lượt là chân các đường vuông góc kẻ từ $H$ xuống các đường thẳng $AB, AC$. Cho biết $AH^2 = 2AO^2$. Chứng minh rằng ba điểm $O, P, Q$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2016-bai-6",
+    "label": "Bài 6",
+    "text": "Tìm tất cả các hàm số $f \\colon \\mathbb{R} \\to \\mathbb{R}$ sao cho với mọi số thực $x$ và $y$, ta có $(f(x)+xy) \\cdot f(x-3y) + (f(y)+xy) \\cdot f(3x-y) = (f(x+y))^2$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2015",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2015",
+  "grade": 9,
+  "year": 2015,
+  "sourceName": "USA Junior Mathematical Olympiad 2015 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2015-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2015-bai-1",
+    "label": "Bài 1",
+    "text": "Cho một dãy số thực, một phép biến đổi gồm việc chọn hai số hạng và thay thế mỗi số bằng trung bình cộng của chúng. Chứng minh rằng tồn tại một dãy gồm $2015$ số thực phân biệt sao cho sau khi áp dụng một phép biến đổi ban đầu tùy ý cho dãy đó, luôn luôn có cách tiếp tục với một dãy hữu hạn các phép biến đổi để cuối cùng thu được một dãy hằng số.",
+    "topics": [
+     "to-hop",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2015-bai-2",
+    "label": "Bài 2",
+    "text": "Giải phương trình nghiệm nguyên: $$ x^2+xy+y^2 = \\left(\\frac{x+y}{3}+1\\right)^3. $$",
+    "topics": [
+     "nghiem-nguyen",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2015-bai-3",
+    "label": "Bài 3",
+    "text": "Tứ giác $APBQ$ nội tiếp đường tròn $\\omega$ với $\\angle P = \\angle Q = 90^\\circ$ và $AP = AQ < BP$. Gọi $X$ là một điểm thay đổi trên đoạn thẳng $PQ$. Đường thẳng $AX$ cắt $\\omega$ tại điểm thứ hai $S$ (khác $A$). Điểm $T$ nằm trên cung $AQB$ của $\\omega$ sao cho đoạn thẳng $XT$ vuông góc với đoạn thẳng $AX$. Gọi $M$ là trung điểm của dây cung $ST$. Khi $X$ thay đổi trên đoạn thẳng $PQ$, chứng minh rằng $M$ di chuyển trên một đường tròn.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2015-bai-4",
+    "label": "Bài 4",
+    "text": "Tìm tất cả các hàm số $f \\colon \\mathbb{Q} \\to \\mathbb{Q}$ sao cho $$ f(x)+f(t)=f(y)+f(z) $$ với mọi số hữu tỉ $x<y<z<t$ lập thành một cấp số cộng.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2015-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $ABCD$ là một tứ giác nội tiếp. Chứng minh rằng tồn tại một điểm $X$ trên đoạn thẳng $BD$ sao cho $\\angle BAC=\\angle XAD$ và $\\angle BCA=\\angle XCD$ khi và chỉ khi tồn tại một điểm $Y$ trên đoạn thẳng $AC$ sao cho $\\angle CBD=\\angle YBA$ và $\\angle CDB=\\angle YDA$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2015-bai-6",
+    "label": "Bài 6",
+    "text": "Steve xếp $m\\geq 1$ viên sỏi không thể phân biệt vào các ô của một bảng vuông $n\\times n$. Mỗi ô có thể chứa một chồng sỏi tùy ý. Sau khi xếp xong các viên sỏi theo một cách nào đó, anh ta có thể thực hiện các phép chuyển sỏi được định nghĩa như sau. Xét bất kỳ bốn ô của bảng là bốn đỉnh của một hình chữ nhật, nghĩa là ở các vị trí $(i, k)$, $(i, l)$, $(j, k)$, $(j, l)$ với $1\\leq i, j, k, l\\leq n$, $i<j$ và $k<l$. Một phép chuyển sỏi gồm việc lấy đi một viên sỏi từ mỗi ô $(i, k)$ và $(j, l)$ rồi chuyển chúng lần lượt đến các ô $(i, l)$ và $(j, k)$, hoặc lấy đi một viên sỏi từ mỗi ô $(i, l)$ và $(j, k)$ rồi chuyển chúng lần lượt đến các ô $(i, k)$ và $(j, l)$. Hai cách xếp sỏi được gọi là tương đương nếu cách này có thể chuyển thành cách kia bằng một chuỗi các phép chuyển sỏi. Hỏi có bao nhiêu cách xếp sỏi không tương đương khác nhau mà Steve có thể thực hiện trên bảng?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2014",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2014",
+  "grade": 9,
+  "year": 2014,
+  "sourceName": "USA Junior Mathematical Olympiad 2014 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2014-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2014-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $a$, $b$, $c$ là các số thực lớn hơn hoặc bằng $1$. Chứng minh rằng $$\\min \\left( \\frac{10a^2-5a+1}{b^2-5b+10}, \\frac{10b^2-5b+1}{c^2-5c+10}, \\frac{10c^2-5c+1}{a^2-5a+10} \\right) \\le abc.$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2014-bai-2",
+    "label": "Bài 2",
+    "text": "Cho tam giác nhọn không đều $ABC$ với $\\angle A = 60^\\circ$, gọi $O$ và $H$ lần lượt là tâm đường tròn ngoại tiếp và trực tâm của tam giác $ABC$.\n\na) Chứng minh rằng đường thẳng $OH$ cắt các đoạn thẳng $AB$ và $AC$ lần lượt tại hai điểm $P$ và $Q$.\n\nb) Ký hiệu $s$ và $t$ lần lượt là diện tích của tam giác $APQ$ và tứ giác $BPQC$. Xác định tập hợp các giá trị có thể có của tỉ số $s/t$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2014-bai-3",
+    "label": "Bài 3",
+    "text": "Tìm tất cả các hàm số $f \\colon \\mathbb{Z} \\to \\mathbb{Z}$ sao cho $$xf\\left( 2f(y)-x \\right) + y^2f\\left( 2x-f(y) \\right) = \\frac{f(x)^2}{x} + f\\left( yf(y) \\right)$$ với mọi $x,y \\in \\mathbb{Z}$ thỏa mãn $x \\neq 0$.",
+    "topics": [
+     "dai-so",
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2014-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $b \\ge 2$ là một số nguyên cố định, và ký hiệu $s_b(n)$ là tổng các chữ số của $n$ trong hệ cơ số $b$. Chứng minh rằng tồn tại vô số số nguyên dương không thể biểu diễn dưới dạng $n + s_b(n)$ với $n$ là một số nguyên dương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2014-bai-5",
+    "label": "Bài 5",
+    "text": "Cho $k$ là một số nguyên dương. Hai người chơi $A$ và $B$ chơi một trò chơi trên một lưới vô hạn các hình lục giác đều. Ban đầu tất cả các ô trên lưới đều trống. Sau đó, hai người chơi lần lượt thực hiện nước đi, với $A$ đi trước. Trong lượt của mình, $A$ có thể chọn hai ô lục giác kề nhau trên lưới đang trống và đặt một quân cờ vào cả hai ô đó. Trong lượt của mình, $B$ có thể chọn bất kỳ quân cờ nào trên bàn cờ và loại bỏ nó. Nếu vào bất kỳ thời điểm nào có $k$ ô liên tiếp thẳng hàng mà tất cả các ô đó đều chứa quân cờ, thì $A$ chiến thắng. Tìm giá trị nhỏ nhất của $k$ sao cho $A$ không thể chiến thắng trong hữu hạn nước đi, hoặc chứng minh rằng không tồn tại giá trị nhỏ nhất như vậy.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2014-bai-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác $ABC$ có tâm nội tiếp $I$, đường tròn nội tiếp $\\gamma$ và đường tròn ngoại tiếp $\\Gamma$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của các đoạn thẳng $BC$, $CA$, $AB$ và gọi $E$, $F$ lần lượt là các tiếp điểm của $\\gamma$ với $CA$ và $AB$. Gọi $U$, $V$ lần lượt là giao điểm của đường thẳng $EF$ với các đường thẳng $MN$ và $MP$, và gọi $X$ là trung điểm của cung $BAC$ của $\\Gamma$.\n\na) Chứng minh rằng $I$ thuộc tia $CV$.\n\nb) Chứng minh rằng đường thẳng $XI$ đi qua trung điểm của đoạn thẳng $UV$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2013",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2013",
+  "grade": 9,
+  "year": 2013,
+  "sourceName": "USA Junior Mathematical Olympiad 2013 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2013-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2013-bai-1",
+    "label": "Bài 1",
+    "text": "Tồn tại hay không các số nguyên $a$ và $b$ sao cho cả $a^5b+3$ và $ab^5+3$ đều là lập phương của một số nguyên?",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2013-bai-2",
+    "label": "Bài 2",
+    "text": "Mỗi ô của một bảng kích thước $m \times n$ được điền một số nguyên không âm. Hai số trong bảng được gọi là kề nhau nếu các ô chứa chúng có chung một cạnh. Cách điền số được gọi là một khu vườn nếu thỏa mãn hai điều kiện sau: (i) Hiệu giữa hai số bất kì kề nhau bằng $0$ hoặc $1$. (ii) Nếu một số nhỏ hơn hoặc bằng tất cả các số kề với nó thì số đó bằng $0$. Hãy xác định số lượng các khu vườn khác nhau theo $m$ và $n$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2013-bai-3",
+    "label": "Bài 3",
+    "text": "Trong tam giác $ABC$, các điểm $P$, $Q$, $R$ lần lượt nằm trên các cạnh $BC$, $CA$, $AB$. Gọi $\text{ }\text{\\omega}_A$, $\text{\\omega}_B$, $\text{\\omega}_C$ lần lượt là các đường tròn ngoại tiếp các tam giác $AQR$, $BRP$, $CPQ$. Biết rằng đoạn thẳng $AP$ cắt các đường tròn $\text{\\omega}_A$, $\text{\\omega}_B$, $\text{\\omega}_C$ tại các điểm thứ hai lần lượt là $X$, $Y$, $Z$. Chứng minh rằng $\\dfrac{YX}{XZ} = \\dfrac{BP}{PC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2013-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $f(n)$ là số cách biểu diễn $n$ thành tổng các lũy thừa của $2$, trong đó có tính thứ tự của các số hạng trong tổng. Ví dụ, $f(4)=6$ vì $4$ có thể được viết thành $4$, $2+2$, $2+1+1$, $1+2+1$, $1+1+2$ và $1+1+1+1$. Tìm số $n$ nhỏ nhất lớn hơn $2013$ sao cho $f(n)$ là số lẻ.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2013-bai-5",
+    "label": "Bài 5",
+    "text": "Tứ giác $XABY$ nội tiếp nửa đường tròn $\\omega$ với đường kính $\\overline{XY}$. Các đoạn thẳng $AY$ và $BX$ cắt nhau tại $P$. Điểm $Z$ là chân đường vuông góc hạ từ $P$ xuống đường thẳng $\\overline{XY}$. Điểm $C$ nằm trên $\\omega$ sao cho đường thẳng $XC$ vuông góc với đường thẳng $AZ$. Gọi $Q$ là giao điểm của các đoạn thẳng $AY$ và $XC$. Chứng minh rằng $$\\dfrac{BY}{XP} + \\dfrac{CY}{XQ} = \\dfrac{AY}{AX}.$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2013-bai-6",
+    "label": "Bài 6",
+    "text": "Tìm tất cả các số thực $x,y,z \\ge 1$ thỏa mãn $$\\min \\left( \\sqrt{x+xyz}, \\sqrt{y+xyz}, \\sqrt{z+xyz} \\right) = \\sqrt{x-1} + \\sqrt{y-1} + \\sqrt{z-1}.$$",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2012",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2012",
+  "grade": 9,
+  "year": 2012,
+  "sourceName": "USA Junior Mathematical Olympiad 2012 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2012-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2012-bai-1",
+    "label": "Bài 1",
+    "text": "Cho tam giác $ABC$, gọi $P$ và $Q$ lần lượt là các điểm nằm trên đoạn thẳng $AB$ và $AC$ sao cho $AP=AQ$. Gọi $S$ và $R$ là hai điểm phân biệt nằm trên đoạn thẳng $BC$ sao cho $S$ nằm giữa $B$ và $R$, $\\angle BPS=\\angle PRS$, và $\\angle CQR=\\angle QSR$. Chứng minh rằng bốn điểm $P$, $Q$, $R$, $S$ cùng thuộc một đường tròn.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2012-bai-2",
+    "label": "Bài 2",
+    "text": "Tìm tất cả các số nguyên $n \\ge 3$ sao cho với mọi $n$ số thực dương $a_1, a_2, \\dots, a_n$ thỏa mãn $\\max(a_1,a_2,\\dots,a_n) \\le n \\cdot \\min(a_1,a_2,\\dots,a_n)$, luôn tồn tại ba số là độ dài ba cạnh của một tam giác nhọn.",
+    "topics": [
+     "bat-dang-thuc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2012-bai-3",
+    "label": "Bài 3",
+    "text": "Cho các số thực dương $a, b, c$. Chứng minh rằng $$\\frac{a^3+3b^3}{5a+b} + \\frac{b^3+3c^3}{5b+c} + \\frac{c^3+3a^3}{5c+a} \\ge \\frac{2}{3}(a^2+b^2+c^2).$$",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2012-bai-4",
+    "label": "Bài 4",
+    "text": "Cho $\\alpha$ là một số vô tỉ với $0 < \\alpha < 1$, và vẽ một đường tròn trong mặt phẳng có chu vi bằng $1$. Cho trước một số nguyên $n \\ge 3$, định nghĩa một dãy điểm $P_1, P_2, \\dots, P_n$ như sau. Đầu tiên chọn một điểm bất kì $P_1$ trên đường tròn, và với $2 \\le k \\le n$, định nghĩa $P_k$ là điểm trên đường tròn sao cho độ dài cung $P_{k-1}P_k$ là $\\alpha$ khi đi theo chiều ngược chiều kim đồng hồ từ $P_{k-1}$ đến $P_k$. Giả sử $P_a$ và $P_b$ là hai điểm gần nhất nằm ở hai phía của $P_n$. Chứng minh rằng $a+b \\le n$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2012-bai-5",
+    "label": "Bài 5",
+    "text": "Với các số nguyên dương phân biệt $a, b < 2012$, định nghĩa $f(a, b)$ là số các số nguyên $k$ với $1 \\le k < 2012$ sao cho số dư khi chia $ak$ cho $2012$ lớn hơn số dư khi chia $bk$ cho $2012$. Gọi $S$ là giá trị nhỏ nhất của $f(a, b)$ khi $a$ và $b$ chạy trên tất cả các cặp số nguyên dương phân biệt nhỏ hơn $2012$. Hãy xác định $S$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2012-bai-6",
+    "label": "Bài 6",
+    "text": "Cho điểm $P$ nằm trong mặt phẳng của tam giác $ABC$, và $\\gamma$ là một đường thẳng đi qua $P$. Gọi $A'$, $B'$, $C'$ lần lượt là các giao điểm của các đường thẳng đối xứng với $PA, PB, PC$ qua đường thẳng $\\gamma$ với các đường thẳng $BC, CA, AB$. Chứng minh rằng $A'$, $B'$, $C'$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2011",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2011",
+  "grade": 9,
+  "year": 2011,
+  "sourceName": "USA Junior Mathematical Olympiad 2011 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2011-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2011-bai-1",
+    "label": "Bài 1",
+    "text": "Tìm tất cả các số nguyên dương $n$ sao cho $2^n+12^n+2011^n$ là một số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2011-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $a$, $b$, $c$ là các số thực dương thỏa mãn $a^2+b^2+c^2+(a+b+c)^2 \\le 4$. Chứng minh rằng $$\\frac{ab+1}{(a+b)^2} + \\frac{bc+1}{(b+c)^2} + \\frac{ca+1}{(c+a)^2} \\ge 3.$$",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2011-bai-3",
+    "label": "Bài 3",
+    "text": "Cho điểm $P = (a,a^2)$ trên mặt phẳng tọa độ, kí hiệu $\\ell(P)$ là đường thẳng đi qua $P$ với hệ số góc $2a$. Xét tập hợp các tam giác với các đỉnh có dạng $P_1 = (a_1, a_1^2)$, $P_2 = (a_2, a_2^2)$, $P_3 = (a_3, a_3^2)$ sao cho giao điểm của các đường thẳng $\\ell(P_1)$, $\\ell(P_2)$, $\\ell(P_3)$ tạo thành một tam giác đều $\\Delta$. Tìm quỹ tích tâm của tam giác đều $\\Delta$ khi $P_1P_2P_3$ thay đổi trên tất cả các tam giác thỏa mãn điều kiện trên.",
+    "topics": [
+     "hinh-hoc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2011-bai-4",
+    "label": "Bài 4",
+    "text": "Một xâu kí tự được định nghĩa là một chuỗi hữu hạn các chữ cái. Một xâu kí tự là một xâu đối xứng nếu đọc từ trái sang phải hay từ phải sang trái đều giống nhau. Cho một dãy các xâu kí tự $W_0$, $W_1$, $W_2$, $\\dots$ được xác định như sau: $W_0 = a$, $W_1 = b$, và với $n \\ge 2$, $W_n$ là xâu kí tự được tạo thành bằng cách viết $W_{n-2}$ rồi tiếp theo là $W_{n-1}$. Chứng minh rằng với mọi $n \\ge 1$, xâu kí tự được tạo thành bằng cách viết lần lượt $W_1$, $W_2$, $W_3$, $\\dots$, $W_n$ liên tiếp nhau là một xâu đối xứng.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "oly-usajmo-2011-bai-5",
+    "label": "Bài 5",
+    "text": "Các điểm $A$, $B$, $C$, $D$, $E$ nằm trên một đường tròn $\\omega$ và điểm $P$ nằm bên ngoài đường tròn. Các điểm đã cho thỏa mãn rằng (i) các đường thẳng $PB$ và $PD$ tiếp xúc với $\\omega$, (ii) $P$, $A$, $C$ thẳng hàng, và (iii) đoạn thẳng $DE$ song song với đoạn thẳng $AC$. Chứng minh rằng đoạn thẳng $BE$ chia đôi đoạn thẳng $AC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2011-bai-6",
+    "label": "Bài 6",
+    "text": "Xét khẳng định rằng với mỗi số nguyên dương $n \\ge 2$, số dư khi chia $2^{2^n}$ cho $2^n-1$ là một lũy thừa của $4$. Hãy chứng minh khẳng định trên hoặc tìm một phản ví dụ (có kèm theo chứng minh).",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "oly-usajmo-2010",
+  "kind": "olympic",
+  "title": "Olympic Toán Hoa Kỳ dành cho THCS (USAJMO) 2010",
+  "grade": 9,
+  "year": 2010,
+  "sourceName": "USA Junior Mathematical Olympiad 2010 (MAA); đề theo bản tổng hợp của Evan Chen",
+  "sourceUrl": "https://web.evanchen.cc/exams/JMO-2010-notes.pdf",
+  "problems": [
+   {
+    "id": "oly-usajmo-2010-bai-1",
+    "label": "Bài 1",
+    "text": "Cho $P(n)$ là số các hoán vị $(a_1, \\text{điểm dừng}, a_n)$ của các số $(1, 2, \\text{điểm dừng}, n)$ sao cho $ka_k$ là một số chính phương với mọi $1 \\le k \\le n$. Tìm số nguyên dương $n$ nhỏ nhất sao cho $P(n)$ là một bội số của $2010$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2010-bai-2",
+    "label": "Bài 2",
+    "text": "Cho $n > 1$ là một số nguyên. Tìm tất cả các dãy số nguyên dương $x_1, x_2, \text{điểm dừng}, x_{n-1}$ thỏa mãn ba tính chất sau: - $x_1 < x_2 < \text{điểm dừng} < x_{n-1}$; - $x_i + x_{n-i} = 2n$ với mọi $i = 1, 2, \text{điểm dừng}, n - 1$; - với mọi chỉ số $i$ và $j$ (không nhất thiết phân biệt) mà $x_i + x_j < 2n$, luôn tồn tại một chỉ số $k$ sao cho $x_i + x_j = x_k$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2010-bai-3",
+    "label": "Bài 3",
+    "text": "Cho $AXYZB$ là một ngũ giác lồi nội tiếp trong nửa đường tròn đường kính $AB$. Gọi $P, Q, R, S$ lần lượt là chân các đường vuông góc hạ từ $Y$ xuống các đường thẳng $AX, BX, AZ, BZ$. Chứng minh rằng góc nhọn tạo bởi hai đường thẳng $PQ$ và $RS$ có số đo bằng một nửa số đo của góc $\text{angle} XOZ$, trong đó $O$ là trung điểm của đoạn thẳng $AB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2010-bai-4",
+    "label": "Bài 4",
+    "text": "Một tam giác được gọi là tam giác parabol nếu các đỉnh của nó nằm trên parabol $y = x^2$. Chứng minh rằng với mọi số nguyên không âm $n$, tồn tại một số lẻ $m$ và một tam giác parabol có các đỉnh tại ba điểm phân biệt có tọa độ nguyên và có diện tích bằng $(2^nm)^2$.",
+    "topics": [
+     "so-hoc",
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2010-bai-5",
+    "label": "Bài 5",
+    "text": "Hai hoán vị $a_1, a_2, \\dots, a_{2010}$ và $b_1, b_2, \\dots, b_{2010}$ của các số $1, 2, \\dots, 2010$ được gọi là cắt nhau nếu $a_k = b_k$ với một giá trị $k$ nào đó thuộc khoảng $1 \\le k \\le 2010$. Chứng minh rằng tồn tại $1006$ hoán vị của các số $1, 2, \\dots, 2010$ sao cho bất kỳ hoán vị nào khác cũng chắc chắn cắt ít nhất một trong $1006$ hoán vị này.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "oly-usajmo-2010-bai-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác $ABC$ có $\text{angle} A = 90^\text{độ}$. Các điểm $D$ và $E$ lần lượt nằm trên các cạnh $AC$ và $AB$ sao cho $\text{angle} ABD = \text{angle} DBC$ và $\text{angle} ACE = \text{angle} ECB$. Các đoạn thẳng $BD$ và $CE$ cắt nhau tại $I$. Xác định xem các đoạn thẳng $AB, AC, BI, ID, CI, IE$ có đồng thời có độ dài là số nguyên hay không.",
+    "topics": [
+     "hinh-hoc",
+     "so-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ }
+]

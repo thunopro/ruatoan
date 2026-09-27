@@ -1,0 +1,31 @@
+[
+ {
+  "id": "_mau-cauchy-schwarz-engel",
+  "topic": "bat-dang-thuc",
+  "level": 2,
+  "title": "Bất đẳng thức Cauchy–Schwarz dạng Engel (Svác-xơ)",
+  "summary": "Vũ khí gộp các phân thức có tử là bình phương — dấu bằng dễ kiểm soát, dùng cực nhiều trong đề chuyên.",
+  "body": "## Phát biểu\nVới các số thực $a_1, \\dots, a_n$ và các số dương $b_1, \\dots, b_n$:\n$$\\frac{a_1^2}{b_1} + \\frac{a_2^2}{b_2} + \\dots + \\frac{a_n^2}{b_n} \\ge \\frac{(a_1 + a_2 + \\dots + a_n)^2}{b_1 + b_2 + \\dots + b_n}.$$\nDấu bằng xảy ra khi $\\dfrac{a_1}{b_1} = \\dfrac{a_2}{b_2} = \\dots = \\dfrac{a_n}{b_n}$.\n\n## Chứng minh nhanh (trường hợp 2 phân thức)\nQuy đồng và biến đổi tương đương, bất đẳng thức $\\frac{a^2}{x} + \\frac{b^2}{y} \\ge \\frac{(a+b)^2}{x+y}$ tương đương với $(ay - bx)^2 \\ge 0$, luôn đúng. Áp dụng liên tiếp ta được trường hợp tổng quát.\n\n## Bí kíp sử dụng\n- Khi tử chưa là bình phương, **nhân thêm** vào tử và mẫu: $\\frac{a}{b} = \\frac{a^2}{ab}$.\n- Luôn **dự đoán dấu bằng** trước để chọn cách ghép.\n- Kết hợp với $ab + bc + ca \\le \\frac{(a+b+c)^2}{3}$ để đánh giá mẫu.",
+  "examples": [
+   {
+    "text": "Cho $a, b, c > 0$. Chứng minh $\\dfrac{a}{b+c} + \\dfrac{b}{c+a} + \\dfrac{c}{a+b} \\ge \\dfrac32$ (bất đẳng thức Nesbitt)."
+   },
+   {
+    "text": "Cho $x, y, z > 0$ và $x + y + z = 1$. Tìm giá trị nhỏ nhất của $P = \\dfrac{1}{x} + \\dfrac{4}{y} + \\dfrac{9}{z}$."
+   }
+  ]
+ },
+ {
+  "id": "_mau-dong-du-thuc",
+  "topic": "so-hoc",
+  "level": 1,
+  "title": "Đồng dư thức và bài toán chia hết",
+  "summary": "Thay vì làm việc với số khổng lồ, chỉ cần theo dõi số dư — nhanh, gọn, chắc chắn.",
+  "body": "## Định nghĩa\nTa viết $a \\equiv b \\pmod m$ nếu $a$ và $b$ có cùng số dư khi chia cho $m$, tức $m \\mid a - b$.\n\n## Tính chất quan trọng\n- Cộng, trừ, nhân vế theo vế: nếu $a \\equiv b$ và $c \\equiv d \\pmod m$ thì $a \\pm c \\equiv b \\pm d$, $ac \\equiv bd \\pmod m$.\n- Lũy thừa: $a \\equiv b \\pmod m \\Rightarrow a^n \\equiv b^n \\pmod m$.\n- Định lí Fermat nhỏ: $p$ nguyên tố, $p \\nmid a$ thì $a^{p-1} \\equiv 1 \\pmod p$.",
+  "examples": [
+   {
+    "text": "Tìm số dư khi chia $2^{2025}$ cho $7$."
+   }
+  ]
+ }
+]

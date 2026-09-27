@@ -1,0 +1,189 @@
+[
+ {
+  "id": "phuong-trinh-vo-ti-nang-luy-thua",
+  "topic": "phuong-trinh",
+  "level": 1,
+  "title": "Phương trình vô tỉ: nâng lũy thừa",
+  "summary": "Bình phương hoặc lập phương hai vế đúng cách, giữ điều kiện để không sinh nghiệm ngoại lai.",
+  "body": "## Ý tưởng cốt lõi\n\nCách tự nhiên nhất để khử căn là nâng hai vế lên lũy thừa. Với căn bậc chẵn, phép bình phương chỉ là biến đổi **tương đương** khi hai vế cùng không âm; nếu không, ta phải ghi điều kiện hoặc thử lại nghiệm.\n\nVới căn bậc ba, lập phương luôn tương đương, nhưng nếu trong quá trình ta **thay** một biểu thức bằng giá trị của nó (như thay $u + v$ bằng hằng số), phép biến đổi chỉ còn là hệ quả, cần thử lại.\n\n## Công thức / định lí\n\n- $\\sqrt{A} = B \\Leftrightarrow B \\ge 0$ và $A = B^2$.\n- $\\sqrt A = \\sqrt B \\Leftrightarrow A = B \\ge 0$ (chỉ cần một trong hai vế không âm).\n- $\\sqrt A + \\sqrt B = C$: chuyển vế sao cho hai vế không âm rồi bình phương từng bước.\n- $\\sqrt[3]{A} = B \\Leftrightarrow A = B^3$.\n- $\\left(\\sqrt[3]{A} + \\sqrt[3]{B}\\right)^3 = A + B + 3\\sqrt[3]{AB}\\left(\\sqrt[3]A + \\sqrt[3]B\\right)$.\n\n## Mẹo ninja\n\n- Luôn ghi điều kiện xác định trước khi biến đổi.\n- Trước khi bình phương, sắp xếp để mỗi vế có ít căn nhất và cả hai vế không âm.\n- Nếu đã dùng phép biến đổi hệ quả, **bắt buộc thử lại** nghiệm vào phương trình ban đầu.\n- Nâng lũy thừa làm bậc tăng nhanh; nếu thấy bậc lên quá $4$, hãy nghĩ tới ẩn phụ hoặc liên hợp.",
+  "examples": [
+   {
+    "text": "Giải phương trình $\\sqrt{2x + 3} = x$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt{x + 3} - \\sqrt{x - 2} = 1$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt[3]{x + 1} + \\sqrt[3]{7 - x} = 2$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-vo-ti-an-phu",
+  "topic": "phuong-trinh",
+  "level": 2,
+  "title": "Phương trình vô tỉ: đặt ẩn phụ",
+  "summary": "Đặt một ẩn phụ để hạ bậc, hai ẩn phụ để đưa về phương trình đẳng cấp hoặc hệ phương trình.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi một biểu thức chứa căn lặp lại (trực tiếp hoặc qua bình phương của nó), đặt nó bằng $t$ để có phương trình đại số đơn giản.\n\nKhi có hai căn \"khác loại\", đặt hai ẩn phụ $u, v$: phương trình đã cho là một quan hệ giữa $u, v$; quan hệ thứ hai lấy từ việc khử $x$ (ví dụ $u^3 + v^2 = $ hằng số). Ta được một hệ hai ẩn dễ giải.\n\n## Công thức / định lí\n\n- Dạng $af(x) + b\\sqrt{f(x)} + c = 0$: đặt $t = \\sqrt{f(x)} \\ge 0$.\n- Dạng $\\alpha P(x) + \\beta Q(x) = \\gamma\\sqrt{P(x)Q(x)}$: đặt $u = \\sqrt{P}$, $v = \\sqrt{Q}$, được phương trình đẳng cấp $\\alpha u^2 + \\beta v^2 = \\gamma uv$.\n- Phân tích hay dùng: $x^3 + 1 = (x + 1)(x^2 - x + 1)$, $x^4 + x^2 + 1 = (x^2 + x + 1)(x^2 - x + 1)$.\n- Dạng $\\sqrt[m]{a - f(x)} + \\sqrt[n]{b + f(x)} = c$: đặt hai ẩn, khử $x$ bằng $u^m + v^n = a + b$.\n\n## Mẹo ninja\n\n- Ghi điều kiện của ẩn phụ ($t \\ge 0$, hoặc miền giá trị chặt hơn) và loại nghiệm $t$ không thỏa.\n- Với dạng đẳng cấp, chia cho $v^2$ (sau khi kiểm tra $v \\ne 0$) để có phương trình theo $\\frac uv$.\n- Khi biểu thức trong căn là tích, thử viết biểu thức ngoài căn thành tổ hợp tuyến tính của hai thừa số.",
+  "examples": [
+   {
+    "text": "Giải phương trình $x^2 + x + \\sqrt{x^2 + x + 2} = 4$."
+   },
+   {
+    "text": "Giải phương trình $2(x^2 + 2) = 5\\sqrt{x^3 + 1}$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt[3]{2 - x} = 1 - \\sqrt{x - 1}$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-vo-ti-lien-hop",
+  "topic": "phuong-trinh",
+  "level": 3,
+  "title": "Phương trình vô tỉ: nhân liên hợp",
+  "summary": "Nhẩm nghiệm, tách để xuất hiện nhân tử chung bằng liên hợp, rồi chứng minh phần còn lại vô nghiệm.",
+  "body": "## Ý tưởng cốt lõi\n\nNếu nhẩm được nghiệm $x_0$, ta muốn tách ra nhân tử $x - x_0$. Với căn thức, nhân tử này xuất hiện qua liên hợp:\n\n$$\\sqrt{A} - \\sqrt{B} = \\frac{A - B}{\\sqrt A + \\sqrt B}.$$\n\nKhi phương trình có hai nghiệm $x_1, x_2$, thay mỗi căn $\\sqrt{f(x)}$ bằng $\\sqrt{f(x)} - (ax + b)$ với $ax + b$ là đường thẳng đi qua hai điểm $\\left(x_i, \\sqrt{f(x_i)}\\right)$; liên hợp khi đó cho nhân tử bậc hai chứa cả hai nghiệm.\n\n## Công thức / định lí\n\n- $\\sqrt A - B = \\dfrac{A - B^2}{\\sqrt A + B}$ (khi $\\sqrt A + B \\ne 0$).\n- $\\sqrt[3]A - B = \\dfrac{A - B^3}{\\sqrt[3]{A^2} + B\\sqrt[3]A + B^2}$.\n- Sau khi tách: $(x - x_0) \\cdot g(x) = 0$; cần chứng minh $g(x) \\ne 0$ trên miền xác định, thường bằng cách chỉ ra $g(x) > 0$.\n\n## Mẹo ninja\n\n- Dùng máy tính để nhẩm nghiệm, nhưng lời giải phải hoàn toàn đại số.\n- Chọn hằng số ghép sao cho mẫu liên hợp **luôn dương** trên miền xác định; điều này giúp đánh giá $g(x)$ dễ dàng.\n- Đừng quên chứng minh phần $g(x) = 0$ vô nghiệm; bỏ bước này bài giải bị xem là chưa hoàn chỉnh.\n- Nếu nghiệm là số vô tỉ, liên hợp đơn khó dùng; hãy chuyển sang ẩn phụ.",
+  "examples": [
+   {
+    "text": "Giải phương trình $\\sqrt{x + 3} - \\sqrt{3x + 1} = x - 1$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt{3x + 1} - \\sqrt{6 - x} + 3x^2 - 14x - 8 = 0$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt{x + 2} + \\sqrt{3 - x} = x^2 - x + 1$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-phuong-phap-danh-gia",
+  "topic": "phuong-trinh",
+  "level": 3,
+  "title": "Phương pháp đánh giá và hàm đơn điệu",
+  "summary": "Chứng minh vế trái $\\le$ một hằng số $\\le$ vế phải, dùng tổng bình phương bằng $0$, hoặc tính đơn điệu để khẳng định nghiệm duy nhất.",
+  "body": "## Ý tưởng cốt lõi\n\nKhi các phép biến đổi đại số quá cồng kềnh, hãy **so sánh** hai vế thay vì biến đổi:\n\n- Nếu $VT \\le m \\le VP$ thì phương trình tương đương hệ $VT = m$ và $VP = m$.\n- Viết phương trình thành tổng các bình phương (hoặc các đại lượng không âm) bằng $0$.\n- Nếu một vế đồng biến, vế kia nghịch biến (hoặc hằng số) thì phương trình có nhiều nhất một nghiệm; nhẩm được nghiệm là xong.\n\n## Công thức / định lí\n\n- $\\sqrt a + \\sqrt b \\le \\sqrt{2(a + b)}$ với $a, b \\ge 0$, dấu bằng khi $a = b$.\n- $a + b \\ge 2\\sqrt{ab}$ với $a, b \\ge 0$.\n- Tạo bình phương đúng với căn: $t - 2\\sqrt t + 1 = \\left(\\sqrt t - 1\\right)^2$, chẳng hạn $x - k - 2\\sqrt{x - k} + 1 = \\left(\\sqrt{x - k} - 1\\right)^2$.\n- Nếu $f$ đồng biến trên $D$ thì $f(x) = f(x_0)$ có nghiệm duy nhất $x = x_0$ trên $D$.\n- Tổng hoặc hợp của các hàm đồng biến (như $\\sqrt{ax + b}$ với $a > 0$) là đồng biến.\n\n## Mẹo ninja\n\n- Dấu hiệu nên đánh giá: phương trình có nhiều căn khác loại, vế kia là tam thức có dạng $(x - a)^2 + m$.\n- Trong trình bày THCS, chứng minh tính đơn điệu bằng định nghĩa: với $x_1 < x_2$ thì $f(x_1) < f(x_2)$.\n- Luôn kiểm tra các điều kiện dấu bằng xảy ra **đồng thời**.",
+  "examples": [
+   {
+    "text": "Giải phương trình $\\sqrt{x - 2} + \\sqrt{4 - x} = x^2 - 6x + 11$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt x + \\sqrt{y - 1} + \\sqrt{z - 2} = \\dfrac12(x + y + z)$."
+   },
+   {
+    "text": "Giải phương trình $\\sqrt{4x - 1} + \\sqrt{4x^2 - 1} = 1$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-bac-bon-dac-biet",
+  "topic": "phuong-trinh",
+  "level": 2,
+  "title": "Phương trình bậc bốn đặc biệt",
+  "summary": "Các dạng bậc bốn giải được: tích bốn thừa số ghép cặp, phương trình hồi quy (đối xứng hệ số), tổng hai lũy thừa bậc bốn.",
+  "body": "## Ý tưởng cốt lõi\n\nPhương trình bậc bốn tổng quát rất khó, nhưng đề thi chỉ dùng vài dạng có cấu trúc đặc biệt, mỗi dạng có một ẩn phụ \"đo ni đóng giày\":\n\n- $(x + a)(x + b)(x + c)(x + d) = m$ với $a + d = b + c$: đặt $t = (x + a)(x + d)$ hoặc trung bình của hai cụm.\n- Phương trình hồi quy $ax^4 + bx^3 + cx^2 + bx + a = 0$: chia cho $x^2$, đặt $t = x + \\frac1x$.\n- $(x + a)^4 + (x + b)^4 = m$: đặt $y = x + \\frac{a + b}{2}$ để triệt tiêu các hạng tử bậc lẻ.\n\n## Công thức / định lí\n\n- $x^2 + \\dfrac{1}{x^2} = t^2 - 2$ khi $t = x + \\dfrac1x$; điều kiện có nghiệm thực $|t| \\ge 2$.\n- Hồi quy tổng quát $ax^4 + bx^3 + cx^2 + kbx + k^2a = 0$: đặt $t = x + \\dfrac kx$, khi đó $x^2 + \\dfrac{k^2}{x^2} = t^2 - 2k$.\n- $(y - 1)^4 + (y + 1)^4 = 2y^4 + 12y^2 + 2$.\n- Trùng phương $ax^4 + bx^2 + c = 0$: đặt $t = x^2 \\ge 0$.\n\n## Mẹo ninja\n\n- Với phương trình hồi quy, kiểm tra $x = 0$ không là nghiệm trước khi chia.\n- Sau khi tìm $t$, loại các giá trị $|t| < 2$ (với $t = x + \\frac1x$) vì không cho nghiệm thực.\n- Khi ghép cặp, chọn cặp có tổng hằng số bằng nhau: $(x+1)(x+4)$ và $(x+2)(x+3)$.",
+  "examples": [
+   {
+    "text": "Giải phương trình $(x + 1)(x + 2)(x + 3)(x + 4) = 3$."
+   },
+   {
+    "text": "Giải phương trình $2x^4 + 3x^3 - 16x^2 + 3x + 2 = 0$."
+   },
+   {
+    "text": "Giải phương trình $(x + 3)^4 + (x + 5)^4 = 2$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-he-doi-xung-loai-1",
+  "topic": "phuong-trinh",
+  "level": 2,
+  "title": "Hệ phương trình đối xứng loại I",
+  "summary": "Hệ không đổi khi hoán vị $x$ và $y$: đặt $S = x + y$, $P = xy$ với điều kiện $S^2 \\ge 4P$.",
+  "body": "## Ý tưởng cốt lõi\n\nMọi biểu thức đối xứng theo $x, y$ đều viết được qua $S = x + y$ và $P = xy$. Hệ đối xứng loại I (mỗi phương trình đều đối xứng) vì vậy trở thành hệ theo $S, P$, thường đơn giản hơn nhiều.\n\nCó $S, P$ rồi, $x$ và $y$ là hai nghiệm của phương trình $X^2 - SX + P = 0$. Điều kiện để có $x, y$ thực là $S^2 - 4P \\ge 0$.\n\n## Công thức / định lí\n\n- $x^2 + y^2 = S^2 - 2P$, $x^3 + y^3 = S^3 - 3SP$, $x^2y + xy^2 = SP$.\n- $x, y$ là nghiệm của $X^2 - SX + P = 0$; có nghiệm thực khi $S^2 \\ge 4P$.\n- Nếu $(x, y) = (a, b)$ là nghiệm thì $(b, a)$ cũng là nghiệm.\n\n## Mẹo ninja\n\n- Đừng quên loại các cặp $(S, P)$ vi phạm $S^2 \\ge 4P$.\n- Với hệ chứa căn như $\\sqrt x + \\sqrt y$, đặt $u = \\sqrt x$, $v = \\sqrt y$ rồi dùng $S, P$ theo $u, v$ (kèm $u, v \\ge 0$, tức $S \\ge 0$, $P \\ge 0$).\n- Bài có tham số: hệ có nghiệm khi và chỉ khi tồn tại cặp $(S, P)$ thỏa hệ mới **và** $S^2 \\ge 4P$.",
+  "examples": [
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} x + y + xy = 5 \\\\ x^2 + y^2 = 5 \\end{cases}$"
+   },
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} \\sqrt x + \\sqrt y = 4 \\\\ x + y - \\sqrt{xy} = 7 \\end{cases}$"
+   },
+   {
+    "text": "Tìm $m$ để hệ phương trình $\\begin{cases} x + y + xy = m \\\\ x^2y + xy^2 = m - 1 \\end{cases}$ có nghiệm."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-he-doi-xung-loai-2",
+  "topic": "phuong-trinh",
+  "level": 2,
+  "title": "Hệ phương trình đối xứng loại II",
+  "summary": "Hai phương trình đổi chỗ cho nhau khi hoán vị $x$, $y$: trừ vế để được nhân tử $x - y$.",
+  "body": "## Ý tưởng cốt lõi\n\nTrong hệ đối xứng loại II, hoán vị $x \\leftrightarrow y$ biến phương trình này thành phương trình kia. Trừ vế theo vế, ta luôn được một phương trình có nhân tử $x - y$:\n\n$$(x - y) \\cdot g(x, y) = 0.$$\n\nTrường hợp $x = y$ cho một phương trình một ẩn. Trường hợp $g(x, y) = 0$ thường kết hợp với phép **cộng** vế hai phương trình để giải, hoặc chứng minh $g(x, y) \\ne 0$.\n\n## Công thức / định lí\n\n- $x^2 - y^2 = (x - y)(x + y)$, $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$.\n- $\\sqrt{f(x)} - \\sqrt{f(y)} = \\dfrac{f(x) - f(y)}{\\sqrt{f(x)} + \\sqrt{f(y)}}$ để tách $x - y$ trong hệ chứa căn.\n- Nếu $f$ đồng biến và $f(x) = f(y)$ thì $x = y$.\n\n## Mẹo ninja\n\n- Sau khi trừ vế, nếu $g(x, y)$ có dấu xác định (luôn dương hoặc luôn âm) thì kết luận ngay $x = y$.\n- Khi $g(x, y) = 0$ cho một quan hệ đối xứng, cộng hai phương trình để có thêm một phương trình đối xứng và dùng $S, P$.\n- Kiểm tra kĩ không bỏ sót nghiệm $x \\ne y$.",
+  "examples": [
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} x^2 = 3x + 2y \\\\ y^2 = 3y + 2x \\end{cases}$"
+   },
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} x^3 = 2x + y \\\\ y^3 = 2y + x \\end{cases}$"
+   },
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} \\sqrt{x + 5} + \\sqrt{y - 2} = 7 \\\\ \\sqrt{y + 5} + \\sqrt{x - 2} = 7 \\end{cases}$"
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-he-dang-cap",
+  "topic": "phuong-trinh",
+  "level": 3,
+  "title": "Hệ phương trình đẳng cấp",
+  "summary": "Hệ mà các vế trái là đa thức thuần nhất: khử hằng số để được phương trình theo tỉ số $t = \\frac xy$.",
+  "body": "## Ý tưởng cốt lõi\n\nĐa thức đẳng cấp bậc $k$ theo $x, y$ có mọi hạng tử cùng bậc $k$. Khi hệ có dạng \"đẳng cấp = hằng số\", ta nhân chéo các phương trình để **khử hằng số**, thu được một phương trình đẳng cấp bằng $0$. Chia cho $y^k$ (sau khi xét $y = 0$) được phương trình theo $t = \\frac xy$.\n\nNhiều hệ \"ẩn\" dạng đẳng cấp: các vế có bậc khác nhau nhưng thay hằng số bằng biểu thức từ phương trình kia sẽ cân bằng bậc.\n\n## Công thức / định lí\n\n- Nếu $\\begin{cases} f(x, y) = a \\\\ g(x, y) = b \\end{cases}$ với $f, g$ đẳng cấp cùng bậc thì $b f(x, y) - a g(x, y) = 0$ là phương trình đẳng cấp.\n- Phương trình đẳng cấp $a_0x^k + a_1x^{k-1}y + \\cdots + a_ky^k = 0$ với $y \\ne 0$ tương đương $a_0t^k + a_1t^{k-1} + \\cdots + a_k = 0$, $t = \\frac xy$.\n- Có thể thay hằng số: nếu $g(x, y) = c$ thì $1 = \\frac{g(x,y)}{c}$ để nâng bậc.\n\n## Mẹo ninja\n\n- Luôn xét riêng $y = 0$ (hoặc $x = 0$) trước khi chia.\n- Đặt $x = ty$ và thay vào một phương trình ban đầu để tìm $y$.\n- Nhẩm nghiệm của phương trình theo $t$ bằng các ước của hệ số, rồi dùng Horner để hạ bậc.",
+  "examples": [
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} x^2 - xy + y^2 = 3 \\\\ 2x^2 - 3xy + 4y^2 = 9 \\end{cases}$"
+   },
+   {
+    "text": "Giải hệ phương trình $\\begin{cases} x^3 + 2xy^2 = 12y \\\\ 8y^2 + x^2 = 12 \\end{cases}$"
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-vi-et-tham-so",
+  "topic": "phuong-trinh",
+  "level": 2,
+  "title": "Định lí Vi-ét nâng cao và bài toán tham số",
+  "summary": "Tìm tham số để nghiệm thỏa một hệ thức, so sánh nghiệm với một số, và cực trị biểu thức nghiệm.",
+  "body": "## Ý tưởng cốt lõi\n\nVới phương trình bậc hai chứa tham số, quy trình chuẩn gồm ba bước:\n\n- Tìm điều kiện có nghiệm ($\\Delta \\ge 0$ hoặc $\\Delta > 0$, hệ số $a \\ne 0$).\n- Viết hệ thức đề cho theo $S = x_1 + x_2$ và $P = x_1x_2$ bằng Vi-ét.\n- Giải phương trình/bất phương trình theo tham số, **đối chiếu điều kiện** ở bước đầu.\n\nBài so sánh nghiệm với một số $\\alpha$ được đưa về dấu của $(x_1 - \\alpha)(x_2 - \\alpha)$ và $(x_1 - \\alpha) + (x_2 - \\alpha)$.\n\n## Công thức / định lí\n\n- Vi-ét: $x_1 + x_2 = -\\dfrac ba$, $x_1x_2 = \\dfrac ca$.\n- $x_1 < \\alpha < x_2 \\Leftrightarrow a \\cdot f(\\alpha) < 0 \\Leftrightarrow (x_1 - \\alpha)(x_2 - \\alpha) < 0$.\n- Hai nghiệm cùng lớn hơn $\\alpha$: $\\Delta \\ge 0$, $(x_1 - \\alpha)(x_2 - \\alpha) > 0$, $(x_1 - \\alpha) + (x_2 - \\alpha) > 0$.\n- $|x_1 - x_2| = \\dfrac{\\sqrt\\Delta}{|a|}$; $(x_1 - x_2)^2 = S^2 - 4P$.\n- Hệ thức giữa hai nghiệm không phụ thuộc tham số: khử tham số từ hai hệ thức Vi-ét.\n\n## Mẹo ninja\n\n- Lỗi phổ biến nhất: quên đối chiếu điều kiện $\\Delta \\ge 0$ sau khi giải ra tham số.\n- Với hệ thức không đối xứng (như $x_1 = 2x_2$ hay $x_1^2 + 2x_2 = \\ldots$), kết hợp với Vi-ét để giải ra từng nghiệm, hoặc dùng \"$x_1$ là nghiệm nên $x_1^2 = -bx_1/a - c/a$\" để hạ bậc.\n- Nếu $a$ và $c$ trái dấu thì phương trình luôn có hai nghiệm trái dấu, không cần tính $\\Delta$.",
+  "examples": [
+   {
+    "text": "Tìm $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 2 = 0$ có hai nghiệm $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$."
+   },
+   {
+    "text": "Cho phương trình $x^2 - 2mx + m - 2 = 0$. Chứng minh phương trình luôn có hai nghiệm phân biệt $x_1, x_2$ và tìm $m$ để $M = \\dfrac{-24}{x_1^2 + x_2^2 - 6x_1x_2}$ đạt giá trị nhỏ nhất."
+   },
+   {
+    "text": "Tìm $m$ để phương trình $x^2 - 2(m - 1)x + 2m - 5 = 0$ có hai nghiệm $x_1 < 2 < x_2$."
+   }
+  ]
+ },
+ {
+  "id": "phuong-trinh-gia-tri-tuyet-doi",
+  "topic": "phuong-trinh",
+  "level": 1,
+  "title": "Phương trình chứa dấu giá trị tuyệt đối",
+  "summary": "Phá dấu giá trị tuyệt đối bằng chia khoảng, bình phương hoặc bất đẳng thức $|a| + |b| \\ge |a + b|$.",
+  "body": "## Ý tưởng cốt lõi\n\nCó ba cách xử lí dấu giá trị tuyệt đối:\n\n- **Chia khoảng:** lập bảng xét dấu các biểu thức trong dấu $|\\cdot|$, giải trên từng khoảng.\n- **Dùng định nghĩa:** $|A| = B \\Leftrightarrow B \\ge 0$ và $A = \\pm B$.\n- **Đánh giá:** bất đẳng thức tam giác $|a| + |b| \\ge |a + b|$, dấu bằng khi $ab \\ge 0$.\n\n## Công thức / định lí\n\n- $|A| = B \\Leftrightarrow \\begin{cases} B \\ge 0 \\\\ A = B \\ \\text{hoặc}\\ A = -B \\end{cases}$\n- $|A| = |B| \\Leftrightarrow A = B$ hoặc $A = -B$.\n- $|a| + |b| \\ge |a + b|$, dấu bằng khi $ab \\ge 0$; $|a| - |b| \\le |a - b|$.\n- $|x - a| + |x - b| \\ge |a - b|$, dấu bằng khi $x$ nằm giữa $a$ và $b$.\n\n## Mẹo ninja\n\n- Khi chia khoảng, nghiệm tìm được phải thuộc đúng khoảng đang xét.\n- Nhiều dấu giá trị tuyệt đối dạng $|x - a_1| + \\cdots + |x - a_n|$: dùng ý nghĩa khoảng cách trên trục số hoặc bất đẳng thức tam giác thay vì chia nhiều khoảng.\n- Với $|f(x)| = g(x)$, ghi điều kiện $g(x) \\ge 0$ trước tiên để loại nghiệm nhanh.",
+  "examples": [
+   {
+    "text": "Giải phương trình $|x - 1| + |x - 3| = 2x - 2$."
+   },
+   {
+    "text": "Giải phương trình $|x^2 - 4x + 3| = x - 1$."
+   },
+   {
+    "text": "Giải phương trình $|x - 1| + |x - 2| + |x - 3| = 2$."
+   }
+  ]
+ }
+]
