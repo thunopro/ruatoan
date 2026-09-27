@@ -1,4 +1,4 @@
-# toanthcs-hard — content spec (shared contract between crawlers and the web)
+# ruatoan — content spec (shared contract between crawlers and the web)
 
 App: "Rùa Toán" — kho toán nâng cao THCS (HSG lớp 6–9, thi vào 10 chuyên, tạp chí, chuyên đề).
 Web tối giản, từ ngữ thông dụng. Chỉ hiện đề bài (không lời giải, không độ khó); học sinh nộp bài bằng ảnh chụp (lưu trên máy).

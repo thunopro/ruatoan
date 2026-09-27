@@ -6,7 +6,7 @@ import sys, os, json, hashlib, requests, urllib.parse as up, time, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch as F
 CACHE = os.path.join(F.ROOT, '.cache/books/olib'); os.makedirs(CACHE, exist_ok=True)
-UA = {'User-Agent': 'toanthcs-hard-catalog/1.0 (metadata lookup)'}
+UA = {'User-Agent': 'ruatoan-catalog/1.0 (metadata lookup)'}
 
 def search(title, author):
     u = 'https://openlibrary.org/search.json?limit=5&fields=key,title,author_name,first_publish_year,isbn,edition_count&title=' + up.quote(title) + ('&author=' + up.quote(author) if author else '')

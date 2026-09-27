@@ -1,4 +1,4 @@
-# REVIEW — toanthcs-hard ("Ninja Rùa Toán")
+# REVIEW — ruatoan ("Ninja Rùa Toán")
 
 Reviewed 2026-09-17 ~16:40–17:00 against the working tree (in-flight). Nothing else was edited.
 State at review time: `content/sources` = 3 collections / 40 problems (toanmath-hsg 1, toanmath-chuyen 2), catalog 1780 exams,

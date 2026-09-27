@@ -14,8 +14,8 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
-CACHE_DIR = Path("/home/luongminhthu/Documents/code/my_app/toanthcs-hard/.cache/books")
-BOOKS_FILE = Path("/home/luongminhthu/Documents/code/my_app/toanthcs-hard/content/books.json")
+CACHE_DIR = Path("/home/luongminhthu/Documents/code/my_app/ruatoan/.cache/books")
+BOOKS_FILE = Path("/home/luongminhthu/Documents/code/my_app/ruatoan/content/books.json")
 GRADES_6_9 = (6, 7, 8, 9, 10)  # 10 = vào 10 chuyên
 
 

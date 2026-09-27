@@ -1,4 +1,4 @@
-"""Shared helpers for toanthcs-hard crawlers. Import with sys.path.insert(0, 'scripts/lib')."""
+"""Shared helpers for ruatoan crawlers. Import with sys.path.insert(0, 'scripts/lib')."""
 import json, os, re, time, unicodedata
 from pathlib import Path
 

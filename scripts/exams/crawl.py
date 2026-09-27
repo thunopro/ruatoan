@@ -12,7 +12,7 @@ CATS = {15: 9, 35: 8, 40: 7, 38: 6, 13: 10}
 OUT = SCRATCH / 'exams'
 PDF_DIR = SCRATCH / 'pdf'
 CATALOG = OUT / 'catalog.json'
-UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) toanthcs-hard crawler', 'Accept-Encoding': 'gzip, deflate'}
+UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ruatoan crawler', 'Accept-Encoding': 'gzip, deflate'}
 PDF_RE = re.compile(r'https?://(?:[a-z]+\.)?toanmath\.com/[\w\-/]*?-pdf/[^"\'\s<>?#]+?\.pdf', re.I)
 
 

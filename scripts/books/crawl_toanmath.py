@@ -5,7 +5,7 @@ import json, os, sys, time, hashlib, requests
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CACHE = os.path.join(ROOT, '.cache/books/wp')
 os.makedirs(CACHE, exist_ok=True)
-UA = {'User-Agent': 'Mozilla/5.0 (toanthcs-hard catalog bot)'}
+UA = {'User-Agent': 'Mozilla/5.0 (ruatoan catalog bot)'}
 
 def get(url):
     fn = os.path.join(CACHE, hashlib.md5(url.encode()).hexdigest() + '.json')
