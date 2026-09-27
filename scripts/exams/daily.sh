@@ -9,6 +9,7 @@ rm -f .cache/exams/claude/*.claim
 python3 scripts/exams/crawl.py >> $LOG 2>&1
 LANES=flash,lite CONC=40 python3 scripts/exams/ingest.py >> $LOG 2>&1
 python3 scripts/exams/postfilter.py >> $LOG 2>&1
+pgrep -f "scripts/chuyende/run.py" >/dev/null || CONC=60 DOCS=20 python3 scripts/chuyende/run.py >> $LOG 2>&1
 git add -A content && git commit -qm "content: daily exam ingest $(date +%F)" >> $LOG 2>&1 && git push -q >> $LOG 2>&1
 vercel --prod --yes >> $LOG 2>&1
 if tail -5 $LOG | grep -qE "DONE .* left 0|STOPPED .* left 0"; then

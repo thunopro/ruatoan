@@ -2838,6 +2838,299 @@
   ]
  },
  {
+  "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Phân số trong bồi dưỡng học sinh giỏi lớp 6 (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2024/11/bai-toan-phan-so-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-1",
+    "label": "Bài 1",
+    "text": "Hãng ô tô Vinfat có chính sách bán hàng theo hình thức trả góp hàng tháng như sau:\n- Số tiền gốc mỗi tháng phải trả = tổng số khoản vay / kỳ hạn vay (tính theo tháng)\n- Số tiền lãi hàng tháng phải trả = dư nợ thực tế $\\times$ lãi suất tháng\nBiết rằng: Lãi suất tháng = lãi suất ngân hàng theo năm / 12 tháng.\nMột khách hàng ký kết hợp đồng mua ô tô vay trả góp 600 triệu đồng với kỳ hạn 5 năm, lãi suất ngân hàng là 6%/năm.\na) Tính số tiền cả gốc và lãi mà khách hàng phải trả trong tháng đầu tiên, tháng thứ hai?\nb) Tính tổng số tiền cả gốc và lãi mà khách hàng phải trả cho đến khi trả hết nợ?",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-2",
+    "label": "Bài 2",
+    "text": "Bạn Nga đọc một cuốn sách trong 3 ngày. Ngày thứ nhất đọc được $\\dfrac{1}{4}$ số trang của cuốn sách. Ngày thứ hai đọc được $\\dfrac{4}{5}$ số trang còn lại. Ngày thứ ba đọc 30 trang cuối cùng.\na) Tính số trang của quyển sách.\nb) Quyển sách đó có giá là 80.000 đồng. Khi mua quyển sách, Nga được giảm giá 20%. Tính số tiền mà Nga phải trả cho cô bán hàng?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-3",
+    "label": "Bài 3",
+    "text": "Tổng của hai số là 2015, biết $\\dfrac{6}{7}$ của $\\dfrac{2}{3}$ số thứ nhất nhiều hơn $\\dfrac{5}{6}$ của $\\dfrac{4}{5}$ số thứ hai là 52. Tìm mỗi số.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-4",
+    "label": "Bài 4",
+    "text": "Vào tháng 9, giá bán một chiếc máy tính là 24.000.000 đồng. Đến tháng 10, cửa hàng tăng giá lên 20%. Đến tháng 11, cửa hàng hạ giá của tháng 10 xuống 20%. Hỏi giá bán của chiếc máy tính đó vào tháng 9 và tháng 11, tháng nào đắt hơn?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-5",
+    "label": "Bài 5",
+    "text": "Tìm 3 số có tổng bằng 210, biết rằng $\\dfrac{6}{7}$ số thứ nhất bằng $\\dfrac{9}{11}$ số thứ hai và $\\dfrac{9}{11}$ số thứ hai bằng $\\dfrac{2}{3}$ số thứ ba.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-6",
+    "label": "Bài 6",
+    "text": "Cho các số $a, b, c \\ne 0$ thỏa mãn $a+b+c = 2022$ và $\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{2021}{2022}$. Tính $M = \\dfrac{bc}{a} + \\dfrac{ac}{b} + \\dfrac{ab}{c}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-7",
+    "label": "Bài 7",
+    "text": "Tổng số trang của 8 quyển vở loại 1; 9 quyển vở loại 2 và 5 quyển vở loại 3 là 1980 trang. Số trang của một quyển vở loại 2 chỉ bằng $\\dfrac{2}{3}$ số trang của 1 quyển vở loại 1. Số trang của 4 quyển vở loại 3 bằng số trang của 3 quyển vở loại 2. Tính số trang của mỗi quyển vở mỗi loại.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-8",
+    "label": "Bài 8",
+    "text": "Kỳ thi HSG có 500 học sinh thuộc khối 6, 7, 8. Biết khối 6 có 30% tổng số học sinh và $\\dfrac{10}{17}$ số học sinh khối 7 bằng $\\dfrac{5}{9}$ số học sinh khối 8. Hỏi mỗi khối có bao nhiêu học sinh dự thi?",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-9",
+    "label": "Bài 9",
+    "text": "Tìm hai số biết tỉ số của chúng bằng 5:8 và tích của chúng bằng 360.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-10",
+    "label": "Bài 10",
+    "text": "Một người đi quãng đường AB dài 20 km. Biết 10 km đầu người đó đi với vận tốc 20 km/h và 10 km sau người đó đi với vận tốc 30 km/h. Hỏi vận tốc trung bình của người đó trên quãng đường AB là bao nhiêu?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-11",
+    "label": "Bài 11",
+    "text": "Cùng một công việc nếu mỗi người làm riêng thì 3 người A, B, C hoàn thành công việc trong thời gian lần lượt là 6 giờ, 8 giờ, 12 giờ. Hai người B và C làm chung trong 2 giờ sau đó người C chuyển đi làm việc khác, người A cùng làm với người B tiếp tục công việc cho đến khi hoàn thành. Hỏi người A làm trong mấy giờ?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-12",
+    "label": "Bài 12",
+    "text": "Tính giá trị của $\\dfrac{A}{B}$ biết $A = \\dfrac{1}{1.2} + \\dfrac{1}{3.4} + \\dots + \\dfrac{1}{101.102}$ và $B = \\dfrac{1}{52.102} + \\dfrac{1}{53.101} + \\dots + \\dfrac{1}{102.52}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-13",
+    "label": "Bài 13",
+    "text": "Trên con đường đi qua 3 địa điểm A, B, C (B nằm giữa A và C), có hai người đi xe máy là Hùng và Dũng. Hùng xuất phát từ A, Dũng xuất phát từ B. Họ cùng khởi hành lúc 8 giờ để cùng đến C vào lúc 11 giờ cùng ngày. Ninh đi xe đạp từ C về phía A, gặp Dũng lúc 9 giờ và gặp Hùng lúc 9 giờ 24 phút. Biết quãng đường AB dài 30 km, vận tốc của Ninh bằng $\\dfrac{1}{4}$ vận tốc của Hùng. Tính quãng đường BC.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-14",
+    "label": "Bài 14",
+    "text": "Thực hiện phép tính $A = \\dfrac{\\dfrac{1}{2019} + \\dfrac{1}{2020} + \\dfrac{1}{2021}}{\\dfrac{2}{2021} + \\dfrac{2}{2022} + \\dfrac{2}{2023}} - \\dfrac{\\dfrac{2}{2019} + \\dfrac{2}{2020} + \\dfrac{2}{2021}}{\\dfrac{3}{2021} + \\dfrac{3}{2022} + \\dfrac{3}{2023}}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-15",
+    "label": "Bài 15",
+    "text": "Ba máy bơm cùng bơm vào một bể lớn. Nếu dùng cả máy I và máy III thì sau 1 giờ 20 phút bể sẽ đầy, dùng cả máy II và III thì sau 1 giờ 30 phút bể sẽ đầy, dùng cả máy I và máy III thì sau 2 giờ 24 phút bể sẽ đầy. Hỏi nếu mỗi máy bơm được dùng một mình thì bể sẽ đầy trong bao lâu.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-16",
+    "label": "Bài 16",
+    "text": "Ba tổ công nhân trồng được tất cả 286 cây. Số cây tổ 1 bằng $\\dfrac{9}{10}$ số cây tổ 2 và số cây tổ 3 bằng $\\dfrac{24}{25}$ số cây tổ 2. Hỏi mỗi tổ trồng được bao nhiêu cây?",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-17",
+    "label": "Bài 17",
+    "text": "Cho biểu thức $A = \\dfrac{2n + 1}{n - 3} + \\dfrac{3n - 5}{n - 3} - \\dfrac{4n - 5}{n - 3}$. Tìm giá trị của $n$ để:\na) $A$ là một phân số.\nb) $A$ là một số nguyên.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-18",
+    "label": "Bài 18",
+    "text": "Lượng nước trong cỏ tươi là 60%, trong cỏ khô là 15%. Hỏi một tấn cỏ tươi có bao nhiêu cỏ khô?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-19",
+    "label": "Bài 19",
+    "text": "Với giá trị nào của số tự nhiên $a$ thì $\\dfrac{8a + 19}{4a + 1}$ có giá trị nguyên?",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-20",
+    "label": "Bài 20",
+    "text": "Cho hai biểu thức $M = \\dfrac{1}{1.2} + \\dfrac{1}{3.4} + \\dots + \\dfrac{1}{37.38}$ và $N = \\dfrac{1}{20.38} + \\dfrac{1}{21.37} + \\dots + \\dfrac{1}{38.20}$. Chứng minh rằng $\\dfrac{M}{N}$ là một số nguyên.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-21",
+    "label": "Bài 21",
+    "text": "Cho các số $a, b, c$ khác 0 thỏa mãn $a + b + c = 2022$ và $\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{2021}{2022}$. Tính $M = \\dfrac{b + c}{a} + \\dfrac{a + c}{b} + \\dfrac{a + b}{c}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-22",
+    "label": "Bài 22",
+    "text": "Cho $B = \\dfrac{n - 3}{n + 2}$ với $n \\in \\mathbb{Z}$.\na) Tìm điều kiện của $n$ để $B$ là một phân số.\nb) Tìm tất cả các số nguyên $n$ để $B$ có giá trị là một số nguyên.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-23",
+    "label": "Bài 23",
+    "text": "Có ba thùng gạo. Lấy $\\dfrac{1}{5}$ số gạo ở thùng A đổ vào thùng B, sau đó lấy $\\dfrac{1}{3}$ số gạo có tất cả ở thùng B đổ vào thùng C thì số gạo ở mỗi thùng đều bằng 20 kg. Hỏi lúc đầu mỗi thùng có bao nhiêu ki-lô-gam gạo?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-24",
+    "label": "Bài 24",
+    "text": "Xe máy thứ nhất đi từ A đến B mất 4 giờ, xe thứ hai đi từ B đến A mất 3 giờ. Nếu hai xe khởi hành cùng một lúc từ A và B thì sau 1,5 giờ hai xe sẽ còn cách nhau 15km (hai xe chưa gặp nhau). Tính quãng đường AB.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-25",
+    "label": "Bài 25",
+    "text": "Một người đi từ A đến B với vận tốc 24 km/h. Một lát sau một người khác cũng đi từ A đến B với vận tốc 40 km/h. Theo dự định hai người sẽ gặp nhau tại B nhưng khi đi được nửa quãng đường AB thì người thứ hai tăng vận tốc lên thành 48 km/h. Hỏi hai người sẽ gặp nhau tại địa điểm cách B bao nhiêu km? Biết rằng quãng đường AB dài 160 km.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-26",
+    "label": "Bài 26",
+    "text": "Lớp 6A có số học sinh Giỏi và Khá chiếm $\\dfrac{7}{12}$ số học sinh cả lớp. Số học sinh Giỏi và Trung bình chiếm $\\dfrac{5}{8}$ số học sinh cả lớp. Số học sinh Khá và Trung bình có 34 bạn, số học sinh giỏi hơn số học sinh Yếu là 10 bạn, lớp không có học sinh kém. Hỏi lớp 6A có bao nhiêu bạn học sinh Giỏi? bao nhiêu học sinh Khá? bao nhiêu học sinh Trung bình?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-27",
+    "label": "Bài 27",
+    "text": "Một lớp học có số học sinh nữ bằng $\\dfrac{5}{3}$ số học sinh nam. Nếu 10 học sinh nam chưa vào lớp thì số học sinh nữ gấp 7 lần số học sinh nam. Tìm số học sinh nam và nữ của lớp đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-28",
+    "label": "Bài 28",
+    "text": "Tìm 2 số biết rằng 70% số lớn hơn 85% số bé là 1 đơn vị và 68% số lớn hơn 42,5% số bé là 17 đơn vị.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-29",
+    "label": "Bài 29",
+    "text": "Ba đội xe phải chở một số bao xi măng cho công trường xây dựng, đội thứ nhất chở được $\\dfrac{2}{5}$ tổng số bao, đội thứ hai chở được 45% số bao còn lại, đội thứ ba chở được 140 bao, như vậy so với quy định cả 3 đội đã chở nhiều hơn 8 bao. Hỏi 3 đội chở được bao nhiêu bao xi măng?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-30",
+    "label": "Bài 30",
+    "text": "Cho $a, b$ là các số nguyên dương sao cho $a^2 + b^2$ chia hết cho tích $ab$. Hãy tìm thương của phép chia $a^2 + b^2$ cho $ab$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-15079-phan-so-trong-boi-duong-hoc-31",
+    "label": "Bài 31",
+    "text": "Trong đợt mua bút ủng hộ người khuyết tật, khối 6 của một trường mua một lượng bút nhất định. Lớp 6A mua $\\dfrac{2}{9}$ tổng số bút; lớp 6B mua $\\dfrac{3}{8}$ số bút còn lại; lớp 6C mua $\\dfrac{2}{5}$ số bút còn lại sau khi hai lớp 6A và 6B đã mua; lớp 6D mua hết số bút còn lại là 210 chiếc. Hỏi tổng số bút mà khối 6 trường đó đã mua là bao nhiêu chiếc?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-cd-6328-phan-so-va-cac-bai-toan",
   "kind": "chuyende",
   "title": "Chuyên đề: Phân số và các bài toán liên quan (tuyển chọn)",
@@ -3568,6 +3861,338 @@
      "dai-so"
     ],
     "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-15081-so-sanh-phan-so",
+  "kind": "chuyende",
+  "title": "Chuyên đề: So sánh phân số (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2024/11/bai-toan-so-sanh-phan-so-luy-thua-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-1",
+    "label": "Bài 1",
+    "text": "Tính tổng của các phân số lớn hơn $\\dfrac{1}{5}$ nhưng nhỏ hơn $\\dfrac{1}{4}$ và có tử số bằng 4.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng: $\\dfrac{1}{2^2} + \\dfrac{1}{3^2} + \\dots + \\dfrac{1}{100^2} < 1$",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-3",
+    "label": "Bài 3",
+    "text": "Có bao nhiêu cách để viết $\\dfrac{7}{12}$ thành tổng của hai phân số tối giản trong đó mẫu số của hai phân số khác nhau và đều không lớn hơn 12.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-4",
+    "label": "Bài 4",
+    "text": "Chứng minh rằng: $A = \\dfrac{1}{1+3} + \\dfrac{1}{1+3+5} + \\dfrac{1}{1+3+5+7} + \\dots + \\dfrac{1}{1+3+5+\\dots+2021} < \\dfrac{3}{4}$",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-5",
+    "label": "Bài 5",
+    "text": "So sánh: $A = \\dfrac{17^8 + 5}{17^8 - 8}$ và $B = \\dfrac{17^8 + 6}{17^8 - 7}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-6",
+    "label": "Bài 6",
+    "text": "Cho biểu thức: $T = \\dfrac{1}{2^1} + \\dfrac{2}{2^2} + \\dfrac{3}{2^3} + \\dots + \\dfrac{2019}{2^{2019}} + \\dfrac{2020}{2^{2020}}$. So sánh $T$ với $3$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-7",
+    "label": "Bài 7",
+    "text": "So sánh $P$ và $Q$, biết: $P = \\dfrac{2010}{2011} + \\dfrac{2011}{2012} + \\dfrac{2012}{2013}$ và $Q = \\dfrac{2010 + 2011 + 2012}{2011 + 2012 + 2013}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-8",
+    "label": "Bài 8",
+    "text": "So sánh $A = \\dfrac{1}{2} + \\dfrac{2}{2^2} + \\dfrac{3}{2^3} + \\dots + \\dfrac{2020}{2^{2020}}$ và $B = \\dfrac{a}{b} + \\dfrac{b}{a}$ (với $a, b \\in \\mathbb{N}^*$).",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-9",
+    "label": "Bài 9",
+    "text": "So sánh hai phân số $\\dfrac{a-1}{a}$ và $\\dfrac{b+1}{b}$ với $a, b$ là số nguyên cùng dấu và $a, b \\ne 0$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-10",
+    "label": "Bài 10",
+    "text": "Cho $M = \\dfrac{1}{2^2} + \\dfrac{1}{3^2} + \\dfrac{1}{4^2} + \\dots + \\dfrac{1}{2021^2}$. So sánh $M$ với $\\dfrac{2020}{2021}$",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-11",
+    "label": "Bài 11",
+    "text": "So sánh: $P = \\dfrac{326}{1955} + \\dfrac{988}{1975} + \\dfrac{662}{1985}$ và $Q = \\dfrac{3951}{3950} + \\dfrac{1}{5955} + \\dfrac{1}{11730}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-12",
+    "label": "Bài 12",
+    "text": "Cho $D = \\dfrac{2}{7^2} - \\dfrac{3}{7^3} + \\dfrac{4}{7^4} - \\dfrac{5}{7^5} + \\dots - \\dfrac{202}{7^{202}} + \\dfrac{203}{7^{203}}$. Hãy so sánh $D$ với $\\dfrac{1}{64}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-13",
+    "label": "Bài 13",
+    "text": "So sánh $A$ và $B$ biết: $A = \\dfrac{17^{18}+1}{17^{19}+1}$ và $B = \\dfrac{17^{17}+1}{17^{18}+1}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-14",
+    "label": "Bài 14",
+    "text": "So sánh các biểu thức sau: $P = \\dfrac{1+7+7^2+7^3+\\dots+7^{100}}{1+7+7^2+7^3+\\dots+7^{99}}$ và $Q = \\dfrac{1+9+9^2+9^3+\\dots+9^{100}}{1+9+9^2+9^3+\\dots+9^{99}}$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-15",
+    "label": "Bài 15",
+    "text": "Không quy đồng mẫu số, hãy so sánh hai phân số: $\\dfrac{37}{67}$ và $\\dfrac{377}{677}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-16",
+    "label": "Bài 16",
+    "text": "So sánh $C = 3^{2^{10}}$ với $D = 2^{3^{10}}$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-17",
+    "label": "Bài 17",
+    "text": "So sánh: a) $3^{200}$ và $2^{300}$. b) $71^{50}$ và $37^{75}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-18",
+    "label": "Bài 18",
+    "text": "Cho $A = 1 + 2012 + 2012^2 + 2012^3 + 2012^4 + \\dots + 2012^{71} + 2012^{72}$ và $B = 2012^{73} - 1$. So sánh $A$ và $B$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-19",
+    "label": "Bài 19",
+    "text": "Cho $A = \\dfrac{1}{1+3} + \\dfrac{1}{1+3+5} + \\dfrac{1}{1+3+5+7} + \\dots + \\dfrac{1}{1+3+5+7+\\dots+2017}$. Chứng minh $A < \\dfrac{3}{4}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-20",
+    "label": "Bài 20",
+    "text": "So sánh: $2^{2013}$ và $3^{1344}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-21",
+    "label": "Bài 21",
+    "text": "So sánh $S$ với 3, biết $S = \\dfrac{2011}{2012} + \\dfrac{2012}{2013} + \\dfrac{2013}{2011}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-22",
+    "label": "Bài 22",
+    "text": "So sánh: $E = \\dfrac{2018^{99}-1}{2018^{100}-1}$ và $F = \\dfrac{2018^{98}-1}{2018^{99}-1}$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-23",
+    "label": "Bài 23",
+    "text": "So sánh $\\dfrac{2011.2012 - 1}{2011.2012}$ và $\\dfrac{2012.2013 - 1}{2012.2013}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-24",
+    "label": "Bài 24",
+    "text": "So sánh $A = \\dfrac{2012^{37}+37^{2012}+1}{2012^{38}}$ và $B = \\dfrac{2012^{38}+37^{2012}+2}{2012^{39}}$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-25",
+    "label": "Bài 25",
+    "text": "So sánh: $A = \\dfrac{8056}{2012.16 - 1982}$ và $B = \\dfrac{1.2.6 + 2.4.12 + 4.8.24 + 7.14.42}{1.6.9 + 2.12.18 + 4.24.36 + 7.42.63}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-26",
+    "label": "Bài 26",
+    "text": "So sánh: $A = \\dfrac{4}{7} + \\dfrac{3}{7^2} + \\dfrac{5}{7^3} + \\dfrac{6}{7^4}$ và $B = \\dfrac{5}{7^4} + \\dfrac{6}{7^2} + \\dfrac{4}{7} + \\dfrac{5}{7^3}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-27",
+    "label": "Bài 27",
+    "text": "So sánh các biểu thức sau: $A = \\dfrac{10^{10}+1}{10^{10}-1}$ và $B = \\dfrac{10^{10}-1}{10^{10}-3}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-28",
+    "label": "Bài 28",
+    "text": "Cho tổng $T = \\dfrac{2}{2^1} + \\dfrac{3}{2^2} + \\dfrac{4}{2^3} + \\dots + \\dfrac{2016}{2^{2015}} + \\dfrac{2017}{2^{2016}}$. So sánh $T$ với 3.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-29",
+    "label": "Bài 29",
+    "text": "So sánh $M$ và $N$ biết: $M = \\dfrac{19^{30}+5}{19^{31}+5}$ và $N = \\dfrac{19^{31}+5}{19^{32}+5}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-30",
+    "label": "Bài 30",
+    "text": "So sánh $A = \\dfrac{1+5+5^2+\\dots+5^9}{1+5+5^2+\\dots+5^8}$ và $B = \\dfrac{1+3+3^2+\\dots+3^9}{1+3+3^2+\\dots+3^8}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-31",
+    "label": "Bài 31",
+    "text": "So sánh $A = \\dfrac{2^{18}-3}{2^{20}-3}$ và $B = \\dfrac{2^{20}-3}{2^{22}-3}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-32",
+    "label": "Bài 32",
+    "text": "So sánh: $M = \\dfrac{1999^{1999}+1}{1999^{2000}+1}$ và $N = \\dfrac{1999^{1989}+1}{1999^{2009}+1}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-33",
+    "label": "Bài 33",
+    "text": "Cho biểu thức $B = \\dfrac{1}{5^2} + \\dfrac{1}{6^2} + \\dfrac{1}{7^2} + \\dots + \\dfrac{1}{100^2}$. Chứng tỏ rằng $\\dfrac{1}{6} < B < \\dfrac{1}{4}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-34",
+    "label": "Bài 34",
+    "text": "Cho $D = 2021 - \\left( \\dfrac{1}{4} + \\dfrac{2}{5} + \\dfrac{3}{6} + \\dots + \\dfrac{2021}{2024} \\right)$ và $E = \\dfrac{1}{20} + \\dfrac{1}{25} + \\dfrac{1}{30} + \\dots + \\dfrac{1}{10120}$. So sánh $D$ và $E$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15081-so-sanh-phan-so-35",
+    "label": "Bài 35",
+    "text": "Cho $A = \\dfrac{1}{2} . \\dfrac{3}{4} . \\dfrac{5}{6} \\dots \\dfrac{9999}{10000}$. So sánh $A$ với 0,01.",
+    "topics": [
+     "dai-so",
+     "to-hop"
+    ],
+    "level": 3
    }
   ]
  },
@@ -17283,6 +17908,376 @@
   ]
  },
  {
+  "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Các bài toán chứng minh ba điểm thẳng hàng - ba đường thẳng đồng quy (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com – Nguyễn Công Lợi",
+  "sourceUrl": "https://thcs.toanmath.com/2021/03/cac-bai-toan-chung-minh-ba-diem-thang-hang-ba-duong-thang-dong-quy.html",
+  "problems": [
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-1",
+    "label": "Bài 1",
+    "text": "Cho hình thang $ABCD$ có $AB \\text{ // } CD$. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Gọi $M, N, P$ lần lượt là trung điểm của $AB, BC, AD$. Gọi $E$ là trung điểm của $PN$. Chứng minh rằng ba điểm $M, O, E$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-2",
+    "label": "Bài 2",
+    "text": "Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$. Lấy điểm $P$ nằm trên đường thẳng $AC$ sao cho $PB$ và $PD$ là hai tiếp tuyến của đường tròn. Tiếp tuyến tại $C$ cắt $PD$ và $AD$ lần lượt tại $Q$ và $R$. Gọi $E$ là giao điểm thứ hai của $AQ$ với đường tròn $(O)$. Chứng minh rằng ba điểm $B, E, R$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác $ABC$ nội tiếp đường tròn $(O)$. Gọi $M$ là một điểm tuỳ ý thuộc đường tròn $(O)$. Gọi $A_1, B_1, C_1$ theo thứ tự là hình chiếu của $M$ trên $BC, CA, AB$. Chứng minh ba điểm $A_1, B_1, C_1$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-4",
+    "label": "Bài 4",
+    "text": "Cho hai đường tròn $(O_1)$ và $(O_2)$ cắt nhau tại $A$ và $B$. Các tiếp tuyến tại $A$ và $B$ của đường tròn $(O_1)$ cắt nhau tại $K$. Lấy điểm $M$ trên đường tròn $(O_1)$ không trùng với $A$ và $B$. Gọi $P$ là giao điểm thứ hai của $MA$ với đường tròn $(O_2)$. Gọi $C$ là giao điểm thứ hai của $MK$ với đường tròn $(O_1)$. Gọi $Q$ là giao điểm thứ hai của đường thẳng $CA$ với đường tròn $(O_2)$. Chứng minh rằng trung điểm của đoạn thẳng $PQ$ nằm trên đường thẳng $CM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-5",
+    "label": "Bài 5",
+    "text": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Điểm $M$ bất kỳ trên cung nhỏ $BC$. Gọi $E, F$ thứ tự là các điểm đối xứng của $M$ qua $AB, AC$. Gọi $H$ là trực tâm tam giác $ABC$. Chứng minh rằng $E, H, F$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác $ABC$ có trực tâm $H$. Đường phân giác ngoài của góc $\\widehat{BHC}$ cắt cạnh $AB, AC$ lần lượt tại $D$ và $E$. Đường phân giác trong của góc $\\widehat{BAC}$ cắt đường tròn ngoại tiếp tam giác $ADE$ tại $K$. Chứng minh rằng $K, H$ và trung điểm của $BC$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-7",
+    "label": "Bài 7",
+    "text": "Cho tứ giác $ABCD$ nội tiếp đường tròn $(O; R)$. Các tia $AB, DC$ cắt nhau tại $M$, các tia $AD, BC$ cắt nhau tại $N$. Đường tròn ngoại tiếp tam giác $MBC$ cắt $MN$ tại $K$ khác $M$. Gọi $T$ là giao điểm của $AC$ và $BD$. Chứng minh rằng ba điểm $O, T, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-8",
+    "label": "Bài 8",
+    "text": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$ có trực tâm $H$, đường cao $AF$ và $M$ là trung điểm của $BC$. Đường tròn đường kính $AH$ cắt đường tròn $(O)$ tại $Q$ khác $A$. Đường tròn đường kính $HQ$ cắt đường tròn $(O)$ tại $K$ khác $Q$. Đường thẳng $KQ$ cắt đường tròn ngoại tiếp tam giác $KFM$ tại $N$ khác $K$. Chứng minh rằng $MN$ đi qua trung điểm của $AQ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-9",
+    "label": "Bài 9",
+    "text": "Cho hình vuông $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Trên cạnh $AB$ lấy điểm $M$ sao cho $AM = \\frac{1}{3}AB$. Đường thẳng qua $D$ và vuông góc với đường thẳng $MO$ cắt $AC$ tại $E$. Gọi $F$ là giao điểm của $MO$ và $CD$. Chứng minh rằng ba điểm $B, E, F$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-10",
+    "label": "Bài 10",
+    "text": "Cho hai đường tròn $(O_1)$ và $(O_2)$ cắt nhau tại hai điểm $A$ và $B$. Lấy điểm $Q$ nằm trên đường tròn $(O_2)$. Các đường thẳng $AQ, BQ$ cắt đường tròn $(O_1)$ lần lượt tại $C, D$. Các tiếp tuyến tại $A, B$ với đường tròn $(O_2)$ cắt nhau tại $P$. Chứng minh rằng $PQ$ đi qua trung điểm của $CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-11",
+    "label": "Bài 11",
+    "text": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy điểm $E$, trên tia đối của tia $DA$ lấy điểm $F$ sao cho $AF = BE$. Vẽ $EH$ vuông góc với $BF$ tại $H$. Trên tia đối của tia $EH$ lấy điểm $K$ sao cho $EK = BF$. Chứng minh rằng ba điểm $A, C, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-12",
+    "label": "Bài 12",
+    "text": "Cho tam giác $ABC$ có trực tâm $H$. Đường tròn $(O)$ đi qua hai điểm $B, C$ cắt $AB, AC$ lần lượt tại $D, E$ ($D \\ne B; E \\ne C$). Gọi $K$ là trực tâm tam giác $ADE$. Chứng minh rằng các đường thẳng $BE, CD, HK$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-13",
+    "label": "Bài 13",
+    "text": "Cho tam giác $ABC$ có $AB < AC < BC$. Gọi $AD, BE, CF$ là các đường phân giác trong của tam giác $ABC$. Gọi $G, I, K, H$ lần lượt là điểm đối xứng của $B, A, C, A$ qua $AD, BE, AD, CF$. Lấy điểm $M$ trên đoạn $CK$ sao cho $\\frac{BI}{CI} = \\frac{GB}{CM}$. Chứng minh rằng ba điểm $G, I, M$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-14",
+    "label": "Bài 14",
+    "text": "Cho hai đường tròn $(O_1)$ và $(O_2)$ không bằng nhau và tiếp xúc ngoài tại $T$. Kẻ $O_1A$ tiếp xúc với $(O_2)$ tại $A$ và $O_2B$ tiếp xúc với $(O_1)$ tại $B$ sao cho các điểm $A$ và $B$ cùng nằm trên nửa mặt phẳng có bờ là $O_1O_2$. Lấy $H$ thuộc $O_1A$ và $K$ thuộc $O_2B$ sao cho $BH$ và $AK$ cùng vuông góc với $O_1O_2$. Đường thẳng $TK$ cắt đường tròn $(O_2)$ tại điểm thứ hai là $F$ và $TH$ cắt đường tròn $(O_1)$ tại điểm thứ hai là $E$. Biết $EF$ cắt $AB$ tại $S$. Chứng minh rằng ba đường thẳng $O_1A, O_2B$ và $TS$ đồng quy tại một điểm.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-15",
+    "label": "Bài 15",
+    "text": "Cho tứ giác $ABCD$. Các đường thẳng $AB, CD$ cắt nhau tại $M$ và các đường thẳng $AD, BC$ cắt nhau tại $N$. Gọi $I, J, K$ lần lượt là trung điểm của $AC, BD, MN$. Chứng minh rằng ba điểm $I, J, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-16",
+    "label": "Bài 16",
+    "text": "Cho tam giác $ABC$, gọi $I$ là tâm đường tròn nội tiếp tam giác $ABC$. Các đường thẳng $AI, BI, CI$ cắt đường tròn ngoại tiếp tam giác $ABC$ lần lượt tại $D, E, K$. Trên cạnh $BC$ lấy điểm $M$. Hai điểm $P$ và $Q$ thỏa mãn $MP$ song song với $BE$, $CP$ vuông góc với $CK$, $MQ$ song song với $CK$ và $BQ$ vuông góc với $BE$. Chứng minh $PE, QK, DM$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-17",
+    "label": "Bài 17",
+    "text": "Cho hình thang $ABCD$ có $AB \\text{ // } CD$. Trên các cạnh $AD$ và $BC$ lấy lần lượt các điểm $M, N$ sao cho $\\frac{AM}{AD} = \\frac{CN}{BC}$. Đường thẳng qua $M$ song song với $AC$ cắt $BD$ tại $P$ và cắt $CD$ tại $K$. Gọi $I$ là trung điểm của $MN$, $O$ là giao điểm của $AC$ và $BD$. Chứng minh rằng ba điểm $O, I, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-18",
+    "label": "Bài 18",
+    "text": "Cho đường tròn tâm $O$. Từ điểm $M$ nằm ngoài đường tròn vẽ tiếp tuyến $MA, MC$ ($A, C$ là tiếp điểm), $B$ thuộc cung lớn $AC$ sao cho $MB$ nằm giữa $MO$ và $MC$. Tia $MB$ cắt đường tròn tại $Q$ ($Q$ khác $B$), cắt $CA$ tại $N$. Gọi $K$ là điểm đối xứng với $C$ qua $B$. Qua $Q$ kẻ đường thẳng song song với $BC$ cắt $CM$ tại $H$. Chứng minh rằng $QH, AC, MK$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-19",
+    "label": "Bài 19",
+    "text": "Cho tứ giác $ABCD$. Lấy các điểm $E$ và $F$ trên các cạnh $AB$ và $CD$ sao cho $\\frac{EB}{AB} = \\frac{FC}{CD}$. Gọi $I$ là trung điểm của $EF$, $H$ là trung điểm của $AD$, $K$ là trung điểm của $BC$. Chứng minh rằng ba điểm $H, I, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-20",
+    "label": "Bài 20",
+    "text": "Cho nửa đường tròn $(O; R)$ đường kính $AB$. Trên nửa mặt phẳng bờ $AB$ chứa nửa đường tròn vẽ các tia $Ax$ và $By$ vuông góc với $AB$. Lấy điểm $M$ nằm trên nửa đường tròn ($M$ khác $A, B$). Tiếp tuyến tại $M$ cắt $Ax$ và $By$ lần lượt tại $C$ và $D$. Đường tròn ngoại tiếp tam giác $OCD$ cắt nửa đường tròn $(O)$ tại $E$ và $F$. Chứng minh rằng $AD, BC$ và $EF$ đồng quy tại một điểm.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-21",
+    "label": "Bài 21",
+    "text": "Cho hình thang vuông $ABCD$ có $\\widehat{A} = \\widehat{D} = 90^\\triangledown$. Đường tròn đường kính $CD$ cắt $AB$ tại $M$ và $N$ ($M$ nằm giữa $N$ và $B$). Đường thẳng qua $A$ song song với $MD$ cắt đường thẳng qua $B$ song song với $MC$ tại $E$. Chứng minh rằng ba điểm $C, E, D$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-22",
+    "label": "Bài 22",
+    "text": "Cho tam giác $ABC$ nội tiếp đường tròn $(O)$. Đường tròn tâm $A$ cắt $BC$ tại $D, E$ và cắt đường tròn $(O)$ tại $G, H$ sao cho $D$ nằm giữa hai điểm $B, E$ và tia $AB$ nằm giữa hai tia $AC, AG$. Đường tròn ngoại tiếp các tam giác $BDG$ và $CEH$ cắt lần lượt $AB, AC$ tại $K, L$ khác $B, C$. Chứng minh rằng $GK$ và $HL$ cắt nhau tại một điểm trên $OA$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-23",
+    "label": "Bài 23",
+    "text": "Cho tam giác $ABC$ nhọn có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Vẽ $HI$ vuông góc với $EF$ tại $I$, $HK$ vuông góc với $DE$ tại $K$. Gọi giao điểm của $IK$ và $AD$ là $M$, giao điểm của $FM$ và $DE$ là $N$. Gọi $S$ là điểm đối xứng với $B$ qua $D$. Chứng minh rằng ba điểm $A, N, S$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-24",
+    "label": "Bài 24",
+    "text": "Cho tam giác nhọn $ABC$ có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là trung điểm của các đoạn thẳng $AH, BC$. Chứng minh rằng $MN$ và các đường phân giác của các góc $\\widehat{ABD}, \\widehat{ACE}$ đồng quy tại một điểm.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-25",
+    "label": "Bài 25",
+    "text": "Cho hình thoi $ABCD$ có $\\widehat{BAD} = 60^\\triangledown$. Đường thẳng $d$ đi qua $C$ cắt các cạnh $AB, AD$ lần lượt tại $M, N$ khác $A$. Đường thẳng $d'$ đi qua $A$ và song song với $BD$ cắt các đường thẳng $BN, DM$ lần lượt tại $E$ và $F$. Gọi $P$ là giao điểm của $BN$ với $DM$. Chứng minh rằng các trọng tâm của các tam giác $ABD, AME, AFN$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-26",
+    "label": "Bài 26",
+    "text": "Cho điểm $C$ thay đổi trên nửa đường tròn đường kính $AB = 2R$ ($A \\ne C, B \\ne C$). Gọi $H$ là hình chiếu vuông góc của $C$ lên $AB$. Gọi $I$ và $J$ lần lượt là tâm đường tròn nội tiếp tam giác $ACH$ và $BCH$. Các đường thẳng $CI$ và $CJ$ cắt $AB$ lần lượt tại $M$ và $N$. Chứng minh rằng các đường thẳng $MJ, NI, CH$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-27",
+    "label": "Bài 27",
+    "text": "Cho hình vuông $ABCD$ có $O$ là giao điểm của hai đường chéo. Trên tia đối của tia $CD$ lấy điểm $E$ sao cho $CE = \\frac{1}{2}CB$. Vẽ $DM$ vuông góc với $BE$ tại $M$. Gọi $I$ là trung điểm của $OB$. Chứng minh rằng ba điểm $A, I, M$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-28",
+    "label": "Bài 28",
+    "text": "Cho hai đường tròn $(O)$ và $(O')$ cắt nhau tại $A$ và $B$. Giả sử $CD$ và $EF$ là hai tiếp tuyến chung ngoài của hai đường tròn này ($C, E \\in (O); D, F \\in (O')$) và điểm $A$ gần $CD$ hơn. Gọi $\\Delta_1$ là đường thẳng qua $A$ tiếp xúc với đường tròn ngoại tiếp tam giác $AEF$ và $\\Delta_2$ là đường thẳng qua $B$ tiếp xúc với đường tròn ngoại tiếp tam giác $BCD$. Chứng minh rằng các đường thẳng $\\Delta_1, \\Delta_2, CD, EF$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-29",
+    "label": "Bài 29",
+    "text": "Cho hình vuông $ABCD$ có hai đường chéo cắt nhau tại $E$. Đường thẳng qua $A$ cắt cạnh $BC$ và cắt đường thẳng $CD$ lần lượt tại $M$ và $N$. Gọi giao điểm của $EM$ và $BN$ là $K$, giao điểm của $CK$ và $AB$ là $F$. Chứng minh rằng ba điểm $D, M, F$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-30",
+    "label": "Bài 30",
+    "text": "Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O)$. Gọi $A_1, B_1, C_1$ và $A_2, B_2, C_2$ lần lượt là chân đường cao của tam giác $ABC$ kẻ từ $A, B, C$ và các điểm đối xứng với $A_1, B_1, C_1$ qua trung điểm của $BC, CA, AB$. Gọi $A_3, B_3, C_3$ lần lượt là giao điểm thứ hai của các đường tròn ngoại tiếp các tam giác $AB_2C_2, BC_2A_2$ và $CA_2B_2$ với đường tròn $(O)$. Chứng minh rằng $A_1A_3, B_1B_3, C_1C_3$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-31",
+    "label": "Bài 31",
+    "text": "Cho sáu điểm bất kì $A, B, C, D, E, F$ cùng nằm trên một đường tròn. Gọi $G, H, K$ lần lượt là giao điểm của các cặp đường thẳng $AB$ và $DE$, $BC$ và $EF$, $CD$ và $AF$. Chứng minh rằng ba điểm $G, H, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-32",
+    "label": "Bài 32",
+    "text": "Cho tam giác $ABC$ nội tiếp đường tròn $(O)$. Một đường tròn $(K_1)$ tiếp xúc với các cạnh $AB, AC$ và tiếp xúc trong với đường tròn $(O)$ lần lượt tại $M_1, N_1, P_1$. Các điểm $M_2, N_2, P_2$ và $M_3, N_3, P_3$ được xác định một cách tương tự. Chứng minh rằng các đoạn thẳng $M_1N_1, M_2N_2, M_3N_3$ cắt nhau tại trung điểm của mỗi đoạn.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-33",
+    "label": "Bài 33",
+    "text": "Cho điểm $A$ nằm ngoài đường tròn $(O)$. Từ điểm $A$ vẽ hai tiếp tuyến $AB$ và $AC$ ($B, C$ là hai tiếp điểm) và cát tuyến $ADE$ với đường tròn $(O)$ sao cho tia $AD$ nằm giữa hai tia $AO$ và $AB$. Đường thẳng qua $D$ và song song với $BE$ cắt $BC, AB$ lần lượt tại $P$ và $Q$. Gọi $K$ đối xứng với $B$ qua $E$. Chứng minh rằng ba điểm $A, P, K$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-34",
+    "label": "Bài 34",
+    "text": "Cho tam giác $ABC$ có $AB \\ne AC$. Đường phân giác của góc $\\widehat{BAC}$ cắt $BC$ tại $V$. Gọi $D$ là chân đường vuông góc hạ từ $A$ xuống $BC$. Đường tròn ngoại tiếp tam giác $DAV$ cắt $AB, AC$ lần lượt tại $F, E$. Chứng minh rằng ba đường thẳng $AD, BE, CF$ đồng quy tại một điểm.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-35",
+    "label": "Bài 35",
+    "text": "Cho điểm $A$ nằm ngoài đường tròn tâm $O$ bán kính $R$. Vẽ các tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ thuộc đường tròn $(O)$). Vẽ cát tuyến $ADE$ với đường tròn $(O)$ ($D, E$ thuộc đường tròn $(O)$) và $D$ nằm giữa $A, E$. Tia $AD$ nằm giữa hai tia $AO$ và $AB$. Gọi $F$ là điểm đối xứng với $D$ qua $AO$, $H$ là giao điểm của $EF$ với $BC$. Chứng minh rằng $A, H, O$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-36",
+    "label": "Bài 36",
+    "text": "Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O; R)$ có $H$ là trực tâm. Chứng minh rằng tồn tại các điểm $D, E, F$ lần lượt trên các cạnh $BC, CA, AB$ sao cho $OD + HD = OE + HE = OF + HF$ và ba đường thẳng $AD, BE, CF$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-37",
+    "label": "Bài 37",
+    "text": "Cho đường tròn $(O)$ nội tiếp tam giác $ABC$. Đường tròn $(O)$ tiếp xúc với các cạnh $BC, CA, AB$ lần lượt tại $D, E, F$. Trên đoạn $OD$ lấy điểm $I$, vẽ đường tròn tâm $I$ bán kính $ID$. Vẽ $BG, CH$ là các tiếp tuyến của đường tròn $(I)$ với $G$ và $H$ thuộc đường tròn $(I)$. Gọi $M$ là giao điểm của $BG$ và $CH$, $N$ là giao điểm của $EF$ và $BC$. Chứng minh rằng ba điểm $N, G, H$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-38",
+    "label": "Bài 38",
+    "text": "Cho tam giác nhọn $ABC$ có $I, O$ lần lượt là tâm đường tròn nội tiếp và ngoại tiếp tam giác. Đường thẳng $AI$ cắt đường tròn $(O)$ tại điểm thứ hai là $D$ khác $A$. Gọi $E$ và $F$ là hai điểm lần lượt nằm trên cạnh $BC$ và cung $BDC$ sao cho $\\widehat{BAF} = \\widehat{CFE} < \\dfrac{1}{2}\\widehat{BAC}$. Gọi $G$ là trung điểm của $EF$. Chứng minh rằng $GD, EI$ cắt nhau tại một điểm nằm trên đường tròn $(O)$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-39",
+    "label": "Bài 39",
+    "text": "Cho đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ nằm giữa hai điểm $O$ và $A$. Vẽ đường tròn $(I)$ đường kính $BC$. Vẽ tiếp tuyến $AD$ và cát tuyến $ACF$ với đường tròn $(I)$ ($E$ nằm giữa $A$ và $F$) sao cho tia $AO$ nằm giữa hai tia $AD$ và $AE$. Đường thẳng vuông góc với $AB$ vẽ từ $C$ cắt đường tròn $(O)$ tại $N$ và $P$ ($N$ và $P$ thuộc nửa mặt phẳng bờ $AB$). Giao điểm của $DI$ và $NB$ là $S$. Gọi $J$ là trung điểm của $SD$. Gọi $L, T$ lần lượt là tâm đường tròn ngoại tiếp các tam giác $SBC$ và $SEF$. Chứng minh rằng ba điểm $J, L, T$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5099-cac-bai-toan-chung-minh-ba-40",
+    "label": "Bài 40",
+    "text": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$, có đường cao $AD$. Đường tròn $(A)$ bất kì có tâm $A$. Gọi $E$ và $F$ là hai điểm trên đường tròn $(A)$ sao cho $E, F$ đối xứng với nhau qua $AD$ và tia $AE$ nằm giữa hai tia $AB, AF$. Đường tròn $(A)$ cắt đường tròn $(O)$ tại $G$ và $H$ sao cho tia $AB$ nằm giữa hai tia $AG$ và $AC$. Giao điểm của $CE, BF$ với đường tròn $(O)$ lần lượt là $P, Q$ khác $E, F$. Đường tròn ngoại tiếp tam giác $BPG$ và $CQH$ lần lượt cắt $BA, CA$ tại $K, L$ khác $B, C$. Chứng minh rằng $GK$ và $HL$ cắt nhau tại một điểm trên $AO$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
   "id": "tm-cd-2032-cac-bai-toan-chung-minh-duong",
   "kind": "chuyende",
   "title": "Chuyên đề: Các bài toán chứng minh đường thẳng đồng quy (tuyển chọn)",
@@ -17611,6 +18606,370 @@
     "id": "tm-cd-5197-cac-bai-toan-ve-dien-tich-20",
     "label": "Bài 20",
     "text": "Cho tam giác ABC có diện tích S. Ba điểm M, N, P lần lượt nằm khác phía với A, B, C đối với các đường thẳng BC, CA, AB. Qua M, N, P kẻ lần lượt các đường thẳng a, b, c song song với BC, CA, AB tương ứng. Gọi giao điểm của b và c, c và a, a và b lần lượt là A', B', C'. Chứng minh rằng nếu $S_{APB} + S_{BMC} + S_{CNA} < S$ thì $S_{A'B'C'} < 2S_{ABMCN}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Các bài toán về tam giác (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2021/09/cac-bai-toan-ve-tam-giac-dac-sac.html",
+  "problems": [
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-1",
+    "label": "Bài 1",
+    "text": "Cho tam giác ABC có $\\widehat{ABC} = 30^\\circ$ và $\\widehat{BAC} = 130^\\circ$. Gọi Ax là tia đối của tia AB, đường phân giác của góc ABC cắt phân giác góc CAx tại D. Đường thẳng BA cắt đường thẳng CD tại E. So sánh độ dài AC và CE.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-2",
+    "label": "Bài 2",
+    "text": "Cho tam giác ABC vuông tại C và $\\widehat{A} < \\widehat{B}$. Gọi O là trung điểm của AB và I là giao điểm của ba đường phân giác của tam giác. Biết tam giác BIO vuông tại I, tính tỉ số các cạnh của tam giác ABC.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác ABC có các đường phân giác BD và CE cắt nhau tại I và ID = IE. Chứng minh rằng $\\widehat{B} = \\widehat{C}$ hoặc $\\widehat{B} + \\widehat{C} = 120^\\circ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-4",
+    "label": "Bài 4",
+    "text": "Cho tam giác ABC đều. Gọi M và N là các điểm trên cạnh AB và BC sao cho $BM = BN$. Gọi G là trọng tâm của tam giác BMN, I là trung điểm AN, và P là trung điểm của MN. Chứng minh rằng $\\triangle GPI \\sim \\triangle GNC$ và $IC \\perp GI$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-5",
+    "label": "Bài 5",
+    "text": "Cho tam giác ABC vuông cân tại A. Gọi M, N lần lượt là trung điểm của AB, AC. Kẻ NH vuông góc với CM tại H. Kẻ HE vuông góc với AB tại E. Chứng minh rằng tam giác ABH cân và HM là phân giác của góc $\\widehat{BHE}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác ABC có $\\widehat{ACB} = 2\\widehat{ABC}$, điểm P nằm trong góc $\\widehat{BAC}$ sao cho $PB = PC$ và $AC = AP$. Chứng minh rằng $\\widehat{PAC} = 2\\widehat{PAB}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-7",
+    "label": "Bài 7",
+    "text": "Cho tam giác ABC có $\\widehat{B} = 60^\\circ, \\widehat{C} = 30^\\circ$. Lấy điểm D trên cạnh AC, điểm E trên cạnh AB sao cho $\\widehat{ABD} = 20^\\circ, \\widehat{ACE} = 10^\\circ$. Gọi K là giao điểm của BD và CE. Tính các góc của tam giác KDE.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-8",
+    "label": "Bài 8",
+    "text": "Cho tam giác ABC nhọn và ba đường cao AG, BD, CE cắt nhau tại H. Gọi I là giao điểm của DE và AH. Đường thẳng qua I và song song với BC cắt tia AB, tia DB lần lượt tại P và Q. Gọi M là trung điểm của AH. Chứng minh rằng $IP = IQ$ và I là trực tâm của tam giác MBC.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-9",
+    "label": "Bài 9",
+    "text": "Cho tam giác ABC có H là trực tâm, G là trọng tâm và O là giao điểm ba đường trung trực. Chứng minh rằng $HG = 2GO$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-10",
+    "label": "Bài 10",
+    "text": "Cho tam giác nhọn ABC, lấy điểm X nằm trong tam giác và điểm Y, Z nằm ngoài tam giác sao cho các tam giác XBC, YCA, ZBA đồng dạng với nhau. Đường thẳng YZ cắt AB, AC lần lượt tại M và N. Gọi P là trung điểm của BC. Chứng minh rằng $YN = ZM$ khi và chỉ khi $\\widehat{PAB} = \\widehat{XAC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-11",
+    "label": "Bài 11",
+    "text": "Cho tam giác ABC không vuông có các đường cao BE và CF cắt nhau tại H. Gọi M, N, P, Q, S theo thứ tự là trung điểm của BF, CE, BE, CF, EF. Đường thẳng qua M vuông góc với BS và đường thẳng qua N vuông góc với CS cắt nhau tại K. Đường thẳng qua P vuông góc với BS và đường thẳng qua Q vuông góc với CS cắt nhau tại L. Chứng minh rằng $2KL = AH$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-12",
+    "label": "Bài 12",
+    "text": "Gọi I là tâm đường tròn nội tiếp của tam giác ABC. Đường thẳng đi qua I và vuông góc với CI theo thứ tự cắt các cạnh CA và CB tại M và N. Chứng minh rằng: $BC \\cdot AI^2 + CA \\cdot BI^2 + AB \\cdot CI^2 = AB \\cdot BC \\cdot CA$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-13",
+    "label": "Bài 13",
+    "text": "Cho tam giác ABC và đường phân giác AD. Lấy điểm M bất kì trên AD (với M khác A và D). Tia BM cắt AC tại E, tia CM cắt AB tại F. Chứng minh rằng nếu $\\dfrac{1}{AB^2} + \\dfrac{1}{AE^2} = \\dfrac{1}{AC^2} + \\dfrac{1}{AF^2}$ thì tam giác ABC cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-14",
+    "label": "Bài 14",
+    "text": "Cho tam giác nhọn ABC có đường phân giác AD. Gọi M và N lần lượt là hình chiếu vuông góc của D trên AC và AB. Gọi giao điểm của BM và NC là P. Chứng minh rằng $AP \\perp BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-15",
+    "label": "Bài 15",
+    "text": "Cho tam giác ABC có D là chân đường cao hạ từ đỉnh C. Trên cạnh AB lấy các điểm E, F sao cho $\\widehat{ACE} = \\widehat{BCF} = 90^\\circ$. Lấy điểm X trên đoạn CD và điểm K trên đoạn FX sao cho $BK = BC$. Lấy điểm L trên đoạn EX sao cho $AL = AC$. Gọi giao điểm của AL và BK là M. Chứng minh rằng $ML = MK$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-16",
+    "label": "Bài 16",
+    "text": "Cho tam giác ABC có AB < AC và AD là đường phân giác của tam giác. Lấy M và N lần lượt trên AC và AB sao cho CM = BN. Đường thẳng CN, BM cắt nhau tại I, qua I kẻ đường thẳng song song với AD cắt AC tại K và cắt AB tại J. Chứng minh rằng AB = CK và BJ = AC.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-17",
+    "label": "Bài 17",
+    "text": "Cho tam giác ABC có M là trung điểm của AC và D là điểm trên cạnh BC sao cho $DB = DM$. Biết rằng $2BC^2 - AC^2 = AB \\cdot AC$. Chứng minh rằng $BD \\cdot CD = \\dfrac{AC^2 \\cdot AB}{2(AB + AC)}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-18",
+    "label": "Bài 18",
+    "text": "Cho tam giác nhọn ABC. Chứng minh rằng: $\\sin^2 A + \\sin^2 B + \\sin^2 C > 2$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-19",
+    "label": "Bài 19",
+    "text": "Cho tam giác ABC vuông tại A có đường cao AH. Tia phân giác của góc $\\widehat{BAH}$ cắt BH tại D. Gọi M là trung điểm cạnh AB, gọi E là giao điểm của MD và AH. Chứng minh rằng $AD \\parallel CE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-20",
+    "label": "Bài 20",
+    "text": "Cho tam giác nhọn ABC và m, n, p là các số thực dương. Chứng minh rằng: $m \\cos A + n \\cos B + p \\cos C \\le \\dfrac{1}{2} \\left( \\dfrac{np}{m} + \\dfrac{mp}{n} + \\dfrac{mn}{p} \\right)$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-21",
+    "label": "Bài 21",
+    "text": "Cho tam giác OAB vuông cân tại O với $OA = OB = 2a$. Gọi (O) là đường tròn tâm O bán kính a. Tìm điểm M thuộc (O) sao cho $MA + 2MB$ đạt giá trị nhỏ nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-22",
+    "label": "Bài 22",
+    "text": "Cho tam giác ABC có đường trung tuyến AD, đường cao BH và đường phân giác CE đồng quy. Chứng minh rằng: $(BC + CA)(BC^2 + CA^2 - AB^2) = 2BC \\cdot CA^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-23",
+    "label": "Bài 23",
+    "text": "Cho đường tròn (I) nội tiếp của tam giác ABC tiếp xúc với các cạnh BC, CA, AB theo thứ tự tại D, E, F. Đường thẳng AD cắt đường thẳng EF tại M. Lấy N trên DF và điểm P trên DE sao cho tứ giác MNDP là hình bình hành. a) Chứng minh rằng $\\dfrac{ME}{MF} = \\left( \\dfrac{DE}{DF} \\right)^2$. b) Chứng minh rằng tứ giác EFNP nội tiếp.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-24",
+    "label": "Bài 24",
+    "text": "Cho tam giác ABC cân tại A có $\\widehat{A} = 20^\\circ$ và BC = a, CA = AB = b. Chứng minh rằng: $a^3 + b^3 = 3ab^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-25",
+    "label": "Bài 25",
+    "text": "Cho tam giác ABC cân tại A có $\\widehat{BAC} = 150^\\circ$. Dựng các tam giác AMB và ANC sao cho các tia AM và AN nằm trong góc $\\widehat{BAC}$ thỏa mãn $\\widehat{ABM} = \\widehat{ACN} = 90^\\circ$, $\\widehat{NAC} = 60^\\circ$ và $\\widehat{MAB} = 30^\\circ$. Trên đoạn MN lấy điểm D sao cho $ND = 3MD$. Đường thẳng BD cắt các đường thẳng AM và AN theo thứ tự tại K và E. Gọi F là giao điểm của BC với AN. Chứng minh rằng: a) Tam giác NEC cân. b) $KF \\parallel CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-26",
+    "label": "Bài 26",
+    "text": "Cho tam giác ABC có BC = 2AC - 2AB và D là một điểm trên cạnh BC. Chứng minh rằng $\\widehat{ABD} = 2\\widehat{ADB}$ khi và chỉ khi BD = 3CD.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-27",
+    "label": "Bài 27",
+    "text": "Cho tam giác ABC có đường cao AH, biết H thuộc BC và $BH = \\dfrac{1}{3}BC$. Trên tia đối của tia HA, lấy điểm K sao cho $AK^2 - KH^2 = \\dfrac{1}{3}BC^2 + AB^2$. Chứng minh: $AK \\cdot BC = AB \\cdot KC + AC \\cdot BK$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-28",
+    "label": "Bài 28",
+    "text": "Cho tam giác ABC với hai phân giác BD và CE. Gọi M là một điểm trên đoạn thẳng DE. Chứng minh rằng khoảng cách từ M đến BC bằng tổng khoảng cách từ M đến AB và AC.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-29",
+    "label": "Bài 29",
+    "text": "Cho tam giác ABC nhọn có các đường cao BD và CE. Gọi I là trung điểm của BC. Qua A kẻ đường thẳng vuông góc với AI cắt BD tại M và cắt CE tại N. Chứng minh rằng $AM = AN$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-30",
+    "label": "Bài 30",
+    "text": "Cho tam giác ABC không cân. Gọi D là trung điểm của BC, gọi AE và AF lần lượt là đường phân giác trong và phân giác ngoài của tam giác ABC. Gọi H là hình chiếu của A trên BC. Chứng minh rằng $EF \\cdot DH = AB \\cdot AC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-31",
+    "label": "Bài 31",
+    "text": "Cho tam giác ABC có $\\widehat{A} = 60^\\circ$, O là một điểm nằm trong tam giác sao cho $\\widehat{AOB} = \\widehat{BOC} = 120^\\circ$, D là điểm trên OC sao cho tam giác OAD đều. Đường thẳng đi qua trung điểm của AO và vuông góc với AO cắt BC tại P. Chứng minh rằng OP đi qua trung điểm của BD.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-32",
+    "label": "Bài 32",
+    "text": "Cho tam giác ABC, gọi M và N lần lượt là trung điểm của BC và AC. Đường cao BH. Đường vuông góc với đường phân giác của góc $\\widehat{HMN}$ kẻ từ M cắt AC tại K sao cho $HK = \\dfrac{1}{2}(AB + BC)$ và $\\widehat{HMN} = 45^\\circ$. Chứng minh rằng tam giác ABC là tam giác cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-33",
+    "label": "Bài 33",
+    "text": "Cho tam giác ABC. Về phía ngoài tam giác ABC vẽ tam giác BOC vuông cân tại O. Đường thẳng AB cắt BO tại F. Vẽ EN song song với FM (N thuộc tia AC và M thuộc tia AB). Đường thẳng MN cắt BC tại Q. Chứng minh AO vuông góc với OQ.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-34",
+    "label": "Bài 34",
+    "text": "Cho tam giác ABC, dựng về phía ngoài tam giác ABC các tam giác BCD, CAM, ABN thỏa mãn điều kiện $\\widehat{CBD} = \\widehat{CAM} = 45^\\circ, \\widehat{BCD} = \\widehat{ACM} = 30^\\circ, \\widehat{ABN} = \\widehat{BAN} = 15^\\circ$. Chứng minh rằng tam giác DMN vuông cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-35",
+    "label": "Bài 35",
+    "text": "Ở ngoài tam giác ABC, dựng các tam giác ABR, BCP, CAQ sao cho $\\widehat{CBP} = \\widehat{CAQ} = 45^\\circ$, $\\widehat{BCP} = \\widehat{ACQ} = 30^\\circ$, $\\widehat{ABR} = \\widehat{BAR} = 15^\\circ$. Chứng minh rằng $\\widehat{QRP} = 90^\\circ$ và $QR = RP$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-36",
+    "label": "Bài 36",
+    "text": "Cho tam giác ABC có H là trực tâm và M là trung điểm của BC, đường cao AD ($D \\in BC$). Chứng minh rằng $AH \\cdot AD = |AM^2 - BM^2|$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-37",
+    "label": "Bài 37",
+    "text": "Cho tam giác ABC và điểm T thuộc cạnh BC sao cho $TB = 2TC$. Gọi H là hình chiếu của B trên AT và D là trung điểm BC. Biết rằng $\\widehat{TAB} = 2\\widehat{TAC}$. Chứng minh rằng $DH \\perp AC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-38",
+    "label": "Bài 38",
+    "text": "Cho tam giác ABC có I là giao điểm ba đường phân giác và D, E lần lượt là trung điểm của AC, AB. Đường thẳng DI cắt AB tại Q và đường thẳng EI cắt AC tại P. Biết rằng diện tích tam giác ABC bằng diện tích tam giác APQ. Tính số đo góc $\\widehat{BAC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5189-cac-bai-toan-ve-tam-giac-39",
+    "label": "Bài 39",
+    "text": "Cho tam giác nhọn ABC. Lấy một điểm D bất kì nằm trong tam giác ABC và thỏa mãn các điều kiện $\\widehat{ADB} = 90^\\circ + \\widehat{ACB}$ và $\\dfrac{AC}{AD} = \\dfrac{BC}{BD}$. Chứng minh rằng $AB \\cdot CD = \\sqrt{2}AC \\cdot BD$.",
     "topics": [
      "hinh-hoc"
     ],
@@ -19845,6 +21204,313 @@
      "to-hop"
     ],
     "level": 4
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Nguyên lý Dirichlet trong toán sơ cấp (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2019/12/ung-dung-cua-nguyen-ly-dirichlet-trong-giai-toan-thcs.html",
+  "problems": [
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-1",
+    "label": "Bài 1",
+    "text": "Trong một lớp học Toán có nhóm 5 học sinh mà mỗi người trong nhóm đều ngủ gục đúng hai lần. Với mỗi cặp học sinh, đều có cả hai cùng ngủ gục một lần. Chứng minh rằng tại một thời điểm nào đó, có ít nhất ba học sinh trong nhóm đồng thời ngủ gục.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-2",
+    "label": "Bài 2",
+    "text": "Giả sử bàn cờ hình chữ nhật có $3 \\times 7$ ô vuông được sơn đen hoặc trắng. Chứng minh rằng với cách sơn màu bất kì thì trong bàn cờ luôn tồn tại một hình chữ nhật có 4 góc là các ô cùng màu.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-3",
+    "label": "Bài 3",
+    "text": "Các học sinh được phát bài kiểm tra với mỗi môn một bài và trong $n$ ($n \\ne 3$) môn học. Biết rằng với một môn học bất kỳ có đúng 3 học sinh đạt điểm tối ưu, còn với hai môn tùy ý thì có đúng 1 học sinh đạt điểm tối ưu cho mỗi môn trong cả hai môn đó. Hãy xác định số $n$ bé nhất sao cho từ các điều kiện trên có thể suy ra rằng có đúng 1 học sinh đạt điểm tối ưu cho mỗi môn trong cả $n$ môn học.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-4",
+    "label": "Bài 4",
+    "text": "Xét tập hợp $A = \\{1; 2; 3;...; 20\\}$. Hãy tìm số nguyên dương $k$ nhỏ nhất sao cho với mỗi tập con của $A$ có $k$ phần tử, luôn tồn tại hai phần tử phân biệt có tổng là một số nguyên tố.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-5",
+    "label": "Bài 5",
+    "text": "Cho bảng vuông gồm $n \\times n$ ô vuông. Mỗi ô vuông ghi một trong các số 0, 1, 2. Chứng minh rằng không tồn tại bảng vuông nào mà tổng các số trên mỗi hàng, mỗi cột và trên hai đường chéo là các số khác nhau.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-6",
+    "label": "Bài 6",
+    "text": "Cho tập hợp $X = \\{1; 2; 3;...; 2024\\}$. Chứng minh rằng trong 45 số khác nhau bất kỳ được lấy ra từ tập $X$ luôn tồn tại hai số $x, y$ sao cho $|x - y| < 1$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-7",
+    "label": "Bài 7",
+    "text": "Ở vòng chung kết cờ vua có 8 bạn tham gia. Hai bạn bất kỳ đều phải đấu với nhau một trận. Chứng minh rằng trong mọi thời điểm của cuộc đấu, luôn có hai đấu thủ đã đấu một số trận như nhau.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-8",
+    "label": "Bài 8",
+    "text": "Chứng minh rằng tồn tại số nguyên dương $n$ thỏa mãn $(13579^n - 1)$ chia hết cho $3^{13579}$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-9",
+    "label": "Bài 9",
+    "text": "Cho 19 số nguyên dương $a_1 < a_2 < ... < a_{19} \\le 200$ và 21 số nguyên dương $b_1 < b_2 < ... < b_{21} \\le 200$. Chứng minh rằng tồn tại bốn số $a_i, a_j, b_k, b_p$ với $1 \\le i, j \\le 19$ và $1 \\le k, p \\le 21$ thỏa mãn $a_j - a_i = b_p - b_k$ với $a_i < a_j$ và $b_k < b_p$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-10",
+    "label": "Bài 10",
+    "text": "Bên trong tam giác đều $ABC$ cạnh $1$ đặt $5$ điểm. Chứng minh rằng luôn tồn tại $2$ điểm trong số các điểm đã cho có khoảng cách nhỏ hơn $0,5$.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-11",
+    "label": "Bài 11",
+    "text": "Trong một cuộc tranh giải bóng đá có 20 đội tham gia. Tìm số trận đấu nhỏ nhất sao cho trong 3 đội bất kỳ luôn tìm được 2 đội đã thi đấu với nhau.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-12",
+    "label": "Bài 12",
+    "text": "Cho bảng kích thước $2n \\times 2n$ ô vuông. Người ta đánh dấu vào $3n$ ô bất kỳ của bảng. Chứng minh rằng có thể chọn ra $n$ hàng và $n$ cột của bảng sao cho các ô được đánh dấu đều nằm trên $n$ hàng và $n$ cột này.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-13",
+    "label": "Bài 13",
+    "text": "Chứng minh rằng trong mọi đa giác lồi có số cạnh chẵn, tồn tại ít nhất một đường chéo không song song với bất kỳ cạnh nào của đa giác đó.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-14",
+    "label": "Bài 14",
+    "text": "Cho tập hợp $A = \\{1, 2, 3, ..., 16\\}$. Hãy tìm số nguyên dương $k$ nhỏ nhất sao cho trong mỗi tập con gồm $k$ phần tử của $A$ đều tồn tại hai số phân biệt $a, b$ mà $a^2 + b^2$ là một số nguyên tố.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-15",
+    "label": "Bài 15",
+    "text": "Giả sử bàn cờ hình chữ nhật $3 \\times 7$ được sơn bởi hai màu đen hoặc trắng. Chứng minh rằng với cách sơn bất kỳ, trong bàn cờ luôn tồn tại một hình chữ nhật có bốn đỉnh cùng màu.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-16",
+    "label": "Bài 16",
+    "text": "Cho 2014 số tự nhiên bất kỳ. Chứng minh rằng trong số các số đó có một số chia hết cho 2014 hoặc có một tập hợp các số mà tổng của chúng chia hết cho 2014.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-17",
+    "label": "Bài 17",
+    "text": "Trong một tờ giấy hình vuông cạnh $12$ cm có $31$ lỗ kim châm. Chứng minh rằng ta luôn có thể cắt từ tờ giấy này ra một hình tròn bán kính $1$ cm mà không chứa bất kỳ lỗ kim châm nào.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-18",
+    "label": "Bài 18",
+    "text": "Chứng minh rằng từ 53 số tự nhiên bất kì luôn chọn được 27 số mà tổng của chúng chia hết cho 27.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-19",
+    "label": "Bài 19",
+    "text": "Cho hình tròn $(C)$ có diện tích bằng $8$, đặt $17$ điểm phân biệt bất kỳ. Chứng minh rằng luôn tìm được ít nhất ba điểm tạo thành một tam giác có diện tích bé hơn $1$.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-20",
+    "label": "Bài 20",
+    "text": "Trong mặt phẳng cho tập $S$ gồm $8065$ điểm phân biệt mà diện tích của mỗi tam giác tạo bởi $3$ đỉnh thuộc $S$ đều không lớn hơn $1$. Chứng minh rằng tồn tại một tam giác có diện tích không lớn hơn $1$ chứa ít nhất $2017$ điểm thuộc $S$.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-21",
+    "label": "Bài 21",
+    "text": "Cho tam giác đều $MNP$ cạnh $2$ cm. Lấy $n$ điểm thuộc các cạnh hoặc bên trong tam giác sao cho khoảng cách giữa hai điểm tùy ý luôn lớn hơn $1$ cm. Tìm $n$ lớn nhất thỏa mãn điều kiện đó.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-22",
+    "label": "Bài 22",
+    "text": "Cho $n \\ge 3$ số nguyên dương $a_1, a_2, ..., a_n$ đôi một khác nhau. Tìm giá trị lớn nhất của $n$ sao cho tổng của ba số bất kỳ trong $n$ số đó luôn là một số nguyên tố.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-23",
+    "label": "Bài 23",
+    "text": "Cho điểm $P$ nằm trong đa giác lồi có $2n$ cạnh. Vẽ các đường thẳng đi qua $P$ và mỗi đỉnh của đa giác. Chứng minh rằng luôn tìm được một cạnh của đa giác sao cho không có đường thẳng nào trong các đường thẳng trên có điểm chung với cạnh đó.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-24",
+    "label": "Bài 24",
+    "text": "Cho $A$ là tập hợp gồm 6 phần tử bất kỳ của tập hợp $\\{0, 1, 2, ..., 14\\}$. Chứng minh rằng tồn tại hai tập hợp con $B_1, B_2$ của $A$ ($B_1 \\ne B_2$ và khác rỗng) sao cho tổng tất cả các phần tử của tập hợp $B_1$ bằng tổng tất cả các phần tử của tập hợp $B_2$.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-25",
+    "label": "Bài 25",
+    "text": "Có $6$ đội bóng thi đấu vòng tròn một lượt với nhau. Chứng minh rằng tại bất cứ thời điểm nào, cũng có $3$ đội mà từng cặp trong số đó đã đấu với nhau, hoặc chưa đội nào trong số đó từng đấu với nhau trận nào.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-26",
+    "label": "Bài 26",
+    "text": "Trong hình tròn đường kính bằng 5 có 10 điểm. Chứng minh rằng tồn tại ít nhất hai điểm mà khoảng cách giữa chúng không vượt quá 2.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-27",
+    "label": "Bài 27",
+    "text": "Tìm hình vuông có kích thước bé nhất để có thể sắp xếp năm hình tròn bán kính bằng 1 vào trong hình vuông đó sao cho không có hai hình tròn nào có điểm chung.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-28",
+    "label": "Bài 28",
+    "text": "Cho chín đường thẳng có tính chất là mỗi đường thẳng chia hình vuông thành hai tứ giác có tỉ số diện tích bằng $2/3$. Chứng minh rằng có ít nhất ba đường thẳng trong số đó cùng đi qua một điểm.",
+    "topics": [
+     "hinh-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-29",
+    "label": "Bài 29",
+    "text": "Cho các số thực dương $a, b, c$. Chứng minh rằng: $a^2+b^2+c^2+2abc+3 \\ge (a+1)(b+1)(c+1)$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-30",
+    "label": "Bài 30",
+    "text": "Trong mặt phẳng cho 6 điểm, trong đó không có ba điểm nào thẳng hàng. Mỗi đoạn thẳng nối hai điểm trong 6 điểm đó được tô màu đỏ hoặc xanh. Chứng minh rằng tồn tại ba điểm trong số sáu điểm đã cho sao cho chúng là đỉnh của một tam giác mà các cạnh của nó được tô cùng một màu.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1544-nguyen-ly-dirichlet-trong-toan-so-31",
+    "label": "Bài 31",
+    "text": "Trong một cuộc họp có 6 đại biểu. Cứ ba người bất kỳ thì có hai người quen nhau. Chứng minh rằng có ba người đôi một quen nhau.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
    }
   ]
  },
@@ -24656,6 +26322,386 @@
      "bat-dang-thuc"
     ],
     "level": 4
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-5191-tu-giac-va-da-giac-dac",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Tứ giác và đa giác đặc sắc (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2021/09/cac-bai-toan-ve-tu-giac-va-da-giac-dac-sac.html",
+  "problems": [
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-1",
+    "label": "Bài 1",
+    "text": "Cho tứ giác $ABCD$. Chứng minh rằng hai đường chéo của tứ giác $ABCD$ vuông góc với nhau khi và chỉ khi $AB^2 + CD^2 = AD^2 + BC^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-2",
+    "label": "Bài 2",
+    "text": "Cho tứ giác $ABCD$ có $O$ là giao điểm của hai đường chéo. Chứng minh rằng đường thẳng nối trọng tâm của hai tam giác $OAD$ và $OBC$ vuông góc với đường thẳng nối trực tâm của hai tam giác $OAB$ và $OCD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-3",
+    "label": "Bài 3",
+    "text": "Cho tứ giác $ABCD$ có hai đường chéo bằng nhau. Lấy các điểm $E, F, G, H$ theo thứ tự chia trong các cạnh $AB, BC, CD, DA$ theo tỉ số $1:2$. Chứng minh rằng $EG = FH$ và $EG \\bot FH$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-4",
+    "label": "Bài 4",
+    "text": "Cho đường tròn $(O; R)$ nội tiếp hình thang $ABCD$ ($AB \\rVert CD$). Gọi $E, F, G, H$ theo thứ tự là tiếp điểm của đường tròn $(O; R)$ với các cạnh $AB, BC, CD, DA$.\n\na) Chứng minh rằng $\\dfrac{EB}{EA} = \\dfrac{GD}{GC}$. Từ đó hãy tính tỷ số $\\dfrac{EB}{EA}$ khi biết $AB = \\dfrac{4R}{3}$ và $BC = 3R$.\n\nb) Trên cạnh CD lấy điểm M nằm giữa hai điểm D và C sao cho chân đường vuông góc kẻ từ M đến DO là điểm K nằm ngoài đường tròn $(O; R)$. Đường thẳng HK cắt đường tròn $(O; R)$ tại điểm thứ hai là T. Chứng minh rằng $MT = MG$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-5",
+    "label": "Bài 5",
+    "text": "Cho tứ giác $ABCD$ và điểm $M$ trên cạnh $AD$. Qua điểm $A$ và $D$ vẽ lần lượt các đường thẳng song song với $MC$ và $MB$, hai đường thẳng này cắt nhau tại $N$. Chứng minh rằng $N$ nằm trên cạnh $BC$ khi và chỉ khi $AB$ song song với $CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-6",
+    "label": "Bài 6",
+    "text": "Cho hình vuông $ABCD$ có cạnh bằng $a$. Trên các cạnh $AB, BC, CD, DA$ lấy các điểm $M, N, P, Q$ sao cho $MN$ và $PQ$ cùng song song với $AC$ và $\\widehat{AMQ} = 30^\\circ$.\n\na) Gọi $A'$ là điểm đối xứng với $A$ qua $MQ$ và $C'$ là điểm đối xứng với $C$ qua $NP$. Gọi giao điểm của $QA'$ với $NP$ là $E$ và giao điểm của $PC'$ với $MQ$ là $F$, chứng minh rằng các điểm $E, F, Q, D, P$ cùng nằm trên một đường tròn.\n\nb) Biết $AC = 3MN$, tính diện tích hình thang $MNPQ$ theo $a$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-7",
+    "label": "Bài 7",
+    "text": "Cho hình thang $ABCD$ ($AB \\not\\text{ hoặc } \\neq CD$, đề bài viết $AB // CD$). Chứng minh rằng nếu $AC + CB = AD + DB$ thì hình thang $ABCD$ cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-8",
+    "label": "Bài 8",
+    "text": "Cho ngũ giác $ABCDE$, mà mỗi đường chéo song song với một cạnh của ngũ giác. Chứng minh rằng tỉ số giữa cạnh của ngũ giác và đường chéo song song với nó là một hằng số.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-9",
+    "label": "Bài 9",
+    "text": "Cho hình thang $ABCD$ ($AB // CD, AB < CD$). Gọi $K, M$ lần lượt là trung điểm của $BD, AC$. Đường thẳng qua $K$ và vuông góc với $AD$ cắt đường thẳng qua $M$ và vuông góc với $BC$ tại $Q$. Chứng minh rằng $KM$ song song với $AB$ và $QC = QD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-10",
+    "label": "Bài 10",
+    "text": "Cho tứ giác $ABCD$ nội tiếp một đường tròn có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Gọi giao điểm của $AB$ với $CD$ là $F$, giao điểm của $BC$ với $AD$ là $E$. Gọi $I, J$ lần lượt là trung điểm của $AB$ và $CD$. Chứng minh rằng $\\dfrac{IJ}{OE} = \\dfrac{1}{2} \\left| \\dfrac{CD}{AB} - \\dfrac{AB}{CD} \\right|$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-11",
+    "label": "Bài 11",
+    "text": "Cho hình bình hành $ABCD$. Trên các cạnh $BC, CD$ lấy lần lượt các điểm $M, N$ thỏa mãn điều kiện $\\dfrac{BM}{CM} = \\dfrac{CN}{2DN} = k$ ($k$ là một số cho trước). Gọi $P, Q$ lần lượt là giao điểm của $BD$ với $AM, AN$. Chứng minh rằng $S_{MNPQ} = S_{APQ}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-12",
+    "label": "Bài 12",
+    "text": "Cho tứ giác $ABCD$ có $\\widehat{BCD} = \\widehat{CDA}$ và đường phân giác của góc $\\widehat{ABC}$ cắt $CD$ tại $E$. Chứng minh rằng $\\widehat{AEB} = 90^\\circ$ khi và chỉ khi $AB = AD + BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-13",
+    "label": "Bài 13",
+    "text": "Cho hình thoi $ABCD$ có cạnh bằng $a$. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Biết rằng bán kính đường tròn ngoại tiếp tam giác $ABC$ bằng $R$ và bán kính đường tròn ngoại tiếp tam giác $ABD$ bằng $r$. Tính diện tích hình thoi $ABCD$ theo các bán kính $R$ và $r$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-14",
+    "label": "Bài 14",
+    "text": "Cho tứ giác $ABCD$ và điểm $M$ bất kì nằm trên đường chéo $AC$. Qua $O$ kẻ đường thẳng song song với $AB$ cắt $BC$ tại $M$, qua $O$ kẻ đường thẳng song song với $CD$ cắt $AD$ tại $N$. Chứng minh rằng $\\dfrac{1}{AB^2} + \\dfrac{1}{CD^2} \\ge \\dfrac{1}{OM^2} + \\dfrac{1}{ON^2}$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-15",
+    "label": "Bài 15",
+    "text": "Cho hình vuông $ABCD$. Trên cạnh $BC$ và $CD$ lấy các điểm $P$ và $Q$ sao cho $\\widehat{PAQ} = 45^\\circ$. Kẻ $PM$ song song với $AQ$ ($M \\notin AB$, tài liệu viết $M \\text{ thuộc } AB$) và $QN$ song song với $AP$ ($N \\notin AD$, tài liệu viết $N \\text{ thuộc } AD$). Đường thẳng $MN$ cắt $AP, AQ$ lần lượt tại $E$ và $F$. Chứng minh rằng $EF^2 = ME^2 + NF^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-16",
+    "label": "Bài 16",
+    "text": "Cho tứ giác $ABCD$ và các điểm $M, N, P, Q$ lần lượt thuộc các cạnh $AD, BC, AB, CD$ thỏa mãn các điều kiện $\\dfrac{MA}{MD} = \\dfrac{NB}{NC} = k$ và $\\dfrac{PA}{PB} = \\dfrac{QD}{QC} = m$. Chứng minh rằng hai đoạn thẳng $MN$ và $PQ$ cắt nhau tại điểm $I$ thỏa mãn $\\dfrac{IP}{IQ} = k$ và $\\dfrac{IM}{IN} = m$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-17",
+    "label": "Bài 17",
+    "text": "Cho hình vuông $ABCD$. Trên cạnh $CB, CD$ lấy lần lượt các điểm $E$ và $F$ sao cho $\\dfrac{EB}{BC} = k$ và $\\dfrac{DF}{DC} = \\dfrac{1 - k}{1 + k}$ với $0 < k < 1$. Đoạn thẳng $BD$ cắt $AE, AF$ lần lượt tại $H, G$. Đường thẳng vuông góc với $EF$ kẻ từ $A$ cắt $BD$ tại $P$. Chứng minh rằng $\\dfrac{PG}{PH} = \\dfrac{DG}{BH}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-18",
+    "label": "Bài 18",
+    "text": "Cho hình vuông $ABCD$ với tâm $O$. Gọi $M$ là trung điểm $AB$, các điểm $N, P$ thuộc $BC, CD$ sao cho $MN \\rVert AP$. Chứng minh rằng:\n\na) Tam giác $BNO$ đồng dạng với tam giác $DOP$ và $\\widehat{NOP} = 45^\\circ$.\n\nb) Tâm đường tròn ngoại tiếp tam giác $NOP$ thuộc $OC$.\n\nc) Ba đường thẳng $BD, AN, PM$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-19",
+    "label": "Bài 19",
+    "text": "Cho hình vuông $ABCD$ có cạnh $a$. Trên các cạnh $BC, CD$ lấy lần lượt các điểm $M$ và $N$ thay đổi sao cho $\\widehat{MAN} = 45^\\circ$. \n\na) Chứng minh rằng chu vi tam giác $CMN$ không phụ thuộc vào vị trí điểm $M, N$.\n\nb) Từ đó xác định vị trí của $M$ và $N$ để diện tích tam giác $CMN$ lớn nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-20",
+    "label": "Bài 20",
+    "text": "Cho hình chữ nhật $ABCD$ với $AB = a, AD = b$. Trên các cạnh $AD, AB, BC, CD$ lần lượt lấy các điểm $E, F, G, H$ sao cho luôn tạo thành tứ giác $EFGH$. Gọi $P$ là chu vi của tứ giác $EFGH$. Chứng minh rằng $P \\ge 2\\sqrt{a^2 + b^2}$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-21",
+    "label": "Bài 21",
+    "text": "Cho hình thoi $ABCD$. Dựng các tam giác đều $AKD$ và $CDM$ sao cho $K, B$ thuộc nửa mặt phẳng bờ $AD$ và $M$ thuộc nửa mặt phẳng bờ $CD$ không chứa điểm $B$. Chứng minh rằng ba điểm $B, K, M$ cùng nằm trên một đường thẳng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-22",
+    "label": "Bài 22",
+    "text": "Cho tứ giác lồi $ABCD$ thỏa mãn điều kiện $\\widehat{BCD} = 90^\\circ$. Lấy điểm $M, N$ lần lượt trên cạnh $BC, CD$ sao cho $\\widehat{MAD} = \\widehat{NAB} = 90^\\circ$. Chứng minh rằng nếu $MN$ và $BD$ cắt nhau tại $I$ thì $IA$ vuông góc với $AC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-23",
+    "label": "Bài 23",
+    "text": "Chứng minh rằng với mọi tứ giác $ABCD$ ta luôn có $AC^2 + BD^2 \\le 5 AD^2 + BC^2 + 2AB \\cdot CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-24",
+    "label": "Bài 24",
+    "text": "Cho hình vuông $ABCD$ có cạnh $a$. Trên các cạnh $AB, BC$ lấy lần lượt các điểm $M$ và $N$ thay đổi sao cho $\\widehat{MDN} = 45^\\circ$. Xác định vị trí của $M$ và $N$ để độ dài $MN$ ngắn nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-25",
+    "label": "Bài 25",
+    "text": "Cho hình vuông $ABCD$ có cạnh bằng $1$. Lấy các điểm $M, N, P, Q$ lần lượt trên các cạnh $AB, BC, CD, DA$ sao cho chu vi tam giác $BMN$ là $1$ và $MP \\parallel AD, NQ \\parallel AB$. Tính khoảng giá trị mà chu vi của tam giác $DPQ$ có thể nhận được.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-26",
+    "label": "Bài 26",
+    "text": "Cho hình vuông $ABCD$ có cạnh $a$. Trên các cạnh $BC, CD$ lấy lần lượt các điểm $M$ và $N$ sao cho $MC + CN + MN = 2a$. Đường chéo $BD$ cắt $AM, AN$ lần lượt tại $P$ và $Q$. Chứng minh rằng các đoạn thẳng $BP, PQ, QD$ là độ dài ba cạnh của một tam giác vuông.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-27",
+    "label": "Bài 27",
+    "text": "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$. Các đường phân giác của các góc tạo bởi hai đường chéo của hình bình hành cắt các cạnh $AD, AB, BC, CD$ lần lượt tại $M, N, K, L$. Tính tỉ số diện tích của $MNKL$ và hình bình hành $ABCD$ biết $AC = a, BD = b$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-28",
+    "label": "Bài 28",
+    "text": "Cho hình bình hành $ABCD$. Tia phân giác của góc $\\widehat{BAD}$ cắt đường thẳng $BC, CD$ lần lượt tại $M$ và $N$. Gọi $E$ là giao điểm thứ hai của đường tròn ngoại tiếp tam giác $BCD$ và $CMN$. Chứng minh $AE \\perp CE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-29",
+    "label": "Bài 29",
+    "text": "Cho đa giác $ABCDEF$ có $\\widehat{CAB} = \\widehat{CED} = 30^\\circ$, $\\widehat{ACB} = \\widehat{ECD} = 20^\\circ$, $\\widehat{FEA} = \\widehat{FAE} = 40^\\circ$. Chứng minh rằng tam giác $BDF$ là tam giác đều.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-30",
+    "label": "Bài 30",
+    "text": "Cho hình thoi $ABCD$ có $\\widehat{BAD} = 120^\\circ$. Tia $Ax$ tạo với tia $AB$ một góc $\\widehat{BAx} = 15^\\circ$ và cắt cạnh $BC$ tại $M$, cắt đường thẳng $CD$ tại $N$. Tính giá trị của biểu thức: $T = AB^2 \\left( \\dfrac{1}{AM^2} + \\dfrac{1}{AN^2} \\right)$.",
+    "topics": [
+     "hinh-hoc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-31",
+    "label": "Bài 31",
+    "text": "Cho tứ giác lồi $ABCD$. Gọi $M$ và $N$ lần lượt là trung điểm của $AD$ và $BC$. Gọi $P$ là giao điểm của $AN$ và $BM$, $Q$ là giao điểm của $DN$ và $CM$. Chứng minh rằng:\n\n$$\\dfrac{PA}{PN} + \\dfrac{PB}{PM} + \\dfrac{QC}{QM} + \\dfrac{QD}{QN} \\ge 4$$",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-32",
+    "label": "Bài 32",
+    "text": "Cho hình vuông $ABCD$ có cạnh $a$, hai điểm $M$ và $N$ lần lượt nằm trên cạnh $AB$ và $BC$ sao cho $\\dfrac{AM}{AB} = \\dfrac{CN}{CB} = x$ với $0 < x < 1$. Các đường thẳng qua $M$ và $N$ song song với $BD$ cắt $AD$ và $CD$ lần lượt tại $Q$ và $P$. Tính diện tích tứ giác $MNPQ$ theo $a$ và $x$, tìm $x$ để diện tích này lớn nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-33",
+    "label": "Bài 33",
+    "text": "Cho tam giác $ABC$ vuông cân tại $A$. Gọi $M$ là trung điểm của $BC$, gọi $G$ là điểm trên cạnh $AB$ sao cho $GB = 2GA$. Các đường thẳng $GM$ và $CA$ cắt nhau tại $D$. Đường thẳng qua $M$ vuông góc với $CG$ tại $E$ và cắt $AC$ tại $K$. Gọi $P$ là giao điểm của $DE$ và $GK$. Chứng minh rằng $DE = BC$ và $PG = PE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-34",
+    "label": "Bài 34",
+    "text": "Cho tứ giác $ABCD$ nội tiếp đường tròn có bán kính bằng $1$. Một đường tròn có thể nội tiếp đường tứ giác và $AB = AD$. Chứng minh rằng diện tích tứ giác không vượt quá $2$ và bán kính đường tròn nội tiếp không vượt quá $\\dfrac{\\sqrt{2}}{2}$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-35",
+    "label": "Bài 35",
+    "text": "Trên cung $AB$ của đường tròn ngoại tiếp hình chữ nhật $ABCD$, lấy điểm $M$ khác $A$ và $B$. Gọi $P, Q, R$ và $S$ là hình chiếu của điểm $M$ trên các đường thẳng $AD, AB, BC$ và $CD$. Chứng minh rằng đường thẳng $PQ$ và $RS$ vuông góc với nhau và giao điểm của chúng nằm trên một trong hai đường chéo hình chữ nhật.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-36",
+    "label": "Bài 36",
+    "text": "Cho hình vuông $ABCD$. Trên cạnh $AB, AD$ lấy lần lượt hai điểm $E, F$ sao cho $AE = AF$. Vẽ $AH$ vuông góc với $BF$ ($H$ thuộc $BF$), $AH$ cắt $DC$ và $BC$ lần lượt tại hai điểm $M, N$.\n\na) Chứng minh rằng tứ giác $AEMD$ là hình chữ nhật.\n\nb) Biết diện tích tam giác $BCH$ gấp bốn lần diện tích tam giác $AEH$. Chứng minh rằng $AC = 2EF$.\n\nc) Chứng minh rằng $\\dfrac{1}{AD^2} = \\dfrac{1}{AM^2} + \\dfrac{1}{AN^2}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-37",
+    "label": "Bài 37",
+    "text": "Cho hình thang $ABCD$ có hai đường chéo cắt nhau tại $O$. Gọi $M$ và $N$ lần lượt là trung điểm của $BD$ và $AC$. Điểm $K$ đối xứng với $O$ qua $MN$. Đường thẳng qua $K$ và song song với $MN$ cắt $AD, BC, BD, CA$ lần lượt tại $P, Q, E, F$. Chứng minh rằng $PE = QF$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-38",
+    "label": "Bài 38",
+    "text": "Cho hình thang $ABCD$ với $AD \\rVert BC$. Gọi $M, P, Q$ lần lượt là trung điểm của các đoạn thẳng $CD, AM, BM$. Tìm điều kiện về độ dài hai cạnh đáy của hình thang để giao điểm của hai đường thẳng $DP$ và $CQ$ nằm trong tam giác $ABM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-39",
+    "label": "Bài 39",
+    "text": "Cho tứ giác $ABCD$, trên các cạnh $AB, BC, CD, DA$ lấy lần lượt các điểm $M, N, P, Q$ sao cho $\\dfrac{AM}{MB} = m, \\dfrac{BN}{NC} = n, \\dfrac{CP}{PD} = p, \\dfrac{DQ}{QA} = q$ thỏa mãn điều kiện $(1 - mp)(1 - nq) \\le 0$. Chứng minh rằng:\n\n$$S_{MNPQ} \\le \\max \\{S_{ABC}; S_{BCD}; S_{CDA}; S_{DAB}\\}$$",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5191-tu-giac-va-da-giac-dac-40",
+    "label": "Bài 40",
+    "text": "Cho tứ giác $ABCD$ có $\\widehat{DAC} = \\widehat{BAC}$ và $\\widehat{ABC} = \\widehat{ACD}$. Các đường thẳng $AD$ và $BD$ cắt nhau tại $E$, các đường thẳng $AB$ và $CD$ cắt nhau tại $F$. Chứng minh rằng $AB \\cdot DE = BC \\cdot CE$ và $AC^2 < AD \\cdot AF + AB \\cdot AE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
    }
   ]
  },
