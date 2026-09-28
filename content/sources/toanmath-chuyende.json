@@ -3495,6 +3495,346 @@
   ]
  },
  {
+  "id": "tm-cd-17273-phep-chia-het-va-phep-chia",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Phép chia hết và phép chia có dư (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com – Nhóm Các Dự Án Giáo Dục",
+  "sourceUrl": "https://thcs.toanmath.com/2025/09/chuyen-de-phep-chia-het-va-phep-chia-co-du-on-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-1",
+    "label": "Bài 1",
+    "text": "Chứng minh rằng $C = 1 + 3 + 3^2 + 3^3 + ... + 3^{11}$ chia hết cho $13$ và $40$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng $A = 7.5^{2n} + 12.6^n$ chia hết cho 19 với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc",
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-3",
+    "label": "Bài 3",
+    "text": "Chứng minh rằng $A = 1^3 + 2^3 + 3^3 + ... + 100^3$ chia hết cho $B = 1 + 2 + ... + 100$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-4",
+    "label": "Bài 4",
+    "text": "Chứng minh rằng:\na) $A = 2222^{5555} + 5555^{2222}$ chia hết cho 7.\nb) $B = 1961^{1962} + 1963^{1964} + 1965^{1966} + 2$ chia hết cho 7.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-5",
+    "label": "Bài 5",
+    "text": "Chứng minh rằng:\na) $A = n^5 - n \\bmod 30$ với mọi $n \\notin \\text{...}$ (hoặc $n \\bmod 30 = 0$, $n \\bmod 30 = 0$, sửa lại: với mọi số nguyên $n$).\nb) $B = n^4 - 10n^2 + 9 \\bmod 384$ với mọi $n$ lẻ và $n \\ne \\text{...}$ (sửa: với mọi $n$ lẻ).\nc) $C = 3^{n+2} - 2^{n+2} + 3^n - 2^n \\bmod 10$.\nd) $D = 2^{4n} - 1 \\bmod 15$ với mọi số tự nhiên $n$.\ne) $C = 10^n + 18n - 1 \\bmod 27$ với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-6",
+    "label": "Bài 6",
+    "text": "Chứng minh rằng $A = 2^2 + 2^4 + \\dots + 2^{200}$ chia hết cho 4 và 5.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-7",
+    "label": "Bài 7",
+    "text": "Chứng minh rằng $A = 10^n + 72n - 1$ chia hết cho $81$ với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-8",
+    "label": "Bài 8",
+    "text": "Chứng minh rằng:\na) $\\overline{abcd} \\vdots 29 \\rightleftharpoons a + 3b + 9c + 27d \\vdots 29$.\nb) $\\overline{abc} \\vdots 21 \\rightleftharpoons a + 2b + 4c \\vdots 21$.\nc) $m + 4n \\vdots 13 \\rightleftharpoons 10m + n \\vdots 13$ với mọi số tự nhiên $m, n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-9",
+    "label": "Bài 9",
+    "text": "Chứng minh $(495a + 1035b)$ chia hết cho 45 với mọi $a, b$ là số tự nhiên.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-10",
+    "label": "Bài 10",
+    "text": "Chứng minh rằng:\na) Nếu $\\overline{ab} + \\overline{cd} + \\overline{eg}$ chia hết cho $11$ thì $\\overline{abcdeg}$ cũng chia hết cho $11$, điều ngược lại có đúng không?\nb) Nếu $\\overline{abc} - \\overline{deg} \\vdots 7$ thì $\\overline{abcdeg}$ cũng chia hết cho $7$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-11",
+    "label": "Bài 11",
+    "text": "Chứng minh rằng tích của hai số chẵn liên tiếp luôn chia hết cho 8.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-12",
+    "label": "Bài 12",
+    "text": "a) Chứng minh rằng với mọi số tự nhiên $n$ thì $60n + 45$ chia hết cho $15$ nhưng không chia hết cho $30$.\nb) Chứng minh rằng không có số tự nhiên nào mà chia cho $15$ dư $6$ và chia $9$ dư $1$.\nc) Chứng minh rằng $A = n^2 + n + 1$ không chia hết cho $2$ và $5$ với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-13",
+    "label": "Bài 13",
+    "text": "Chứng minh rằng với mọi số tự nhiên $x, y$ thì $x + 4y \\vdots 19 \\Leftrightarrow 13x + 14y \\vdots 19$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-14",
+    "label": "Bài 14",
+    "text": "Cho $B = 3 + 3^2 + 3^3 + ... + 3^{100}$ (có $100$ số hạng). Tìm số dư khi chia $B$ cho $82$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-15",
+    "label": "Bài 15",
+    "text": "a) Nếu $\\overline{ab} + \\overline{cd} \\vdots 11$ thì $\\overline{abcd} \\vdots 11$.\nb) Nếu $\\overline{abc} - \\overline{deg} \\vdots 7$ thì $\\overline{abcdeg} \\vdots 7$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-16",
+    "label": "Bài 16",
+    "text": "Tìm số nguyên dương $n$ nhỏ nhất sao cho khi viết tiếp số đó vào sau số $2015$ ta được một số chia hết cho $113$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-17",
+    "label": "Bài 17",
+    "text": "Chứng minh rằng nếu $\\overline{ab} = 2\\overline{cd}$ thì $\\overline{abcd} \\vdots 67$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-18",
+    "label": "Bài 18",
+    "text": "Chứng minh rằng: Nếu $\\overline{abc} \\vdots 37$ thì các số $\\overline{bca}, \\overline{cab}$ đều chia hết cho $37$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-19",
+    "label": "Bài 19",
+    "text": "Chứng minh rằng nếu $\\overline{abcd} \\vdots 99$ thì $\\overline{ab} + \\overline{cd} \\vdots 99$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-20",
+    "label": "Bài 20",
+    "text": "Tìm tất cả các số có $2$ chữ số sao cho mỗi số gấp $2$ lần tích các chữ số của số đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-21",
+    "label": "Bài 21",
+    "text": "Chứng minh rằng nếu $\\overline{abcd} \\vdots 29$ thì $a + 3b + 9c + 27d \\vdots 29$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-22",
+    "label": "Bài 22",
+    "text": "Viết liên tiếp tất cả các số có $2$ chữ số từ $19$ đến $80$ ta được số $A = 192021...7980$. Hỏi số $A$ có chia hết cho $1980$ không? Vì sao?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-23",
+    "label": "Bài 23",
+    "text": "Tìm số tự nhiên $n$ để $(3n+14)$ chia hết cho $(n+2)$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-24",
+    "label": "Bài 24",
+    "text": "Chứng tỏ rằng số $\\underbrace{11...1}_{100 \\text{ chữ số 1}}\\underbrace{22...2}_{100 \\text{ chữ số 2}}$ là tích của $2$ số tự nhiên liên tiếp.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-25",
+    "label": "Bài 25",
+    "text": "Tìm số nguyên $n$ để: $5 + n^2 - 2n$ chia hết cho $n - 2$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-26",
+    "label": "Bài 26",
+    "text": "Giả sử $S(a)$ là tổng các chữ số của số tự nhiên $a$. Chứng minh rằng:\na) $a - S(a) \\vdots 9$.\nb) Nếu $S(a) = S(2a)$ thì $a$ chia hết cho $9$, điều ngược lại có đúng không?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-27",
+    "label": "Bài 27",
+    "text": "Số tự nhiên $A$ có $26$ chữ số, người ta đổi chỗ các chữ số của $A$ để được một số $B$ lớn gấp $3$ lần số $A$. Chứng minh rằng $B \\vdots 27$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-28",
+    "label": "Bài 28",
+    "text": "Chứng minh rằng với mọi số tự nhiên $n$ thì $n(n^2+1)(n^2+4) \\vdots 5$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-29",
+    "label": "Bài 29",
+    "text": "Chứng minh rằng với mọi số nguyên $n$ thì $A = \\left[n^3(n^2 - 7)^2 - 36n\\right] \\vdots 7$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-30",
+    "label": "Bài 30",
+    "text": "Cho $a, b$ là hai số chính phương lẻ liên tiếp. Chứng minh rằng: $(a-1)(b-1) \\vdots 192$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-31",
+    "label": "Bài 31",
+    "text": "Chứng minh rằng $2009^{2008} + 2011^{2010}$ chia hết cho $2010$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-32",
+    "label": "Bài 32",
+    "text": "Tìm các số nguyên $n$ để $n^5 + 1$ chia hết cho $n^3 + 1$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-33",
+    "label": "Bài 33",
+    "text": "Tính tổng $S = 1.2 + 2.3 + 3.4 + \\dots + n(n+1)$. Từ đó chứng minh $S$ luôn chia hết cho hai trong ba số $n, (n+1), (n+2)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-34",
+    "label": "Bài 34",
+    "text": "Tính tổng $D = 1.2.3 + 2.3.4 + 3.4.5 + \\dots + n(n+1)(n+2)$. Từ đó chứng minh $D$ luôn chia hết cho ba trong bốn số $n, (n+1), (n+2), (n+3)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-35",
+    "label": "Bài 35",
+    "text": "Chứng minh rằng với mọi số tự nhiên chẵn $n$ thì biểu thức $A = 20^n + 16^n - 3^n - 1$ chia hết cho $323$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17273-phep-chia-het-va-phep-chia-36",
+    "label": "Bài 36",
+    "text": "Cho ba số tự nhiên $a, b, c$ thỏa mãn: $a^2 + b^2 = c^2$, chứng minh rằng:\na. Trong hai số $a, b$ có ít nhất một số chia hết cho 2.\nb. Trong hai số $a, b$ có ít nhất một số chia hết cho 3.\nc. Trong hai số $a, b$ có ít nhất một số chia hết cho 4.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-cd-6326-so-sanh-bieu-thuc-va-luy",
   "kind": "chuyende",
   "title": "Chuyên đề: So sánh biểu thức và lũy thừa (tuyển chọn)",
@@ -4776,6 +5116,300 @@
   ]
  },
  {
+  "id": "tm-cd-17293-so-chinh-phuong",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Số chính phương (tuyển chọn) – Nhóm Các Dự Án Giáo Dục",
+  "grade": 6,
+  "sourceName": "toanmath.com – Nhóm Các Dự Án Giáo Dục",
+  "sourceUrl": "https://thcs.toanmath.com/2025/09/chuyen-de-so-chinh-phuong-on-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-1",
+    "label": "Bài 1",
+    "text": "Cho hai số chính phương có tổng là một số chia hết cho $3$. Chứng minh rằng cả hai số chính phương đó đều chia hết cho $9$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-2",
+    "label": "Bài 2",
+    "text": "Chứng minh rằng $n^{2004} + 1$ không phải là số chính phương khi $n$ lẻ.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-3",
+    "label": "Bài 3",
+    "text": "Tìm số chính phương có bốn chữ số, biết rằng hai chữ số đầu giống nhau, hai chữ số cuối giống nhau.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-4",
+    "label": "Bài 4",
+    "text": "Tìm số tự nhiên $n$ để $2^8 + 2^{11} + 2^n$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-5",
+    "label": "Bài 5",
+    "text": "Chứng minh rằng không tồn tại số tự nhiên $n$ nào để $13n^2 + 2$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-6",
+    "label": "Bài 6",
+    "text": "Chứng minh rằng một số chẵn bất kỳ không chia hết cho $4$ thì không phân tích thành hiệu của hai số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-7",
+    "label": "Bài 7",
+    "text": "Chứng minh rằng $n^5 + 1999n + 2017$ không phải là số chính phương với mọi $n \\in \\mathbb{Z}$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-8",
+    "label": "Bài 8",
+    "text": "Ta ký hiệu $n!$ là tích của $n$ số nguyên dương đầu tiên. Cụ thể $n! = 1 \\times 2 \\times \\times n$. Tìm số tự nhiên $n$ sao cho: $1! + 2! + 3! + \\times + n!$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-9",
+    "label": "Bài 9",
+    "text": "Cho $E = 125 \\times (1 + 6 + 6^2 + \\text{...} + 6^{2021})$. Chứng minh $E + 25$ là một số chính phương.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-10",
+    "label": "Bài 10",
+    "text": "Chứng minh rằng:\na) $S = 2016^{2016} + 2016^{1000} + 2016^{999} + \\times + 2016^2 + 2016$ không là số chính phương.\nb) $A = 2018^{2018} + 2018^{1000} + 2018^{999} + \\times + 2018^2 + 2018 + 5$ không là số chính phương.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-11",
+    "label": "Bài 11",
+    "text": "Cho $A = 10^{2012} + 10^{2011} + 10^{2010} + 10^{2009} + 8$.\na) Chứng minh $A$ chia hết cho $24$.\nb) Chứng minh $A$ không là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-12",
+    "label": "Bài 12",
+    "text": "Chứng minh rằng: $M = 2021^{2020} + 2021^{100} + 2021^{99} + \\times + 2021^2 + 2021^1 + 2021^0$ không là số chính phương.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-13",
+    "label": "Bài 13",
+    "text": "Tìm số chính phương có bốn chữ số, được viết bởi các chữ số: $3; 6; 6; 8$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-14",
+    "label": "Bài 14",
+    "text": "Chứng minh rằng số có dạng $n^6 - n^4 + 2n^3 + 2n^2$ trong đó $n \\notin \\mathbb{N}, n > 1$ không là số chính phương.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-15",
+    "label": "Bài 15",
+    "text": "Cho $n$ là số nguyên dương và $m$ là ước nguyên dương của $2n^2$. CMR: $n^2 + m$ không là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-16",
+    "label": "Bài 16",
+    "text": "Tìm $n$ để $n^2 + 2006$ là một số chính phương.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-17",
+    "label": "Bài 17",
+    "text": "Tìm số tự nhiên $n$ để $n^4 - 3n + 6$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-18",
+    "label": "Bài 18",
+    "text": "Tìm số chính phương có $4$ chữ số biết rằng số gồm $2$ số đầu lớn hơn số gồm $2$ số sau $1$ đơn vị.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-19",
+    "label": "Bài 19",
+    "text": "Tìm tất cả các số nguyên $n$ để $n^4 + 2n^3 + 2n^2 + n + 7$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-20",
+    "label": "Bài 20",
+    "text": "Cho $A$ là tổng các bình phương của $108$ số tự nhiên liên tiếp nào đó. Chứng minh rằng $A$ không phải là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-21",
+    "label": "Bài 21",
+    "text": "Tìm số tự nhiên $n$ có $2$ chữ số biết rằng $2n + 1$ và $3n + 1$ đều là các số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-22",
+    "label": "Bài 22",
+    "text": "Chứng minh $3^n + 63$ không phải là số chính phương với $n \\neq 3, n \\neq 0, 4$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-23",
+    "label": "Bài 23",
+    "text": "Tìm số tự nhiên $n$ để $n^4 - n + 2$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-24",
+    "label": "Bài 24",
+    "text": "Chứng minh $n^7 + 34n + 5$ không là số chính phương với $n \\neq 0$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-25",
+    "label": "Bài 25",
+    "text": "Chứng minh rằng tổng các bình phương của năm số tự nhiên liên tiếp không thể là một số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-26",
+    "label": "Bài 26",
+    "text": "Chứng minh rằng $A = 19n^6 + 5n^5 + 1890n^3 - 19n^2 - 5n + 1993$ ($n \\neq \\text{ats}$) không là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-27",
+    "label": "Bài 27",
+    "text": "Cho $p$ là tích của $2016$ số nguyên tố đầu tiên. Chứng minh rằng $p - 1$ và $p + 1$ không là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-28",
+    "label": "Bài 28",
+    "text": "Tìm số có hai chữ số mà bình phương của số ấy bằng lập phương của tổng các chữ số của nó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-29",
+    "label": "Bài 29",
+    "text": "Chứng minh rằng tích của bốn số nguyên dương liên tiếp không là số chính phương.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-30",
+    "label": "Bài 30",
+    "text": "Tìm ba số chính phương lẻ liên tiếp mà tổng của chúng là một số có $4$ chữ số giống nhau.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17293-so-chinh-phuong-31",
+    "label": "Bài 31",
+    "text": "Tìm một số chính phương biết nó bằng tổng của một số có hai chữ số với số gồm hai chữ số đó viết theo thứ tự ngược lại.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-cd-17295-so-nguyen",
   "kind": "chuyende",
   "title": "Chuyên đề: Số nguyên (tuyển chọn)",
@@ -5145,6 +5779,326 @@
     "topics": [
      "so-hoc",
      "nghiem-nguyen"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-17291-so-nguyen-to-va-hop-so",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Số nguyên tố và hợp số (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com – Nhóm Các Dự Án Giáo Dục",
+  "sourceUrl": "https://thcs.toanmath.com/2025/09/chuyen-de-so-nguyen-to-va-hop-so-on-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-1",
+    "label": "Bài 1",
+    "text": "Cho $p$ và $p + 2$ là hai số nguyên tố lớn hơn 3. Chứng minh rằng tổng của chúng chia hết cho 12.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-2",
+    "label": "Bài 2",
+    "text": "Tìm tất cả các số tự nhiên $n$ để $n + 1$, $n + 3$, $n + 7$, $n + 9$, $n + 13$, $n + 15$ đều là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-3",
+    "label": "Bài 3",
+    "text": "Cho $p$ là số nguyên tố và một trong hai số $8p - 1, 8p + 1$ là số nguyên tố. Hỏi số còn lại là số nguyên tố hay hợp số?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-4",
+    "label": "Bài 4",
+    "text": "Tìm tất cả các số nguyên tố $p, q$ sao cho $7pq + 1$ và $pq + 11$ cũng là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-5",
+    "label": "Bài 5",
+    "text": "Hai số $2^n + 1, 2^n - 1$ ($n \\ne \\text{N}, n > 2$) có thể cùng là số nguyên tố hay không? Vì sao?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-6",
+    "label": "Bài 6",
+    "text": "Hai số nguyên tố gọi là sinh đôi nếu chúng là hai số nguyên tố lẻ liên tiếp. Chứng minh rằng một số tự nhiên lớn hơn 3 nằm giữa hai số nguyên tố sinh đôi thì chia hết cho 6.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-7",
+    "label": "Bài 7",
+    "text": "Tìm tất cả các bộ ba số $a, b, c$ sao cho $abc < ab + bc + ac$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-8",
+    "label": "Bài 8",
+    "text": "Cho $p$ và $2p + 1$ là hai số nguyên tố lớn hơn 3. Hỏi $4p + 1$ là số nguyên tố hay hợp số?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-9",
+    "label": "Bài 9",
+    "text": "a) Chứng minh rằng số dư trong phép chia của một số nguyên tố cho $30$ chỉ có thể là $1$ hoặc là số nguyên tố. Khi chia cho $60$ thì kết quả ra sao?\n\nb) Chứng minh rằng nếu tổng của $n$ lũy thừa bậc 4 của các số nguyên tố lớn hơn $5$ là một số nguyên tố thì $(n, 30) = 1$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-10",
+    "label": "Bài 10",
+    "text": "Chứng minh rằng nếu tổng của $n$ lũy thừa bậc 4 của các số nguyên tố lớn hơn 5 là một số nguyên tố thì $(n, 30) = 1$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-11",
+    "label": "Bài 11",
+    "text": "Cho dãy số nguyên dương $a_1, a_2, \\to, a_n$ được xác định như sau: $a_1 = 2, a_2 = 3$, $a_n$ là ước nguyên tố của $a_1a_2\\to a_{n-1} + 1$ với $n \\ne 2$. Chứng minh rằng $a_k \\ne 5, \\forall k \\ne \\mathbb{N}^*$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-12",
+    "label": "Bài 12",
+    "text": "Tìm các số nguyên tố $p$ sao cho $p$ vừa là tổng vừa là hiệu của hai số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-13",
+    "label": "Bài 13",
+    "text": "Trong dãy số tự nhiên có thể tìm được $n$ số liên tiếp nhau ($n > 1$) mà không có số nguyên tố nào hay không?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-14",
+    "label": "Bài 14",
+    "text": "Ta gọi $p, q$ là 2 số nguyên tố liên tiếp nếu giữa $p$ và $q$ không có số nguyên tố nào khác. Tìm 3 số nguyên tố liên tiếp $p, q, r$ sao cho $p^2 + q^2 + r^2$ cũng là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-15",
+    "label": "Bài 15",
+    "text": "Cho $p$ và $2p + 1$ là số nguyên tố lớn hơn $3$. Chứng minh rằng $4p + 1$ là hợp số.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-16",
+    "label": "Bài 16",
+    "text": "Tìm 3 số nguyên tố $p, q, r$ sao cho: $p^q + q^p = r$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-17",
+    "label": "Bài 17",
+    "text": "Tìm các số nguyên tố $x, y$ thỏa mãn $x^2 - 2y^2 - 1 = 0$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-18",
+    "label": "Bài 18",
+    "text": "Cho các số $p = b^c + a, q = c^a + b, r = a^b + c$ là các số nguyên tố. Chứng minh trong 3 số $p, q, r$ có ít nhất 2 số bằng nhau.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-19",
+    "label": "Bài 19",
+    "text": "Chứng minh rằng nếu $2^m - 1$ là số nguyên tố thì $m$ cũng là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-20",
+    "label": "Bài 20",
+    "text": "Chứng minh rằng hai số $2n + 1$ và $10n + 7$ là hai số nguyên tố cùng nhau với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-21",
+    "label": "Bài 21",
+    "text": "Chứng minh rằng nếu $n > 2$ thì giữa $n$ và $n!$ có ít nhất 1 số nguyên tố (từ đó suy ra có vô số số nguyên tố).",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-22",
+    "label": "Bài 22",
+    "text": "Chứng minh rằng số $N = \\frac{5^{125} - 1}{5^{25} - 1}$ là hợp số.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-23",
+    "label": "Bài 23",
+    "text": "Tìm số nguyên tố có hai chữ số khác nhau có dạng $\\overline{xy}$ ($x > y > 0$) sao cho hiệu của số đó với số viết theo thứ tự ngược lại của số đó là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-24",
+    "label": "Bài 24",
+    "text": "Chứng minh với mọi số tự nhiên lớn hơn 0 thì $2^{2n+1} + 3$ là hợp số.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-25",
+    "label": "Bài 25",
+    "text": "Chứng minh với mọi số tự nhiên lớn hơn 0 thì $19 \\times 8^n + 17$ là hợp số.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-26",
+    "label": "Bài 26",
+    "text": "Cho $A = n! + 1, B = n + 1$ ($n \\ne \\text{N}^*$). Chứng minh rằng nếu $A$ chia hết cho $B$ thì $B$ là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-27",
+    "label": "Bài 27",
+    "text": "Tìm tất cả các bộ ba số nguyên tố $a, b, c$ đôi một khác nhau thỏa mãn điều kiện:\n$$20 < \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} < 21$$",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-28",
+    "label": "Bài 28",
+    "text": "Chứng minh rằng có vô số số nguyên tố có dạng: $3x - 1$ ($x \\ne \\text{N}^*, x > 1$).",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-29",
+    "label": "Bài 29",
+    "text": "Tìm tất cả các bộ ba nguyên tố $(p; q; r)$ sao cho $pq = p + q + r + 160$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-30",
+    "label": "Bài 30",
+    "text": "Chứng minh có vô số số nguyên tố có dạng $4x + 3$ ($x \\ne \\text{N}$).",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-31",
+    "label": "Bài 31",
+    "text": "Tìm hai số nguyên tố $p, q$ sao cho $8q + 1 = p^2$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-32",
+    "label": "Bài 32",
+    "text": "Chứng minh rằng tổng $100^1 - 100^2 + 100^3 - \\text{...} + 1981^{100} - 1982^{100} \\text{ }∐ 200283$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-33",
+    "label": "Bài 33",
+    "text": "Giả sử $p$ là số nguyên tố lẻ và $m = \\frac{9^p - 1}{8}$. Chứng minh rằng $m$ là hợp số lẻ không chia hết cho $3$ và $3^m \\ne 1 \\bmod (m)$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-17291-so-nguyen-to-va-hop-so-34",
+    "label": "Bài 34",
+    "text": "Chứng minh rằng $A = 3^p - 2^p - 1 \\text{ }∐ 42p$ (với $p$ là số nguyên tố lớn hơn 7).",
+    "topics": [
+     "so-hoc"
     ],
     "level": 3
    }
@@ -8041,6 +8995,375 @@
     "text": "So sánh các số sau: $A = \\dfrac{10^{2011} + 1}{10^{2012} + 1}$ và $B = \\dfrac{10^{2012} + 1}{10^{2013} + 1}$.",
     "topics": [
      "dai-so"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-415-hinh-hoc-tam-giac",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Hình học tam giác (tuyển chọn)",
+  "grade": 7,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2017/10/cac-chuyen-de-boi-duong-hoc-sinh-gioi-hinh-hoc-7.html",
+  "problems": [
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-1",
+    "label": "Bài 1",
+    "text": "Cho tam giác $ABC$ có $\\widehat{A} = 20^\\circ$ có $AB = AC$, lấy điểm $M$ thuộc đoạn thẳng $AC$ sao cho $AM = BC$. Tính số đo góc $\\widehat{AMC}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-2",
+    "label": "Bài 2",
+    "text": "Cho tam giác ABC, có $\\widehat{A} \\ge 90^\\circ$. Trên các cạnh AB, AC lần lượt lấy các điểm M, N không trùng với các đỉnh của tam giác. Chứng minh rằng: $BC > MN$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác $ABC$ cân tại $A$, $\\widehat{A} = 40^\\circ$. Đường cao $AH$, các điểm $E, F$ theo thứ tự thuộc các đoạn thẳng $AH, AC$ sao cho $\\widehat{EBA} = \\widehat{FBC} = 30^\\circ$. Tính số đo góc $\\widehat{AEF}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-4",
+    "label": "Bài 4",
+    "text": "Cho tam giác ABC có $AB < AC$, AD là tia phân giác trong của góc A (D thuộc BC). Chứng minh rằng: \n- $\\widehat{ADC}$ là góc tù.\n- $DC > DB$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-5",
+    "label": "Bài 5",
+    "text": "Cho tam giác $ABC$ có $\\widehat{B} = \\widehat{C} = 45^\\circ$. Điểm $E$ nằm trong tam giác sao cho $\\widehat{EAC} = \\widehat{ECA} = 15^\\circ$. Tính số đo góc $\\widehat{BEA}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác ABC có $AB < AC$, M là trung điểm của cạnh BC. Chứng minh rằng: $\\widehat{BAM} < \\widehat{MAC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-7",
+    "label": "Bài 7",
+    "text": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$, $AB = AC$. $M$ là điểm nằm trong tam giác sao cho $\\widehat{MBC} = 10^\\circ$, $\\widehat{MCB} = 30^\\circ$. Tính số đo góc $\\widehat{AMB}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-8",
+    "label": "Bài 8",
+    "text": "Cho tam giác ABC cân tại A. Từ điểm D trên cạnh AB, vẽ đường thẳng song song với BC, cắt cạnh AC tại E. Chứng minh rằng: $BC > \\dfrac{1}{2}(DE + BC)$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-9",
+    "label": "Bài 9",
+    "text": "Cho tam giác $ABC$ có $\\widehat{B} = \\widehat{C} = 70^\\circ$. Kẻ tia $Bx$ sao cho $\\widehat{CBx} = 10^\\circ$. Trên tia $Bx$ lấy điểm $D$ sao cho $BD = BA$ ($A, D$ khác phía so với đường thẳng $BC$). Tính số đo góc $\\widehat{BCD}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-10",
+    "label": "Bài 10",
+    "text": "Cho tam giác ABC vuông tại A, vẽ AH vuông góc với BC (H thuộc BC). Chứng minh rằng: $AH + BC > AB + AC$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-11",
+    "label": "Bài 11",
+    "text": "Tính các góc của tam giác $ABC$ biết rằng đường cao $AH$, trung tuyến $AM$ chia góc $\\widehat{BAC}$ thành ba góc bằng nhau.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-12",
+    "label": "Bài 12",
+    "text": "Cho tam giác ABC có góc B và C nhọn. Điểm M nằm giữa B và C. Gọi $d_1$ và $d_2$ là khoảng cách từ B và C đến đường thẳng AM. Gọi $d = d_1 + d_2$.\n- Chứng minh $d \\le BC$.\n- Xác định vị trí của M trên BC sao cho d có giá trị lớn nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-13",
+    "label": "Bài 13",
+    "text": "Cho tam giác $ABC$ có $\\widehat{C} = 30^\\circ$. Đường cao $AH$, $AH = \\dfrac{1}{2}BC$. $D$ là trung điểm của $AB$. Tính số đo góc $\\widehat{ACD}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-14",
+    "label": "Bài 14",
+    "text": "Cho tam giác $ABC$ có ba góc nhọn. Về phía ngoài của tam giác $ABC$ ta vẽ các tam giác đều $ABD$ và $ACE$. Gọi $I$ là trực tâm tam giác $ABD$, $H$ là trung điểm của $BC$. Tính số đo góc $\\widehat{IEH}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-15",
+    "label": "Bài 15",
+    "text": "Cho điểm M nằm trong tam giác ABC. Chứng minh rằng: $MB + MC < AB + AC$. Từ đó suy ra $MA + MB + MC < AB + AC + BC$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-16",
+    "label": "Bài 16",
+    "text": "Cho tam giác $ABC$, $M$ là trung điểm của $BC$, $\\widehat{BAM} = 30^\\circ$, $\\widehat{MAC} = 15^\\circ$. Tính số đo góc $\\widehat{BCA}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-17",
+    "label": "Bài 17",
+    "text": "Cho góc xOy, Oz là tia phân giác của góc đó. Từ điểm M nằm trong góc xOz, vẽ $MH \\perp Ox$ ($H \\in Ox$) và $MK \\perp Oy$ ($K \\in Oy$). Chứng minh rằng: $MH < MK$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-18",
+    "label": "Bài 18",
+    "text": "Cho tam giác $ABC$ vuông tại $A$, $AC = 3AB$. $D$ là điểm thuộc đoạn thẳng $AC$ sao cho $AD = 2DC$. Tính tổng số đo hai góc $\\widehat{ADB} + \\widehat{ACB}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-19",
+    "label": "Bài 19",
+    "text": "Cho hai đoạn thẳng AB và CD cắt nhau tại O, với $AB = 6$ và $CD = 4$. Chứng minh rằng trong bốn đoạn thẳng AC, CB, BD, DA luôn tồn tại hai đoạn thẳng có độ dài nhỏ hơn 5.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-20",
+    "label": "Bài 20",
+    "text": "Cho tam giác $ABC$ vuông cân tại $A$, $M$ là điểm bất kì trên đoạn thẳng $AC$ ($M$ khác $A, C$). Kẻ $AF \\perp BM$ ($F \\in BC$). $E$ là điểm thuộc đoạn thẳng $BF$ sao cho $EF = FC$, kẻ $EI \\parallel BM$ ($I \\in BA$). Tính số đo góc $\\widehat{AIM}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-21",
+    "label": "Bài 21",
+    "text": "Cho tam giác ABC vuông cân tại A, độ dài cạnh bên bằng 5. Với hai điểm M, N bất kỳ, chứng minh rằng trên các cạnh của tam giác ABC luôn tồn tại một điểm sao cho tổng các khoảng cách từ đó đến M và N lớn hơn 7.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-22",
+    "label": "Bài 22",
+    "text": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$, $AC > AB$. $D$ là điểm thuộc đoạn thẳng $AC$ sao cho $DC = AB$. $M, N$ theo thứ tự là trung điểm của $AD$ và $BC$. Tính số đo góc $\\widehat{CMN}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-23",
+    "label": "Bài 23",
+    "text": "Cho hai đường tròn $(O_1, R_1)$ và $(O_2, R_2)$ cùng nằm về một phía của đường thẳng d. Dựng hình vuông ABCD sao cho $A \\in (O_1, R_1)$, $C \\in (O_2, R_2)$ và hai điểm B, D nằm trên đường thẳng d.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-24",
+    "label": "Bài 24",
+    "text": "Cho tam giác $ABC$ cân tại $C$, $\\widehat{C} = 80^\\circ$. Điểm $M$ nằm trong tam giác sao cho $\\widehat{MAB} = 10^\\circ$, $\\widehat{MBA} = 20^\\circ$. Tính số đo góc $\\widehat{AMC}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-25",
+    "label": "Bài 25",
+    "text": "Cho điểm A nằm ngoài đường tròn $(O, R)$. Dựng cát tuyến đi qua A cắt đường tròn tại hai điểm B và C sao cho $AB = BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-26",
+    "label": "Bài 26",
+    "text": "Tam giác $ABC$ có $\\widehat{A} = 100^\\circ$. $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $K$ sao cho $MK = MA$.\na) Tính số đo góc $\\widehat{ABK}$.\nb) Về phía ngoài của tam giác $ABC$, vẽ các đoạn thẳng $AD$ vuông góc và bằng $AB$, $AE$ vuông góc và bằng $AC$. Chứng minh rằng $\\triangle ABK = \\triangle DAE$.\nc) Chứng minh: $MA \\perp DE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-27",
+    "label": "Bài 27",
+    "text": "Giả sử hai đường trung tuyến BD và CE của tam giác ABC có độ dài bằng nhau và cắt nhau tại G.\n- Tam giác BGC là tam giác gì?\n- So sánh tam giác BCD và tam giác CBE.\n- Tam giác ABC là tam giác gì?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-28",
+    "label": "Bài 28",
+    "text": "Cho $O$ là điểm thuộc đoạn thẳng $AB$ (không trùng hai đầu mút). Trên cùng một nửa mặt phẳng bờ $AB$ vẽ các tia $Ox$ và $Oy$ sao cho $\\widehat{AOx} = \\widehat{BOy} < 90^\\circ$. Lấy điểm $C$ trên tia $Ox$ và điểm $D$ trên tia $Oy$ sao cho $OC = OA$ và $OD = OB$. Chứng minh rằng $AD = BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-29",
+    "label": "Bài 29",
+    "text": "Cho tam giác nhọn ABC, đường cao AH. Vẽ các điểm D, E sao cho các đường AB, AC lần lượt là đường trung trực của DH và EH.\n- Chứng minh tam giác ADE cân.\n- Đường thẳng DE cắt AB, AC lần lượt tại M và N. Chứng minh tia HA là phân giác của góc NHM.\n- Chứng minh $AD = AE$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-30",
+    "label": "Bài 30",
+    "text": "Cho hai đoạn thẳng $AB$ và $CD$ cắt nhau tại trung điểm $O$ của mỗi đoạn thẳng. Lấy các điểm $E$ trên đoạn thẳng $AD$, $F$ trên đoạn thẳng $BC$ sao cho $AE = BF$. Chứng minh rằng ba điểm $E, O, F$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-31",
+    "label": "Bài 31",
+    "text": "Cho tam giác ABC. Trên tia đối của tia BC lấy điểm M sao cho $BM = AB$. Trên tia đối của tia CB lấy điểm N sao cho $CN = AC$. Vẽ đường cao BH của tam giác ABM và đường cao CK của tam giác ACN. Hai đường cao cắt nhau tại O. Chứng minh rằng:\n- Điểm O nằm trên đường trung trực của MN.\n- AO là phân giác của góc BAC.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-32",
+    "label": "Bài 32",
+    "text": "Chứng minh rằng nếu hai cạnh và trung tuyến thuộc cạnh thứ ba của tam giác này bằng hai cạnh và trung tuyến của cạnh thứ ba của tam giác kia thì hai tam giác đó bằng nhau.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-33",
+    "label": "Bài 33",
+    "text": "Cho tam giác $ABC$ có $\\widehat{A} = 120^\\circ$, phân giác $BD$ và $CE$ cắt nhau ở $O$. Trên cạnh $BC$ lấy hai điểm $I$ và $K$ sao cho $\\widehat{BOI} = \\widehat{COK} = 30^\\circ$. Chứng minh rằng:\na) $OI \\perp OK$.\nb) $BE + CD < BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-34",
+    "label": "Bài 34",
+    "text": "Cho tam giác $ABC$. Vẽ ra phía ngoài của tam giác này các tam giác vuông cân ở $A$ là $ABE$ và $ACF$. Vẽ $AH \\perp BC$. Đường thẳng $AH$ cắt $EF$ tại $O$. Chứng minh rằng $O$ là trung điểm của $EF$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-35",
+    "label": "Bài 35",
+    "text": "Cho tam giác $ABC$ vuông cân ở $A$, $M$ là trung điểm của $BC$, điểm $E$ nằm giữa $M$ và $C$. Kẻ $BH, CK$ vuông góc với $AE$ ($H$ và $K$ thuộc đường thẳng $AE$). Chứng minh rằng:\na) $BH = AK$.\nb) $\\triangle MBH = \\triangle MAK$.\nc) $\\triangle MHK$ vuông cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-36",
+    "label": "Bài 36",
+    "text": "Cho một tam giác có ba đường cao bằng nhau.\na) Chứng minh rằng tam giác đó là tam giác đều.\nb) Biết mỗi đường cao có độ dài là $\\dfrac{a\\sqrt{3}}{2}$, tính độ dài mỗi cạnh của tam giác đó.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-37",
+    "label": "Bài 37",
+    "text": "Cho tam giác cân $ABC$ ($AB = AC$), có $\\widehat{A} = 80^\\circ$. Gọi $D$ là điểm trong tam giác sao cho $\\widehat{DBC} = 10^\\circ$, $\\widehat{DCB} = 30^\\circ$. Tìm số đo góc $\\widehat{BAD}$?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-38",
+    "label": "Bài 38",
+    "text": "Cho tam giác $ABC$ cân tại $A$, có $\\widehat{A} = 108^\\circ$, $BC = a$, $AC = b$. Vẽ phía ngoài tam giác $ABC$ tam giác $ABD$ cân tại $A$ có $\\widehat{DAB} = 36^\\circ$. Tính chu vi tam giác $ABD$ theo $a$ và $b$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-415-hinh-hoc-tam-giac-39",
+    "label": "Bài 39",
+    "text": "Cho tam giác $ABC$, $\\widehat{A} < 90^\\circ$, $M$ là trung điểm của $BC$. Chứng minh rằng: $AB^2 + AC^2 = 2AM^2 + \\dfrac{BC^2}{2}$.",
+    "topics": [
+     "hinh-hoc"
     ],
     "level": 2
    }
@@ -11680,6 +13003,382 @@
      "dai-so"
     ],
     "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Các bài toán về tứ giác (tuyển chọn)",
+  "grade": 8,
+  "sourceName": "toanmath.com – Trần Đình Hoàng",
+  "sourceUrl": "https://thcs.toanmath.com/2021/09/chuyen-de-cac-bai-toan-ve-tu-giac-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "problems": [
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-1",
+    "label": "Bài 1",
+    "text": "Cho tứ giác $ABCD$, $\\widehat{A} - \\widehat{B} = 40^\\circ$. Các tia phân giác của góc $C$ và góc $D$ cắt nhau tại $O$. Cho biết $\\widehat{COD} = 110^\\circ$. Chứng minh rằng $AB \\perp BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-2",
+    "label": "Bài 2",
+    "text": "Cho hình chữ nhật $ABCD$, đường chéo $AC = d$. Trên các cạnh $AB$, $BC$, $CD$ và $DA$ lần lượt lấy các điểm $M$, $N$, $P$, $Q$. Tính giá trị nhỏ nhất của tổng: $S = MN^2 + NP^2 + PQ^2 + QM^2$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-3",
+    "label": "Bài 3",
+    "text": "Tứ giác $ABCD$ có $\\widehat{A} = \\widehat{C}$. Chứng minh rằng các đường phân giác của góc $B$ và góc $D$ song song với nhau hoặc trùng nhau.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-4",
+    "label": "Bài 4",
+    "text": "Cho tam giác đều $ABC$ cạnh $a$. Trên các cạnh $AB$, $AC$ lần lượt lấy các điểm $D$ và $E$ sao cho $AD = CE$. Tìm giá trị nhỏ nhất của độ dài $DE$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-5",
+    "label": "Bài 5",
+    "text": "Tứ giác $ABCD$ có $AB = BC$ và hai cạnh $AD, DC$ không bằng nhau. Đường chéo $DB$ là đường phân giác của góc $D$. Chứng minh rằng các góc đối của tứ giác này bù nhau.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường cao $AH$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = AB$. Gọi $M$ là trung điểm của $BD$. Chứng minh rằng tia $HM$ là tia phân giác của góc $AHC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-7",
+    "label": "Bài 7",
+    "text": "Cho tứ giác $ABCD$. Chứng minh rằng tổng hai góc ngoài tại hai đỉnh $A$ và $C$ bằng tổng hai góc trong tại hai đỉnh $B$ và $D$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-8",
+    "label": "Bài 8",
+    "text": "Cho hình chữ nhật $ABCD$ có $AB = 15\\text{ cm}$, $BC = 8\\text{ cm}$. Trên các cạnh $AB$, $BC$, $CD$, $DA$ lần lượt lấy các điểm $E$, $F$, $G$, $H$. Tính giá trị nhỏ nhất của chu vi tứ giác $EFGH$.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-9",
+    "label": "Bài 9",
+    "text": "Cho tứ giác $ABCD$, $E$ là giao điểm của các đường thẳng $AB$ và $CD$, $F$ là giao điểm của các đường thẳng $BC$ và $AD$. Các tia phân giác của các góc $E$ và $F$ cắt nhau ở $I$. Chứng minh rằng:\n\na) Nếu $\\widehat{BAD} = 130^\\circ, \\widehat{BCD} = 50^\\circ$ thì $IE$ vuông góc với $IF$.\n\nb) Góc $EIF$ bằng nửa tổng của một trong hai cặp góc đối của tứ giác $ABCD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-10",
+    "label": "Bài 10",
+    "text": "Cho góc $\\widehat{xOy}$ có số đo bằng $30^\\triangledown$. Điểm $A$ cố định trên tia $Ox$ sao cho $OA = 2\\text{ cm}$. Lấy điểm $B$ bất kì trên tia $Oy$. Trên tia đối của tia $BA$ lấy điểm $C$ sao cho $BC = 2BA$. Hỏi khi điểm $B$ di động trên tia $Oy$ thì điểm $C$ di động trên đường nào?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-11",
+    "label": "Bài 11",
+    "text": "Chứng minh rằng trong một tứ giác tổng hai đường chéo lớn hơn nửa chu vi nhưng nhỏ hơn chu vi của tứ giác.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-12",
+    "label": "Bài 12",
+    "text": "Cho tam giác $ABC$ cân tại $A$, hai đường cao $BE$ và $CF$ cắt nhau tại $H$. Đường thẳng $AH$ cắt $EF$ tại $D$, cắt $BC$ tại $G$. Gọi $M$ và $N$ lần lượt là hình chiếu của $G$ trên $AB$ và $AC$. Chứng minh rằng tứ giác $DNGM$ là hình thoi.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-13",
+    "label": "Bài 13",
+    "text": "Cho bốn điểm $A, B, C, D$ trong đó không có ba điểm nào thẳng hàng, bất kì hai điểm nào cũng có khoảng cách lớn hơn $10$. Chứng minh rằng tồn tại hai điểm đã cho có khoảng cách lớn hơn $14$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-14",
+    "label": "Bài 14",
+    "text": "Cho hình thoi $ABCD$. Trên nửa mặt phẳng bờ $BD$ có chứa điểm $C$, vẽ hình bình hành $BDEF$ có $DE = DC$. Chứng minh rằng $C$ là trực tâm của tam giác $AEF$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-15",
+    "label": "Bài 15",
+    "text": "Cho tứ giác $ABCD$ có độ dài các cạnh là $a, b, c, d$ đều là các số tự nhiên. Biết tổng $S = a + b + c + d$ chia hết cho $a$, cho $b$, cho $c$, cho $d$. Chứng minh rằng tồn tại hai cạnh của tứ giác bằng nhau.",
+    "topics": [
+     "so-hoc",
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-16",
+    "label": "Bài 16",
+    "text": "Cho hình vuông $ABCD$ cạnh $a$. Trên cạnh $BC$ lấy điểm $M$, trên cạnh $CD$ lấy điểm $N$ sao cho chu vi tam giác $CMN$ bằng $2a$. Chứng minh rằng góc $\\widehat{MAN}$ có số đo không đổi.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-17",
+    "label": "Bài 17",
+    "text": "So sánh độ dài cạnh $AB$ và đường chéo $AC$ của tứ giác $ABCD$ biết rằng chu vi tam giác $ABD$ nhỏ hơn hoặc bằng chu vi tam giác $ACD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-18",
+    "label": "Bài 18",
+    "text": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Vẽ ra phía ngoài tam giác này các hình vuông $ABDE$ và $ACFG$. Chứng minh rằng:\n- a) Ba đường thẳng $AH$, $DE$ và $FG$ đồng quy;\n- b) Ba đường thẳng $AH$, $BF$ và $CD$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-19",
+    "label": "Bài 19",
+    "text": "Có chín người trong đó bất kì ba người nào cũng có hai người quen nhau. Chứng minh rằng tồn tại một nhóm bốn người đôi một quen nhau.",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-20",
+    "label": "Bài 20",
+    "text": "Cho tam giác $ABC$, $\\widehat{A} = 45^\\triangledown$. Vẽ ba đường cao $AD$, $BE$, $CF$ cắt nhau tại $H$. Gọi $M$, $N$, $P$, $Q$ lần lượt là trung điểm của $AB$, $AC$, $HB$ và $HC$. Chứng minh rằng tứ giác $MNPQ$ là hình vuông.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-21",
+    "label": "Bài 21",
+    "text": "Cho tứ giác $ABCD$. Gọi $M$ là trung điểm $AD$, $N$ là trung điểm $BD$, $I$ là trung điểm $AC$, $K$ là trung điểm $BC$.\n\na) Chứng minh $MK \\le \\dfrac{AB + DC}{2}$.\n\nb) Nếu tứ giác $ABCD$ là hình thang đáy là $AB$ và $DC$, chứng minh $NI = \\dfrac{DC - AB}{2}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-22",
+    "label": "Bài 22",
+    "text": "Cho tam giác $ABD$. Vẽ điểm $C$ đối xứng với $A$ qua $BD$. Vẽ các đường phân giác ngoài tại các đỉnh $A$, $B$, $C$, $D$ của tứ giác $ABCD$ chúng cắt nhau tạo thành tứ giác $EFGH$.\n- a) Xác định dạng của tứ giác $EFGH$;\n- b) Chứng minh rằng $BD$ là trục đối xứng của tứ giác $EFGH$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-23",
+    "label": "Bài 23",
+    "text": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M$ là trung điểm của $BC$. Cho biết $\\widehat{AMD} = 90^\\circ$.\n\na) Chứng minh rằng: $AD = AB + DC$.\n\nb) $DM$ là tia phân giác của góc $D$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-24",
+    "label": "Bài 24",
+    "text": "Cho tam giác nhọn $ABC$. Gọi $D$, $E$, $F$ lần lượt là các điểm nằm trên các cạnh $BC$, $CA$, $AB$. Xác định vị trí của $D$, $E$, $F$ để chu vi tam giác $DEF$ nhỏ nhất.",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-25",
+    "label": "Bài 25",
+    "text": "Cho hình thang $ABCD$ vuông tại $A$ và $D$. Gọi $M$ là trung điểm của $AD$. Cho biết $MB \\perp MC$.\n\nChứng minh rằng: $BC = AB + CD$.\n\nVẽ $MH \\perp BC$. Chứng minh rằng tứ giác $MBHD$ là hình thang.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-26",
+    "label": "Bài 26",
+    "text": "Cho tứ giác $ABCD$ và một điểm $M$ nằm giữa $A$ và $B$. Chứng minh rằng $MC + MD$ nhỏ hơn số lớn nhất trong hai tổng $AC + AD$ và $BC + BD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-27",
+    "label": "Bài 27",
+    "text": "Cho tứ giác $ABCD$. Các tia phân giác của góc $A$, góc $D$ cắt nhau tại $M$. Các tia phân giác của góc $B$, góc $C$ cắt nhau tại $N$. Cho biết $\\widehat{AMD} = 90^\\circ$, chứng minh rằng:\n\na) Tứ giác $ABCD$ là hình thang.\n\nb) Chứng minh $NB \\perp NC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-28",
+    "label": "Bài 28",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), điểm $D$ thuộc cạnh huyền $BC$. Vẽ điểm $M$ và điểm $N$ đối xứng với $D$ lần lượt qua $AB$ và $AC$. Chứng minh rằng:\n- a) $M$ và $N$ đối xứng qua $A$;\n- b) Xác định vị trí của điểm $D$ để $MN$ ngắn nhất, dài nhất.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-29",
+    "label": "Bài 29",
+    "text": "Lấy $M, N$ trên đoạn thẳng $AB$ ($M$ nằm giữa $A$ và $N$). Trên cùng một nửa mặt phẳng bờ $AB$ vẽ các tam giác $AMD, MEN, NFB$. Chứng minh khoảng cách từ trọng tâm $G$ của tam giác $DEF$ đến $AB$ không phụ thuộc vào vị trí của các điểm $M, N$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-30",
+    "label": "Bài 30",
+    "text": "Chứng minh rằng trong một hình thang thì tổng các bình phương của hai đường chéo bằng tổng các bình phương của hai cạnh bên cộng với hai lần tích của hai cạnh đáy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-31",
+    "label": "Bài 31",
+    "text": "Cho góc $\\widehat{xOy}$ có số đo lớn hơn $60^\\circ$ nhưng nhỏ hơn $180^\\circ$. Trên cạnh $Ox$ lấy điểm $A$, trên cạnh $Oy$ lấy điểm $C$. Chứng minh rằng: $AC > \\dfrac{OA + OC}{2}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-32",
+    "label": "Bài 32",
+    "text": "Cho tam giác $ABC$. Dựng ra ngoài tam giác này các tam giác đều $ABD$, $BCE$, $CAF$. Chứng minh rằng trọng tâm của tam giác $DEF$ trùng với trọng tâm của tam giác $ABC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-33",
+    "label": "Bài 33",
+    "text": "Tứ giác $ABCD$ có $AC = BD$, $\\widehat{C} = \\widehat{D}$ và $BD \\perp BC$. Hỏi tứ giác $ABCD$ có phải là hình thang cân không?",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-34",
+    "label": "Bài 34",
+    "text": "Cho tam giác đều $ABC$. Trên cạnh $BC$ lấy điểm $M$. Qua $M$ vẽ một đường thẳng vuông góc với $AB$ cắt $AB$ tại $H$, cắt đường thẳng vuông góc với $AC$ vẽ từ $C$ tại điểm $K$. Gọi $N$ là trung điểm của $BM$. Chứng minh rằng tam giác $ANK$ có số đo các góc tỉ lệ với $1, 2, 3$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-35",
+    "label": "Bài 35",
+    "text": "Cho tam giác đều $ABC$, mỗi cạnh có độ dài bằng $a$. Gọi $O$ là một điểm bất kì ở trong tam giác. Trên các cạnh $AB, BC, CA$ lần lượt lấy các điểm $M, N, P$ sao cho $OM \\parallel BC, ON \\parallel CA$ và $OP \\parallel AB$. Xác định vị trí của điểm $O$ để tam giác $MNP$ là tam giác đều. Tính chu vi của tam giác đều đó.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-36",
+    "label": "Bài 36",
+    "text": "Cho tam giác $ABC$ vuông cân tại $A$. Trên các cạnh $AB$ và $AC$ lần lượt lấy các điểm $M$ và $D$ sao cho $AM = AD$. Từ $A$ và $M$ vẽ các đường thẳng vuông góc với $BD$ chúng cắt $BC$ lần lượt tại $E$ và $F$. Chứng minh rằng $AE = \\dfrac{BD + MF}{2}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-37",
+    "label": "Bài 37",
+    "text": "Cho tam giác $ABC$ vuông cân tại $A$. Lấy điểm $D$ ở trong tam giác. Vẽ tam giác $ADE$ vuông cân tại $A$ sao cho $D$ và $E$ thuộc hai nửa mặt phẳng đối nhau bờ $AC$. Gọi $M, N, P$ lần lượt là trung điểm của $BC, CD$ và $DE$. Tính số đo các góc của tam giác $MNP$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-38",
+    "label": "Bài 38",
+    "text": "Cho tam giác $ABC$ và một điểm $O$ nằm trong tam giác sao cho $\\widehat{ABO} = \\widehat{ACO}$. Vẽ $OH \\perp AB$, $OK \\perp AC$. Chứng minh rằng đường trung trực của $HK$ đi qua một điểm cố định.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-39",
+    "label": "Bài 39",
+    "text": "Cho tam giác $ABC$, góc $A$ nhọn. Vẽ về phía ngoài của tam giác này các tam giác vuông cân $ABM$ và $CAN$ theo thứ tự có cạnh đáy là $AB$ và $AC$. Gọi $O$ là trung điểm của $BC$. Chứng minh rằng tam giác $OMN$ là tam giác vuông cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5210-cac-bai-toan-ve-tu-giac-40",
+    "label": "Bài 40",
+    "text": "Cho đoạn thẳng $AB$ và một điểm $C$ nằm giữa $A$ và $B$. Trên cùng một nửa mặt phẳng bờ $AB$ vẽ các tam giác $DAC$ và $EBC$ vuông cân tại $D$ và $E$. Gọi $M$ là trung điểm của $DE$. Tìm quỹ tích của điểm $M$ khi điểm $C$ di động giữa $A$ và $B$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
    }
   ]
  },
@@ -23890,6 +25589,300 @@
      "so-hoc"
     ],
     "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-5052-quan-he-chia-het-trong-tap",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Quan hệ chia hết trong tập hợp số (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2021/07/cac-bai-toan-ve-quan-he-chia-het-trong-tap-hop-so.html",
+  "problems": [
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-1",
+    "label": "Bài 1",
+    "text": "Chứng minh rằng tích của 3 số chẵn liên tiếp chia hết cho 48.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-2",
+    "label": "Bài 2",
+    "text": "a) Tìm hai số $a, b$ biết $a+b$ chia hết cho 3 và $(a+b)(a^2-ab+b^2)$ chia hết cho 9.\nb) Tìm tất cả các số tự nhiên $n$ sao cho $n^5+1$ chia hết cho $n^3+1$.",
+    "topics": [
+     "so-hoc",
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-3",
+    "label": "Bài 3",
+    "text": "Chứng minh với mọi số nguyên lẻ $n$ thì $n^6 - n^4 - n^2 + 1$ chia hết cho 128.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-4",
+    "label": "Bài 4",
+    "text": "Chứng minh rằng với mọi số tự nhiên $n$, biểu thức $A = 1 \\times 2 \\times 3 \\times \\text{...} \\times n \\times \\text{(} 1 + \\frac{1}{2} + \\frac{1}{3} + \\text{...} + \\frac{1}{n} \\text{)}$ là một số tự nhiên. Từ đó chứng minh rằng số tự nhiên $A = 1 \\times 2 \\times 3 \\times \\text{...} \\times 2018 \\times \\text{(} 1 + \\frac{1}{2} + \\frac{1}{3} + \\text{...} + \\frac{1}{2018} \\text{)}$ chia hết cho 2019.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-5",
+    "label": "Bài 5",
+    "text": "Cho $a, b, c$ là các số nguyên khác 0 thỏa mãn điều kiện:\n$$\\left(\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}\\right)^2 = \\frac{1}{a^2} + \\frac{1}{b^2} + \\frac{1}{c^2}$$\nChứng minh rằng $a^3 + b^3 + c^3$ chia hết cho 3.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-6",
+    "label": "Bài 6",
+    "text": "Tìm các giá trị nguyên của $x$ để đa thức $f(x) = x^4 - x^3 + x^2 + 6$ chia hết cho $x^2+2$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-7",
+    "label": "Bài 7",
+    "text": "Cho $A = 1 \\cdot 2 \\cdot 3 \\cdots 29$ và $B = 30 \\cdot 31 \\cdot 32 \\cdots 58$. Chứng minh rằng $A + B$ chia hết cho 59.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-8",
+    "label": "Bài 8",
+    "text": "Cho $p$ là số nguyên tố lớn hơn 5. Chứng minh rằng $p^{20}-1$ chia hết cho 25.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-9",
+    "label": "Bài 9",
+    "text": "Cho $p$ là số nguyên tố sao cho $p-5$ chia hết cho 8. Chứng minh rằng nếu $a^4+b^4$ chia hết cho $p$ thì $a$ và $b$ đều chia hết cho $p$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-10",
+    "label": "Bài 10",
+    "text": "Cho $a, b, c$ là ba số nguyên dương sao cho $a^3+b^3+c^3$ chia hết cho 2 và chia hết cho 7. Chứng minh rằng $abc$ chia hết cho 14.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-11",
+    "label": "Bài 11",
+    "text": "Cho các số nguyên $a_1, a_2, \\dots, a_n$. Đặt $A = a_1 + a_2 + \\dots + a_n$ và $B = a_1^3 + a_2^3 + \\dots + a_n^3$. Chứng minh rằng $A$ chia hết cho 6 khi và chỉ khi $B$ chia hết cho 6.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-12",
+    "label": "Bài 12",
+    "text": "a) Tìm số tự nhiên $n$ sao cho $2^n+1$ chia hết cho 9.\nb) Tìm tất cả các số nguyên $n, m$ sao cho $2^n-1$ chia hết cho $2^m-1$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-13",
+    "label": "Bài 13",
+    "text": "Cho các số nguyên không âm $a, b, c$ thỏa mãn $(a-b)^2 + (b-c)^2 + (c-a)^2 = 6abc$. Chứng minh rằng $a=b=c=0$.",
+    "topics": [
+     "nghiem-nguyen",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-14",
+    "label": "Bài 14",
+    "text": "Chứng minh rằng với mọi số tự nhiên $n$ thì $n^2 + 3n + 11$ không chia hết cho 49.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-15",
+    "label": "Bài 15",
+    "text": "Cho các số nguyên $x, y, z$ thỏa mãn $x^3+2y^3+4z^3 = 1 \\times 2 \\times 3 \\times 4 \\times 5 \\times 6 \\times 7 \\times 8 \\times 9$. Chứng minh rằng $x, y, z$ đều là số chẵn.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-16",
+    "label": "Bài 16",
+    "text": "Tìm số tự nhiên $n$ sao cho $n^p-n$ chia hết cho $p$, trong đó $p = n^2+n+1$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-17",
+    "label": "Bài 17",
+    "text": "Cho số tự nhiên $n > 3$. Chứng minh nếu $2^n = 10a + b$ ($a, b \\in \\mathbb{N}, 0 < b < 10$) thì tích $ab$ chia hết cho 6.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-18",
+    "label": "Bài 18",
+    "text": "Tìm số tự nhiên $n$ sao cho $M = n \\times 2^n + 3^n$ chia hết cho 7.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-19",
+    "label": "Bài 19",
+    "text": "Chứng minh rằng nếu $4(m+n)^2-mn$ chia hết cho 225 thì $mn$ cũng chia hết cho 225.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-20",
+    "label": "Bài 20",
+    "text": "Cho $x, y$ là các số nguyên sao cho $x^2 - 2xy - y^2$ và $xy - 2y^2 - x$ đều chia hết cho 5. Chứng minh $2x^2 + y^2 + 2x + y$ cũng chia hết cho 5.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-21",
+    "label": "Bài 21",
+    "text": "Cho $S_n = 1+2+\\text{...}+n$. Chứng minh rằng $S_n^{2019}$ chia hết cho $n(n+1)$ với mọi số nguyên dương $n$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-22",
+    "label": "Bài 22",
+    "text": "Tìm tất cả số nguyên $a$ sao cho $Q = a^4+2a^3-16a^2-2a+15$ chia hết cho 16.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-23",
+    "label": "Bài 23",
+    "text": "Cho phương trình $x^3 + 2y^3 + 4z^3 = 9!$. \na) Chứng minh rằng nếu có các số nguyên $x, y, z$ thỏa mãn phương trình thì $x, y, z$ đều chia hết cho 4.\nb) Chứng minh rằng không tồn tại các số nguyên $x, y, z$ thỏa mãn phương trình.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-24",
+    "label": "Bài 24",
+    "text": "Tìm ba số nguyên dương $a, b, c$ sao cho $\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{c}$. Chứng minh rằng $abc$ luôn chia hết cho 4.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-25",
+    "label": "Bài 25",
+    "text": "Cho $p$ là số nguyên tố lớn hơn 5. Chứng minh rằng $p^{2016}-1$ chia hết cho 60.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-26",
+    "label": "Bài 26",
+    "text": "Cho hai số nguyên $a, b$ thỏa mãn $24a^2+1 = b^2$. Chứng minh rằng ít nhất một trong hai số $a, b$ chia hết cho 5.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-27",
+    "label": "Bài 27",
+    "text": "Cho biểu thức $Q = a^4 + 2a^3 - 16a^2 - 2a + 15$. Tìm tất cả các giá trị nguyên của $a$ để $Q$ chia hết cho 16.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-28",
+    "label": "Bài 28",
+    "text": "Chứng minh rằng $46^n + 296 \\times 13^n$ chia hết cho 1947 với mọi số tự nhiên lẻ $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-29",
+    "label": "Bài 29",
+    "text": "Chứng minh rằng trong ba số chính phương tùy ý luôn tồn tại hai số mà hiệu của chúng chia hết cho 4.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5052-quan-he-chia-het-trong-tap-30",
+    "label": "Bài 30",
+    "text": "Tìm số nguyên $x$ sao cho $2x^2-1 = y^{15}$ với $y$ là số nguyên.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 4
    }
   ]
  },
