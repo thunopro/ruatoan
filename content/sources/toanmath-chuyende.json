@@ -340,6 +340,298 @@
   ]
  },
  {
+  "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Bất đẳng thức và cực trị đại số (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2024/11/bai-toan-bat-dang-thuc-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-1",
+    "label": "Bài 1",
+    "text": "Cho $A = 1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{5} + \\frac{1}{6} + \\frac{1}{7} + \\frac{1}{8} + \\frac{1}{9} + \\frac{1}{10} + \\frac{1}{11} + \\frac{1}{12} + \\frac{1}{13} + \\frac{1}{14} + \\frac{1}{15} + \\frac{1}{16} + \\frac{1}{17} + \\frac{1}{18} + \\frac{1}{19} + \\frac{1}{20} + \\frac{1}{21} + \\frac{1}{22} + \\frac{1}{23} + \\frac{1}{24} + \\frac{1}{25} + \\frac{1}{26} + \\frac{1}{27} + \\frac{1}{28} + \\frac{1}{29} + \\frac{1}{30} + \\frac{1}{31} + \\frac{1}{32} + \\frac{1}{33} + \\frac{1}{34} + \\frac{1}{35} + \\frac{1}{36} + \\frac{1}{37} + \\frac{1}{38} + \\frac{1}{39} + \\frac{1}{40} + \\frac{1}{41} + \\frac{1}{42} + \\frac{1}{43} + \\frac{1}{44} + \\frac{1}{45} + \\frac{1}{46} + \\frac{1}{47} + \\frac{1}{48} + \\frac{1}{49} + \\frac{1}{50} + \\frac{1}{51} + \\frac{1}{52} + \\frac{1}{53} + \\frac{1}{54} + \\frac{1}{55} + \\frac{1}{56} + \\frac{1}{57} + \\frac{1}{58} + \\frac{1}{59} + \\frac{1}{60} + \\frac{1}{61} + \\frac{1}{62} + \\frac{1}{63} + \\frac{1}{64} + \\frac{1}{65} + \\frac{1}{66} + \\frac{1}{67} + \\frac{1}{68} + \\frac{1}{69} + \\frac{1}{70} + \\frac{1}{71} + \\frac{1}{72} + \\frac{1}{73} + \\frac{1}{74} + \\frac{1}{75} + \\frac{1}{76} + \\frac{1}{77} + \\frac{1}{78} + \\frac{1}{79} + \\frac{1}{80} + \\frac{1}{81} + \\frac{1}{82} + \\frac{1}{83} + \\frac{1}{84} + \\frac{1}{85} + \\frac{1}{86} + \\frac{1}{87} + \\frac{1}{88} + \\frac{1}{89} + \\frac{1}{90} + \\frac{1}{91} + \\frac{1}{92} + \\frac{1}{93} + \\frac{1}{94} + \\frac{1}{95} + \\frac{1}{96} + \\frac{1}{97} + \\frac{1}{98} + \\frac{1}{99} + \\frac{1}{100}$. Chứng minh rằng $50 < A < 100$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-2",
+    "label": "Bài 2",
+    "text": "So sánh tổng $S = \\dfrac{1}{2^2} + \\dfrac{2}{2^3} + \\dfrac{3}{2^4} + \\dots + \\dfrac{n}{2^n} + \\dots + \\dfrac{2007}{2^{2007}}$ với $2$ (với $n \\in \\mathbb{N}^*$).",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-3",
+    "label": "Bài 3",
+    "text": "Cho tổng $S = \\frac{1}{31} + \\frac{1}{32} + \\frac{1}{33} + ... + \\frac{1}{60}$. Chứng minh rằng $\\frac{3}{5} < S < \\frac{4}{5}$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-4",
+    "label": "Bài 4",
+    "text": "Cho $A = 1 + \\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{4} + \\dots + \\dfrac{1}{2^{100}-1}$. Chứng tỏ rằng: $50 < A < 100$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-5",
+    "label": "Bài 5",
+    "text": "Cho $A = \\frac{1}{5^2} + \\frac{2}{5^3} + \\frac{3}{5^4} + ... + \\frac{11}{5^{12}}$. Chứng minh rằng $A < \\frac{1}{16}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-6",
+    "label": "Bài 6",
+    "text": "Cho $P = 1 + 2012 + 2012^2 + 2012^3 + 2012^4 + \\dots + 2012^{71} + 2012^{72}$ và $Q = 2012^{73} - 1$. So sánh $P$ và $Q$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-7",
+    "label": "Bài 7",
+    "text": "So sánh $M = \\frac{1}{1.4} + \\frac{2}{4.10} + \\frac{3}{10.19} + \\frac{4}{19.31}$ và $N = \\frac{2}{1.5} + \\frac{3}{5.11} + \\frac{4}{11.19} + \\frac{5}{19.29} + \\frac{6}{29.41}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-8",
+    "label": "Bài 8",
+    "text": "So sánh $A = \\dfrac{10^{2016} + 1}{10^{2017} + 1}$ và $B = \\dfrac{10^{2017} + 1}{10^{2018} + 1}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-9",
+    "label": "Bài 9",
+    "text": "So sánh tổng $S = 1 + \\frac{2}{2^2} + \\frac{3}{2^3} + ... + \\frac{n}{2^n} + ... + \\frac{2007}{2^{2007}}$ với $2$ (với $n \\ne \\text{số tự nhiên}$).",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-10",
+    "label": "Bài 10",
+    "text": "Cho $A = \\dfrac{3}{2^2} + \\dfrac{8}{3^2} + \\dfrac{15}{4^2} + \\dots + \\dfrac{2023^2 - 1}{2023^2}$. Chứng minh rằng giá trị của $A$ không phải là một số tự nhiên.",
+    "topics": [
+     "bat-dang-thuc",
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-11",
+    "label": "Bài 11",
+    "text": "Cho tổng $A = 1 + 3^2 + 3^4 + 3^6 + ... + 3^{2008}$. So sánh giá trị biểu thức $B = 8A - 3^{2010}$ với $-1$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-12",
+    "label": "Bài 12",
+    "text": "Cho $S = \\dfrac{2}{7^2} + \\dfrac{3}{7^3} + \\dfrac{4}{7^4} + \\dots + \\dfrac{69}{7^{70}}$. Chứng tỏ $S < \\dfrac{1}{36}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-13",
+    "label": "Bài 13",
+    "text": "Cho $M = \\frac{1}{1.4} + \\frac{1}{4.7} + \\frac{1}{7.10} + \\frac{1}{10.13} + \\frac{1}{13.16}$. So sánh $M$ với $\\frac{1}{3}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-14",
+    "label": "Bài 14",
+    "text": "Cho $A = \\dfrac{457}{1} + \\dfrac{456}{2} + \\dfrac{455}{3} + \\dots + \\dfrac{1}{457}$. Chứng minh $A > 2016$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-15",
+    "label": "Bài 15",
+    "text": "Chứng minh rằng $A = \\frac{1}{4^2} + \\frac{1}{6^2} + \\frac{1}{8^2} + ... + \\frac{1}{(2n)^2} < \\frac{1}{4}$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-16",
+    "label": "Bài 16",
+    "text": "Chứng minh rằng: $\\dfrac{1}{28} + \\dfrac{1}{30} + \\dfrac{1}{32} + \\dfrac{1}{34} + \\dots + \\dfrac{1}{52} = \\dfrac{1}{1.4} + \\dfrac{1}{3.8} + \\dfrac{1}{5.12} + \\dfrac{1}{7.16} + \\dots + \\dfrac{1}{25.52}$.",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-17",
+    "label": "Bài 17",
+    "text": "Với giá trị nào của $x, y$ thì biểu thức $A = |x - y| + |x + 1| + 2016$ đạt giá trị nhỏ nhất? Tìm giá trị nhỏ nhất đó.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-18",
+    "label": "Bài 18",
+    "text": "Cho phân số $A = \\dfrac{3n-8}{6n+4}$. Tìm $n \\in \\mathbb{Z}$ để $A$ có giá trị nhỏ nhất.",
+    "topics": [
+     "bat-dang-thuc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-19",
+    "label": "Bài 19",
+    "text": "Cho phân số $A = \\dfrac{n+1}{n-3}$ ($n \\in \\mathbb{Z}$).\na) Tìm $n$ để $A$ là phân số.\nb) Tìm $n$ để $A$ là phân số tối giản.\nc) Tìm $n$ để $A$ có giá trị lớn nhất.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-20",
+    "label": "Bài 20",
+    "text": "Cho các số nguyên $a, b, c, d$ thỏa mãn $a < 2b+1$, $b < 3c+1$, $c < 4d+1$ và $d < 2021$. Tìm giá trị lớn nhất có thể của $a$.",
+    "topics": [
+     "bat-dang-thuc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-21",
+    "label": "Bài 21",
+    "text": "Cho $a, b, c, d > 0$. Chứng minh: $2 < \\frac{a+b}{a+b+c} + \\frac{b+c}{b+c+d} + \\frac{c+d}{c+d+a} + \\frac{d+a}{d+a+b} < 3$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-22",
+    "label": "Bài 22",
+    "text": "Cho $a, b, c > 0$ và tổng hai số luôn lớn hơn số còn lại. Chứng minh: $\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} < 2$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-23",
+    "label": "Bài 23",
+    "text": "Tìm GTNN của biểu thức $C = (x - y)^{2020} + 4(y - 3)^{30} - 25$.",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-24",
+    "label": "Bài 24",
+    "text": "Tìm GTLN của biểu thức $B = -2(x - 1)^4 - (y + 2)^6 - 3$.",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-25",
+    "label": "Bài 25",
+    "text": "Tìm số nguyên $n$ để $B = \\frac{7n - 5}{2n + 1}$ có GTNN. Tìm GTNN đó.",
+    "topics": [
+     "nghiem-nguyen",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-26",
+    "label": "Bài 26",
+    "text": "So sánh: $A = \\frac{2012^{2012} + 1}{2012^{2013} + 1}$ và $B = \\frac{2012^{2011} + 1}{2012^{2012} + 1}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-27",
+    "label": "Bài 27",
+    "text": "Tìm giá trị nhỏ nhất của phân số $\\frac{\\sqrt{ab}}{a + b}$ ($\\sqrt{ab}$ là số có 2 chữ số).",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-28",
+    "label": "Bài 28",
+    "text": "Tìm các số tự nhiên $a, b$ thỏa mãn điều kiện: $\\frac{11}{17} < \\frac{a}{b} < \\frac{23}{29}$ và $8b - 9a = 31$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15085-bat-dang-thuc-va-cuc-tri-29",
+    "label": "Bài 29",
+    "text": "Cho $P = (1 + \\frac{1}{2})(1 + \\frac{1}{2^2})(1 + \\frac{1}{2^3}) ... (1 + \\frac{1}{2^{200}})$. So sánh $P$ với $3$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-cd-6332-chung-minh-chia-het-va-dong",
   "kind": "chuyende",
   "title": "Chuyên đề: Chứng minh chia hết và đồng dư (tuyển chọn)",
@@ -6418,6 +6710,261 @@
   ]
  },
  {
+  "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Số nguyên và tính chia hết (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2024/11/bai-toan-so-nguyen-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-1",
+    "label": "Bài 1",
+    "text": "Chứng tỏ rằng $4x + 3y$ chia hết cho $7$ khi $2x + 5y$ chia hết cho $7$ với $x, y$ là các số nguyên.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-2",
+    "label": "Bài 2",
+    "text": "Chứng tỏ $4x+3y$ chia hết cho $7$ khi $2x+5y$ chia hết cho $7$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-3",
+    "label": "Bài 3",
+    "text": "Tìm số nguyên $n$ sao cho $4n - 5$ chia hết cho $2n - 1$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-4",
+    "label": "Bài 4",
+    "text": "Cho $a$ là một số nguyên có dạng $a = 3b+7$ ($b \\ne \\text{Z}$). Hỏi $a$ có thể nhận những giá trị nào trong các giá trị sau: $11$; $2002$; $2003$; $11570$; $22789$; $29563$; $299537$?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-5",
+    "label": "Bài 5",
+    "text": "Chứng minh rằng với mọi số nguyên $n$ ta có $n^3 - n$ chia hết cho $6$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-6",
+    "label": "Bài 6",
+    "text": "Chứng minh rằng trong hai số $5^n + 2023$ và $5^n + 2024$, luôn có một số chia hết cho $3$ với mọi số tự nhiên $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-7",
+    "label": "Bài 7",
+    "text": "Tìm số tự nhiên nhỏ nhất sao cho khi chia số đó cho $3$ dư $1$, chia cho $4$ dư $2$, chia cho $5$ dư $3$, chia cho $6$ dư $4$ và chia hết cho $11$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-8",
+    "label": "Bài 8",
+    "text": "Tìm các số nguyên $x, y$ thỏa mãn $2xy + y - 10x = 11$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-9",
+    "label": "Bài 9",
+    "text": "Một số tự nhiên chia hết cho $2$, chia cho $3$ dư $1$, chia cho $337$ dư $335$. Hỏi số tự nhiên đó chia cho $2022$ dư bao nhiêu?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-10",
+    "label": "Bài 10",
+    "text": "Tìm các số nguyên $n$ sao cho $n^2 + 5n + 9$ là bội của $n + 3$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-11",
+    "label": "Bài 11",
+    "text": "Chứng tỏ rằng: $\\dfrac{2n+5}{n+3}$ ($n \\in \\mathbb{N}$) là phân số tối giản.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-12",
+    "label": "Bài 12",
+    "text": "Tìm tất cả các cặp số tự nhiên khác không $(x, y)$ sao cho $(2x + 5)(x + 2) = 3^y$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-13",
+    "label": "Bài 13",
+    "text": "Tìm hai số nguyên tố $x$ và $y$ sao cho $x^2 - 2x + 1 = 6y^2 - 2x + 2$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-14",
+    "label": "Bài 14",
+    "text": "Số học sinh khối $6$ của một trường chưa đến $400$ bạn, biết khi xếp hàng $10$, hàng $12$, hàng $15$ đều dư $3$ nhưng nếu xếp hàng $11$ thì không dư. Tính số học sinh khối $6$ của trường đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-15",
+    "label": "Bài 15",
+    "text": "Tìm hai số nguyên, biết tích của chúng lớn hơn ba lần tổng của chúng là $1$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-16",
+    "label": "Bài 16",
+    "text": "Tìm số tự nhiên nhỏ nhất khác $0$ biết rằng số đó có $15$ ước dương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-17",
+    "label": "Bài 17",
+    "text": "Tìm số tự nhiên $n$ lớn nhất biết rằng khi chia các số $6355$, $1705$, $1271$ cho $n$ được các số dư lần lượt là $55$, $25$ và $11$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-18",
+    "label": "Bài 18",
+    "text": "Tìm số tự nhiên nhỏ nhất biết rằng số đó chia cho $9$ dư $5$, chia cho $7$ dư $4$ và chia cho $5$ dư $3$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-19",
+    "label": "Bài 19",
+    "text": "Tìm hai số tự nhiên biết tổng của chúng bằng $84$, ƯCLN của chúng bằng $6$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-20",
+    "label": "Bài 20",
+    "text": "Tìm các cặp số nguyên $(x, y)$ biết $2x(3y - 2) + (3y - 2) = -55$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-21",
+    "label": "Bài 21",
+    "text": "Tìm số nguyên $x, y$ biết $6x^2 + 5y^2 = 74$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-22",
+    "label": "Bài 22",
+    "text": "Tìm các số nguyên $x, y$ thỏa mãn $2x^2 + 3y^2 = 77$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-23",
+    "label": "Bài 23",
+    "text": "Tìm số tự nhiên có ba chữ số biết rằng nếu bớt số đó đi $8$ thì được số chia hết cho $7$, nếu bớt số đó đi $9$ thì được số chia hết cho $8$, nếu bớt số đó đi $10$ thì được số chia hết cho $9$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-24",
+    "label": "Bài 24",
+    "text": "Tìm số tự nhiên nhỏ nhất khi chia cho $11, 17, 29$ thì có dư lần lượt là $6, 12, 24$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-25",
+    "label": "Bài 25",
+    "text": "Tìm số tự nhiên $n$ lớn nhất có ba chữ số, sao cho $n$ chia cho $8$ và $31$ được số dư lần lượt là $7$ và $28$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-26",
+    "label": "Bài 26",
+    "text": "Chứng minh rằng với mọi số nguyên dương $n$ thì $3^{n+2} - 2^{n+2} + 3^n - 2^n$ chia hết cho $10$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15075-so-nguyen-va-tinh-chia-het-27",
+    "label": "Bài 27",
+    "text": "Tìm số nguyên $n$ để $n^2 + 3n - 1$ chia hết cho $n - 1$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-cd-17301-so-thap-phan-va-bai-toan",
   "kind": "chuyende",
   "title": "Chuyên đề: Số thập phân và bài toán tỉ số (tuyển chọn)",
@@ -6713,6 +7260,321 @@
     "text": "Bình đọc một quyển truyện trong $3$ ngày. Ngày đầu Bình đọc được $\\dfrac{1}{5}$ số trang và $16$ trang. Ngày thứ hai Bình đọc được $\\dfrac{3}{10}$ số trang còn lại và $20$ trang. Ngày thứ ba Bình đọc được $\\dfrac{3}{4}$ số trang còn lại và $37$ trang cuối cùng. Hỏi quyển truyện đó có bao nhiêu trang?",
     "topics": [
      "so-hoc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-15063-so-tu-nhien-va-cac-bai",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Số tự nhiên và các bài toán liên quan (tuyển chọn)",
+  "grade": 6,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2024/11/bai-toan-tap-hop-so-tu-nhien-trong-cac-de-thi-hoc-sinh-gioi-toan-6.html",
+  "problems": [
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-1",
+    "label": "Bài 1",
+    "text": "Số nhà của hai bạn An và Bình đều là số tự nhiên có bốn chữ số dạng $\\overline{ab53}$ và chia hết cho cả 5 và 9. Tìm số nhà của hai bạn biết số nhà của bạn An lớn hơn số nhà của bạn Bình.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-2",
+    "label": "Bài 2",
+    "text": "Số $\\overline{9x}^8$ với $x \\in \\{0; 1; 2; \\dots; 9\\}$ viết trong hệ thập phân có bao nhiêu chữ số?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-3",
+    "label": "Bài 3",
+    "text": "Tìm tất cả các số tự nhiên khác 0, sao cho khi viết thêm chữ số 0 vào giữa chữ số hàng chục và chữ số hàng đơn vị thì số đó được gấp lên 9 lần.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-4",
+    "label": "Bài 4",
+    "text": "Tìm một số có bốn chữ số, trong đó chữ số đầu tiên là chữ số 7. Biết rằng nếu chuyển chữ số 7 đó về cuối thì được một số mới kém số ban đầu là 1413 đơn vị.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-5",
+    "label": "Bài 5",
+    "text": "Tìm một số tự nhiên có bốn chữ số, sao cho khi nhân số đó với 8 ta được số mới gồm các chữ số của số ấy nhưng viết theo thứ tự ngược lại.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-6",
+    "label": "Bài 6",
+    "text": "Cho số $M = 1978(1979^9 + 1979^8 + \\dots + 1979^2 + 1980) + 1$. Hãy rút gọn $M$ và tìm chữ số hàng đơn vị của $M$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-7",
+    "label": "Bài 7",
+    "text": "Tìm các chữ số $a, b, c$ khác nhau sao cho $\\overline{a,bc} : (a + b + c) = 0,25$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-8",
+    "label": "Bài 8",
+    "text": "Tìm một số tự nhiên có hai chữ số biết rằng khi viết thêm số 12 vào bên trái số đó ta được số mới lớn gấp 26 lần số phải tìm.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-9",
+    "label": "Bài 9",
+    "text": "Tìm ba số nguyên dương biết rằng tổng của ba số ấy bằng nửa tích của chúng.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-10",
+    "label": "Bài 10",
+    "text": "Tìm số tự nhiên có bốn chữ số, biết rằng nếu xóa chữ số hàng nghìn thì số ấy giảm 9 lần.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-11",
+    "label": "Bài 11",
+    "text": "Tìm các số tự nhiên có 3 chữ số chia hết cho 7 và tổng các chữ số của nó cũng chia hết cho 7.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-12",
+    "label": "Bài 12",
+    "text": "Trong các số tự nhiên có ba chữ số, có bao nhiêu số chia hết cho 3, không chứa chữ số 3?",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-13",
+    "label": "Bài 13",
+    "text": "Tìm số tự nhiên có ba chữ số $\\overline{abc}$ biết $\\overline{abc} = (a + b + c)^3$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-14",
+    "label": "Bài 14",
+    "text": "Cho số có hai chữ số. Nếu lấy số đó chia cho hiệu của chữ số hàng chục và hàng đơn vị của nó thì được thương là 18 và dư 4. Tìm số đã cho.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-15",
+    "label": "Bài 15",
+    "text": "Tính tổng: $A = 1 \\cdot 100 + 2 \\cdot 99 + 3 \\cdot 98 + \\dots + 99 \\cdot 2 + 100 \\cdot 1$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-16",
+    "label": "Bài 16",
+    "text": "Tìm một số tự nhiên có ba chữ số biết rằng khi viết thêm chữ số 2 vào bên phải số đó thì nó tăng thêm 4106 đơn vị.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-17",
+    "label": "Bài 17",
+    "text": "Một dãy phố có 15 nhà. Số nhà của 15 nhà đó được đánh là các số lẻ liên tiếp, biết tổng của 15 số nhà của dãy phố đó bằng 915. Hãy cho biết số nhà đầu tiên của dãy phố đó là số nào?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-18",
+    "label": "Bài 18",
+    "text": "Một số có 3 chữ số, tận cùng bằng chữ số 7. Nếu chuyển chữ số 7 đó lên đầu thì ta được một số mới mà khi chia cho số cũ thì được thương là 2 dư 21. Tìm số đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-19",
+    "label": "Bài 19",
+    "text": "Người ta viết liền nhau dãy các số tự nhiên 1, 2, 3, 4, 5... Hỏi:\na) Chữ số hàng đơn vị của số 53 đứng ở hàng thứ mấy?\nb) Chữ số hàng đơn vị của số 328 đứng ở hàng thứ mấy?\nc) Chữ số hàng đơn vị của số 1587 đứng ở hàng thứ mấy?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-20",
+    "label": "Bài 20",
+    "text": "Tìm số tự nhiên có 4 chữ số chia hết cho 5 và 27, biết rằng hai số giữa của nó là 97.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-21",
+    "label": "Bài 21",
+    "text": "Tìm số có hai chữ số, biết rằng số mới viết theo thứ tự ngược lại nhân với số phải tìm được 3154, số nhỏ trong hai số đó thì lớn hơn tổng các chữ số của nó là 27.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-22",
+    "label": "Bài 22",
+    "text": "Tìm $\\overline{abc}$ biết $2009abc \\vdots 315$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-23",
+    "label": "Bài 23",
+    "text": "Tìm tất cả các số tự nhiên có 3 chữ số $\\overline{abc}$ sao cho $\\overline{abc} = n^2 - 1$ và $\\overline{cba} = (n - 2)^2$ với $n \\in \\mathbb{N}, n > 2$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-24",
+    "label": "Bài 24",
+    "text": "Tìm một số có ba chữ số biết số đó chia cho 11 được thương bằng tổng các chữ số của số đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-25",
+    "label": "Bài 25",
+    "text": "Tìm thương của một phép chia, biết rằng nếu thêm 15 vào số bị chia và thêm 5 vào số chia thì thương và số dư không đổi.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-26",
+    "label": "Bài 26",
+    "text": "Tìm hai số biết rằng tổng của chúng gấp 5 lần hiệu của chúng và tích của chúng gấp 4008 lần hiệu của chúng.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-27",
+    "label": "Bài 27",
+    "text": "Tìm một số tự nhiên có ba chữ số, biết rằng số đó gấp 5 lần tích các chữ số của nó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-28",
+    "label": "Bài 28",
+    "text": "Tìm các chữ số $a, b, c$ thỏa mãn:\na) $\\overline{ab} + \\overline{bc} + \\overline{ca} = \\overline{abc}$\nb) $\\overline{abcd} + \\overline{abc} + \\overline{ab} + a = 4321$",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-29",
+    "label": "Bài 29",
+    "text": "Tìm số tự nhiên có năm chữ số, biết rằng nếu viết thêm chữ số 2 vào đằng sau số đó thì được số lớn gấp ba lần số có được bằng cách viết thêm chữ số 2 vào đằng trước số đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-30",
+    "label": "Bài 30",
+    "text": "Tìm ba chữ số khác nhau và khác 0, biết rằng nếu dùng cả ba chữ số này lập thành các số tự nhiên có ba chữ số thì hai số lớn nhất có tổng bằng 1444.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-31",
+    "label": "Bài 31",
+    "text": "Nếu xen vào giữa các chữ số của một số có hai chữ số của chính số đó, ta được một số mới có bốn chữ số và bằng 99 lần số đầu tiên. Tìm số đó.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-32",
+    "label": "Bài 32",
+    "text": "Cho hai số có 4 chữ số và 2 chữ số mà tổng của hai số đó bằng 2750. Nếu cả hai số được viết theo thứ tự ngược lại thì tổng của hai số này bằng 8888. Tìm hai số đã cho.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-15063-so-tu-nhien-va-cac-bai-33",
+    "label": "Bài 33",
+    "text": "Tính tổng: $B = 1 \\cdot 3 + 3 \\cdot 5 + 5 \\cdot 7 + \\dots + 99 \\cdot 101$.",
+    "topics": [
+     "dai-so"
     ],
     "level": 2
    }
@@ -15353,6 +16215,232 @@
   ]
  },
  {
+  "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Tam giác đồng dạng, Định lý Thales, Menelaus và Ceva trong hình học (tuyển chọn)",
+  "grade": 8,
+  "sourceName": "toanmath.com – Trần Đình Hoàng",
+  "sourceUrl": "https://thcs.toanmath.com/2021/09/chuyen-de-tam-giac-dong-dang-ta-let-va-lien-quan-boi-duong-hoc-sinh-gioi-toan-8.html",
+  "problems": [
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-1",
+    "label": "Bài 1",
+    "text": "Cho tam giác $ABC$. Qua điểm $F$ nằm trong tam giác kẻ các đường thẳng $MN \\text{ // } BC$, $PQ \\text{ // } AB$, $IK \\text{ // } AC$ với $I, M \\notin AB$, $N, P \\notin AC$, $Q, K \\notin BC$. Đặt diện tích tam giác $ABC$ là $S$. Tìm vị trí điểm $F$ để tổng diện tích $T = S_{APFI} + S_{MBQF} + S_{CNFK}$ đạt giá trị lớn nhất.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-2",
+    "label": "Bài 2",
+    "text": "Cho tứ giác $ABCD$ có $\\widehat{ABD} = \\widehat{ACD} = 90^\\circ$. Gọi $I, K$ thứ tự là hình chiếu của $B, C$ trên cạnh $AD$. Gọi $M$ là giao điểm của $CI$ và $BK$, $O$ là giao điểm của $AC$ và $BD$. Chứng minh rằng $OM \\bot AD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-3",
+    "label": "Bài 3",
+    "text": "Cho tam giác $ABC$ vuông tại $A$. Hình chữ nhật $MNPQ$ thay đổi thỏa mãn $M$ thuộc cạnh $AB$, $N$ thuộc cạnh $AC$ và $P, Q$ thuộc cạnh $BC$. Gọi giao điểm của $BN$ với $MQ$ là $K$, của $CM$ và $NQ$ là $L$. Chứng minh rằng $\\widehat{KAB} = \\widehat{LAC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-4",
+    "label": "Bài 4",
+    "text": "Cho tam giác $ABC$ vuông tại $A$. Một hình vuông nội tiếp tam giác $ABC$ với $D$ thuộc cạnh $AB$, $E$ thuộc cạnh $AC$ và $F, G$ thuộc cạnh $BC$. Gọi $H$ là giao điểm của $BE$ và $DG$, $I$ là giao điểm của $CD$ và $EF$. Chứng minh rằng $IE = HG$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-5",
+    "label": "Bài 5",
+    "text": "Giả sử $AD, BE$ và $CF$ là các đường phân giác của tam giác $ABC$. Chứng minh rằng tam giác $ABC$ đều khi và chỉ khi diện tích tam giác $DEF$ bằng $\\dfrac{1}{4}$ diện tích tam giác $ABC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-6",
+    "label": "Bài 6",
+    "text": "Cho tam giác $ABC$ nhọn có các đường cao $BD, CE$, $H$ là trực tâm. Qua $H$ kẻ đường thẳng cắt cạnh $AB, AC$ tại $M, N$. Chứng minh rằng:\n$$\\left(\\dfrac{HM}{HN}\\right)^2 = \\dfrac{BM \\cdot EM}{DN \\cdot CN}$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-7",
+    "label": "Bài 7",
+    "text": "Cho tam giác $ABC$ nhọn có $AH$ là đường cao. Lấy điểm $O$ tùy ý thuộc đoạn $AH$ ($O$ khác $A, H$). Các tia $BO$ và $CO$ cắt $AC, AB$ tương ứng tại $M, N$. Chứng minh rằng $HA$ là tia phân giác của góc $\\widehat{MHN}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-8",
+    "label": "Bài 8",
+    "text": "Trên ba cạnh $BC, CA, AB$ của tam giác $ABC$ lần lượt lấy ba điểm $H, M, N$ sao cho $AH, BM, CN$ đồng quy tại $G$. Gọi $P, Q$ lần lượt là giao điểm của $HN$ và $BM$; $HM$ và $CN$. Tia $AP$ và tia $AQ$ cắt $BC$ lần lượt tại $E$ và $F$. Chứng minh rằng:\n$$\\dfrac{AP}{PE} + \\dfrac{AQ}{QF} = 3\\left(\\dfrac{AN}{NB} +\\dfrac{AM}{MC}\\right)$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-9",
+    "label": "Bài 9",
+    "text": "Cho tam giác $ABC$ có điểm $M$ nằm trong tam giác. Gọi $D, E, F$ thứ tự là giao điểm của đường thẳng $AM, BM, CM$ với các cạnh $BC, CA, AB$. Chứng minh rằng trong các tỉ số $\\dfrac{AM}{MD}$, $\\dfrac{BM}{ME}$, $\\dfrac{CM}{MF}$ có ít nhất một tỉ số không lớn hơn $2$ và ít nhất một tỉ số không nhỏ hơn $2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-10",
+    "label": "Bài 10",
+    "text": "Cho tam giác $ABC$ có $D$ là điểm bất kỳ nằm trong tam giác. Lấy điểm $M$ tùy ý thuộc $AD$. Gọi giao điểm của $BM$ và $AC$ là $E$; gọi giao điểm của $CM$ và $AB$ là $F$. Các tia $DE$ và $CM$ giao nhau tại $K$; các tia $DF$ và $BM$ giao nhau tại $H$. Chứng minh rằng $CH, AD, BK$ đồng quy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-11",
+    "label": "Bài 11",
+    "text": "Cho tam giác $ABC$ vuông tại $C$ có đường cao $CK$. Vẽ đường phân giác $CE$ của tam giác $ACK$. Đường thẳng qua $B$ song song với $CE$ cắt đường thẳng $CK$ tại $F$. Chứng minh rằng đường thẳng $EF$ chia đoạn thẳng $AC$ thành hai phần bằng nhau.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-12",
+    "label": "Bài 12",
+    "text": "Cho tam giác $ABC$ không cân có $CD$ là đường phân giác. Lấy điểm $O$ thuộc đường thẳng $CD$ ($O$ khác $C$ và $D$). Gọi $M, N$ lần lượt là giao điểm của đường thẳng $AO, BO$ với $BC$ và $AC$. Gọi $P$ là giao điểm của đường thẳng $MN$ và $AB$. Chứng minh rằng $CD$ vuông góc với $CP$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-13",
+    "label": "Bài 13",
+    "text": "Cho tam giác $ABC$, trên ba cạnh $BC, CA, AB$ lần lượt lấy ba điểm $A', B', C'$ sao cho $AA', BB', CC'$ đồng quy tại $K$. Gọi $M, N$ lần lượt là giao điểm của $A'C'$ và $BB'$; $A'B'$ và $CC'$. Tia $AM$, tia $AN$ lần lượt cắt $BC$ tại $E, F$.\n- a) Chứng minh rằng $EN, FM, AA'$ đồng quy tại $I$.\n- b) Chứng minh rằng $IA \\cdot KA' \\cdot I'A \\cdot KA' = 3$ (với kí hiệu trong hình).",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-14",
+    "label": "Bài 14",
+    "text": "Qua điểm $O$ bất kì trong tam giác $ABC$, dựng các đường thẳng $DE, FK, MN$ lần lượt song song với $AB, AC, BC$ sao cho $F, M$ ở trên $AB$; $E, K$ ở trên $BC$ và $N, D$ ở trên $AC$. Chứng minh rằng:\n$$\\dfrac{AF}{AB} + \\dfrac{BE}{BC} + \\dfrac{CN}{CA} = 1$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-15",
+    "label": "Bài 15",
+    "text": "Tam giác vuông $ABC$ có các cạnh góc vuông $AC = b, AB = c$ và độ dài đường phân giác $AD = d$. Chứng minh rằng:\n$$\\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{\\sqrt{2}}{d}$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-16",
+    "label": "Bài 16",
+    "text": "Cho tam giác cân $ABC$ có góc $\\widehat{BAC} = 20^\\circ$, $AB = AC = b$, $BC = a$. Chứng minh rằng:\n$$a^3 + b^3 = 3ab^2$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-17",
+    "label": "Bài 17",
+    "text": "Cho tam giác cân $ABC$ đỉnh $A$, $O$ là trung điểm $BC$. Hai điểm $M, N$ chạy trên hai cạnh $BA, CA$ thỏa mãn $BM \\cdot CN = OB^2 = OC^2$. Chứng minh ba tam giác $MON, MBO, OCN$ đồng dạng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-18",
+    "label": "Bài 18",
+    "text": "Cho tam giác cân $ABC$ ($AB = AC$), có góc $\\widehat{BAC}$ bằng $\\alpha$. Gọi $D$ và $E$ theo thứ tự là trung điểm các cạnh $AB$ và $AC$. Trên tia đối của tia $DE$, lấy một điểm $M$ tùy ý không trùng với $D$. Trên tia đối của tia $ED$, lấy một điểm $N$ sao cho góc $\\widehat{MAN} = 90^\\circ + \\dfrac{1}{2}\\alpha$. Hai đường thẳng $MB$ và $NC$ cắt nhau tại $P$. Tính góc $\\widehat{BPC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-19",
+    "label": "Bài 19",
+    "text": "Cho tam giác $ABC$. Gọi $Cx, Cy$ là các tia trên nửa mặt phẳng bờ $AC$ có chứa điểm $B$ sao cho tia $Cx$ nằm giữa hai tia $CB, Cy$ và $Cx \\text{ // } AB$. Một đường thẳng bất kì qua $B$ cắt $Cx, Cy$ tại $D, E$. Gọi $F$ là giao điểm $AD$ với $BC$. Chứng minh rằng đường thẳng $EF$ luôn đi qua một điểm cố định.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-20",
+    "label": "Bài 20",
+    "text": "Cho tam giác $ABC$. Xét điểm $M$ sao cho tứ giác $ABMC$ có $AM \\cdot BC = AB \\cdot CM + AC \\cdot BM$. Chứng minh rằng $\\widehat{BAM} = \\widehat{BCM}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-21",
+    "label": "Bài 21",
+    "text": "Cho hình vuông $ABCD$, $I$ là điểm di động nằm trên cạnh $AB$. Tia $DI$ cắt tia $CB$ tại $E$. Đường thẳng $CI$ cắt $AE$ tại $M$. Đường thẳng $DE$ cắt đường thẳng $BM$ tại $S$. Chứng minh ta luôn có $\\widehat{DSB} = 90^\\circ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-22",
+    "label": "Bài 22",
+    "text": "Tứ giác lồi $ABCD$ có $BC \\text{ // } AD$. Gọi $M, P, Q$ lần lượt là trung điểm các cạnh $CD, MA$ và $MB$. Các đường thẳng $DP$ và $CQ$ gặp nhau tại $N$. Chứng minh rằng $N$ không nằm ngoài tam giác $ABM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-23",
+    "label": "Bài 23",
+    "text": "Cho $ABC$ là tam giác nhọn. Đường phân giác của góc $\\widehat{ACB}$ cắt $AB$ tại điểm $L$. Gọi $M, N$ tương ứng là chân các đường vuông góc hạ từ $L$ xuống $AC$ và $BC$. Giả sử $P$ là giao điểm của $AN$ và $BM$. Chứng minh rằng $CP \\bot AB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5212-tam-giac-dong-dang-dinh-ly-24",
+    "label": "Bài 24",
+    "text": "Gọi $M$ là điểm bất kì trong tam giác $ABC$. Qua $M$ kẻ các đường thẳng $AM, BM, CM$ cắt các cạnh tương ứng tại các điểm $A_1, B_1, C_1$. Chứng minh rằng:\n$$\\dfrac{AM}{A_1M} + \\dfrac{BM}{B_1M} + \\dfrac{CM}{C_1M} \\ge 6$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-cd-5204-tim-gia-tri-lon-nhat-va",
   "kind": "chuyende",
   "title": "Chuyên đề: Tìm giá trị lớn nhất và nhỏ nhất của biểu thức (tuyển chọn)",
@@ -19016,6 +20104,224 @@
      "bat-dang-thuc"
     ],
     "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Chứng minh đẳng thức và tính giá trị biểu thức (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com – Nguyễn Quốc Bảo",
+  "sourceUrl": "https://thcs.toanmath.com/2020/06/chuyen-de-chung-minh-dang-thuc-va-tinh-gia-tri-bieu-thuc-nguyen-quoc-bao.html",
+  "problems": [
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-1",
+    "label": "Bài 1",
+    "text": "Cho x, y, z là các số thực dương thỏa mãn điều kiện $x+y+z=xyz$. Chứng minh rằng: \n$$\\dfrac{x}{1+x^2} + \\dfrac{2y}{1+y^2} + \\dfrac{3z}{1+z^2} = \\dfrac{xyz(5x+4y+3z)}{(x+y)(y+z)(z+x)}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-2",
+    "label": "Bài 2",
+    "text": "Cho 3 số thực x, y, z thỏa mãn điều kiện: $x+y+z=0$ và $xyz \\ne 0$. Tính giá trị biểu thức: \n$$P = \\dfrac{x^2}{y^2+z^2-x^2} + \\dfrac{y^2}{z^2+x^2-y^2} + \\dfrac{z^2}{x^2+y^2-z^2}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-3",
+    "label": "Bài 3",
+    "text": "Cho các số thực a, b, c khác nhau đôi một thỏa mãn $a^3+b^3+c^3=3abc$ và $abc \\ne 0$. Tính: \n$$P = \\dfrac{ab}{a^2+b^2-c^2} + \\dfrac{bc}{b^2+c^2-a^2} + \\dfrac{ca}{c^2+a^2-b^2}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-4",
+    "label": "Bài 4",
+    "text": "Với a, b, c là các số thực thỏa mãn: \n$$(3a+3b+3c)^3 = 24 + (3a+b-c)^3 + (3b+c-a)^3 + (3c+a-b)^3$$\nChứng minh rằng $(a+2b)(b+2c)(c+2a)=1$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-5",
+    "label": "Bài 5",
+    "text": "Cho a, b, c, x, y, z thỏa mãn $\\dfrac{x^2+y^2+z^2}{a^2+b^2+c^2} = \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} + \\dfrac{z^2}{c^2}$. Chứng minh rằng $x^{2019} + y^{2019} + z^{2019} = 0$.",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-6",
+    "label": "Bài 6",
+    "text": "Cho x, y thỏa mãn: \n$$\\sqrt{x+2014} + \\sqrt{2015-x} - \\sqrt{2014-x} = \\sqrt{y+2014} + \\sqrt{2015-y} - \\sqrt{2014-y}$$\nChứng minh $x=y$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-7",
+    "label": "Bài 7",
+    "text": "Cho 3 số a, b, c khác 0 thỏa mãn: \n$$\\begin{cases} a+b+c = 2019 \\\\ \\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{1}{2019} \\end{cases}$$\nChứng minh rằng trong các số a, b, c có một số bằng 2019.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-8",
+    "label": "Bài 8",
+    "text": "Cho 3 số a, b, c khác 0 thỏa mãn $\\dfrac{1}{\\sqrt[3]{a}} + \\dfrac{1}{\\sqrt[3]{b}} + \\dfrac{1}{\\sqrt[3]{c}} = \\dfrac{1}{3}$ và $\\sqrt[3]{a} + \\sqrt[3]{b} + \\sqrt[3]{c} = \\sqrt{6+2\\sqrt{5}} - \\sqrt{29-12\\sqrt{5}}$. Chứng minh trong 3 số có ít nhất một số bằng 27.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-9",
+    "label": "Bài 9",
+    "text": "Cho các số thực a, b, c, x, y, z khác 0 thỏa mãn $\\dfrac{x}{a+2b+c} = \\dfrac{y}{2a+b-c} = \\dfrac{z}{4a-b+c}$. Chứng minh rằng $\\dfrac{a}{x+2y+z} = \\dfrac{b}{2x+y-z} = \\dfrac{c}{4x-4y+z}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-10",
+    "label": "Bài 10",
+    "text": "Cho a, b là các số thực dương thỏa mãn biểu thức: \n$$\\begin{cases} a^3-3a^2+5a-17=0 \\\\ b^3-3b^2+5b+11=0 \\end{cases}$$\nChứng minh rằng $a+b=2$.",
+    "topics": [
+     "phuong-trinh",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-11",
+    "label": "Bài 11",
+    "text": "Cho a, b, c là ba số thực thỏa mãn điều kiện $a+b+c=0$ và $a^2=2(a+c+1)(a+b-1)$. Tính giá trị của biểu thức $A=a^2+b^2+c^2$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-12",
+    "label": "Bài 12",
+    "text": "Cho các số thực x, y, z thỏa mãn đồng thời các điều kiện $x+y+z=2$, $x^2+y^2+z^2=18$ và $xyz=-1$. Tính giá trị của $S=\\dfrac{1}{xy+z-1} + \\dfrac{1}{yz+x-1} + \\dfrac{1}{zx+y-1}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-13",
+    "label": "Bài 13",
+    "text": "Cho các số thực x, y, z đôi một khác nhau thỏa mãn $x^3=3x-1, y^3=3y-1$ và $z^3=3z-1$. Chứng minh rằng $x^2+y^2+z^2=6$.",
+    "topics": [
+     "phuong-trinh",
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-14",
+    "label": "Bài 14",
+    "text": "Cho a, b, c là các số thực dương thỏa $a^2+b^2+c^2+2abc=1$. Tính giá trị biểu thức $P=a\\sqrt{(1-b^2)(1-c^2)} + b\\sqrt{(1-a^2)(1-c^2)} + c\\sqrt{(1-b^2)(1-a^2)} - abc$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-15",
+    "label": "Bài 15",
+    "text": "Cho x, y là hai số thực thỏa mãn $xy + \\sqrt{(1+x^2)(1+y^2)} = 1$. Chứng minh rằng $x\\sqrt{1+y^2} + y\\sqrt{1+x^2} = 0$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-16",
+    "label": "Bài 16",
+    "text": "Cho trước $a, b \\in \\mathbb{R}$; gọi x, y là hai số thực thỏa mãn $\\begin{cases} x+y=a+b \\\\ x^3+y^3=a^3+b^3 \\end{cases}$. Chứng minh rằng $x^{2011}+y^{2011}=a^{2011}+b^{2011}$.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-17",
+    "label": "Bài 17",
+    "text": "Giả sử x, y là những số thực dương phân biệt thỏa mãn: \n$$\\dfrac{y}{x+y} + \\dfrac{2y^2}{x^2+y^2} + \\dfrac{4y^4}{x^4+y^4} + \\dfrac{8y^8}{x^8-y^8} = 4$$\nChứng minh rằng $5y=4x$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-18",
+    "label": "Bài 18",
+    "text": "Cho các số thực x, y, z đôi một khác nhau thỏa mãn $(y-z)\\sqrt[3]{1-x^3} + (z-x)\\sqrt[3]{1-y^3} + (x-y)\\sqrt[3]{1-z^3} = 0$. Chứng minh rằng $(1-x^3)(1-y^3)(1-z^3) = (1-xyz)^3$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 4
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-19",
+    "label": "Bài 19",
+    "text": "a) Cho $x = \\sqrt{3+\\sqrt{5+2\\sqrt{3}}} + \\sqrt{3-\\sqrt{5+2\\sqrt{3}}}$. Tính giá trị của biểu thức $P=x(2-x)$.\nb) Cho ba số a, b, c thỏa mãn $ab+bc+ca = 2019$. Chứng minh: $\\dfrac{a^2-bc}{a^2+2019} + \\dfrac{b^2-ca}{b^2+2019} + \\dfrac{c^2-ab}{c^2+2019} = 0$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-20",
+    "label": "Bài 20",
+    "text": "Cho ba số thực dương x, y, z thỏa mãn $x+y = (\\sqrt{x}+\\sqrt{y}-\\sqrt{z})^2$, $\\sqrt{x}+\\sqrt{y} \\ne \\sqrt{z}$ và $y \\ne z$. Chứng minh đẳng thức $\\dfrac{x+(\\sqrt{x}-\\sqrt{z})^2}{y+(\\sqrt{y}-\\sqrt{z})^2} = \\dfrac{\\sqrt{x}-\\sqrt{z}}{\\sqrt{y}-\\sqrt{z}}$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-21",
+    "label": "Bài 21",
+    "text": "Cho ba số x, y, z thỏa các hệ thức $(z-1)x-y=1$ và $x+zy=2$. Chứng minh rằng $(2x-y)(z^2-z+1)=7$ và tìm tất cả các số nguyên x, y, z thỏa hệ thức trên.",
+    "topics": [
+     "phuong-trinh",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-1767-chung-minh-dang-thuc-va-tinh-22",
+    "label": "Bài 22",
+    "text": "Cho x, y, z > 0 và $xy+yz+zx=1$. Chứng minh rằng: \n$$\\dfrac{x}{1+x^2} + \\dfrac{y}{1+y^2} + \\dfrac{z}{1+z^2} = \\dfrac{2xy}{\\sqrt{(1+x^2)(1+y^2)(1+z^2)}}$$",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 3
    }
   ]
  },
@@ -24852,6 +26158,169 @@
     "topics": [
      "phuong-trinh",
      "bat-dang-thuc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-cd-5714-phuong-trinh-vo-ty",
+  "kind": "chuyende",
+  "title": "Chuyên đề: Phương trình vô tỷ (tuyển chọn)",
+  "grade": 9,
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2021/12/chuyen-de-phuong-trinh-vo-ty-on-thi-vao-lop-10.html",
+  "problems": [
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-1",
+    "label": "Bài 1",
+    "text": "Giải phương trình: $\\sqrt{2x + 1} + \\sqrt{x} = \\sqrt{4x + 9}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-2",
+    "label": "Bài 2",
+    "text": "Giải phương trình: $\\sqrt{5x^3 - 1} + \\sqrt[3]{2x - 1} + x - 4 = 0$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-3",
+    "label": "Bài 3",
+    "text": "Giải phương trình: $\\sqrt[3]{x^2 - 1} + x = \\sqrt[3]{x^3 - 2}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-4",
+    "label": "Bài 4",
+    "text": "Giải phương trình: $\\sqrt[3]{x^2 - 2}\\sqrt[3]{x} - (x - 4)\\sqrt{x - 7} - 3x + 28 = 0$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-5",
+    "label": "Bài 5",
+    "text": "Giải phương trình: $4\\sqrt{x + 3} + \\sqrt{19 - 3x} = x^2 + 2x + 9$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-6",
+    "label": "Bài 6",
+    "text": "Giải phương trình: $\\dfrac{x^3 + 5x^2 + 4x + 2}{x^2 + 2x + 3} = \\sqrt{x^2 + x + 2}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-7",
+    "label": "Bài 7",
+    "text": "Giải phương trình: $2(x^2 - 3x + 2) = 3\\sqrt{x^3 + 8}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-8",
+    "label": "Bài 8",
+    "text": "Giải phương trình: $\\sqrt{5x^2 + 4x} - \\sqrt{x^2 - 3x - 18} = 5\\sqrt{x}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-9",
+    "label": "Bài 9",
+    "text": "Giải phương trình: $\\sqrt{x^2 + 2x} + \\sqrt{2x - 1} = \\sqrt{3x^2 + 4x + 1}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-10",
+    "label": "Bài 10",
+    "text": "Giải phương trình: $2x^3 - x^2 - 3x + 1 = \\sqrt{x^5 + x^4 + 1}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-11",
+    "label": "Bài 11",
+    "text": "Giải phương trình: $(x^2 + 4)\\sqrt{2x + 4} = 3x^2 + 6x - 4$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-12",
+    "label": "Bài 12",
+    "text": "Giải phương trình: $(x^2 - 6x + 11)\\sqrt{x^2 - x + 1} = 2(x^2 - 4x + 7)\\sqrt{x - 2}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-13",
+    "label": "Bài 13",
+    "text": "Giải phương trình: $x^2 + 1 - (x + 1)\\sqrt{x^2 - 2x + 3} = 0$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-14",
+    "label": "Bài 14",
+    "text": "Giải phương trình: $10x^2 - 9x - 8x\\sqrt{2x^2 - 3x + 1} + 3 = 0$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-15",
+    "label": "Bài 15",
+    "text": "Giải phương trình: $8x^3 - 36x^2 + 53x - 25 = \\sqrt[3]{3x - 5}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-16",
+    "label": "Bài 16",
+    "text": "Giải phương trình: $8x^3 - 13x^2 + 7x = 2\\sqrt[3]{x^2 + 3x - 3}$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-cd-5714-phuong-trinh-vo-ty-17",
+    "label": "Bài 17",
+    "text": "Giải phương trình: $7x^2 - 13x + 8 = 2x^2\\sqrt[3]{x(1 + 3x - 3x^2)}$",
+    "topics": [
+     "phuong-trinh"
     ],
     "level": 3
    }
