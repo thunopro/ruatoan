@@ -4720,6 +4720,127 @@
   ]
  },
  {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm",
+  "kind": "hsg",
+  "title": "Đề thi chọn HSG Toán 9 năm 2026 – 2027 trường THCS Huỳnh Văn Nghệ – TP HCM",
+  "grade": 9,
+  "year": 2026,
+  "province": "TP. Hồ Chí Minh",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-thi-chon-hsg-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-1a",
+    "label": "Câu 1a",
+    "text": "Cho $x, y, z$ là các số nguyên dương thoả mãn điều kiện $xyz = 100$. Tính giá trị biểu thức sau:\n$$\\dfrac{\\sqrt{x}}{\\sqrt{xy} + \\sqrt{x} + 10} + \\dfrac{\\sqrt{y}}{\\sqrt{yz} + \\sqrt{y} + 1} + \\dfrac{10\\sqrt{z}}{\\sqrt{xz} + 10\\sqrt{z} + 10}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-1b",
+    "label": "Câu 1b",
+    "text": "Chứng minh rằng nếu $a, b, c$ là 3 số thoả mãn: $a + b + c = 2026$ và $\\dfrac{1}{a} + \\dfrac{1}{b} + \\dfrac{1}{c} = \\dfrac{1}{2026}$ thì một trong 3 số đó phải bằng $2026$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-2a",
+    "label": "Câu 2a",
+    "text": "Giải phương trình:\n$$\\sqrt{x^2 - 5x + 6} + \\sqrt{x + 1} = \\sqrt{x - 2} + \\sqrt{x^2 - 2x - 3}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-2b",
+    "label": "Câu 2b",
+    "text": "Giải phương trình:\n$$\\sqrt{3x^2 - 18x + 28} + \\sqrt{4x^2 - 24x + 45} = 6x - x^2 - 5$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-2c",
+    "label": "Câu 2c",
+    "text": "Giải phương trình:\n$$x^2 + 4x + 5 = 2\\sqrt{2x + 3}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-3",
+    "label": "Câu 3",
+    "text": "Trên quãng đường $AB$ dài $60\\text{ km}$, người thứ nhất đi xe máy từ $A$ đến $B$, người thứ hai đi xe đạp từ $B$ về $A$. Họ khởi hành cùng một lúc và gặp nhau tại $C$ sau khi khởi hành được $1\\text{ giờ } 20\\text{ phút}$. Từ $C$ người thứ nhất tiếp tục đi đến $B$ và người thứ hai tiếp tục đi đến $A$. Kết quả người thứ nhất đến sớm hơn người thứ hai là $2\\text{ giờ}$. Tính vận tốc mỗi người, biết rằng trong suốt quãng đường cả hai người đều đi với vận tốc không đổi.",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-4a",
+    "label": "Câu 4a",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ có đường cao $AH$, vẽ $AD$ là đường phân giác ($D$ thuộc $BC$), kẻ $DK$ vuông góc $AB$ tại $K$. Gọi $I$ là giao điểm của $AH$ và $DK$, $BI$ cắt $AD$ tại $M$.\n\nChứng minh: $DB \\cdot DH = DA \\cdot DM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-4b",
+    "label": "Câu 4b",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ có đường cao $AH$, vẽ $AD$ là đường phân giác ($D$ thuộc $BC$), kẻ $DK$ vuông góc $AB$ tại $K$. Gọi $I$ là giao điểm của $AH$ và $DK$, $BI$ cắt $AD$ tại $M$.\n\nTính số đo góc $\\widehat{DHM}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-5a",
+    "label": "Câu 5a",
+    "text": "Cho tam giác $ABC$ vuông tại $A$, $BC = 2a$ có $AH$ là đường cao. Gọi $D, E$ lần lượt là hình chiếu của $H$ lên $AC$ và $AB$.\n\nChứng minh rằng: $AB \\cdot EB + AD \\cdot AC = AB^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-5b",
+    "label": "Câu 5b",
+    "text": "Cho tam giác $ABC$ vuông tại $A$, $BC = 2a$ có $AH$ là đường cao. Gọi $D, E$ lần lượt là hình chiếu của $H$ lên $AC$ và $AB$. Qua $B$ kẻ đường thẳng song song với $AC$, qua $C$ kẻ đường thẳng song song với $AB$, hai đường thẳng này cắt nhau tại $M$. Gọi $N$ và $K$ lần lượt là trung điểm của $BM$ và $HC$.\n\nChứng minh: $AK$ vuông góc với $KN$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-6",
+    "label": "Câu 6",
+    "text": "Tìm các số tự nhiên $n$ để $(n^2 - 8)^2 + 36$ là số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-huynh-van-nghe-tp-hcm-7",
+    "label": "Câu 7",
+    "text": "Hai bạn Minh và Huy chơi một trò chơi như sau: Minh chọn ngẫu nhiên một số trong tập hợp $\\{5; 6; 7; 8; 9; 10\\}$, Huy chọn ngẫu nhiên một số trong tập hợp $\\{4; 5; 7; 8; 9; 10\\}$. Bạn nào chọn được số lớn hơn sẽ là người thắng cuộc. Nếu hai số được chọn bằng nhau thì kết quả là hoà. Tính xác suất của biến cố $A$: \"Bạn Minh thắng\".",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-nguyen-truong-to-ha-noi",
   "kind": "hsg",
   "title": "Đề thi chọn HSG Toán 9 năm 2026 – 2027 trường THCS Nguyễn Trường Tộ – Hà Nội",
@@ -69780,6 +69901,135 @@
     "id": "tm-hsg9-toan-9-cap-tinh-nam-2011-2012-so-gddt-dong-thap-5c",
     "label": "Câu 5c",
     "text": "Cho tứ giác lồi $ABCD$ với bốn điều kiện sau đây: $AB \\parallel CD$; $AB < CD$; $AB = BC = DA$; $BD \\perp BC$. So sánh diện tích của tam giác $ABD$ với diện tích của tứ giác $ABCD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin",
+  "kind": "hsg",
+  "title": "Đề khảo sát HSG Toán 8 năm 2026 – 2027 trường THCS Trương Hán Siêu – Ninh Bình",
+  "grade": 8,
+  "year": 2027,
+  "province": "Ninh Bình",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-binh.html",
+  "problems": [
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-1a",
+    "label": "Câu 1a",
+    "text": "Phân tích đa thức sau thành nhân tử:\n$$x^3 - 19x + 30$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-1b",
+    "label": "Câu 1b",
+    "text": "Rút gọn biểu thức:\n$$A = \\dfrac{x+2}{x+3} - \\dfrac{5}{x^2+x-6} + \\dfrac{1}{2-x} \\quad (x \\ne 2, x \\ne -3)$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-2a",
+    "label": "Câu 2a",
+    "text": "Cho $a, b, c$ khác $0$ là ba số thỏa mãn $a^2 + b^2 + c^2 = ab + bc + ca$. Tính giá trị của biểu thức:\n$$B = \\dfrac{a+b}{c} + \\dfrac{b+c}{a} - \\dfrac{2026c + 2026a}{b}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-2b",
+    "label": "Câu 2b",
+    "text": "Cho $9x^2 + 4y^2 = 20xy$ ($3x > 2y > 0$). Chứng minh:\n$$\\dfrac{6x - 4y}{3x + 2y} = 1$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-3a",
+    "label": "Câu 3a",
+    "text": "Cho $A = n^4 + 4$. Tìm số nguyên $n$ để $A$ có giá trị là một số nguyên tố.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-3b",
+    "label": "Câu 3b",
+    "text": "Tìm $a, b$ sao cho đa thức $f(x) = ax^3 + bx^2 + 10x - 4$ chia hết cho đa thức $g(x) = x^2 + x - 2$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-3c",
+    "label": "Câu 3c",
+    "text": "Tìm giá trị nhỏ nhất của biểu thức:\n$$A = 13x^2 + y^2 + 4xy - 2y - 16x + 2019$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-4a",
+    "label": "Câu 4a",
+    "text": "Tìm $x, y$ nguyên thỏa mãn:\n$$x^2 + 2y^2 + 3xy - x - y + 3 = 0$$",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-4b",
+    "label": "Câu 4b",
+    "text": "Chứng minh rằng: $n^3 - 3n^2 - n + 3$ chia hết cho $48$ với mọi số nguyên lẻ $n$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-5-1a",
+    "label": "Câu 5.1a",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường cao $AH$. Gọi $D$ là điểm đối xứng của $A$ qua $H$. Đường thẳng qua $D$ song song với $AB$ cắt $BC$ và $AC$ lần lượt ở $M$ và $N$.\n\nChứng minh tứ giác $ABDM$ là hình thoi và $AM$ vuông góc với $CD$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-5-1b",
+    "label": "Câu 5.1b",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường cao $AH$. Gọi $D$ là điểm đối xứng của $A$ qua $H$. Đường thẳng qua $D$ song song với $AB$ cắt $BC$ và $AC$ lần lượt ở $M$ và $N$. Gọi $I$ là trung điểm của $MC$, chứng minh rằng $IN$ vuông góc với $HN$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-5-2a",
+    "label": "Câu 5.2a",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB > AC$). Đường trung tuyến $AO$, trên tia đối của tia $OA$ lấy điểm $D$ sao cho $OD = OA$. Từ $B$ kẻ $BH$ vuông góc với $AD$ tại $H$. Từ $C$ kẻ $CK$ vuông góc với $AD$ tại $K$. Tia $BH$ cắt $CD$ tại $M$, tia $CK$ cắt $AB$ tại $N$.\n\nChứng minh ba điểm $M, O, N$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg8-khao-sat-hsg-toan-8-nam-2026-2027-truong-thcs-truong-han-sieu-ninh-bin-5-2b",
+    "label": "Câu 5.2b",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB > AC$). Đường trung tuyến $AO$, trên tia đối của tia $OA$ lấy điểm $D$ sao cho $OD = OA$. Từ $B$ kẻ $BH$ vuông góc với $AD$ tại $H$. Từ $C$ kẻ $CK$ vuông góc với $AD$ tại $K$. Tia $BH$ cắt $CD$ tại $M$, tia $CK$ cắt $AB$ tại $N$. Trên tia đối của tia $BH$ lấy điểm $E$ sao cho $BE = AD$. Chứng minh $\\widehat{DCE} = 45^\\circ$.",
     "topics": [
      "hinh-hoc"
     ],
