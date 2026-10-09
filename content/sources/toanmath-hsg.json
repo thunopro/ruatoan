@@ -3272,6 +3272,155 @@
   ]
  },
  {
+  "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau",
+  "kind": "hsg",
+  "title": "Đề chọn học sinh giỏi tỉnh Toán THCS năm 2025 – 2026 sở GD&ĐT Cà Mau",
+  "grade": 9,
+  "year": 2026,
+  "province": "Cà Mau",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/05/de-chon-hoc-sinh-gioi-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-1-a",
+    "label": "Bài 1.a",
+    "text": "Cho biểu thức $A = \\dfrac{2x + \\sqrt{16x} + 6}{x + 2\\sqrt{x} - 3} + \\dfrac{\\sqrt{x} - 2}{\\sqrt{x} - 1} + \\dfrac{3}{\\sqrt{x} + 3}$ với $0 \\le x \\ne 1$. Rút gọn biểu thức $A$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-1-b",
+    "label": "Bài 1.b",
+    "text": "Cho biểu thức $A = \\dfrac{2x + \\sqrt{16x} + 6}{x + 2\\sqrt{x} - 3} + \\dfrac{\\sqrt{x} - 2}{\\sqrt{x} - 1} + \\dfrac{3}{\\sqrt{x} + 3}$ với $0 \\le x \\ne 1$. Tìm tất cả các giá trị $x$ nguyên để $A$ là số nguyên.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-2-a",
+    "label": "Bài 2.a",
+    "text": "Giải phương trình $(x+4)(x-2) - 2\\sqrt{x^2+2x-5} = 0$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-2-b",
+    "label": "Bài 2.b",
+    "text": "Vừa qua, ngày 15/3/2026, cử tri cả nước nô nức đi bỏ phiếu bầu cử đại biểu Quốc hội và đại biểu Hội đồng nhân dân các cấp nhiệm kỳ mới. Tại một đơn vị bầu cử X, danh sách các ứng cử viên đại biểu Hội đồng nhân dân cấp tỉnh gồm có nam và nữ. Sau khi kết thúc bỏ phiếu và kiểm phiếu, Hội đồng bầu cử công bố ghi nhận số đại biểu trúng cử Hội đồng nhân dân cấp tỉnh ít hơn số ứng cử viên là $3$ người. Biết rằng, nếu lấy $5$ lần số ứng cử viên nam cộng với $4$ lần số ứng cử viên nữ thì được $42$ người. Tổng số ứng cử viên bằng $3$ lần của hiệu giữa số đại biểu trúng cử và số ứng cử viên nữ. Hãy tính số ứng cử viên nam, ứng cử viên nữ và số đại biểu đã trúng cử Hội đồng nhân dân cấp tỉnh tại đơn vị này.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-3-a",
+    "label": "Bài 3.a",
+    "text": "Cho đường thẳng $(d): y = x + m$ và parabol $(P): y = 2x^2$. Khi $m = 3$, hãy tìm toạ độ giao điểm của đường thẳng $(d)$ và parabol $(P)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-3-b",
+    "label": "Bài 3.b",
+    "text": "Cho đường thẳng $(d): y = x + m$ và parabol $(P): y = 2x^2$. Tìm tất cả các giá trị của tham số $m$ để đường thẳng $(d)$ cắt parabol $(P)$ tại hai điểm phân biệt có hoành độ $x_1, x_2$ thỏa mãn $(2x_1^2 - x_2 - m)^2 + (2x_2^2 - x_1 - m)^2 = 504$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-4-a",
+    "label": "Bài 4.a",
+    "text": "Viết ngẫu nhiên một số tự nhiên chẵn có $3$ chữ số và bé hơn $450$. Có tất cả bao nhiêu kết quả xảy ra trong phép thử trên?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-4-b",
+    "label": "Bài 4.b",
+    "text": "Viết ngẫu nhiên một số tự nhiên chẵn có $3$ chữ số và bé hơn $450$. Tính xác suất để số viết ra là tích của $2$ số tự nhiên liên tiếp.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-5-a",
+    "label": "Bài 5.a",
+    "text": "Tìm các số nguyên dương $x, y$ thoả mãn $xy^2 \\left( x + 2 + \\dfrac{1}{xy^2} \\right) = 2026 - y^2$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-5-b",
+    "label": "Bài 5.b",
+    "text": "Cho $3$ số thực $a, b, c$ thoả mãn $1 \\le a, b, c \\le 2$. Chứng minh rằng: $\\dfrac{a}{b^2+2} + \\dfrac{b}{c^2+2} + \\dfrac{c}{a^2+2} \\ge 1$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-6-a",
+    "label": "Bài 6.a",
+    "text": "Một hình trụ có bán kính bằng $10\\text{ cm}$ không chứa nước, người ta đổ nước vào hình trụ được mực nước cao $20\\text{ cm}$. Sau đó, người ta tiếp tục đặt vào trong hình trụ đó một khối gỗ (đặc) cũng dạng hình trụ bán kính là $5\\text{ cm}$, sao cho đáy của khối gỗ tiếp xúc với đáy của hình trụ. Tính thể tích lượng nước đổ vào hình trụ.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-6-b",
+    "label": "Bài 6.b",
+    "text": "Một hình trụ có bán kính bằng $10\\text{ cm}$ không chứa nước, người ta đổ nước vào hình trụ được mực nước cao $20\\text{ cm}$. Sau đó, người ta tiếp tục đặt vào trong hình trụ đó một khối gỗ (đặc) cũng dạng hình trụ bán kính là $5\\text{ cm}$, sao cho đáy của khối gỗ tiếp xúc với đáy của hình trụ. Tính chiều cao mực nước dâng lên so với ban đầu sau khi đặt khối gỗ vào.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-7-a",
+    "label": "Bài 7.a",
+    "text": "Cho $3$ điểm phân biệt $A, B, C$ nằm trên một đường thẳng $d$ ($B$ nằm giữa $A$ và $C$), $AB = x, BC = 8$. Vẽ đường tròn tâm $O$, bán kính bằng $5$ đi qua hai điểm $B, C$. Kẻ hai tiếp tuyến $AM$ và $AN$ với đường tròn tâm $O$ tại $M$ và $N$. Gọi $I$ là trung điểm đoạn $BC$, $K$ là giao điểm của $MN$ và $AC$. Chứng minh $5$ điểm $M, A, N, O, I$ cùng nằm trên một đường tròn.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-7-b",
+    "label": "Bài 7.b",
+    "text": "Cho $3$ điểm phân biệt $A, B, C$ nằm trên một đường thẳng $d$ ($B$ nằm giữa $A$ và $C$), $AB = x, BC = 8$. Vẽ đường tròn tâm $O$, bán kính bằng $5$ đi qua hai điểm $B, C$. Kẻ hai tiếp tuyến $AM$ và $AN$ với đường tròn tâm $O$ tại $M$ và $N$. Gọi $I$ là trung điểm đoạn $BC$, $K$ là giao điểm của $MN$ và $AC$. Chứng minh $AK \\cdot AI = AB \\cdot AC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-ca-mau-7-c",
+    "label": "Bài 7.c",
+    "text": "Cho $3$ điểm phân biệt $A, B, C$ nằm trên một đường thẳng $d$ ($B$ nằm giữa $A$ và $C$), $AB = x, BC = 8$. Vẽ đường tròn tâm $O$, bán kính bằng $5$ đi qua hai điểm $B, C$. Kẻ hai tiếp tuyến $AM$ và $AN$ với đường tròn tâm $O$ tại $M$ và $N$. Gọi $I$ là trung điểm đoạn $BC$, $K$ là giao điểm của $MN$ và $AC$. Tìm giá trị của $x$ để tam giác $AMN$ là tam giác đều.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-tinh-toan-thcs-nam-2025-2026-so-gddt-gia-lai",
   "kind": "hsg",
   "title": "Đề chọn học sinh giỏi tỉnh Toán THCS năm 2025 – 2026 sở GD&ĐT Gia Lai",
@@ -4033,6 +4182,135 @@
      "to-hop"
     ],
     "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe",
+  "kind": "hsg",
+  "title": "Đề chọn đội tuyển HSG Toán 9 vòng 1 năm 2026 – 2027 phường Trường Vinh – Nghệ An",
+  "grade": 9,
+  "year": 2026,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-an.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-1a",
+    "label": "Câu 1a",
+    "text": "Cho biểu thức $A = \\dfrac{x^2 - 2x}{x^3 - 1} + \\dfrac{x + 1}{x^3 + x^2 + x} + \\dfrac{1 + 2x^2 - 2x}{x^4 - x}$ với $x \\neq 0; x \\neq 1$.\n\nRút gọn biểu thức $A$ và tìm tất cả các giá trị của $x$ sao cho giá trị của $A$ là một số tự nhiên.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-1b",
+    "label": "Câu 1b",
+    "text": "Cho số thực $x$ thỏa mãn: $(x - 1)^3 = 9x$. Chứng minh rằng: nếu $y = x^2 + x$ thì $(y + 1)^3 = 27y^2$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-2a",
+    "label": "Câu 2a",
+    "text": "Giải phương trình:\n$$\\left(\\dfrac{x + 3}{x - 2}\\right)^2 + 6\\left(\\dfrac{x - 3}{x + 2}\\right)^2 = \\dfrac{7(x^2 - 9)}{x^2 - 4}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-2b",
+    "label": "Câu 2b",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} 2x^2 - 2xy + y^2 = x \\\\ 4x^2 - 5xy + 2y^2 = y \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-3a",
+    "label": "Câu 3a",
+    "text": "Biết $x, y$ là các số nguyên thỏa mãn: $x^2 - xy + 4y^2$ chia hết cho $25$. Chứng minh: $x^2 + xy + 4y^2$ chia hết cho $25$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-3b",
+    "label": "Câu 3b",
+    "text": "Tìm cặp số nguyên tố $(p, q)$ thỏa mãn $p^2 - 1$ chia hết cho $q$ và $q^2 - 4$ chia hết cho $p$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-3c",
+    "label": "Câu 3c",
+    "text": "Biết $a + b$ là số nguyên và $a^3 + b^3 = 2$. Tính $a + b$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-4a",
+    "label": "Câu 4a",
+    "text": "Bạn An viết ngẫu nhiên một số tự nhiên có 3 chữ số.\n\nTính xác suất của biến cố $A$: “Số viết được chia hết cho 11”.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-4b",
+    "label": "Câu 4b",
+    "text": "Bạn An viết ngẫu nhiên một số tự nhiên có 3 chữ số.\n\nTính xác suất của biến cố $B$: “Số viết được chia hết cho 11, có 3 chữ số khác nhau, các chữ số đều là số lẻ”.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-5a",
+    "label": "Câu 5a",
+    "text": "Cho $\\Delta ABC$ nhọn ($AB < AC$), có $I$ là giao điểm của ba đường phân giác. Gọi $D, E, F$ lần lượt là chân đường vuông góc kẻ từ $I$ đến $BC, CA, AB$. Đường phân giác trong của góc $B$ cắt $DE, EF$ lần lượt tại $Q, N$.\n\nChứng minh rằng: $\\widehat{CIN} = \\widehat{CEN}$ và $CN \\perp BN$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-5b",
+    "label": "Câu 5b",
+    "text": "Cho $\\Delta ABC$ nhọn ($AB < AC$), có $I$ là giao điểm của ba đường phân giác. Gọi $D, E, F$ lần lượt là chân đường vuông góc kẻ từ $I$ đến $BC, CA, AB$. Đường phân giác trong của góc $B$ cắt $DE, EF$ lần lượt tại $Q, N$.\n\nGọi $M$ là trung điểm của $AC$, $L$ là trung điểm của $BC$. Chứng minh rằng $M, N, L$ thẳng hàng và tam giác $MNQ$ cân.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-5c",
+    "label": "Câu 5c",
+    "text": "Cho $\\Delta ABC$ nhọn ($AB < AC$), có $I$ là giao điểm của ba đường phân giác. Gọi $D, E, F$ lần lượt là chân đường vuông góc kẻ từ $I$ đến $BC, CA, AB$. Đường phân giác trong của góc $B$ cắt $DE, EF$ lần lượt tại $Q, N$.\n\nTia $AI$ cắt cạnh $DE$ tại $P$. Chứng minh: $EP \\cdot IA = BC \\cdot IQ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe-6",
+    "label": "Câu 6",
+    "text": "Bạn An tô màu các số tự nhiên liên tiếp từ $1$ đến $2027$, mỗi số được tô bởi một trong ba màu xanh, đỏ, vàng thỏa mãn các điều kiện:\n1. Ba số tự nhiên liên tiếp bất kỳ có đủ cả ba màu xanh, đỏ, vàng.\n2. Tồn tại một số xanh và một số vàng có tổng bằng $2026$.\n\nHỏi số $2027$ được tô màu gì?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
    }
   ]
  },
