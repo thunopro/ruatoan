@@ -154768,6 +154768,130 @@
   ]
  },
  {
+  "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen",
+  "kind": "hsg",
+  "title": "Đề học sinh giỏi huyện Toán 6 năm 2021 – 2022 phòng GD&ĐT Ân Thi – Hưng Yên",
+  "grade": 6,
+  "year": 2022,
+  "province": "Hưng Yên",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2022/04/de-hoc-sinh-gioi-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen.html",
+  "problems": [
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-1a",
+    "label": "Bài 1a",
+    "text": "Thực hiện phép tính:\n$$A = 2^4 \\cdot 5 - \\left[131 - (13 - 4)^2\\right]$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-1b",
+    "label": "Bài 1b",
+    "text": "Thực hiện phép tính:\n$$B = \\dfrac{3}{2 \\cdot 5} + \\dfrac{3}{5 \\cdot 8} + \\dfrac{3}{8 \\cdot 11} + \\dfrac{3}{11 \\cdot 14} + \\dfrac{3}{14 \\cdot 17} + \\dfrac{3}{17 \\cdot 20}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-2a",
+    "label": "Bài 2a",
+    "text": "Tìm $x$ biết:\n$$(7x - 11)^3 = 2^5 \\cdot 5^2 + 200$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-2b",
+    "label": "Bài 2b",
+    "text": "Tìm $x$ biết:\n$$3\\dfrac{1}{3} \\cdot x + 16\\dfrac{3}{4} = -13{,}25$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-3a",
+    "label": "Bài 3a",
+    "text": "Chứng tỏ rằng với mọi số nguyên $n$ thì phân số $\\dfrac{3n + 7}{4n + 9}$ là phân số tối giản.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-3b",
+    "label": "Bài 3b",
+    "text": "So sánh $P = \\dfrac{2019}{2020} + \\dfrac{2020}{2021} + \\dfrac{2021}{2022}$ với $Q = \\dfrac{2019 + 2020 + 2021}{2020 + 2021 + 2022}$.",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-3c",
+    "label": "Bài 3c",
+    "text": "Tìm các giá trị nguyên của $n$ để phân số $A = \\dfrac{2n + 2021}{n + 4}$ có giá trị là số nguyên.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-4",
+    "label": "Bài 4",
+    "text": "Bác Toán muốn lát nền cho một nền nhà hình chữ nhật có chiều dài $16\\text{ m}$ và chiều rộng $8\\text{ m}$ bằng loại gạch men hình vuông có cạnh dài $80\\text{ cm}$. Tính số tiền bác Toán cần phải trả để lát nền cho nền nhà đó biết rằng một viên gạch có giá $250\\,000$ đồng và tiền công thợ lát mỗi mét vuông nền nhà là $60\\,000$ đồng (bỏ qua chi phí mua keo dán gạch hoặc chi phí trộn vữa để dán gạch).",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-5a",
+    "label": "Bài 5a",
+    "text": "Cho đường thẳng $xy$. Trên đường thẳng $xy$ lấy $3$ điểm $A, B, C$ sao cho $AB = 4\\text{ cm}$ và $C$ là trung điểm của $AB$. Tính độ dài đoạn thẳng $BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-5b",
+    "label": "Bài 5b",
+    "text": "Cho đường thẳng $xy$. Trên đường thẳng $xy$ lấy $3$ điểm $A, B, C$ sao cho $AB = 4\\text{ cm}$ và $C$ là trung điểm của $AB$. Trên đường thẳng $xy$ lấy thêm một số điểm phân biệt không trùng với ba điểm $A, B, C$. Qua hai điểm vẽ được một đoạn thẳng và đếm được tất cả $990$ đoạn thẳng. Hỏi đã lấy thêm bao nhiêu điểm phân biệt trên đường thẳng $xy$?",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-6a",
+    "label": "Bài 6a",
+    "text": "Trong buổi sinh hoạt ngoại khóa, cô giáo tổ chức một trò chơi như sau: Người tham gia chỉ cần đoán số viên sỏi trong tay người quản trò. Biết tổng số viên sỏi trong hai tay người quản trò là $5$, người chơi chọn tay nào thì số viên sỏi tay đó thuộc về người chơi, số viên sỏi tay còn lại thuộc về người quản trò. Sau $10$ lần đoán, ai được nhiều điểm (mỗi viên sỏi ứng với một điểm) hơn là người chiến thắng. Sau $10$ lần chơi, kết quả được ghi lại trong bảng thống kê sau:\n\n| Người chơi | 2 | 2 | 3 | 5 | 1 | 1 | 0 | 3 | 2 | 4 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Người quản trò | 3 | 3 | 2 | 0 | 4 | 4 | 5 | 2 | 3 | 1 |\n\nHãy cho biết, trong trò chơi ở trên ai là người chiến thắng và người thắng được bao nhiêu điểm?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-huyen-toan-6-nam-2021-2022-phong-gddt-an-thi-hung-yen-6b",
+    "label": "Bài 6b",
+    "text": "Cho $2021$ số nguyên dương $a_1, a_2, \\ldots, a_{2021}$ thỏa mãn:\n$$\\dfrac{1}{a_1} + \\dfrac{1}{a_2} + \\dfrac{1}{a_3} + \\ldots + \\dfrac{1}{a_{2021}} = 1011$$\nChứng minh rằng tồn tại ít nhất $2$ trong số $2021$ số nguyên dương đã cho bằng nhau.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg6-hoc-sinh-nang-khieu-toan-6-nam-2021-2022-phong-gddt-thanh-tri-ha-noi",
   "kind": "hsg",
   "title": "Đề học sinh năng khiếu Toán 6 năm 2021 – 2022 phòng GD&ĐT Thanh Trì – Hà Nội",
