@@ -148725,6 +148725,126 @@
   ]
  },
  {
+  "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi",
+  "kind": "hsg",
+  "title": "Đề học sinh giỏi Toán 6 năm 2022 – 2023 phòng GD&ĐT Hà Đông – Hà Nội",
+  "grade": 6,
+  "year": 2023,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2023/04/de-hoc-sinh-gioi-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi.html",
+  "problems": [
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-1-1",
+    "label": "Bài 1.1",
+    "text": "Tìm số phần tử của tập hợp sau:\n$$P = \\{5; 7; 9; 11; \\dots; 2021; 2023\\}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-1-2",
+    "label": "Bài 1.2",
+    "text": "Tính giá trị của biểu thức:\n$$\\left[ 5{,}6 + 14{,}4 : 0{,}25 - 305{,}6 + 2{,}71 \\cdot 2 + (2^3 \\cdot 3^2 - 22)^2 \\right] : (-8) + 2023^0$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-2-1",
+    "label": "Bài 2.1",
+    "text": "Tìm $x$, biết:\n$$2x + \\dfrac{1}{2} = \\dfrac{3}{5}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-2-2",
+    "label": "Bài 2.2",
+    "text": "Tìm $x$, biết:\n$$5^x - 5^{x+2} + 5^{x+3} = 2525$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-2-3",
+    "label": "Bài 2.3",
+    "text": "Tìm $x$, biết:\n$$\\left(1 + \\dfrac{1}{2}\\right)\\left(1 + \\dfrac{1}{3}\\right)\\left(1 + \\dfrac{1}{4}\\right) \\dots \\left(1 + \\dfrac{1}{2022}\\right)\\left(1 + \\dfrac{1}{2023}\\right)x = 1012$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-3-1",
+    "label": "Bài 3.1",
+    "text": "Cho phân số: $A = \\dfrac{15}{3n + 2}$ với $n$ thuộc số tự nhiên.\nVới giá trị nào của $n$ thì $A$ rút gọn được?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-3-2",
+    "label": "Bài 3.2",
+    "text": "Cho phân số: $A = \\dfrac{15}{3n + 2}$ với $n$ thuộc số tự nhiên.\nVới giá trị nào của $n$ thì $A$ là số nguyên?",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-4-1a",
+    "label": "Bài 4.1a",
+    "text": "Một khu vườn hình chữ nhật có chu vi là $280\\text{ m}$, chiều rộng bằng $\\dfrac{3}{4}$ chiều dài. Người ta thiết kế để trồng hoa và thảm cỏ. Phần trồng hoa là hình thoi $ABCD$ có chu vi $200\\text{ m}$ (điểm $A, B, C, D$ lần lượt là trung điểm các cạnh hình chữ nhật), phần còn lại sẽ trồng thảm cỏ. Sau đó người ta lại chia hình thoi thành hai hình bình hành $ABMN$ và $MNDC$ để trồng 2 loại hoa khác nhau ($M$ thuộc cạnh $BC$, $N$ thuộc cạnh $AD$), biết độ dài cạnh $CM$ hơn độ dài cạnh $BM$ là $10\\text{ m}$.\nTính số tiền phải mua thảm cỏ để trồng, biết giá $1\\text{ m}^2$ cỏ là $15\\,000$ đồng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-4-1b",
+    "label": "Bài 4.1b",
+    "text": "Một khu vườn hình chữ nhật có chu vi là $280\\text{ m}$, chiều rộng bằng $\\dfrac{3}{4}$ chiều dài. Người ta thiết kế để trồng hoa và thảm cỏ. Phần trồng hoa là hình thoi $ABCD$ có chu vi $200\\text{ m}$ (điểm $A, B, C, D$ lần lượt là trung điểm các cạnh hình chữ nhật), phần còn lại sẽ trồng thảm cỏ. Sau đó người ta lại chia hình thoi thành hai hình bình hành $ABMN$ và $MNDC$ để trồng 2 loại hoa khác nhau ($M$ thuộc cạnh $BC$, $N$ thuộc cạnh $AD$), biết độ dài cạnh $CM$ hơn độ dài cạnh $BM$ là $10\\text{ m}$.\nTính diện tích trồng từng loại hoa.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-4-2a",
+    "label": "Bài 4.2a",
+    "text": "Trên đường thẳng $xy$ lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$; trên tia $Oy$ lấy điểm $B$ và $C$ sao cho $OA = 4\\text{ cm}$, $OB = 2\\text{ cm}$ và $OC = 6\\text{ cm}$.\nTính độ dài đoạn thẳng $BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-4-2b",
+    "label": "Bài 4.2b",
+    "text": "Trên đường thẳng $xy$ lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$; trên tia $Oy$ lấy điểm $B$ và $C$ sao cho $OA = 4\\text{ cm}$, $OB = 2\\text{ cm}$ và $OC = 6\\text{ cm}$.\nGọi $M$ là trung điểm đoạn thẳng $BC$. Chứng tỏ $O$ là trung điểm đoạn thẳng $AM$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-ha-dong-ha-noi-5",
+    "label": "Bài 5",
+    "text": "Em giúp bác An làm cách nào lấy được $7$ lít nước từ bể nước để dùng, nhưng chỉ có $01$ thùng dung tích $3$ lít và $01$ thùng dung tích $8$ lít đều không có vạch chia dung tích?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-hsg6-toan-6-nam-2022-2023-phong-gddt-huong-tra-tt-hue",
   "kind": "hsg",
   "title": "Đề học sinh giỏi Toán 6 năm 2022 – 2023 phòng GD&ĐT Hương Trà – TT Huế",
