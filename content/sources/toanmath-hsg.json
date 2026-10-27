@@ -1,5 +1,230 @@
 [
  {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an",
+  "kind": "hsg",
+  "title": "Đề chọn học sinh giỏi Toán 9 năm 2026 – 2027 phường Vinh Lộc – Nghệ An",
+  "grade": 9,
+  "year": 2027,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-chon-hoc-sinh-gioi-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-1a",
+    "label": "Bài 1a",
+    "text": "Cho $p$ là số nguyên tố lớn hơn $5$ và $n$ là số nguyên dương. Chứng minh rằng $p^{8n} + 3p^{4n} - 4$ chia hết cho $5$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-1b",
+    "label": "Bài 1b",
+    "text": "Cho các số nguyên dương $x, y$. Tìm số nhỏ nhất có dạng $|11^x - 5^y|$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-2a",
+    "label": "Bài 2a",
+    "text": "Giải phương trình:\n$$(x + 2)^3 + (3 - x)^3 + 3(x + 2)(3 - x) = 125$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-2b",
+    "label": "Bài 2b",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} x(x - y) + y^2 = 4x - 1 \\\\ x(x - y)^2 - 5y^2 = 4x + 5 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-3a",
+    "label": "Bài 3a",
+    "text": "Bác An gửi tiết kiệm ngân hàng số tiền là $500$ triệu đồng với kì hạn một năm. Sau một năm bác An mong muốn có số tiền cả gốc và lãi ít nhất là $530$ triệu đồng. Hỏi lãi suất của ngân hàng tại thời điểm bác An gửi tiền ít nhất là bao nhiêu $\\%$ trong một năm, để bác An có được số tiền như mong muốn?",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-3b",
+    "label": "Bài 3b",
+    "text": "Mỗi cạnh của một hình vuông được tô màu một cách ngẫu nhiên bởi một trong ba màu xanh, đỏ hoặc vàng. Tính xác suất để hai cạnh kề nhau bất kì của hình vuông luôn khác màu.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-4",
+    "label": "Bài 4",
+    "text": "Một công ty dịch vụ sự kiện muốn thiết kế màn hình LED hình chữ nhật $MNPQ$ bên trong khung vòm trang trí hình tam giác đều $ABC$ với độ dài cạnh là $100\\text{ m}$. Hai đỉnh $M, N$ nằm trên cạnh $BC$, hai đỉnh $Q, P$ lần lượt thuộc hai cạnh $AB$ và $AC$. Tìm độ dài đoạn $MB$ để hình chữ nhật $MNPQ$ có diện tích lớn nhất?",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-5a",
+    "label": "Bài 5a",
+    "text": "Cho tam giác $ABC$ nhọn không cân ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$. Đường thẳng đi qua điểm $A$ và vuông góc với $AM$ cắt các tia $BE, CF$ lần lượt tại $P$ và $Q$. Gọi $N$ là giao điểm của $AM$ và $BE$. Chứng minh rằng:\n$$\\dfrac{NE}{EP} = \\dfrac{AN^2}{AP^2}$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-5b",
+    "label": "Bài 5b",
+    "text": "Cho tam giác $ABC$ nhọn không cân ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$. Đường thẳng đi qua điểm $A$ và vuông góc với $AM$ cắt các tia $BE, CF$ lần lượt tại $P$ và $Q$. Gọi $N$ là giao điểm của $AM$ và $BE$. Chứng minh rằng $AP = AQ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-5c",
+    "label": "Bài 5c",
+    "text": "Cho tam giác $ABC$ nhọn không cân ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$. Đường thẳng đi qua điểm $A$ và vuông góc với $AM$ cắt các tia $BE, CF$ lần lượt tại $P$ và $Q$. Lấy điểm $K$ trên tia $CF$ sao cho $BK$ song song với $AC$. Gọi $I$ là giao điểm của $AD$ và $EF$. Chứng minh rằng $CI$ song song với $MK$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-phuong-vinh-loc-nghe-an-6",
+    "label": "Bài 6",
+    "text": "Cho một bảng hình vuông $10 \\times 10$ gồm $100$ ô vuông, trong mỗi ô vuông người ta ghi một số tự nhiên theo thứ tự từ $1$ đến $100$. Hàng thứ nhất ghi từ số $1$ đến số $10$, hàng thứ hai ghi từ $11$ đến $20$, ..., hàng thứ $10$ ghi từ $91$ đến $100$. Người ta lấy ra $10$ số bất kì trong bảng sao cho hai số bất kì không cùng thuộc một hàng nào và không cùng thuộc một cột nào. Chứng minh rằng tổng $10$ số được chọn có giá trị không đổi.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an",
+  "kind": "hsg",
+  "title": "Đề chọn học sinh giỏi Toán 9 năm 2026 – 2027 xã Đô Lương – Nghệ An",
+  "grade": 9,
+  "year": 2027,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-chon-hoc-sinh-gioi-toan-9-nam-2026-2027-xa-do-luong-nghe-an.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-1a",
+    "label": "Câu 1a",
+    "text": "Có hai loại xe trọng tải là $4$ tấn và $11$ tấn. Hỏi cần bao nhiêu xe mỗi loại để chở hết $58$ tấn hàng? Biết rằng mỗi xe đều chở đúng trọng tải.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-1b",
+    "label": "Câu 1b",
+    "text": "Tìm tất cả các số nguyên $x, y$ sao cho $x^3 - y^3 = 2(x - y)^2 + 17$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-2a",
+    "label": "Câu 2a",
+    "text": "Giải phương trình: $10x^3 - 17x^2 - 7x + 2 = 0$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-2b",
+    "label": "Câu 2b",
+    "text": "Giải hệ phương trình: $\\begin{cases} x^3 + xy^2 - 10y^3 = 0 \\\\ x^2 + 6y^2 = 10 \\end{cases}$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-3a",
+    "label": "Câu 3a",
+    "text": "Trong phiên chợ, chị Lan có $50\\text{ kg}$ mận và bán hết số mận của mình khi bán giá $40$ nghìn đồng/kg. Với kinh nghiệm bán hàng của mình, chị ấy thấy rằng cứ tăng giá bán lên $x\\%$ ($x > 0$) so với khi bán hết thì số mận bán được lại giảm đi $0{,}5x\\%$. Hỏi chị Lan phải bán với giá bao nhiêu để số tiền nhận được sau phiên chợ là cao nhất?",
+    "topics": [
+     "bat-dang-thuc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-3b",
+    "label": "Câu 3b",
+    "text": "Cho đa thức $f(x)$ có hệ số nguyên, thỏa mãn $f(1) = f(2) = 2027$. Hỏi $f(2026)$ có phải là số chính phương hay không? Vì sao?",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-4",
+    "label": "Câu 4",
+    "text": "Bạn An mua một chiếc vali khóa số để đi du lịch. Cái khóa số gồm $4$ chữ số lấy từ các chữ số từ $0$ đến $9$. Bạn An chọn ngẫu nhiên một dãy gồm $4$ chữ số để đặt làm mã mở khóa. Tính xác suất của biến cố $A$: “$4$ chữ số được chọn liên tiếp nhau và tăng dần”.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-5a",
+    "label": "Câu 5a",
+    "text": "Cho hình thoi $ABCD$ có $\\widehat{A} < 90^\\circ$. Trên cạnh $AD$ lấy $M$ ($M$ khác $A, D$). Các đường thẳng $CM, AB$ cắt nhau tại $Q$.\n\nChứng minh $\\Delta BCQ \\backsim \\Delta DMC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-5b",
+    "label": "Câu 5b",
+    "text": "Cho hình thoi $ABCD$ có $\\widehat{A} < 90^\\circ$. Trên cạnh $AD$ lấy $M$ ($M$ khác $A, D$). Các đường thẳng $CM, AB$ cắt nhau tại $Q$.\n\nTrên cạnh $AB$ lấy $N$ ($N$ khác $A, B$). Đường thẳng $CN$ cắt đường thẳng $AD$ ở $R$. Chứng minh: $\\dfrac{BN}{BQ} = \\dfrac{DM}{DR}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-5c",
+    "label": "Câu 5c",
+    "text": "Cho hình thoi $ABCD$ có $\\widehat{A} < 90^\\circ$. Trên cạnh $AD$ lấy $M$ ($M$ khác $A, D$). Các đường thẳng $CM, AB$ cắt nhau tại $Q$.\n\nGọi $O$ là giao điểm của $AC$ và $BD$. Kẻ $OI$ vuông góc với $BC$ tại $I$. Đặt $OI = d$. Gọi $E, F, G, H$ là các điểm lần lượt thuộc các cạnh $AB, BC, CD, DA$ sao cho khoảng cách từ $O$ đến $EF$ và $GH$ đều bằng $d$. Chứng minh: $EH \\parallel FG$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-do-luong-nghe-an-6",
+    "label": "Câu 6",
+    "text": "Trên mặt phẳng cho $2008$ điểm bất kì sao cho khoảng cách giữa $2$ điểm tùy ý luôn lớn hơn $1$. Chứng minh rằng mỗi hình tròn có bán kính bằng $1$ chỉ chứa không quá $5$ điểm trong $2008$ điểm đã cho.",
+    "topics": [
+     "to-hop",
+     "hinh-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-thcs-lan-2-nam-2025-2026-truong-chuyen-nguyen-trai-hai-phong",
   "kind": "olympic",
   "title": "Đề Olympic Toán THCS lần 2 năm 2025 – 2026 trường chuyên Nguyễn Trãi – Hải Phòng",
@@ -198,6 +423,129 @@
     "text": "Cho một bảng ô vuông (dạng bàn cờ vua) với $8 \\times 8 = 64$ ô. Trên mỗi ô vuông ta viết một số nguyên khác $0$ tùy ý. Bạn Bình thực hiện trò chơi \"Đổi dấu\" như sau: mỗi bước, Bình chọn một hàng hoặc một cột có tổng các số trên hàng hoặc cột đó là số âm, sau đó đổi dấu tất cả các số trong hàng hoặc cột đó. Chứng minh rằng đến một bước nào đó, Bình không thể thực hiện thao tác này được nữa (tức là tổng các số trên mỗi hàng và mỗi cột đều không âm).",
     "topics": [
      "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi",
+  "kind": "hsg",
+  "title": "Đề chọn HSG Toán 9 vòng 2 năm 2026 – 2027 trường THCS Giảng Võ – Hà Nội",
+  "grade": 9,
+  "year": 2026,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-chon-hsg-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-i-1a",
+    "label": "Bài I.1a",
+    "text": "Cho biểu thức $A = \\left(\\dfrac{3}{\\sqrt{x} + 1} + \\dfrac{1}{1 - \\sqrt{x}} + \\dfrac{x + 5}{x - 1}\\right) : \\dfrac{\\sqrt{x} + 1}{x}$ với $x > 0, x \\neq 1$.\n\nRút gọn biểu thức $A$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-i-1b",
+    "label": "Bài I.1b",
+    "text": "Cho biểu thức $A = \\left(\\dfrac{3}{\\sqrt{x} + 1} + \\dfrac{1}{1 - \\sqrt{x}} + \\dfrac{x + 5}{x - 1}\\right) : \\dfrac{\\sqrt{x} + 1}{x}$ với $x > 0, x \\neq 1$.\n\nTìm tất cả các giá trị của $x$ thỏa mãn $A \\le 4$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-i-2",
+    "label": "Bài I.2",
+    "text": "Cho $x, y, z$ là các số thực khác $0$, thỏa mãn đồng thời các điều kiện:\n$$x^3 + x^2 = y^2 + xyz; \\quad y^3 + y^2 = z^2 + xyz; \\quad z^3 + z^2 = x^2 + xyz$$\nTìm tất cả các giá trị có thể của biểu thức:\n$$P = \\left(1 + \\dfrac{x}{y}\\right)\\left(1 + \\dfrac{y}{z}\\right)\\left(1 + \\dfrac{z}{x}\\right)$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-ii-1",
+    "label": "Bài II.1",
+    "text": "Một hộp có chứa ba viên bi vàng lần lượt ghi các số $1; 2; 3$ và hai viên bi nâu lần lượt ghi các số $4; 5$. Các viên bi có kích thước và khối lượng như nhau. Lấy ngẫu nhiên đồng thời hai viên bi trong hộp. Tính xác suất của biến cố: “Hai viên bi được lấy ra khác màu”.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-ii-2",
+    "label": "Bài II.2",
+    "text": "Cho ba số nguyên $a, b, c$ thỏa mãn $7a^2 + 4b^2 = 9c^2$. Chứng minh rằng $abc$ chia hết cho $108$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-iii",
+    "label": "Bài III",
+    "text": "Xét các số thực $a, b, c$ thỏa mãn $1 \\le a, b, c \\le 3$ và $a + b + c = 6$. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức:\n$$P = a^2 + b^2 + c^2 + (a - 2)(b - 2)(c - 2)$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-iv-a",
+    "label": "Bài IV.a",
+    "text": "Cho tam giác $ABC$ đều. Lấy điểm $X$ đối xứng với điểm $A$ qua đường thẳng $BC$. Kẻ đường thẳng qua điểm $X$, đường thẳng này cắt các tia đối của tia $CA, BA$ lần lượt tại $E$ và $F$.\n\nChứng minh $XB \\parallel AC$ và $\\Delta CBE \\backsim \\Delta BFC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-iv-b",
+    "label": "Bài IV.b",
+    "text": "Cho tam giác $ABC$ đều. Lấy điểm $X$ đối xứng với điểm $A$ qua đường thẳng $BC$. Kẻ đường thẳng qua điểm $X$, đường thẳng này cắt các tia đối của tia $CA, BA$ lần lượt tại $E$ và $F$.\n\nGọi giao điểm của hai đoạn thẳng $BE$ và $CF$ tại điểm $P$. Chứng minh $\\widehat{BPC} = 120^\\circ$ và $PA = PB + PC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-iv-c",
+    "label": "Bài IV.c",
+    "text": "Cho tam giác $ABC$ đều. Lấy điểm $X$ đối xứng với điểm $A$ qua đường thẳng $BC$. Kẻ đường thẳng qua điểm $X$, đường thẳng này cắt các tia đối của tia $CA, BA$ lần lượt tại $E$ và $F$. Gọi giao điểm của hai đoạn thẳng $BE$ và $CF$ tại điểm $P$.\n\nChứng minh rằng $\\dfrac{S_{AEF}}{S_{ABC}} = \\dfrac{PA^2}{PB \\cdot PC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-v-1",
+    "label": "Bài V.1",
+    "text": "Tìm các số nguyên dương $x, y, z$ sao cho các số $\\dfrac{x^6 + y^6 + 7}{x^3 y^3}$; $\\dfrac{y^6 + z^6 + 7}{y^3 z^3}$ và $\\dfrac{z^6 + x^6 + 7}{z^3 x^3}$ đều là các số nguyên.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-v-2a",
+    "label": "Bài V.2a",
+    "text": "Tìm số nguyên nhỏ nhất $n$ ($n \\ge 4$) sao cho từ $n$ số nguyên phân biệt bất kỳ, ta luôn chọn được $4$ số phân biệt $a, b, c, d$ sao cho $a + b - c - d \\ \\vdots \\ 2$.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi-v-2b",
+    "label": "Bài V.2b",
+    "text": "Tìm số nguyên dương chẵn nhỏ nhất $n$ ($n \\ge 4$) sao cho từ $n$ số nguyên phân biệt bất kỳ, ta luôn chọn được $4$ số phân biệt $a, b, c, d$ sao cho $a + b - c - d \\ \\vdots \\ 26$.",
+    "topics": [
+     "to-hop",
+     "so-hoc"
     ],
     "level": 3
    }
