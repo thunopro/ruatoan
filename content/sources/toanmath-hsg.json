@@ -225,6 +225,111 @@
   ]
  },
  {
+  "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an",
+  "kind": "hsg",
+  "title": "Đề chọn đội tuyển HSG Toán 9 năm 2026 – 2027 phường Vinh Phú – Nghệ An",
+  "grade": 9,
+  "year": 2027,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/10/de-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-1a",
+    "label": "Bài 1a",
+    "text": "Cho các số nguyên dương $a, b, c$ thỏa mãn $a^2 + b^2 = c^2$. Chứng minh rằng biểu thức $A = (a + b + c + 1)(a + b - c + 2027)$ luôn viết được dưới dạng hiệu của hai số chính phương.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-1b",
+    "label": "Bài 1b",
+    "text": "Tìm các số tự nhiên $x, y$ thỏa mãn đẳng thức $x^2 + 3^y = 3026$.",
+    "topics": [
+     "nghiem-nguyen",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-2a",
+    "label": "Bài 2a",
+    "text": "Giải phương trình $(x^2 + x + 1)^2 + 2(2x + 1)^2 = 27$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-2b",
+    "label": "Bài 2b",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} x^2 + y^2 + xy + 1 = 4y \\\\ y(x + y)^2 = 2x^2 + 7y + 2 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-3",
+    "label": "Bài 3",
+    "text": "Gọi $X$ là tập hợp các số tự nhiên có 5 chữ số khác nhau. Lấy ngẫu nhiên một số từ tập hợp $X$. Tính xác suất của biến cố $A$: \"Số lấy ra là số lớn hơn 59000\".",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-4",
+    "label": "Bài 4",
+    "text": "Một người thợ cơ khí cần cắt vừa đủ đoạn thép dài $10\\text{ m}$ thành các đoạn nhỏ để hàn lại thành khung của một hình lập phương và một hình hộp chữ nhật. Biết hình hộp chữ nhật có chiều dài gấp 6 lần chiều rộng và chiều cao bằng chiều rộng. Tìm độ dài của các đoạn sắt sao cho tổng thể tích của hai hình thu được nhỏ nhất?",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-5a",
+    "label": "Bài 5a",
+    "text": "Cho tam giác nhọn $ABC$ ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $I$ là giao điểm của $EF$ và $AD$. Đường thẳng qua điểm $I$ và song song với $BE$ cắt cạnh $AB$ tại điểm $K$.\n\nChứng minh $\\Delta EHF \\backsim \\Delta CHB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-5b",
+    "label": "Bài 5b",
+    "text": "Cho tam giác nhọn $ABC$ ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $I$ là giao điểm của $EF$ và $AD$. Đường thẳng qua điểm $I$ và song song với $BE$ cắt cạnh $AB$ tại điểm $K$.\n\nChứng minh $EH$ là tia phân giác của góc $\\widehat{DEF}$ và $DK$ đi qua trung điểm của đoạn thẳng $BH$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-5c",
+    "label": "Bài 5c",
+    "text": "Cho tam giác nhọn $ABC$ ($AB < AC$) có ba đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $I$ là giao điểm của $EF$ và $AD$. Đường thẳng qua điểm $I$ và song song với $BE$ cắt cạnh $AB$ tại điểm $K$. Gọi $M$ là trung điểm của cạnh $BC$. Gọi $P$ là giao điểm của $ME$ và $IC$.\n\nChứng minh $HP$ song song với $BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-vinh-phu-nghe-an-6",
+    "label": "Bài 6",
+    "text": "Chọn 101 số tự nhiên khác nhau bất kì sao cho mỗi số đều không vượt qua 2026 và mỗi số đều chia 17 dư 10. Chứng minh rằng trong 101 số trên luôn chọn được ba số có tổng không lớn hơn 1050.",
+    "topics": [
+     "so-hoc",
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-thcs-lan-2-nam-2025-2026-truong-chuyen-nguyen-trai-hai-phong",
   "kind": "olympic",
   "title": "Đề Olympic Toán THCS lần 2 năm 2025 – 2026 trường chuyên Nguyễn Trãi – Hải Phòng",
