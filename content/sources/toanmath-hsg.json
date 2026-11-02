@@ -534,6 +534,90 @@
   ]
  },
  {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm",
+  "kind": "hsg",
+  "title": "Đề chọn HSG Toán 9 năm 2026 – 2027 trường THCS Hoàng Diệu – TP HCM",
+  "grade": 9,
+  "year": 2026,
+  "province": "TP. Hồ Chí Minh",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-hsg-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-1",
+    "label": "Bài 1",
+    "text": "Cho hai số thực dương $a, b$ thỏa mãn $(a + 2)(b + 2) = 2026$. Tính giá trị của biểu thức:\n$$M = \\frac{\\sqrt{(a^2 + 4a + 2030)(b^2 + 4b + 2030)}}{a + b + 4}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-2a",
+    "label": "Bài 2a",
+    "text": "Cho phương trình $x^2 - (2m - 1)x + m^2 - 4 = 0$ ($m$ là tham số). Tìm $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $|x_1 - x_2| = 4$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-2b",
+    "label": "Bài 2b",
+    "text": "Giải phương trình:\n$$\\sqrt{3x + 1} - \\sqrt{6 - x} + 3x^2 - 14x - 8 = 0$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-3a",
+    "label": "Bài 3a",
+    "text": "Cho số thực dương $x$. Chứng minh rằng:\n$$\\frac{1}{2x^2 + 1} \\ge -\\frac{4}{9}x + \\frac{7}{9}$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-3b",
+    "label": "Bài 3b",
+    "text": "Cho các số thực dương $a, b, c$ thỏa mãn $a + b + c = 3$. Tìm giá trị lớn nhất của biểu thức:\n$$P = \\frac{2025a^2}{2a^2 + 1} + \\frac{2025b^2}{2b^2 + 1} + \\frac{2025c^2}{2c^2 + 1}$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-4a",
+    "label": "Bài 4a",
+    "text": "Cho tam giác $ABC$ nhọn ($AB < AC$) có hai đường cao $BD$ và $CE$ cắt nhau tại $H$ ($D \\in AC, E \\in AB$). Gọi $M$ là trung điểm của $BC$ và $I$ là trung điểm của $AH$, $F$ là giao điểm của $AH$ và $BC$.\n\nChứng minh bốn điểm $I, E, M, D$ cùng thuộc một đường tròn và $ME$ là tiếp tuyến của đường tròn đường kính $AH$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-4b",
+    "label": "Bài 4b",
+    "text": "Cho tam giác $ABC$ nhọn ($AB < AC$) có hai đường cao $BD$ và $CE$ cắt nhau tại $H$ ($D \\in AC, E \\in AB$). Gọi $M$ là trung điểm của $BC$ và $I$ là trung điểm của $AH$, $F$ là giao điểm của $AH$ và $BC$. Đường thẳng $ED$ cắt đường thẳng $BC$ tại $K$, $MI$ cắt $ED$ tại $P$.\n\nChứng minh rằng $MP \\cdot MI = ME^2$ và $KB \\cdot FC = KC \\cdot FB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-hoang-dieu-tp-hcm-5",
+    "label": "Bài 5",
+    "text": "Gọi $T$ là tập hợp các số nguyên dương có thể biểu diễn được dưới dạng $x^2 + 2y^2$ với $x, y$ là các số nguyên. Chứng minh rằng nếu $m$ và $n$ là hai phần tử của tập hợp $T$ thì $mn$ cũng là một phần tử của tập hợp $T$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-9-vong-2-nam-2026-2027-truong-thcs-giang-vo-ha-noi",
   "kind": "hsg",
   "title": "Đề chọn HSG Toán 9 vòng 2 năm 2026 – 2027 trường THCS Giảng Võ – Hà Nội",
