@@ -330,6 +330,120 @@
   ]
  },
  {
+  "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa",
+  "kind": "hsg",
+  "title": "Đề thi thử chọn HSG tỉnh Toán 9 năm 2026 – 2027 sở GD&ĐT Thanh Hóa",
+  "grade": 9,
+  "year": 2027,
+  "province": "Thanh Hóa",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-thi-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-1",
+    "label": "Câu 1",
+    "text": "Rút gọn biểu thức sau:\n$$P = \\frac{a^3 - a - 2b - \\dfrac{b^2}{a}}{\\left( 1 - \\sqrt{\\dfrac{1}{a} + \\dfrac{b}{a^2}} \\right) (a + \\sqrt{a + b})} : \\left( \\frac{a^3 + a^2 + ab + a^2b}{a^2 - b^2} + \\frac{b}{a - b} \\right)$$\n(với $a > 0; b > 0; a \\ne b; a + b \\ne a^2$).",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-2",
+    "label": "Câu 2",
+    "text": "Cho đa thức $P(x) = x^4 + ax^3 + bx^2 + cx + d$ với $a, b, c, d$ là các số hữu tỉ và thỏa mãn $P(1) = 10, P(2) = 20, P(3) = 30$. Tính giá trị của biểu thức:\n$$Q = \\frac{P(12) + P(-8) + 420}{2026}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-3",
+    "label": "Câu 3",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} x(x^2 - 1) + (xy + 3)y = x^2 + y^2 \\\\ (xy + 3)x + y(y^2 + 1) = 0 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-4",
+    "label": "Câu 4",
+    "text": "Cho tập hợp $A = \\{0; 1; 2; 4; 5; 7; 8\\}$. Gọi $X$ là tập hợp các số tự nhiên có 4 chữ số phân biệt lấy từ $A$. Lấy ngẫu nhiên một số từ tập hợp $X$. Tính xác suất để số lấy được là số chẵn.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-5",
+    "label": "Câu 5",
+    "text": "Cho các số nguyên tố $a, b, c, d$ lớn hơn 5 thỏa mãn $a < b < c < d < a + 10$. Chứng minh rằng $a + b + c + d$ chia hết cho 60.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-6",
+    "label": "Câu 6",
+    "text": "Hai địa điểm $A$ và $B$ cách nhau $360\\text{ km}$. Cùng lúc đó một xe tải khởi hành từ $A$ chạy về $B$ và một xe con chạy từ $B$ về $A$. Sau khi gặp nhau xe tải chạy tiếp 5 giờ nữa thì tới $B$ và xe con chạy tiếp 3 giờ 12 phút nữa thì tới $A$. Tính vận tốc mỗi xe.",
+    "topics": [
+     "phuong-trinh",
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-7",
+    "label": "Câu 7",
+    "text": "Đo chiều cao từ mặt đất đến đỉnh cột cờ của cột cờ Hà Nội (Kỳ đài Hà Nội), người ta cắm hai cọc bằng nhau $MA$ và $NB$ cao $1\\text{ m}$ so với mặt đất. Hai cọc này song song, cách nhau $10\\text{ m}$ và thẳng hàng so với tim cột cờ. Đặt giác kế đứng tại $A$ và $B$ để ngắm đến đỉnh cột cờ $D$, người ta đo được các góc lần lượt là $\\widehat{DAH} = 50^\\circ 19'12''$ và $\\widehat{DBH} = 43^\\circ 16'$ so với đường thẳng $HAB$ nằm ngang song song với mặt đất ($H$ thuộc thân cột cờ). Hãy tính chiều cao của cột cờ (làm tròn đến chữ số thập phân thứ hai).",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-8-1",
+    "label": "Câu 8.1",
+    "text": "Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O; R)$, các đường cao $BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$, lấy điểm $D$ sao cho $M$ là trung điểm của đoạn thẳng $HD$.\n\nChứng minh ba điểm $A, O, D$ thẳng hàng.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-8-2",
+    "label": "Câu 8.2",
+    "text": "Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O; R)$, các đường cao $BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$, lấy điểm $D$ sao cho $M$ là trung điểm của đoạn thẳng $HD$. Gọi $I$ là giao điểm của $AD$ và $EF$.\n\nChứng minh bốn điểm $B, D, I, F$ cùng thuộc một đường tròn.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-9",
+    "label": "Câu 9",
+    "text": "Cho tam giác $ABC$ ngoại tiếp đường tròn $(I; r)$. Các đường $AI, BI, CI$ lần lượt cắt $BC, AC, AB$ tại $D, E, F$. Chứng minh $AI + BI + CI \\ge 6r$.",
+    "topics": [
+     "bat-dang-thuc",
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa-10",
+    "label": "Câu 10",
+    "text": "Có $n$ đội bóng tham gia một giải đấu vòng tròn một lượt (mỗi đội đấu với một đội khác đúng một lần). Quy tắc tính điểm như sau: Thắng được 2 điểm, Hòa được 1 điểm, Thua được 0 điểm. Kết thúc giải đấu, người ta nhận thấy có $n - 5$ đội có số điểm bằng nhau, và 5 đội còn lại có tổng số điểm là 27. Tìm $n$.",
+    "topics": [
+     "to-hop",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-thcs-lan-2-nam-2025-2026-truong-chuyen-nguyen-trai-hai-phong",
   "kind": "olympic",
   "title": "Đề Olympic Toán THCS lần 2 năm 2025 – 2026 trường chuyên Nguyễn Trãi – Hải Phòng",
