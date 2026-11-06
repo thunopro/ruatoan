@@ -4837,6 +4837,117 @@
   ]
  },
  {
+  "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa",
+  "kind": "hsg",
+  "title": "Đề chọn đội tuyển HSG Toán 9 năm 2026 – 2027 xã Như Thanh – Thanh Hóa",
+  "grade": 9,
+  "year": 2026,
+  "province": "Thanh Hóa",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-1",
+    "label": "Câu 1",
+    "text": "Rút gọn biểu thức:\n$$M = \\left( \\dfrac{x + \\sqrt{x}}{x\\sqrt{x} + x + \\sqrt{x} + 1} + \\dfrac{1}{x + 1} \\right) : \\left( \\dfrac{1}{\\sqrt{x} - 1} - \\dfrac{2\\sqrt{x}}{x\\sqrt{x} - x + \\sqrt{x} - 1} \\right)$$\nvới $x \\ge 0; x \\ne 1$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-2",
+    "label": "Câu 2",
+    "text": "Cho đa thức $P(x) = x^4 + ax^3 + bx^2 + cx + d$. Biết rằng $P(1) = P(2) = P(3) = P(4) = 1$. Tính $P(5)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-3",
+    "label": "Câu 3",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} (4x^2 - 4xy + 4y^2 - 31)(x - y)^2 + 3 = 0 \\\\ (2x - 7)(x - y) + 1 = 0 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-4",
+    "label": "Câu 4",
+    "text": "Gọi $X$ là tập hợp các số tự nhiên có $3$ chữ số phân biệt được lập từ các chữ số $0; 1; 2; 3; 4; 5$. Chọn ngẫu nhiên một số từ $X$. Tính xác suất để có thể chọn được một số không chia hết cho $3$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-5",
+    "label": "Câu 5",
+    "text": "Tìm tất cả các cặp số nguyên $(x; y)$ thỏa mãn phương trình:\n$$(x + y)(2x + 3y)^2 + 2x + y + 2 = 0$$",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-6",
+    "label": "Câu 6",
+    "text": "Một người đi xe đạp từ $A$ đến $B$, cách nhau $15\\text{ km}$, khởi hành lúc $8$ giờ sáng. Đi được $\\dfrac{1}{3}$ quãng đường $AB$ thì xe bị hỏng, người đó phải dừng lại sửa mất $30$ phút rồi đi nốt quãng đường còn lại với vận tốc nhỏ hơn vận tốc lúc đầu $5\\text{ km/h}$. Đến $B$, người đó nghỉ $20$ phút rồi quay về $A$ với vận tốc bằng một nửa vận tốc trên $\\dfrac{1}{3}$ quãng đường đầu tiên. Biết người đó về tới $A$ lúc $11$ giờ $15$ phút sáng cùng ngày. Hỏi xe bị hỏng lúc mấy giờ?",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-7",
+    "label": "Câu 7",
+    "text": "Một cái sân hình chữ nhật $ABCD$ có kích thước $AB = 16\\text{ m}$, $AD = 12\\text{ m}$. Một camera an ninh được lắp ở trung điểm $M$ của cạnh $AB$. Biết rằng góc nhìn của camera là $90^\\circ$. Hãy tính diện tích sân mà camera có thể quan sát được khi camera bắt đầu quét tới trung điểm $N$ của cạnh $AD$ (tia quét thứ nhất đi qua $N$, tia quét thứ hai cắt cạnh $BC$ tại $P$ sao cho $\\widehat{NMP} = 90^\\circ$, phần quan sát được là tứ giác $MNCP$). Làm tròn đến $2$ chữ số thập phân sau dấu phẩy.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-8-1",
+    "label": "Câu 8.1",
+    "text": "Từ điểm $M$ nằm bên ngoài đường tròn $(O)$, kẻ các tiếp tuyến $MA, MB$ tới đường tròn với $A, B$ là các tiếp điểm. Tia $Mx$ nằm giữa hai tia $MA$ và $MO$ cắt đường tròn $(O)$ lần lượt tại $C$ và $D$ ($C$ nằm giữa $M$ và $D$). Gọi $K$ là trung điểm của $CD$, tia $OK$ cắt đường thẳng $AB$ tại $N$. Gọi $I$ là giao điểm của $AB$ và $CD$. Gọi $H$ là giao điểm của $AB$ và $OM$.\n\nChứng minh $NC$ là tiếp tuyến của $(O)$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-8-2",
+    "label": "Câu 8.2",
+    "text": "Từ điểm $M$ nằm bên ngoài đường tròn $(O)$, kẻ các tiếp tuyến $MA, MB$ tới đường tròn với $A, B$ là các tiếp điểm. Tia $Mx$ nằm giữa hai tia $MA$ và $MO$ cắt đường tròn $(O)$ lần lượt tại $C$ và $D$ ($C$ nằm giữa $M$ và $D$). Gọi $K$ là trung điểm của $CD$, tia $OK$ cắt đường thẳng $AB$ tại $N$. Gọi $I$ là giao điểm của $AB$ và $CD$. Gọi $H$ là giao điểm của $AB$ và $OM$.\n\nChứng minh $\\dfrac{IA}{IB} = \\left(\\dfrac{AC}{BC}\\right)^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-9",
+    "label": "Câu 9",
+    "text": "Đường tròn ngoại tiếp và đường tròn nội tiếp tam giác $ABC$ có bán kính lần lượt là $R$ và $r$. Biết rằng $\\widehat{BAC} - \\widehat{ACB} = \\widehat{ABC} - \\widehat{BAC}$. Tính diện tích tam giác $ABC$ theo $R$ và $r$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-xa-nhu-thanh-thanh-hoa-10",
+    "label": "Câu 10",
+    "text": "Ở một trường THCS có bốn lớp 9A, 9B, 9C, 9D và bốn thầy giáo Toán: thầy An, thầy Bình, thầy Chí, thầy Dũng. Mỗi lớp được phân công cho đúng một thầy dạy và mỗi thầy dạy đúng một lớp. Việc phân công thỏa mãn các điều kiện sau:\n1. Thầy An không dạy lớp 9A và cũng không dạy lớp 9D.\n2. Lớp 9B do một trong hai thầy: thầy Bình hoặc thầy Chí dạy.\n3. Lớp 9C không do thầy Bình dạy.\n4. Lớp mà thầy Chí dạy đứng ngay sau lớp mà thầy Dũng dạy trong thứ tự các lớp 9A, 9B, 9C, 9D.\n5. Lớp thầy An dạy đứng trước lớp thầy Bình dạy trong thứ tự các lớp 9A, 9B, 9C, 9D.\n\nHỏi mỗi thầy dạy lớp nào?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-1-nam-2026-2027-phuong-truong-vinh-nghe",
   "kind": "hsg",
   "title": "Đề chọn đội tuyển HSG Toán 9 vòng 1 năm 2026 – 2027 phường Trường Vinh – Nghệ An",
