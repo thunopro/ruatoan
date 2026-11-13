@@ -1766,6 +1766,135 @@
   ]
  },
  {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi",
+  "kind": "hsg",
+  "title": "Đề chọn học sinh giỏi Toán 9 năm 2026 – 2027 xã Thư Lâm – Hà Nội",
+  "grade": 9,
+  "year": 2026,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-hoc-sinh-gioi-toan-9-nam-2026-2027-xa-thu-lam-ha-noi.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-1-1a",
+    "label": "Bài 1.1a",
+    "text": "Giải phương trình: $$\\frac{x+1}{(x+1)^2+1} + \\frac{x}{(x-1)^2+1} = \\frac{2(x^3+5)}{x^4+4}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-1-1b",
+    "label": "Bài 1.1b",
+    "text": "Giải phương trình: $$\\frac{x(x^2-56)}{4-7x} - \\frac{21x+22}{x^3+2} = 4$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-1-2",
+    "label": "Bài 1.2",
+    "text": "Cho $a, b, c$ là các số thực thỏa mãn $a^2 + b^2 + c^2 = 4$ và $a^3 + b^3 + c^3 = -8$. Tính giá trị của biểu thức $P = a + b + c$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-2-1",
+    "label": "Bài 2.1",
+    "text": "Cho các số thực $x, y$ thỏa mãn $x - 2xy \\le 3$. Tìm giá trị nhỏ nhất của biểu thức $P = 2x^2 + 4xy + y^2 - x - 2y + 6$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-2-2",
+    "label": "Bài 2.2",
+    "text": "Cho các số thực dương $a, b, c$ thỏa mãn $c^2 = a^3 + b^3 = 3ab + c$. Chứng minh rằng: $2a^2b^2 + 2b^2c^2 + 2c^2a^2 = a^4 + b^4 + c^4$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-2-3",
+    "label": "Bài 2.3",
+    "text": "Tìm các số nguyên dương $x, y$ thỏa mãn $(x + y)^5 = 120y + 3$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-3",
+    "label": "Bài 3",
+    "text": "Cô Hồng gửi tiết kiệm vào ngân hàng với số tiền ban đầu là $150$ (triệu đồng) với lãi suất $5\\%/\\text{năm}$, kì hạn $6$ tháng, lãi kép (tiền lãi được nhập vào vốn ban đầu để tính lãi tiếp). Hỏi để cô Hồng có số tiền ít nhất là $192$ (triệu đồng) thì cô Hồng phải gửi bao nhiêu năm?",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-4a",
+    "label": "Bài 4a",
+    "text": "Cho $\\Delta ABC$ vuông tại $A$ có đường cao $AD$. Gọi $E, F$ lần lượt là chân đường vuông góc kẻ từ $D$ đến $AC, AB$. Gọi $M$ là trung điểm của $BC$ và $N$ là giao điểm của $AM$ với $EF$. Gọi $G, K, L$ lần lượt là trọng tâm của các tam giác $ABC, ADB, ADC$, vẽ $GH \\perp BC$ tại $H$. Chứng minh rằng: $AE \\cdot AC = AF \\cdot AB$ và $\\Delta ANE \\sim \\Delta ADB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-4b",
+    "label": "Bài 4b",
+    "text": "Cho $\\Delta ABC$ vuông tại $A$ có đường cao $AD$. Gọi $E, F$ lần lượt là chân đường vuông góc kẻ từ $D$ đến $AC, AB$. Gọi $M$ là trung điểm của $BC$ và $N$ là giao điểm của $AM$ với $EF$. Gọi $G, K, L$ lần lượt là trọng tâm của các tam giác $ABC, ADB, ADC$, vẽ $GH \\perp BC$ tại $H$. Chứng minh rằng: $\\sin^3 C \\cdot \\cos C = \\frac{NE}{BC}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-4c",
+    "label": "Bài 4c",
+    "text": "Cho $\\Delta ABC$ vuông tại $A$ có đường cao $AD$. Gọi $E, F$ lần lượt là chân đường vuông góc kẻ từ $D$ đến $AC, AB$. Gọi $M$ là trung điểm của $BC$ và $N$ là giao điểm của $AM$ với $EF$. Gọi $G, K, L$ lần lượt là trọng tâm của các tam giác $ABC, ADB, ADC$, vẽ $GH \\perp BC$ tại $H$. Chứng minh rằng: $\\Delta HKL$ vuông.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-5-1",
+    "label": "Bài 5.1",
+    "text": "Cho $a > 0, b > 0$ và $a^2 + b^2 = a + b$. Tìm giá trị nhỏ nhất của biểu thức: $$P = a^4 + b^4 + \\frac{2026}{(a+b)^2}$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-5-2a",
+    "label": "Bài 5.2a",
+    "text": "Cho 5 số tự nhiên phân biệt sao cho tổng của ba số bất kì trong chúng lớn hơn tổng của hai số còn lại. Chứng minh rằng tất cả 5 số đã cho đều không nhỏ hơn 5.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-thu-lam-ha-noi-5-2b",
+    "label": "Bài 5.2b",
+    "text": "Cho 5 số tự nhiên phân biệt sao cho tổng của ba số bất kì trong chúng lớn hơn tổng của hai số còn lại. Tìm tất cả các bộ 5 số thỏa mãn đề bài mà tổng của chúng nhỏ hơn 40.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-toan-thcs-nam-2025-2026-so-gddt-can-tho",
   "kind": "hsg",
   "title": "Đề chọn học sinh giỏi Toán THCS năm 2025 – 2026 sở GD&ĐT Cần Thơ",
