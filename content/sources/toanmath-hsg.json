@@ -330,6 +330,139 @@
   ]
  },
  {
+  "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe",
+  "kind": "hsg",
+  "title": "Đề chọn đội tuyển HSG Toán 9 vòng 2 năm 2026 – 2027 phường Trường Vinh – Nghệ An",
+  "grade": 9,
+  "year": 2027,
+  "province": "Nghệ An",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-an.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-1-a",
+    "label": "Câu 1.a",
+    "text": "Giải phương trình: $x^4 + (x - 1)(x^2 - 2x + 2) = 0$.",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-1-b",
+    "label": "Câu 1.b",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} \\dfrac{x^2}{y} + \\dfrac{y^2}{x} + \\dfrac{1}{xy} = 3 \\\\ 2x(x + y^2 - 1) = 2y^2 + y - 1 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-1-c",
+    "label": "Câu 1.c",
+    "text": "Cho các số thực $a, b, c$ thỏa mãn: $\\dfrac{1}{a + b} + \\dfrac{1}{b + c} + \\dfrac{1}{c + a} = \\dfrac{4}{a + b + c}$. Tính giá trị của biểu thức:\n$$M = \\dfrac{3a^2 + 2b^2 - 2c^2}{b + c} + \\dfrac{3b^2 + 2c^2 - 2a^2}{c + a} + \\dfrac{3c^2 + 2a^2 - 2b^2}{a + b}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-2-a",
+    "label": "Câu 2.a",
+    "text": "Tìm các cặp số nguyên dương $x, y$ thỏa mãn $(2025x + 2027)^2 = y^3 + 1$.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-2-b",
+    "label": "Câu 2.b",
+    "text": "Tìm tất cả các số nguyên $x$ sao cho: $1 + 2^x + 2^{2x+1}$ là một số chính phương.",
+    "topics": [
+     "so-hoc",
+     "nghiem-nguyen"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-3-a",
+    "label": "Câu 3.a",
+    "text": "Gieo ngẫu nhiên đồng thời hai con xúc xắc cân đối, đồng chất. Tính xác suất của biến cố $A$: \"Tích số chấm xuất hiện trên hai con xúc xắc nhỏ hơn tổng của chúng\".",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-3-b",
+    "label": "Câu 3.b",
+    "text": "Cho hai số thực dương $x, y$ thỏa mãn: $3(x - y)^2 \\le x^2 - y^2$. Chứng minh: $1 \\le \\dfrac{x}{y} \\le 2$.",
+    "topics": [
+     "dai-so",
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-4-a",
+    "label": "Câu 4.a",
+    "text": "Cho đa thức $f(x)$ bậc ba có hệ số cao nhất là một số nguyên dương thỏa mãn: $f(2024) = 3$ và $f(2025) = 5$. Chứng minh: $f(2026) - f(2023)$ là hợp số.",
+    "topics": [
+     "dai-so",
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-4-b",
+    "label": "Câu 4.b",
+    "text": "Cho các số nguyên dương $x, y, z$ thỏa mãn: $x + y + z = 12$. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức:\n$$P = \\left(x - \\dfrac{4}{x}\\right)^2 + \\left(y - \\dfrac{4}{y}\\right)^2 + \\left(z - \\dfrac{4}{z}\\right)^2$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-5-a",
+    "label": "Câu 5.a",
+    "text": "Cho tam giác $OAB$ nhọn ($OB < OA$), có ba đường cao $OP, AQ, BR$ cắt nhau tại $H$. Chứng minh:\n$$\\cos \\widehat{ABO} \\cdot \\cos \\widehat{BAO} \\cdot \\cos \\widehat{AOB} = \\dfrac{PQ \\cdot QR \\cdot RP}{OA \\cdot AB \\cdot BO}$$",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-5-b",
+    "label": "Câu 5.b",
+    "text": "Cho tam giác $OAB$ nhọn ($OB < OA$), có ba đường cao $OP, AQ, BR$ cắt nhau tại $H$. Trên tia đối của tia $OA, OB$ lần lượt lấy các điểm $C$ và $D$ sao cho tam giác $OCD$ nhọn. Gọi $K$ là trực tâm của tam giác $OCD$. Gọi $E, I$ và $G$ lần lượt là trọng tâm của các tam giác $OAB, OAD$ và $OBC$. Gọi $F$ là giao điểm của $AH$ và $DK$. Chứng minh: $\\widehat{IEG} = \\widehat{HFK}$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-5-c",
+    "label": "Câu 5.c",
+    "text": "Cho tam giác $OAB$ nhọn ($OB < OA$), có ba đường cao $OP, AQ, BR$ cắt nhau tại $H$. Trên tia đối của tia $OA, OB$ lần lượt lấy các điểm $C$ và $D$ sao cho tam giác $OCD$ nhọn. Gọi $K$ là trực tâm của tam giác $OCD$. Gọi $E, I$ và $G$ lần lượt là trọng tâm của các tam giác $OAB, OAD$ và $OBC$. Gọi $F$ là giao điểm của $AH$ và $DK$. Chứng minh rằng: các tam giác $IEG$ và $HFK$ đồng dạng và $IG$ vuông góc với $HK$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-vong-2-nam-2026-2027-phuong-truong-vinh-nghe-6",
+    "label": "Câu 6",
+    "text": "Hai bạn An và Bình cùng nhau tiết kiệm tiền để ủng hộ người nghèo. Biết rằng hai bạn bắt đầu tiết kiệm vào cùng một ngày. Sau 271 ngày, mỗi bạn đều tiết kiệm được 500 000 đồng. Chứng minh trong 271 ngày nói trên, tồn tại 136 ngày mà tổng số tiền tiết kiệm của mỗi bạn trong 136 ngày đó không nhỏ hơn 250 000 đồng.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa",
   "kind": "hsg",
   "title": "Đề thi thử chọn HSG tỉnh Toán 9 năm 2026 – 2027 sở GD&ĐT Thanh Hóa",
@@ -1758,6 +1891,119 @@
     "id": "tm-hsg9-toan-9-nam-2026-2027-truong-thcs-giang-vo-ha-noi-v",
     "label": "Câu V",
     "text": "Bạn An và Bình cùng chơi trò chơi bốc sỏi. Ban đầu trên bàn có $2026$ viên sỏi. Luật chơi như sau:\n\ni) Hai bạn sẽ lần lượt bốc sỏi;\n\nii) Với mỗi bạn, trong lượt chơi của mình phải bốc $1$ hoặc $3$ hoặc $4$ viên sỏi;\n\niii) Người thua là người không thực hiện được lượt chơi của mình.\n\nBiết An là người có lượt chơi đầu tiên. Hãy tìm chiến thuật để An luôn giành chiến thắng trong trò chơi này.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi",
+  "kind": "hsg",
+  "title": "Đề chọn học sinh giỏi Toán 9 năm 2026 – 2027 xã Phúc Thịnh – Hà Nội",
+  "grade": 9,
+  "year": 2026,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-hoc-sinh-gioi-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-1-1",
+    "label": "Bài 1.1",
+    "text": "Cho $a, b, c$ là các số hữu tỉ thỏa mãn $ab + bc + ca = 2026$.\nChứng minh rằng $\\sqrt{(a^2 + 2026)(b^2 + 2026)(c^2 + 2026)}$ là một số hữu tỉ.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-1-2",
+    "label": "Bài 1.2",
+    "text": "Cho $a, b, c$ là các số khác $0$ thỏa mãn điều kiện: $(ab + bc + ca)^2 = a^2b^2 + b^2c^2 + c^2a^2$.\nChứng minh rằng $a^3 + b^3 + c^3$ chia hết cho $3$.",
+    "topics": [
+     "so-hoc",
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-1-3",
+    "label": "Bài 1.3",
+    "text": "Tính $a + b$ biết:\n$$(a + \\sqrt{a^2 + 2026})(b + \\sqrt{b^2 + 2026}) = 2026.$$",
+    "topics": [
+     "dai-so",
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-2-1",
+    "label": "Bài 2.1",
+    "text": "Cho đa thức: $Q(x) = P(x) - 14x$ với $P(x) = x^3 + ax^2 + bx + c$.\nBiết $Q(1) = Q(2) = 0$. Tính $P(4) - P(-1)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-2-2",
+    "label": "Bài 2.2",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} 3x^2 + 4y^2 = 20 - 2xy \\\\ (x - y)(4x^2 + 5y^2 - 20) = 1 \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-2-3",
+    "label": "Bài 2.3",
+    "text": "Tìm nghiệm nguyên của phương trình: $x^2 + 2y^2 + 2xy + 3y - 4 = 0$.",
+    "topics": [
+     "nghiem-nguyen"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-3",
+    "label": "Bài 3",
+    "text": "Cho $a, b > 0$ và $a + b \\ge 6$.\n\nTìm giá trị nhỏ nhất của biểu thức: $P = 3a + 2b + \\dfrac{6}{a} + \\dfrac{8}{b}$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-4-1",
+    "label": "Bài 4.1",
+    "text": "Cho tam giác $ABC$ nhọn ($AC > AB$), các đường cao $AD, BE, CF$, trực tâm $H$. Điểm $I$ nằm giữa $B$ và $C$ sao cho $IB = 2IC$. Qua $A$ vẽ đường thẳng $d$ vuông góc với $AI$. Gọi $Q$ là giao điểm của đường thẳng $d$ và $CH$, $G$ là điểm trên tia $CH$ sao cho $Q$ là trung điểm của $GH$. Gọi $J$ là giao điểm của $AG$ và $BH$.\n\nChứng minh $\\Delta QAH$ đồng dạng với $\\Delta AIB$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-4-2",
+    "label": "Bài 4.2",
+    "text": "Cho tam giác $ABC$ nhọn ($AC > AB$), các đường cao $AD, BE, CF$, trực tâm $H$. Điểm $I$ nằm giữa $B$ và $C$ sao cho $IB = 2IC$. Qua $A$ vẽ đường thẳng $d$ vuông góc với $AI$. Gọi $Q$ là giao điểm của đường thẳng $d$ và $CH$, $G$ là điểm trên tia $CH$ sao cho $Q$ là trung điểm của $GH$. Gọi $J$ là giao điểm của $AG$ và $BH$.\n\nGọi $K$ là trung điểm của $BI$. Chứng minh $\\Delta AHG$ đồng dạng với $\\Delta KBA$ và $AG = 2AJ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-4-3",
+    "label": "Bài 4.3",
+    "text": "Cho tam giác $ABC$ nhọn ($AC > AB$), các đường cao $AD, BE, CF$, trực tâm $H$. Điểm $I$ nằm giữa $B$ và $C$ sao cho $IB = 2IC$. Qua $A$ vẽ đường thẳng $d$ vuông góc với $AI$. Gọi $Q$ là giao điểm của đường thẳng $d$ và $CH$, $G$ là điểm trên tia $CH$ sao cho $Q$ là trung điểm của $GH$. Gọi $J$ là giao điểm của $AG$ và $BH$.\n\nGiả sử tam giác $ABC$ cân tại $C$. Gọi $N$ là giao điểm của đường thẳng $EF$ và đường thẳng $BC$. Chứng minh rằng: $CE \\cdot CN - FE \\cdot FN = CF^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-toan-9-nam-2026-2027-xa-phuc-thinh-ha-noi-5",
+    "label": "Bài 5",
+    "text": "Viết lên bảng các số $3, 4, 5, 6$. Mỗi lần ta được phép xoá hai số $x, y$ phân biệt trên bảng rồi thay bởi hai số: $x + y - \\sqrt{x^2 + y^2}$ và $x + y + \\sqrt{x^2 + y^2}$. Chứng minh rằng không có thời điểm nào mà trên bảng xuất hiện một số nhỏ hơn $1$.",
     "topics": [
      "to-hop"
     ],
@@ -43669,6 +43915,36 @@
     "text": "Cho $a, b, c$ là các số dương, chứng minh rằng: $\\dfrac{a^3 + b^3}{2ab} + \\dfrac{b^3 + c^3}{2bc} + \\dfrac{c^3 + a^3}{2ca} \\ge a + b + c$.",
     "topics": [
      "bat-dang-thuc"
+    ],
+    "level": 2
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-toan-9-vong-1-nam-2023-2024-truong-thpt-chuyen-ha-noi-amsterdam",
+  "kind": "hsg",
+  "title": "Đề thi HSG Toán 9 vòng 1 năm 2023 – 2024 trường THPT chuyên Hà Nội – Amsterdam",
+  "grade": 9,
+  "year": 2023,
+  "province": "Hà Nội",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2023/09/de-thi-hsg-toan-9-vong-1-nam-2023-2024-truong-thpt-chuyen-ha-noi-amsterdam.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-toan-9-vong-1-nam-2023-2024-truong-thpt-chuyen-ha-noi-amsterdam-i-1",
+    "label": "Bài I.1",
+    "text": "Với các số thực $a, b, c$ thỏa mãn $a$ khác $b$ và $a^2(b+c) = b^2(c+a) = 2024$, tính giá trị của biểu thức $P = c^2(a+b)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-toan-9-vong-1-nam-2023-2024-truong-thpt-chuyen-ha-noi-amsterdam-i-2",
+    "label": "Bài I.2",
+    "text": "Giải phương trình $x^2 - 3x + 10 = 4\\sqrt{x+2}$",
+    "topics": [
+     "phuong-trinh"
     ],
     "level": 2
    }
