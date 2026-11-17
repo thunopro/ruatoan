@@ -5108,6 +5108,108 @@
   ]
  },
  {
+  "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong",
+  "kind": "hsg",
+  "title": "Đề chọn đội tuyển HSG Toán 9 năm 2026 – 2027 phường Hồng Bàng – Hải Phòng",
+  "grade": 9,
+  "year": 2026,
+  "province": "Hải Phòng",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-1-1",
+    "label": "Bài 1.1",
+    "text": "Một hộp chứa $84$ tấm thẻ có kích thước và hình dạng giống nhau, mỗi thẻ chỉ có một trong hai màu: trắng hoặc xanh lá cây. Rút ngẫu nhiên một tấm thẻ từ hộp. Biết rằng xác suất để rút được tấm thẻ không có màu xanh lá cây là $\\dfrac{3}{7}$. Hỏi trong hộp có bao nhiêu tấm thẻ màu xanh lá cây?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-1-2",
+    "label": "Bài 1.2",
+    "text": "Một xưởng may nhận sản xuất $1200$ chiếc áo đồng phục theo kế hoạch, mỗi ngày may số áo như nhau. Sau khi thực hiện được $5$ ngày, xưởng cải tiến quy trình sản xuất nên mỗi ngày may được nhiều hơn kế hoạch $15$ chiếc áo. Nhờ đó, xưởng hoàn thành toàn bộ đơn hàng sớm hơn dự định $3$ ngày. Hỏi theo kế hoạch, mỗi ngày xưởng phải may bao nhiêu chiếc áo?",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-2-1",
+    "label": "Bài 2.1",
+    "text": "Cho $x, y > 0$ thỏa mãn $xy + x + y = 1$. Tìm giá trị của biểu thức\n$$S = 2x\\sqrt{\\dfrac{1 + y^2}{1 + x^2}} + 2y\\sqrt{\\dfrac{1 + x^2}{1 + y^2}} + \\sqrt{(1 + x^2)(1 + y^2)}.$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-2-2",
+    "label": "Bài 2.2",
+    "text": "Giải hệ phương trình\n$$\\begin{cases} x^2 + y^2 - 2y - 6 + 2\\sqrt{2y + 3} = 0 \\\\ (x - y)(x^2 + xy + y^2 + 3) = 3(x^2 + y^2) + 2. \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-3a",
+    "label": "Bài 3a",
+    "text": "Cho tam giác nhọn $ABC$ cân tại $A$, đường cao $BE$ và nội tiếp đường tròn $(O, R)$. Kẻ đường kính $BD$ của đường tròn $(O)$. Đường thẳng $BE$ cắt các đường thẳng $AD$ và $AO$ lần lượt tại các điểm $I$ và $H$.\n\nChứng minh rằng $BH \\cdot BI = 2R^2$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-3b",
+    "label": "Bài 3b",
+    "text": "Cho tam giác nhọn $ABC$ cân tại $A$, đường cao $BE$ và nội tiếp đường tròn $(O, R)$. Kẻ đường kính $BD$ của đường tròn $(O)$. Đường thẳng $BE$ cắt các đường thẳng $AD$ và $AO$ lần lượt tại các điểm $I$ và $H$.\n\nGọi $M$ là trung điểm của cạnh $AB$. Lấy điểm $N$ thuộc tia đối của tia $OA$ sao cho $ON = \\dfrac{1}{2}R$. Chứng minh rằng tứ giác $AMNC$ là tứ giác nội tiếp.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-3c",
+    "label": "Bài 3c",
+    "text": "Cho tam giác nhọn $ABC$ cân tại $A$, đường cao $BE$ và nội tiếp đường tròn $(O, R)$. Kẻ đường kính $BD$ của đường tròn $(O)$. Đường thẳng $BE$ cắt các đường thẳng $AD$ và $AO$ lần lượt tại các điểm $I$ và $H$.\n\nGọi $K$ là trung điểm của cạnh $BC$. Chứng minh rằng đường thẳng $KE$ đi qua trung điểm của đoạn thẳng $OI$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-4",
+    "label": "Bài 4",
+    "text": "Cho các số thực dương $a, b, c$. Chứng minh rằng\n$$\\dfrac{a^2 - bc}{4a^2 + 4b^2 + c^2} + \\dfrac{b^2 - ca}{a^2 + 4b^2 + 4c^2} + \\dfrac{c^2 - ab}{4a^2 + b^2 + 4c^2} \\ge 0.$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-5-1",
+    "label": "Bài 5.1",
+    "text": "Tìm hai số nguyên tố $p$ và $q$, biết rằng $p + q$ và $p + 4q$ đều là các số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-phuong-hong-bang-hai-phong-5-2",
+    "label": "Bài 5.2",
+    "text": "Sáu điểm phân biệt thuộc một hình chữ nhật có độ dài các cạnh là $3\\text{ cm}$ và $4\\text{ cm}$ (các điểm này có thể nằm trong hoặc nằm trên cạnh của hình chữ nhật). Chứng minh rằng luôn tồn tại hai điểm trong sáu điểm này mà bình phương khoảng cách giữa chúng nhỏ hơn hoặc bằng $5\\text{ cm}$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-chon-doi-tuyen-hsg-toan-9-nam-2026-2027-truong-thcs-chu-van-an-thai-ng",
   "kind": "hsg",
   "title": "Đề chọn đội tuyển HSG Toán 9 năm 2026 – 2027 trường THCS Chu Văn An – Thái Nguyên",
@@ -5775,6 +5877,109 @@
      "to-hop"
     ],
     "level": 3
+   }
+  ]
+ },
+ {
+  "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong",
+  "kind": "hsg",
+  "title": "Đề kiểm tra HSG Toán 9 năm 2026 – 2027 trường THCS Phạm Sư Mạnh – Hải Phòng",
+  "grade": 9,
+  "year": 2026,
+  "province": "Hải Phòng",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-1-1",
+    "label": "Câu 1.1",
+    "text": "Cho $1$ hộp gồm các thẻ đánh số $1; 2; 3; 4; 5; 6; 7; 8$. Mỗi thẻ khác nhau đánh các số khác nhau. Lấy ngẫu nhiên $2$ thẻ trong hộp. Tính xác suất của biến cố \"Tích của $2$ thẻ được lấy ra là một số chẵn\".",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-1-2",
+    "label": "Câu 1.2",
+    "text": "Trên một mảnh đất hình chữ nhật $ABCD$ có diện tích $200\\text{ m}^2$, người chủ lấy một phần đất để trồng hoa. Biết phần đất trồng hoa là hình chữ nhật với hai đỉnh đối diện là $A$ và $H$, với $H$ thuộc đường chéo $BD$. Hỏi số tiền lớn nhất mà người chủ cần dùng để trồng hoa là bao nhiêu? Biết rằng chi phí trồng hoa là $50.000$ đồng/$\\text{m}^2$.",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-2-1",
+    "label": "Câu 2.1",
+    "text": "Cho $P(x)$ là đa thức bậc $4$ thoả mãn $P(x) - P(x-2) = x(x+2)(3x+1)$ và $P(-2) = 0$. Xác định đa thức $P(x)$.",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-2-2",
+    "label": "Câu 2.2",
+    "text": "Giải hệ phương trình:\n$$\\begin{cases} x^3 + 3xy^2 = -49 \\\\ x^2 - 8xy + y^2 = 8y - 17x \\end{cases}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-3-1",
+    "label": "Câu 3.1",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$) có $AD$ là tia phân giác của $\\widehat{BAC}$. Gọi $M$ và $N$ lần lượt là hình chiếu của $D$ trên $AB$ và $AC$, $E$ là giao điểm của $BN$ và $DM$, $F$ là giao điểm của $CM$ và $DN$.\n\nChứng minh tứ giác $AMDN$ là hình vuông và $EF \\parallel BC$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-3-2",
+    "label": "Câu 3.2",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$) có $AD$ là tia phân giác của $\\widehat{BAC}$. Gọi $M$ và $N$ lần lượt là hình chiếu của $D$ trên $AB$ và $AC$, $E$ là giao điểm của $BN$ và $DM$, $F$ là giao điểm của $CM$ và $DN$. Gọi $H$ là giao điểm của $BN$ và $CM$.\n\nChứng minh $\\Delta ANB$ đồng dạng với $\\Delta NFA$ và $H$ là trực tâm $\\Delta AEF$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-3-3",
+    "label": "Câu 3.3",
+    "text": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$) có $AD$ là tia phân giác của $\\widehat{BAC}$. Gọi $M$ và $N$ lần lượt là hình chiếu của $D$ trên $AB$ và $AC$, $E$ là giao điểm của $BN$ và $DM$, $F$ là giao điểm của $CM$ và $DN$. Gọi $H$ là giao điểm của $BN$ và $CM$, giao điểm của $AH$ và $DM$ là $K$, giao điểm của $AH$ và $BC$ là $O$, giao điểm của $BK$ và $AD$ là $I$.\n\nChứng minh:\n$$\\dfrac{BI}{KI} + \\dfrac{AO}{KO} + \\dfrac{DM}{KM} > 9$$",
+    "topics": [
+     "hinh-hoc",
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-4",
+    "label": "Câu 4",
+    "text": "Cho ba số thực dương $a, b, c$ thỏa mãn:\n$$a^2 + b^2 + c^2 + ab - 2bc - 2ca = 0$$\n\nChứng minh:\n$$\\dfrac{a^2+b^2+c^2}{a^2+b^2} + \\dfrac{c^2}{(a+b-c)^2} + \\dfrac{\\sqrt{ab}}{a+b} \\ge 3$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-5-1",
+    "label": "Câu 5.1",
+    "text": "Cho $a, b, c$ là các số nguyên dương thỏa mãn $a - b$ là số nguyên tố và $3c^2 = ab + bc + ca$. Chứng minh rằng $8c + 1$ là số chính phương.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-kiem-tra-hsg-toan-9-nam-2026-2027-truong-thcs-pham-su-manh-hai-phong-5-2",
+    "label": "Câu 5.2",
+    "text": "Viết lên bảng các số $2, 6, 12, 20, \\ldots, 9900$. Mỗi lần ta được phép xoá hai số $a, b$ tuỳ ý và thay bởi số $\\dfrac{ab}{a+b}$. Thực hiện các thao tác cho tới khi trên bảng chỉ còn đúng một số. Chứng minh rằng số cuối cùng thu được không phụ thuộc vào quá trình thực hiện các thao tác. Tìm số đó?",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
    }
   ]
  },
