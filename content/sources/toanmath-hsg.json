@@ -463,6 +463,108 @@
   ]
  },
  {
+  "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong",
+  "kind": "hsg",
+  "title": "Đề khảo sát HSG Toán 9 năm 2026 – 2027 trường THCS Thành Nhân – Hải Phòng",
+  "grade": 9,
+  "year": 2027,
+  "province": "Hải Phòng",
+  "sourceName": "toanmath.com",
+  "sourceUrl": "https://thcs.toanmath.com/2026/11/de-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong.html",
+  "problems": [
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-1-1",
+    "label": "Câu 1.1",
+    "text": "Một người có $4$ chiếc chìa khóa khác nhau và cần mở $4$ chiếc ổ khóa khác nhau. Mỗi chìa chỉ mở được đúng một ổ khóa. Người đó thử ngẫu nhiên cắm $4$ chìa vào $4$ ổ để mở các ổ khóa. Tính xác suất để không có ổ khóa nào mở đúng ngay lần đầu tiên.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-1-2",
+    "label": "Câu 1.2",
+    "text": "Một công ty $X$ áp dụng chính sách trả lương cho nhân viên theo hai mức: ngày làm việc bình thường và ngày làm việc đặc biệt (làm vào ngày được nghỉ), biết rằng tiền lương của một ngày làm việc đặc biệt nhiều hơn tiền lương của một ngày làm việc bình thường là $225$ nghìn đồng. Trong một tháng, anh Bình là nhân viên của công ty $X$ làm việc $24$ ngày, trong đó có một số ngày làm việc đặc biệt. Bình nhận được $9$ triệu đồng cho những ngày làm việc bình thường và $2,7$ triệu đồng cho những ngày làm việc đặc biệt. Hỏi anh Bình được nhận bao nhiêu nghìn đồng cho mỗi ngày làm việc đặc biệt?",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 1
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-2-1",
+    "label": "Câu 2.1",
+    "text": "Cho $a,b,c$ là các số thực dương thỏa mãn $a+b+c=5$ và $\\sqrt{a}+\\sqrt{b}+\\sqrt{c}=3$.\n\nChứng minh rằng:\n$$\\frac{\\sqrt{a}}{a+2}+\\frac{\\sqrt{b}}{b+2}+\\frac{\\sqrt{c}}{c+2}=\\frac{4}{\\sqrt{(a+2)(b+2)(c+2)}}$$",
+    "topics": [
+     "dai-so"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-2-2",
+    "label": "Câu 2.2",
+    "text": "Giải phương trình:\n$$x^2+2x-3=2(x-1)\\sqrt{x+2}$$",
+    "topics": [
+     "phuong-trinh"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-3a",
+    "label": "Câu 3a",
+    "text": "Cho $\\Delta ABC$ có ba góc nhọn ($AB < AC$), các đường cao $AD, BE, CF$ cắt nhau tại $H$. Giả sử $AD = 3HD$, chứng minh rằng $\\tan B \\cdot \\tan C = 3$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-3b",
+    "label": "Câu 3b",
+    "text": "Cho $\\Delta ABC$ có ba góc nhọn ($AB < AC$), các đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$, qua $A$ kẻ đường thẳng vuông góc với $AM$ cắt tia $BE$ và tia $CF$ thứ tự tại $Q$ và $P$. Chứng minh rằng $AP = AQ$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-3c",
+    "label": "Câu 3c",
+    "text": "Cho $\\Delta ABC$ có ba góc nhọn ($AB < AC$), các đường cao $AD, BE, CF$ cắt nhau tại $H$. Qua $F$ vẽ đường thẳng $d$ vuông góc với $BE$, đường thẳng $d$ cắt $DE$ tại $K$. Lấy điểm $I$ sao cho $H$ là trung điểm của $IK$. Chứng minh rằng đường thẳng $CK$ vuông góc với đường thẳng $AI$.",
+    "topics": [
+     "hinh-hoc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-4",
+    "label": "Câu 4",
+    "text": "Cho các số $x,y,z,t$ không âm thỏa mãn: $xy+yz+zt+tx=1$.\nTìm giá trị nhỏ nhất của biểu thức:\n$$M = 5x^2+4y^2+5z^2+t^2$$",
+    "topics": [
+     "bat-dang-thuc"
+    ],
+    "level": 3
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-5-1",
+    "label": "Câu 5.1",
+    "text": "Cho $a, b, c, k$ là các số tự nhiên thỏa mãn: $a^3+b^3+c^3=a+b+c+k^2-2k+1$. Chứng minh rằng $k-1$ chia hết cho $3$.",
+    "topics": [
+     "so-hoc"
+    ],
+    "level": 2
+   },
+   {
+    "id": "tm-hsg9-khao-sat-hsg-toan-9-nam-2026-2027-truong-thcs-thanh-nhan-hai-phong-5-2",
+    "label": "Câu 5.2",
+    "text": "Trên bảng ô vuông kích thước $8 \\times 8$, ta viết các số tự nhiên từ $1$ đến $64$, mỗi số viết vào một ô một cách tùy ý. Chứng minh rằng luôn tồn tại hai ô vuông chung cạnh mà hiệu các số ghi trong chúng không nhỏ hơn $5$.",
+    "topics": [
+     "to-hop"
+    ],
+    "level": 3
+   }
+  ]
+ },
+ {
   "id": "tm-hsg9-thu-chon-hsg-tinh-toan-9-nam-2026-2027-so-gddt-thanh-hoa",
   "kind": "hsg",
   "title": "Đề thi thử chọn HSG tỉnh Toán 9 năm 2026 – 2027 sở GD&ĐT Thanh Hóa",
